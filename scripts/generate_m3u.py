@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-生成分类M3U播放列表 - 完整版也去重限速
+生成分类M3U播放列表 - 简化输出版
 """
 
 import json
@@ -32,13 +32,18 @@ class M3UGenerator:
         if channels_file and os.path.exists(channels_file):
             with open(channels_file, 'r', encoding='utf-8') as f:
                 self.channels = json.load(f)
-            print(f"加载频道: {channels_file} ({len(self.channels)} 个)")
+            print(f"加载频道: {len(self.channels)} 个")
         else:
             print("警告: 未找到频道数据")
             self.channels = []
     
-    def generate_m3u_header(self, name):
-        return f'#EXTM3U\n#PLAYLIST:{name}\n# Generated at: {datetime.now().isoformat()}\n'
+    def generate_m3u_header(self, name, count=0):
+        header = f'#EXTM3U\n'
+        header += f'#PLAYLIST:{name}\n'
+        header += f'# Generated: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}\n'
+        if count > 0:
+            header += f'# Channels: {count}\n'
+        return header
     
     def generate_channel_entry(self, channel):
         name = channel.get('name', 'Unknown')
@@ -46,6 +51,7 @@ class M3UGenerator:
         logo = channel.get('logo', '')
         group = channel.get('group', channel.get('category', '综合'))
         speed = channel.get('speed', 0)
+        region = channel.get('region', '')
         
         extinf = f'#EXTINF:-1'
         if logo:
@@ -58,40 +64,26 @@ class M3UGenerator:
         return f'{extinf}\n{url}\n'
     
     def normalize_channel_name(self, name):
-        """标准化频道名称"""
         name = name.strip()
         name = re.sub(r'[【】\[\]\(\)（）]', '', name)
         name = re.sub(r'\s+', '', name)
-        name = name.replace('CCTV-', 'CCTV')
-        name = name.replace('CCTV ', 'CCTV')
-        name = name.replace('HD', '')
-        name = name.replace('高清', '')
-        name = name.replace('标清', '')
-        name = name.replace('超清', '')
-        name = name.replace('4K', '')
-        name = name.replace('1080P', '')
-        name = name.replace('720P', '')
+        name = name.replace('CCTV-', 'CCTV').replace('CCTV ', 'CCTV')
+        name = name.replace('HD', '').replace('高清', '').replace('标清', '')
+        name = name.replace('超清', '').replace('4K', '').replace('1080P', '').replace('720P', '')
         name = re.sub(r'\[.*?\]', '', name)
         name = re.sub(r'【.*?】', '', name)
         name = re.sub(r'\(.*?\)', '', name)
         return name.upper().strip()
     
     def deduplicate_channels(self, channels):
-        """智能去重"""
+        """智能去重，同名保留最快的"""
         channel_map = {}
-        
         for ch in channels:
-            name = ch.get('name', 'Unknown')
-            normalized = self.normalize_channel_name(name)
-            
-            if normalized in channel_map:
-                if ch.get('speed', 0) > channel_map[normalized].get('speed', 0):
-                    channel_map[normalized] = ch
-            else:
-                channel_map[normalized] = ch
-        
+            norm = self.normalize_channel_name(ch.get('name', 'Unknown'))
+            if norm not in channel_map or ch.get('speed', 0) > channel_map[norm].get('speed', 0):
+                channel_map[norm] = ch
         deduped = list(channel_map.values())
-        print(f"去重: {len(channels)} -> {len(deduped)}")
+        print(f"  去重: {len(channels)} -> {len(deduped)}")
         return deduped
     
     def get_speed_tier(self, speed):
@@ -104,263 +96,197 @@ class M3UGenerator:
             return 'low'
         return 'failed'
     
-    def filter_by_speed_tiers(self, channels, tiers):
+    def filter_speed(self, channels, tiers):
         return [ch for ch in channels if self.get_speed_tier(ch.get('speed', 0)) in tiers]
     
-    # ==================== 完整版（新增去重+限速） ====================
+    def save_m3u(self, filename, name, channels):
+        """保存M3U文件，自动覆盖"""
+        os.makedirs('output', exist_ok=True)
+        filepath = f'output/{filename}'
+        content = self.generate_m3u_header(name, len(channels))
+        for ch in channels:
+            content += self.generate_channel_entry(ch)
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.write(content)
+        return filepath
     
-    def generate_all_in_one(self):
-        """完整版：去重 + 剔除低速（<150KB/s）"""
-        if not self.channels:
-            return
-        
-        # 去重
+    # ==================== 完整版 ====================
+    
+    def generate_all(self):
+        """完整版：去重 + 剔除低速(<150KB/s)"""
         deduped = self.deduplicate_channels(self.channels)
-        
-        # 剔除低速频道（速度<150KB/s）
-        filtered = [ch for ch in deduped if ch.get('speed', 0) >= 150]
-        
-        # 按速度排序
+        filtered = self.filter_speed(deduped, ['high', 'medium', 'low'])
         filtered.sort(key=lambda x: x.get('speed', 0), reverse=True)
         
-        filename = 'output/all_channels.m3u'
-        content = self.generate_m3u_header(f'全部频道 ({len(filtered)}个)')
-        content += f'# 去重并剔除低速频道(<150KB/s)\n'
-        content += f'# 原始: {len(self.channels)} -> 去重: {len(deduped)} -> 过滤: {len(filtered)}\n'
-        
-        for ch in filtered:
-            content += self.generate_channel_entry(ch)
-        
-        with open(filename, 'w', encoding='utf-8') as f:
-            f.write(content)
-        
-        # 统计
         high = len([ch for ch in filtered if ch.get('speed', 0) >= 1000])
         mid = len([ch for ch in filtered if 500 <= ch.get('speed', 0) < 1000])
         low = len([ch for ch in filtered if 150 <= ch.get('speed', 0) < 500])
         
-        print(f"✅ 完整版: {len(filtered)} 个 (高速:{high}, 中速:{mid}, 低速:{low})")
-        print(f"   原始:{len(self.channels)} -> 去重:{len(deduped)} -> 过滤低速:{len(filtered)}")
+        self.save_m3u('all.m3u', '全部频道', filtered)
+        print(f"  ✅ all.m3u: {len(filtered)} 个 (高速:{high} 中速:{mid} 低速:{low})")
     
-    def generate_by_region(self):
-        """按地区生成：去重 + 剔除低速"""
-        # 先去重
-        deduped = self.deduplicate_channels(self.channels)
+    # ==================== 中国大陆 ====================
+    
+    def generate_china(self):
+        """中国大陆：高速+中速"""
+        china = [ch for ch in self.channels if ch.get('region') == 'china']
+        deduped = self.deduplicate_channels(china)
+        filtered = self.filter_speed(deduped, ['high', 'medium'])
+        filtered.sort(key=lambda x: x.get('speed', 0), reverse=True)
         
-        # 剔除低速
-        filtered = [ch for ch in deduped if ch.get('speed', 0) >= 150]
+        self.save_m3u('china.m3u', '中国大陆频道', filtered)
         
-        # 按地区分组
-        regions = defaultdict(list)
+        cctv = len([ch for ch in filtered if 'CCTV' in ch.get('name', '').upper()])
+        sat = len([ch for ch in filtered if '卫视' in ch.get('name', '')])
+        print(f"  ✅ china.m3u: {len(filtered)} 个 (CCTV:{cctv} 卫视:{sat})")
+    
+    # ==================== 东亚 ====================
+    
+    def generate_east_asia(self):
+        """东亚：港澳台+韩国+日本+东南亚，仅高速"""
+        east_asia_regions = ['hongkong', 'taiwan', 'macau', 'japan', 'korea', 'southeast_asia']
+        
+        east_asia = [ch for ch in self.channels if ch.get('region') in east_asia_regions]
+        deduped = self.deduplicate_channels(east_asia)
+        filtered = self.filter_speed(deduped, ['high'])
+        filtered.sort(key=lambda x: x.get('speed', 0), reverse=True)
+        
+        self.save_m3u('east_asia.m3u', '东亚频道', filtered)
+        
+        region_counts = defaultdict(int)
         for ch in filtered:
-            region = ch.get('region', 'other')
-            regions[region].append(ch)
-        
-        region_emoji = {
-            'china': '🇨🇳', 'hongkong': '🇭🇰', 'taiwan': '🇹🇼', 'macau': '🇲🇴',
-            'japan': '🇯🇵', 'korea': '🇰🇷', 'usa': '🇺🇸', 'southeast_asia': '🌏',
-            'international': '🌍', 'other': '📡'
-        }
-        
-        for region, chs in sorted(regions.items()):
-            if not chs:
-                continue
-            # 按速度排序
-            chs.sort(key=lambda x: x.get('speed', 0), reverse=True)
-            
-            filename = f'output/{region}.m3u'
-            content = self.generate_m3u_header(f'{region_emoji.get(region, "")} {region} ({len(chs)}个)')
-            
-            for ch in chs:
-                content += self.generate_channel_entry(ch)
-            
-            with open(filename, 'w', encoding='utf-8') as f:
-                f.write(content)
-            
-            print(f"✅ {region}: {len(chs)} 个频道")
+            region_counts[ch.get('region', 'other')] += 1
+        detail = ', '.join([f'{r}:{c}' for r, c in sorted(region_counts.items())])
+        print(f"  ✅ east_asia.m3u: {len(filtered)} 个 ({detail})")
     
-    # ==================== 分层版 ====================
+    # ==================== 海外高速 ====================
     
-    def generate_tiered_lists(self):
-        """分层版：去重 + 速度分层"""
+    def generate_overseas_highspeed(self):
+        """海外高速：除中国大陆外的所有地区，仅高速"""
+        overseas = [ch for ch in self.channels if ch.get('region') != 'china']
+        deduped = self.deduplicate_channels(overseas)
+        filtered = self.filter_speed(deduped, ['high'])
+        filtered.sort(key=lambda x: x.get('speed', 0), reverse=True)
+        
+        self.save_m3u('overseas_highspeed.m3u', '海外高速频道', filtered)
+        
+        region_counts = defaultdict(int)
+        for ch in filtered:
+            region_counts[ch.get('region', 'other')] += 1
+        detail = ', '.join([f'{r}:{c}' for r, c in sorted(region_counts.items())])
+        print(f"  ✅ overseas_highspeed.m3u: {len(filtered)} 个 ({detail})")
+    
+    # ==================== 按类别 ====================
+    
+    def generate_by_category(self):
+        """按类别生成"""
         deduped = self.deduplicate_channels(self.channels)
+        filtered = self.filter_speed(deduped, ['high', 'medium', 'low'])
         
-        tiers = {
-            'tier1_highspeed': ('高速 >1MB/s', [ch for ch in deduped if ch.get('speed', 0) >= 1000]),
-            'tier2_midspeed': ('中速 500KB-1MB/s', [ch for ch in deduped if 500 <= ch.get('speed', 0) < 1000]),
-            'tier3_lowspeed': ('低速 150-500KB/s', [ch for ch in deduped if 150 <= ch.get('speed', 0) < 500]),
-            'tier_high_medium': ('高速+中速 >500KB/s', [ch for ch in deduped if ch.get('speed', 0) >= 500]),
-            'tier_all_valid': ('全部可用 >150KB/s', [ch for ch in deduped if ch.get('speed', 0) >= 150]),
+        categories = defaultdict(list)
+        for ch in filtered:
+            cat = ch.get('category', '综合')
+            categories[cat].append(ch)
+        
+        emoji = {
+            '新闻': '📰', '体育': '⚽', '影视': '🎬', '综艺': '🎭',
+            '少儿': '🧒', '音乐': '🎵', '纪录片': '🎥', '教育': '📚', '综合': '📺'
         }
         
-        for key, (name, chs) in tiers.items():
-            filename = f'output/{key}.m3u'
-            content = self.generate_m3u_header(f'{name} ({len(chs)}个)')
-            for ch in sorted(chs, key=lambda x: x.get('speed', 0), reverse=True):
-                content += self.generate_channel_entry(ch)
-            with open(filename, 'w', encoding='utf-8') as f:
-                f.write(content)
-            print(f"✅ {name}: {len(chs)} 个频道")
+        for cat in sorted(categories.keys()):
+            chs = categories[cat]
+            chs.sort(key=lambda x: x.get('speed', 0), reverse=True)
+            filename = f'category_{cat}.m3u'
+            self.save_m3u(filename, f'{cat}频道', chs)
+            print(f"  ✅ {filename}: {len(chs)} 个")
     
-    # ==================== 飞牛影视优化版 ====================
+    # ==================== 飞牛优化版 ====================
     
-    def generate_feiniu_optimized(self):
-        """
-        飞牛版频道数量规则：
-        - CCTV: ≤30个
-        - 卫视: ≤50个
-        - 港澳台+日韩+东南亚+美国: ≤170个，每区3-20个
-        - 大陆高速+中速，海外仅高速
-        """
-        
+    def generate_feiniu(self):
+        """飞牛优化版：CCTV≤30, 卫视≤50, 海外≤170(每区3-20)"""
         cctv_max = 30
         satellite_max = 50
-        overseas_total_max = 170
-        overseas_per_min = 3
-        overseas_per_max = 20
-        target_regions = ['china', 'hongkong', 'taiwan', 'macau', 'southeast_asia', 'japan', 'korea', 'usa']
+        overseas_max = 170
+        per_min = 3
+        per_max = 20
         
-        print(f"\n{'='*60}")
-        print(f"🎬 飞牛影视优化版")
-        print(f"   CCTV≤{cctv_max}, 卫视≤{satellite_max}, 海外≤{overseas_total_max}")
-        print(f"   海外每区: {overseas_per_min}-{overseas_per_max}个")
-        print(f"{'='*60}")
+        overseas_regions = ['hongkong', 'taiwan', 'macau', 'southeast_asia', 'japan', 'korea', 'usa']
         
-        # 去重
         deduped = self.deduplicate_channels(self.channels)
         
-        # 按地区分组
-        region_channels = {}
-        for region in target_regions:
-            chs = [ch for ch in deduped if ch.get('region') == region]
-            region_channels[region] = chs
-            print(f"   {region}: {len(chs)} 个")
-        
-        # 中国大陆处理
-        china_chs = region_channels.get('china', [])
-        china_selected = self._process_china_channels_v2(china_chs, cctv_max, satellite_max)
-        print(f"   大陆: {len(china_selected)} 个")
-        
-        # 海外处理
-        overseas_regions = ['hongkong', 'taiwan', 'macau', 'southeast_asia', 'japan', 'korea', 'usa']
-        overseas_selected = self._process_overseas_channels(
-            region_channels, overseas_regions, overseas_total_max, overseas_per_min, overseas_per_max
-        )
-        print(f"   海外: {len(overseas_selected)} 个")
-        
-        # 合并排序
-        all_selected = china_selected + overseas_selected
-        all_selected = self._final_sort(all_selected)
-        
-        # 生成文件
-        filename = 'output/feiniu.m3u'
-        content = self.generate_m3u_header(f'飞牛影视专用精选 ({len(all_selected)}个)')
-        content += f'# CCTV≤{cctv_max}, 卫视≤{satellite_max}, 海外≤{overseas_total_max}\n'
-        content += f'# 大陆:高速+中速, 海外:仅高速\n'
-        
-        for ch in all_selected:
-            content += self.generate_channel_entry(ch)
-        
-        with open(filename, 'w', encoding='utf-8') as f:
-            f.write(content)
-        
-        # 统计
-        print(f"\n✅ 飞牛版: {len(all_selected)} 个频道")
-        for region in target_regions:
-            count = len([ch for ch in all_selected if ch.get('region') == region])
-            if count > 0:
-                print(f"   {region}: {count} 个")
-        print()
-        
-        return all_selected
-    
-    def _process_china_channels_v2(self, channels, cctv_max, satellite_max):
-        """中国大陆频道处理"""
-        filtered = self.filter_by_speed_tiers(channels, ['high', 'medium'])
-        
-        satellite_keywords = [
-            '湖南卫视', '浙江卫视', '江苏卫视', '东方卫视', '北京卫视',
-            '广东卫视', '深圳卫视', '山东卫视', '安徽卫视', '湖北卫视',
-            '四川卫视', '重庆卫视', '天津卫视', '黑龙江卫视', '辽宁卫视',
-            '江西卫视', '河南卫视', '河北卫视', '东南卫视', '吉林卫视',
-            '贵州卫视', '云南卫视', '海南卫视', '广西卫视', '陕西卫视',
-            '山西卫视', '甘肃卫视', '青海卫视', '新疆卫视', '西藏卫视',
-            '宁夏卫视', '内蒙古卫视', '金鹰卡通', '卡酷少儿', '炫动卡通',
-        ]
+        # 中国大陆：高速+中速
+        china = [ch for ch in deduped if ch.get('region') == 'china']
+        china = self.filter_speed(china, ['high', 'medium'])
         
         cctv_list, satellite_list, other_list = [], [], []
-        
-        for ch in filtered:
+        for ch in china:
             name = ch.get('name', '')
             if 'CCTV' in name.upper() or '央视' in name:
                 cctv_list.append(ch)
-            elif '卫视' in name or any(kw in name for kw in satellite_keywords):
+            elif '卫视' in name:
                 satellite_list.append(ch)
             else:
                 other_list.append(ch)
         
-        cctv_unique = self._dedup_by_name(cctv_list)
-        cctv_unique.sort(key=lambda x: self._cctv_sort_key(x.get('name', '')))
+        cctv_list.sort(key=lambda x: self._cctv_sort_key(x.get('name', '')))
+        satellite_list.sort(key=lambda x: x.get('speed', 0), reverse=True)
+        other_list.sort(key=lambda x: x.get('speed', 0), reverse=True)
         
-        satellite_unique = self._dedup_by_name(satellite_list)
-        satellite_unique.sort(key=lambda x: x.get('speed', 0), reverse=True)
+        china_selected = cctv_list[:cctv_max] + satellite_list[:satellite_max] + other_list[:30]
         
-        other_unique = self._dedup_by_name(other_list)
-        other_unique.sort(key=lambda x: x.get('speed', 0), reverse=True)
-        
-        result = cctv_unique[:cctv_max] + satellite_unique[:satellite_max]
-        remaining = max(0, 200 - len(result))
-        if remaining > 0 and other_unique:
-            result.extend(other_unique[:min(remaining, 30)])
-        
-        print(f"      CCTV:{len(cctv_unique)}->{min(len(cctv_unique), cctv_max)}")
-        print(f"      卫视:{len(satellite_unique)}->{min(len(satellite_unique), satellite_max)}")
-        return result
-    
-    def _process_overseas_channels(self, region_channels, regions, total_max, per_min, per_max):
-        """海外频道处理：仅高速，每区3-20个"""
+        # 海外：仅高速，每区3-20个
         region_high = {}
-        for region in regions:
-            chs = region_channels.get(region, [])
-            high = self.filter_by_speed_tiers(chs, ['high'])
-            high = self._dedup_by_name(high)
-            high.sort(key=lambda x: x.get('speed', 0), reverse=True)
-            region_high[region] = high
+        for region in overseas_regions:
+            chs = [ch for ch in deduped if ch.get('region') == region]
+            chs = self.filter_speed(chs, ['high'])
+            chs = self._dedup_by_name(chs)
+            chs.sort(key=lambda x: x.get('speed', 0), reverse=True)
+            region_high[region] = chs
         
         # 第一轮：每区至少per_min
         round1 = {}
-        for region in regions:
+        for region in overseas_regions:
             take = min(per_min, len(region_high[region]))
             round1[region] = region_high[region][:take]
         
-        round1_total = sum(len(v) for v in round1.values())
-        remaining = total_max - round1_total
+        used = sum(len(v) for v in round1.values())
+        remaining = overseas_max - used
         
         # 第二轮：按速度分配
-        all_candidates = []
-        for region in regions:
+        candidates = []
+        for region in overseas_regions:
             taken = len(round1[region])
             for ch in region_high[region][taken:per_max]:
-                all_candidates.append((region, ch))
-        all_candidates.sort(key=lambda x: x[1].get('speed', 0), reverse=True)
+                candidates.append((region, ch))
+        candidates.sort(key=lambda x: x[1].get('speed', 0), reverse=True)
         
         round2 = defaultdict(list)
-        for region, ch in all_candidates[:remaining]:
+        for region, ch in candidates[:remaining]:
             round2[region].append(ch)
         
-        result = []
-        for region in regions:
-            region_result = round1[region] + round2[region]
-            result.extend(region_result[:per_max])
+        overseas_selected = []
+        for region in overseas_regions:
+            region_chs = round1[region] + round2[region]
+            overseas_selected.extend(region_chs[:per_max])
         
-        if len(result) > total_max:
-            result.sort(key=lambda x: x.get('speed', 0), reverse=True)
-            result = result[:total_max]
+        if len(overseas_selected) > overseas_max:
+            overseas_selected.sort(key=lambda x: x.get('speed', 0), reverse=True)
+            overseas_selected = overseas_selected[:overseas_max]
         
-        return result
+        # 合并排序
+        all_chs = china_selected + overseas_selected
+        all_chs = self._final_sort(all_chs)
+        
+        self.save_m3u('feiniu.m3u', '飞牛影视专用精选', all_chs)
+        
+        # 统计
+        china_count = len([ch for ch in all_chs if ch.get('region') == 'china'])
+        overseas_count = len([ch for ch in all_chs if ch.get('region') != 'china'])
+        print(f"  ✅ feiniu.m3u: {len(all_chs)} 个 (大陆:{china_count} 海外:{overseas_count})")
+    
+    # ==================== 辅助方法 ====================
     
     def _dedup_by_name(self, channels):
-        """按名称去重"""
         name_map = {}
         for ch in channels:
             norm = self.normalize_channel_name(ch.get('name', ''))
@@ -375,9 +301,8 @@ class M3UGenerator:
         return (2, 0) if 'CCTV' in name.upper() else (3, 0)
     
     def _final_sort(self, channels):
-        """排序：CCTV -> 卫视 -> 大陆其他 -> 海外"""
-        region_order = {'china':1, 'hongkong':2, 'taiwan':3, 'macau':4, 'japan':5, 'korea':6, 'usa':7, 'southeast_asia':8}
-        
+        region_order = {'china':1, 'hongkong':2, 'taiwan':3, 'macau':4,
+                        'japan':5, 'korea':6, 'usa':7, 'southeast_asia':8}
         def key(ch):
             name = ch.get('name', '')
             region = ch.get('region', 'other')
@@ -390,35 +315,74 @@ class M3UGenerator:
             if region == 'china':
                 return (2, 0, -speed)
             return (3, region_order.get(region, 99), -speed)
-        
         return sorted(channels, key=key)
     
     # ==================== 主流程 ====================
     
-    def generate_all(self):
+    def run(self):
         print(f"\n{'='*60}")
-        print("🚀 生成所有播放列表")
+        print(f"🚀 生成所有播放列表")
+        print(f"   时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
         print(f"{'='*60}\n")
         
-        print("📦 完整版 (去重+剔除低速)...")
-        self.generate_all_in_one()
+        print("📦 完整版 (去重+剔除低速<150KB/s)...")
+        self.generate_all()
         
-        print("\n🌍 地区版 (去重+剔除低速)...")
-        self.generate_by_region()
+        print("\n🇨🇳 中国大陆 (高速+中速>500KB/s)...")
+        self.generate_china()
         
-        print("\n📊 分层版 (去重+速度分层)...")
-        self.generate_tiered_lists()
+        print("\n🌏 东亚 (港澳台+日韩+东南亚, 仅高速>1MB/s)...")
+        self.generate_east_asia()
+        
+        print("\n🌍 海外高速 (除大陆外所有地区, 仅高速>1MB/s)...")
+        self.generate_overseas_highspeed()
         
         print("\n🎬 飞牛优化版...")
-        self.generate_feiniu_optimized()
+        self.generate_feiniu()
         
-        print(f"\n✅ 全部完成!\n")
+        print("\n📂 按类别分组...")
+        self.generate_by_category()
+        
+        # 清理旧文件（保留需要的m3u文件）
+        self._cleanup()
+        
+        print(f"\n{'='*60}")
+        print(f"✅ 全部完成!")
+        self._print_summary()
+        print(f"{'='*60}\n")
+    
+    def _cleanup(self):
+        """清理output目录，只保留需要的m3u文件和JSON数据文件"""
+        keep_files = {
+            'all.m3u', 'china.m3u', 'east_asia.m3u', 'overseas_highspeed.m3u',
+            'feiniu.m3u',
+            'category_新闻.m3u', 'category_体育.m3u', 'category_影视.m3u',
+            'category_综艺.m3u', 'category_少儿.m3u', 'category_音乐.m3u',
+            'category_纪录片.m3u', 'category_教育.m3u', 'category_综合.m3u',
+            'all_channels.json', 'valid_channels_latest.json', 'stats.json'
+        }
+        
+        for f in os.listdir('output'):
+            if f not in keep_files and not f.startswith('valid_channels_'):
+                os.remove(os.path.join('output', f))
+    
+    def _print_summary(self):
+        """打印输出文件摘要"""
+        print(f"\n📁 输出文件:")
+        files = sorted([f for f in os.listdir('output') if f.endswith('.m3u')])
+        for f in files:
+            filepath = os.path.join('output', f)
+            with open(filepath, 'r', encoding='utf-8') as fh:
+                content = fh.read()
+                count = content.count('#EXTINF:')
+            size = os.path.getsize(filepath)
+            print(f"   {f}: {count} 个频道 ({size/1024:.1f}KB)")
 
 
 if __name__ == '__main__':
     try:
         generator = M3UGenerator()
-        generator.generate_all()
+        generator.run()
     except Exception as e:
         print(f"❌ 错误: {e}")
         import traceback
