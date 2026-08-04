@@ -57,6 +57,30 @@
       "comment": "澳门频道"
     },
     {
+      "name": "iptv-org-jp",
+      "url": "https://iptv-org.github.io/iptv/countries/jp.m3u",
+      "type": "m3u",
+      "region": "japan",
+      "priority": 2,
+      "comment": "日本频道"
+    },
+    {
+      "name": "iptv-org-kr",
+      "url": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "type": "m3u",
+      "region": "korea",
+      "priority": 2,
+      "comment": "韩国频道"
+    },
+    {
+      "name": "iptv-org-us",
+      "url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "type": "m3u",
+      "region": "usa",
+      "priority": 2,
+      "comment": "美国频道"
+    },
+    {
       "name": "yuechan-live",
       "url": "https://raw.githubusercontent.com/yuechan/Live/main/iptv.m3u",
       "type": "m3u",
@@ -105,6 +129,14 @@
       "comment": "稳定国内源"
     },
     {
+      "name": "vbskycn-iptv",
+      "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv_list.m3u",
+      "type": "m3u",
+      "region": "china",
+      "priority": 2,
+      "comment": "国内频道补充"
+    },
+    {
       "name": "sjc002-iptv",
       "url": "https://sjc002.github.io/iptv/iptv.m3u",
       "type": "m3u",
@@ -113,12 +145,12 @@
       "comment": "全球频道补充源"
     },
     {
-      "name": "vbskycn-iptv",
-      "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv_list.m3u",
+      "name": "iptv-org-sea",
+      "url": "https://iptv-org.github.io/iptv/regions/asia.m3u",
       "type": "m3u",
-      "region": "china",
-      "priority": 2,
-      "comment": "国内频道补充"
+      "region": "southeast_asia",
+      "priority": 3,
+      "comment": "东南亚频道（新加坡、马来西亚、泰国等）"
     }
   ],
   "channels_filter": {
@@ -128,27 +160,44 @@
       "福建", "江西", "河南", "河北", "辽宁", "吉林", "黑龙江", "陕西",
       "山西", "甘肃", "青海", "云南", "贵州", "海南", "广西", "内蒙古",
       "新疆", "西藏", "宁夏", "金鹰", "纪实", "财富", "少儿", "新闻",
-      "体育", "电影", "电视剧", "综艺", "音乐", "戏曲", "法制"
+      "体育", "电影", "电视剧", "综艺", "音乐", "戏曲", "法制", "教育",
+      "农业", "军事", "购物", "家有", "环球", "纪录"
     ],
     "hongkong_keywords": [
       "TVB", "凤凰", "香港", "VIUTV", "NOW", "有线", "翡翠", "明珠",
-      "J2", "无线", "财经", "资讯"
+      "J2", "无线", "财经", "资讯", "HKC", "RTHK"
     ],
     "taiwan_keywords": [
       "台视", "中视", "华视", "民视", "公视", "三立", "东森", "中天",
-      "TVBS", "年代", "八大", "纬来", "龙华", "爱尔达"
+      "TVBS", "年代", "八大", "纬来", "龙华", "爱尔达", "非凡",
+      "大爱", "人间", "客家"
     ],
     "macau_keywords": [
       "澳亚", "澳门", "莲花", "TDM"
     ],
-    "international_keywords": [
-      "BBC", "CNN", "NHK", "KBS", "France", "DW", "RT", "半岛",
-      "Bloomberg", "CNBC", "Sky", "FOX", "国家地理", "Discovery",
-      "动物星球", "探索", "历史"
+    "southeast_asia_keywords": [
+      "Channel 8", "Channel 5", "Suria", "Vasantham", "CNA",
+      "TV3", "NTV7", "8TV", "TV9", "RTM", "Thai", "Channel 3",
+      "Channel 7", "Mono", "GMM", "INDOSIAR", "SCTV", "RCTI",
+      "Trans", "ANTV", "Metro", "CNN Indonesia", "Kompas"
+    ],
+    "japan_keywords": [
+      "NHK", "日テレ", "テレビ朝日", "TBS", "テレビ東京", "フジテレビ",
+      "TOKYO MX", "WOWOW", "BS", "アニメ", "NTV", "TV Asahi",
+      "Fuji TV", "AT-X", "ANIMAX"
+    ],
+    "korea_keywords": [
+      "KBS", "MBC", "SBS", "EBS", "JTBC", "tvN", "MBN", "YTN",
+      "연합뉴스", "채널A", "TV조선", "OCN", "Tooniverse"
+    ],
+    "usa_keywords": [
+      "ABC", "NBC", "CBS", "FOX", "PBS", "CNN", "MSNBC", "CNBC",
+      "Bloomberg", "ESPN", "C-SPAN", "The CW", "ION", "TNT",
+      "TBS", "USA Network", "AMC", "FX", "HBO", "Showtime"
     ],
     "exclude_keywords": [
       "购物", "广告", "测试", "成人", "XXX", "AV", "18+",
-      "推广", "导购", "广播"
+      "推广", "导购", "广播", "RADIO", "试看", "体验"
     ]
   },
   "test_settings": {
@@ -159,5 +208,30 @@
     "retry_count": 2,
     "enable_speed_sort": true,
     "priority_weight": true
+  },
+  "speed_tiers": {
+    "high": 1000,
+    "medium": 500,
+    "low": 300
+  },
+  "output_limits": {
+    "max_total_channels": 0,
+    "max_per_region": 0,
+    "enable_lite_version": false,
+    "lite_max_channels": 0
+  },
+  "feiniu_settings": {
+    "target_regions": ["china", "hongkong", "taiwan", "macau", "southeast_asia", "japan", "korea", "usa"],
+    "max_total_channels": 200,
+    "china_keep_all_cctv": true,
+    "china_satellite_selection": [
+      "湖南卫视", "浙江卫视", "江苏卫视", "东方卫视", "北京卫视",
+      "广东卫视", "深圳卫视", "山东卫视", "安徽卫视", "湖北卫视",
+      "四川卫视", "重庆卫视", "天津卫视", "黑龙江卫视", "辽宁卫视",
+      "江西卫视", "河南卫视", "河北卫视", "东南卫视", "吉林卫视",
+      "贵州卫视", "云南卫视", "海南卫视", "广西卫视", "陕西卫视"
+    ],
+    "china_speed_tier": ["high", "medium"],
+    "overseas_speed_tier": ["high"]
   }
 }
