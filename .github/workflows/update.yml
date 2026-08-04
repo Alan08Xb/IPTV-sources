@@ -2,85 +2,125 @@ name: Auto Update IPTV Sources
 
 on:
   schedule:
-    # 每天北京时间 8:00, 18:00 运行
-    - cron: '0 0,10 * * *'
-  workflow_dispatch:  # 允许手动触发
-  push:
-    branches:
-      - main
+    # 北京时间 8:00 快速更新（只测速+生成）
+    - cron: '0 0 * * *'
+    # 北京时间 18:00 完整更新（采集+测速+生成）
+    - cron: '0 10 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: '更新模式'
+        required: true
+        default: 'full'
+        type: choice
+        options:
+          - full
+          - quick
 
 jobs:
-  update-sources:
+  # ==================== 快速更新（8:00） ====================
+  quick-update:
+    if: github.event.schedule == '0 0 * * *' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'quick')
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4  # 升级到 v4，使用 Node.js 20+
+      uses: actions/checkout@v4
     
     - name: Setup Python
-      uses: actions/setup-python@v5  # 升级到 v5
+      uses: actions/setup-python@v5
       with:
         python-version: '3.10'
-        cache: 'pip'  # 启用 pip 缓存加速
+        cache: 'pip'
     
     - name: Install dependencies
+      run: pip install requests beautifulsoup4 lxml
+    
+    - name: Create output directory
+      run: mkdir -p output
+    
+    - name: Quick test speed only
       run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        echo "🚀 快速更新模式 (北京时间 8:00)"
+        echo "跳过采集，直接测速已有频道"
+        python scripts/quick_update.py
+      timeout-minutes: 8
+      continue-on-error: true
+    
+    - name: Commit and push
+      run: |
+        git config --global user.name 'GitHub Actions Bot'
+        git config --global user.email 'actions@github.com'
+        git add output/ README.md
+        if git diff --quiet && git diff --staged --quiet; then
+          echo "无变更，跳过提交"
+        else
+          git commit -m "⚡ 快速更新 [$(TZ='Asia/Shanghai' date +'%m-%d %H:%M')]"
+          git push
+        fi
+
+  # ==================== 完整更新（18:00） ====================
+  full-update:
+    if: github.event.schedule == '0 10 * * *' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'full')
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+        cache: 'pip'
+    
+    - name: Install dependencies
+      run: pip install requests beautifulsoup4 lxml
     
     - name: Create output directory
       run: mkdir -p output
     
     - name: Collect IPTV sources
       run: |
-        echo "开始采集 IPTV 源..."
+        echo "📡 完整更新模式 (北京时间 18:00)"
+        echo "Step 1/4: 采集直播源..."
         python scripts/collect.py
-        echo "采集完成"
-      timeout-minutes: 10
+      timeout-minutes: 5
     
-    - name: Fast test channel speed
+    - name: Test channel speed
       run: |
-        echo "开始测速..."
+        echo "Step 2/4: 测速..."
         python scripts/test_speed_fast.py
-        echo "测速完成"
-      timeout-minutes: 12
-      continue-on-error: true  # 测速即使部分失败也继续
-    
-    - name: Check if channels file exists
-      id: check_files
-      run: |
-        if [ -f output/all_channels.json ] || ls output/valid_channels_*.json 1> /dev/null 2>&1; then
-          echo "channels_exist=true" >> $GITHUB_OUTPUT
-          echo "频道数据文件存在"
-        else
-          echo "channels_exist=false" >> $GITHUB_OUTPUT
-          echo "警告: 未找到频道数据文件"
-        fi
+      timeout-minutes: 10
+      continue-on-error: true
     
     - name: Generate M3U files
-      if: steps.check_files.outputs.channels_exist == 'true'
       run: |
-        echo "开始生成播放列表..."
+        echo "Step 3/4: 生成播放列表..."
         python scripts/generate_m3u.py
-        echo "播放列表生成完成"
+      timeout-minutes: 3
     
-    - name: Commit and push changes
-      if: steps.check_files.outputs.channels_exist == 'true'
+    - name: Update README
+      run: |
+        echo "Step 4/4: 更新README..."
+        python scripts/update_readme.py
+      timeout-minutes: 1
+    
+    - name: Commit and push
       run: |
         git config --global user.name 'GitHub Actions Bot'
         git config --global user.email 'actions@github.com'
-        
-        # 检查是否有文件变更
+        git add output/ README.md
         if git diff --quiet && git diff --staged --quiet; then
-          echo "没有文件变更，跳过提交"
+          echo "无变更，跳过提交"
         else
-          git add output/ README.md
-          git commit -m "Auto update IPTV sources [$(date +'%Y-%m-%d %H:%M:%S')]"
+          git commit -m "📡 完整更新 [$(TZ='Asia/Shanghai' date +'%m-%d %H:%M')]"
           git push
-          echo "提交完成"
         fi
     
-    - name: Upload artifacts (for debugging)
+    - name: Upload artifacts
       if: failure()
       uses: actions/upload-artifact@v4
       with:
