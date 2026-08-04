@@ -1,0 +1,8 @@
+#EXTM3U
+#PLAYLIST:综艺频道
+# Generated: 2026-08-04 09:03:28
+# Channels: 2
+#EXTINF:-1 tvg-logo="https://i.imgur.com/XeWzy7e.png" group-title="Entertainment" tvg-speed="3285KB/s",CG Entertainment
+https://cgentertainment-cgtv-1-it.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/PWzq0aU.png" group-title="Entertainment" tvg-speed="201KB/s",ROCK Entertainment (576p)
+http://202.169.224.202:8800/udp/239.9.1.8:1234
