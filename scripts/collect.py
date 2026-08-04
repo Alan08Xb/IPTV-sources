@@ -12,59 +12,31 @@ import sys
 from datetime import datetime
 import logging
 
-# 设置日志
-logging.basicConfig(
-    level=logging.INFO, 
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.StreamHandler(sys.stdout)
-    ]
-)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 class IPTVCollector:
     def __init__(self, config_path='config/sources.json'):
-        # 确保配置文件存在
         if not os.path.exists(config_path):
             logger.error(f"配置文件不存在: {config_path}")
-            # 创建默认配置
-            os.makedirs(os.path.dirname(config_path), exist_ok=True)
-            default_config = {
-                "sources": [],
-                "channels_filter": {"exclude_keywords": []},
-                "test_settings": {}
-            }
-            with open(config_path, 'w', encoding='utf-8') as f:
-                json.dump(default_config, f, ensure_ascii=False, indent=2)
-            logger.warning(f"已创建默认配置文件: {config_path}")
+            sys.exit(1)
         
         with open(config_path, 'r', encoding='utf-8') as f:
             self.config = json.load(f)
         self.channels = []
+        self.session = requests.Session()
+        self.session.headers.update({
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+        })
     
-    # ... 其余方法保持不变 ...
-
-if __name__ == '__main__':
-    try:
-        collector = IPTVCollector()
-        channels = collector.collect_all()
-        collector.save_channels(channels)
-        logger.info(f"采集完成，共 {len(channels)} 个频道")
-    except Exception as e:
-        logger.error(f"采集过程出错: {e}", exc_info=True)
-        sys.exit(1)
-        
     def fetch_m3u(self, url):
         """获取M3U文件内容"""
         try:
-            headers = {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-            }
-            response = requests.get(url, headers=headers, timeout=30)
+            response = self.session.get(url, timeout=15)
             response.raise_for_status()
             return response.text
         except Exception as e:
-            logger.error(f"获取 {url} 失败: {e}")
+            logger.error(f"获取失败 {url[:60]}: {e}")
             return None
     
     def parse_m3u(self, content):
@@ -75,20 +47,16 @@ if __name__ == '__main__':
         for i in range(len(lines)):
             line = lines[i].strip()
             if line.startswith('#EXTINF:'):
-                # 解析频道信息
                 name_match = re.search(r'tvg-name="([^"]*)"', line)
                 logo_match = re.search(r'tvg-logo="([^"]*)"', line)
                 group_match = re.search(r'group-title="([^"]*)"', line)
                 
-                # 获取频道名称
                 if name_match:
                     name = name_match.group(1)
                 else:
-                    # 从逗号后获取名称
                     parts = line.split(',')
                     name = parts[-1].strip() if len(parts) > 1 else 'Unknown'
                 
-                # 获取URL（下一行）
                 if i + 1 < len(lines):
                     url = lines[i + 1].strip()
                     if url and not url.startswith('#'):
@@ -104,7 +72,7 @@ if __name__ == '__main__':
         return channels
     
     def parse_txt(self, content):
-        """解析TXT格式（名称,URL）"""
+        """解析TXT格式"""
         channels = []
         for line in content.split('\n'):
             line = line.strip()
@@ -112,119 +80,134 @@ if __name__ == '__main__':
                 parts = line.split(',', 1)
                 if len(parts) == 2:
                     name, url = parts
-                    channel = {
+                    channels.append({
                         'name': name.strip(),
                         'url': url.strip(),
                         'group': 'Undefined',
                         'source': 'collected'
-                    }
-                    channels.append(channel)
+                    })
         return channels
     
     def classify_channel(self, channel):
-        """根据频道名称分类"""
+        """分类频道"""
         name = channel['name'].upper()
         
-        # 中国大陆频道
-        china_patterns = [
-            'CCTV', '央视', '卫视', '北京', '上海', '广东', '深圳', '浙江',
-            '江苏', '湖南', '湖北', '四川', '重庆', '天津', '山东', '安徽',
-            '福建', '江西', '河南', '河北', '辽宁', '吉林', '黑龙江', '陕西',
-            '山西', '甘肃', '青海', '云南', '贵州', '海南', '广西', '内蒙古',
-            '新疆', '西藏', '宁夏', '澳门'
+        # 获取分类关键词
+        china_keywords = self.config.get('channels_filter', {}).get('china_keywords', ['CCTV', '卫视'])
+        hk_keywords = self.config.get('channels_filter', {}).get('hongkong_keywords', ['TVB', '凤凰'])
+        tw_keywords = self.config.get('channels_filter', {}).get('taiwan_keywords', ['台视', '中视'])
+        mo_keywords = self.config.get('channels_filter', {}).get('macau_keywords', ['澳亚', '澳门'])
+        jp_keywords = self.config.get('channels_filter', {}).get('japan_keywords', ['NHK'])
+        kr_keywords = self.config.get('channels_filter', {}).get('korea_keywords', ['KBS', 'MBC'])
+        us_keywords = self.config.get('channels_filter', {}).get('usa_keywords', ['ABC', 'NBC', 'CNN'])
+        sea_keywords = self.config.get('channels_filter', {}).get('southeast_asia_keywords', ['Channel 8'])
+        
+        region_map = [
+            ('japan', jp_keywords),
+            ('korea', kr_keywords),
+            ('usa', us_keywords),
+            ('southeast_asia', sea_keywords),
+            ('macau', mo_keywords),
+            ('hongkong', hk_keywords),
+            ('taiwan', tw_keywords),
+            ('china', china_keywords),
         ]
         
-        # 港澳台频道
-        hk_patterns = ['TVB', '凤凰', '香港', 'VIUTV', 'NOW', '有线']
-        tw_patterns = ['台视', '中视', '华视', '民视', '公视', '三立', '东森', '中天', 'TVBS', '年代']
-        mo_patterns = ['澳亚', '澳门', '莲花']
+        region_found = 'other'
+        for region, keywords in region_map:
+            if any(kw in name for kw in keywords):
+                region_found = region
+                break
         
-        # 国际频道
-        intl_patterns = ['BBC', 'CNN', 'NHK', 'KBS', 'TVB', 'FRANCE', 'DW', 'RT']
-        
-        region = 'other'
-        if any(pattern in name for pattern in china_patterns):
-            region = 'china'
-        elif any(pattern in name for pattern in hk_patterns):
-            region = 'hongkong'
-        elif any(pattern in name for pattern in tw_patterns):
-            region = 'taiwan'
-        elif any(pattern in name for pattern in mo_patterns):
-            region = 'macau'
-        elif any(pattern in name for pattern in intl_patterns):
-            region = 'international'
-        
-        channel['region'] = region
+        channel['region'] = region_found
         channel['category'] = self.get_category(name)
         return channel
     
     def get_category(self, name):
-        """获取频道类别"""
+        """获取类别"""
         categories = {
             '新闻': ['新闻', 'NEWS', '资讯', '财经'],
-            '体育': ['体育', 'SPORT', '足球', '篮球', 'NBA'],
-            '影视': ['电影', '影视', 'MOVIE', '剧场', '戏剧'],
+            '体育': ['体育', 'SPORT', '足球', '篮球'],
+            '影视': ['电影', '影视', 'MOVIE', '剧场'],
             '综艺': ['综艺', '娱乐', 'ENTERTAINMENT'],
-            '少儿': ['少儿', '卡通', '儿童', '动漫', 'ANIME'],
-            '音乐': ['音乐', 'MUSIC', 'MV'],
-            '纪录片': ['纪录', '探索', 'DISCOVERY', 'DOCUMENTARY'],
-            '教育': ['教育', '学习', '英语'],
+            '少儿': ['少儿', '卡通', '儿童', '动漫'],
+            '音乐': ['音乐', 'MUSIC'],
+            '纪录片': ['纪录', '探索', 'DISCOVERY'],
         }
-        
         for cat, keywords in categories.items():
-            if any(keyword in name.upper() for keyword in keywords):
+            if any(kw in name.upper() for kw in keywords):
                 return cat
         return '综合'
     
     def collect_all(self):
-    """采集所有源，支持优先级"""
-    all_channels = []
-    
-    # 按优先级排序源
-    sorted_sources = sorted(self.config['sources'], 
-                           key=lambda x: x.get('priority', 3))
-    
-    for source in sorted_sources:
-        logger.info(f"[P{source.get('priority', 3)}] 采集: {source['name']}")
+        """采集所有源"""
+        all_channels = []
         
-        # ... 原有采集代码 ...
+        # 按优先级排序源
+        sources = self.config.get('sources', [])
+        sorted_sources = sorted(sources, key=lambda x: x.get('priority', 3))
         
-        for channel in channels:
-            channel = self.classify_channel(channel)
-            channel['source_name'] = source['name']
-            channel['source_priority'] = source.get('priority', 3)
-    
-    # 去重（按URL，保留高优先级源）
-    seen_urls = {}
-    for ch in all_channels:
-        url = ch['url']
-        if url in seen_urls:
-            # 如果当前源的优先级更高，替换
-            if ch.get('source_priority', 3) < seen_urls[url].get('source_priority', 3):
+        for source in sorted_sources:
+            name = source.get('name', 'unknown')
+            url = source.get('url', '')
+            source_type = source.get('type', 'm3u')
+            
+            logger.info(f"[P{source.get('priority', 3)}] 采集: {name}")
+            content = self.fetch_m3u(url)
+            
+            if content:
+                if source_type == 'm3u':
+                    channels = self.parse_m3u(content)
+                else:
+                    channels = self.parse_txt(content)
+                
+                for channel in channels:
+                    channel = self.classify_channel(channel)
+                    channel['source_name'] = name
+                    channel['source_priority'] = source.get('priority', 3)
+                
+                all_channels.extend(channels)
+                logger.info(f"  -> {len(channels)} 个频道")
+        
+        # 去重（按URL）
+        seen_urls = {}
+        for ch in all_channels:
+            url = ch.get('url', '')
+            if url in seen_urls:
+                # 保留优先级更高的源
+                existing_priority = seen_urls[url].get('source_priority', 3)
+                current_priority = ch.get('source_priority', 3)
+                if current_priority < existing_priority:
+                    seen_urls[url] = ch
+            else:
                 seen_urls[url] = ch
-        else:
-            seen_urls[url] = ch
-    
-    unique_channels = list(seen_urls.values())
-    
-    # 过滤排除关键词
-    exclude_keywords = self.config['channels_filter'].get('exclude_keywords', [])
-    unique_channels = [
-        ch for ch in unique_channels
-        if not any(kw in ch['name'].upper() for kw in exclude_keywords)
-    ]
-    
-    logger.info(f"去重过滤后: {len(unique_channels)} 个频道")
-    return unique_channels
+        
+        unique_channels = list(seen_urls.values())
+        
+        # 过滤排除关键词
+        exclude_keywords = self.config.get('channels_filter', {}).get('exclude_keywords', [])
+        unique_channels = [
+            ch for ch in unique_channels
+            if not any(kw in ch.get('name', '').upper() for kw in exclude_keywords)
+        ]
+        
+        logger.info(f"总计: {len(unique_channels)} 个频道 (去重过滤后)")
+        return unique_channels
     
     def save_channels(self, channels, filename='output/all_channels.json'):
-        """保存频道列表"""
+        """保存频道"""
         os.makedirs('output', exist_ok=True)
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(channels, f, ensure_ascii=False, indent=2)
-        logger.info(f"频道列表已保存到 {filename}")
+        logger.info(f"已保存: {filename} ({len(channels)} 个频道)")
+
 
 if __name__ == '__main__':
-    collector = IPTVCollector()
-    channels = collector.collect_all()
-    collector.save_channels(channels)
+    try:
+        collector = IPTVCollector()
+        channels = collector.collect_all()
+        collector.save_channels(channels)
+        logger.info(f"✅ 采集完成，共 {len(channels)} 个频道")
+    except Exception as e:
+        logger.error(f"❌ 采集失败: {e}", exc_info=True)
+        sys.exit(1)
