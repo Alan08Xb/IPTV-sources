@@ -14,12 +14,14 @@ from collections import defaultdict
 
 class M3UGenerator:
     def __init__(self, channels_file=None):
-        # 加载配置
-        with open('config/sources.json', 'r', encoding='utf-8') as f:
-            self.config = json.load(f)
-        
-        # 自动找到最新的测试结果文件
-        if channels_file is None:
+    with open('config/sources.json', 'r', encoding='utf-8') as f:
+        self.config = json.load(f)
+    
+    if channels_file is None:
+        # 优先使用 valid_channels_latest.json
+        if os.path.exists('output/valid_channels_latest.json'):
+            channels_file = 'output/valid_channels_latest.json'
+        else:
             files = glob.glob('output/valid_channels_*.json')
             if files:
                 channels_file = max(files)
@@ -27,14 +29,14 @@ class M3UGenerator:
                 files = glob.glob('output/all_channels.json')
                 if files:
                     channels_file = max(files)
-        
-        if channels_file and os.path.exists(channels_file):
-            with open(channels_file, 'r', encoding='utf-8') as f:
-                self.channels = json.load(f)
-            print(f"加载频道数据: {channels_file} ({len(self.channels)} 个频道)")
-        else:
-            print("警告: 未找到频道数据文件")
-            self.channels = []
+    
+    if channels_file and os.path.exists(channels_file):
+        with open(channels_file, 'r', encoding='utf-8') as f:
+            self.channels = json.load(f)
+        print(f"加载: {channels_file} ({len(self.channels)} 个频道)")
+    else:
+        print("警告: 未找到频道数据")
+        self.channels = []
     
     def generate_m3u_header(self, name):
         """生成M3U文件头"""
