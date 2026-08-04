@@ -1,0 +1,23 @@
+{
+  "test_time": "20260804_012110",
+  "total_tested": 12694,
+  "valid_count": 8993,
+  "failed_count": 3701,
+  "success_rate": "70.84%",
+  "regions": {
+    "other": 8373,
+    "international": 533,
+    "hongkong": 41,
+    "china": 46
+  },
+  "categories": {
+    "综合": 8366,
+    "影视": 119,
+    "新闻": 282,
+    "纪录片": 13,
+    "少儿": 18,
+    "体育": 127,
+    "音乐": 64,
+    "综艺": 4
+  }
+}
