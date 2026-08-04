@@ -2,9 +2,9 @@ name: Auto Update IPTV Sources
 
 on:
   schedule:
-    # 北京时间 8:00 快速更新（只测速+生成）
+    # 北京时间 8:00 快速更新
     - cron: '0 0 * * *'
-    # 北京时间 18:00 完整更新（采集+测速+生成）
+    # 北京时间 18:00 完整更新
     - cron: '0 10 * * *'
   workflow_dispatch:
     inputs:
@@ -22,48 +22,6 @@ jobs:
   quick-update:
     if: github.event.schedule == '0 0 * * *' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'quick')
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-    
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-    
-    - name: Setup Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.10'
-        cache: 'pip'
-    
-    - name: Install dependencies
-      run: pip install requests beautifulsoup4 lxml
-    
-    - name: Create output directory
-      run: mkdir -p output
-    
-    - name: Quick test speed only
-      run: |
-        echo "🚀 快速更新模式 (北京时间 8:00)"
-        echo "跳过采集，直接测速已有频道"
-        python scripts/quick_update.py
-      timeout-minutes: 8
-      continue-on-error: true
-    
-    - name: Commit and push
-      run: |
-        git config --global user.name 'GitHub Actions Bot'
-        git config --global user.email 'actions@github.com'
-        git add output/ README.md
-        if git diff --quiet && git diff --staged --quiet; then
-          echo "无变更，跳过提交"
-        else
-          git commit -m "⚡ 快速更新 [$(TZ='Asia/Shanghai' date +'%m-%d %H:%M')]"
-          git push
-        fi
-
-  # ==================== 完整更新（18:00） ====================
-  full-update:
-    if: github.event.schedule == '0 10 * * *' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'full')
-    runs-on: ubuntu-latest
     timeout-minutes: 20
     
     steps:
@@ -77,36 +35,23 @@ jobs:
         cache: 'pip'
     
     - name: Install dependencies
-      run: pip install requests beautifulsoup4 lxml
+      run: pip install requests
     
     - name: Create output directory
       run: mkdir -p output
     
-    - name: Collect IPTV sources
+    - name: Quick test speed
       run: |
-        echo "📡 完整更新模式 (北京时间 18:00)"
-        echo "Step 1/4: 采集直播源..."
-        python scripts/collect.py
-      timeout-minutes: 5
-    
-    - name: Test channel speed
-      run: |
-        echo "Step 2/4: 测速..."
+        echo "🚀 快速更新 (北京时间 8:00)"
+        echo "测速预计需要 8-12 分钟..."
         python scripts/test_speed_fast.py
-      timeout-minutes: 10
-      continue-on-error: true
+      timeout-minutes: 15
     
     - name: Generate M3U files
+      if: success() || steps.quick_test.outcome == 'success'
       run: |
-        echo "Step 3/4: 生成播放列表..."
         python scripts/generate_m3u.py
       timeout-minutes: 3
-    
-    - name: Update README
-      run: |
-        echo "Step 4/4: 更新README..."
-        python scripts/update_readme.py
-      timeout-minutes: 1
     
     - name: Commit and push
       run: |
@@ -114,7 +59,60 @@ jobs:
         git config --global user.email 'actions@github.com'
         git add output/ README.md
         if git diff --quiet && git diff --staged --quiet; then
-          echo "无变更，跳过提交"
+          echo "无变更"
+        else
+          git commit -m "⚡ 快速更新 [$(TZ='Asia/Shanghai' date +'%m-%d %H:%M')]"
+          git push
+        fi
+
+  # ==================== 完整更新（18:00） ====================
+  full-update:
+    if: github.event.schedule == '0 10 * * *' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'full')
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+        cache: 'pip'
+    
+    - name: Install dependencies
+      run: pip install requests
+    
+    - name: Create output directory
+      run: mkdir -p output
+    
+    - name: Collect IPTV sources
+      run: |
+        echo "📡 完整更新 (北京时间 18:00)"
+        echo "Step 1/4: 采集直播源..."
+        python scripts/collect.py
+      timeout-minutes: 5
+    
+    - name: Test channel speed
+      run: |
+        echo "Step 2/4: 测速 (预计 10-15 分钟)..."
+        python scripts/test_speed_fast.py
+      timeout-minutes: 20
+    
+    - name: Generate M3U files
+      run: |
+        echo "Step 3/4: 生成播放列表..."
+        python scripts/generate_m3u.py
+      timeout-minutes: 3
+    
+    - name: Commit and push
+      run: |
+        git config --global user.name 'GitHub Actions Bot'
+        git config --global user.email 'actions@github.com'
+        git add output/ README.md
+        if git diff --quiet && git diff --staged --quiet; then
+          echo "无变更"
         else
           git commit -m "📡 完整更新 [$(TZ='Asia/Shanghai' date +'%m-%d %H:%M')]"
           git push
