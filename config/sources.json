@@ -1,0 +1,34 @@
+{
+  "sources": [
+    {
+      "name": "fanmingming",
+      "url": "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/global.m3u",
+      "type": "m3u",
+      "region": "global"
+    },
+    {
+      "name": "iptv-org",
+      "url": "https://iptv-org.github.io/iptv/index.m3u",
+      "type": "m3u", 
+      "region": "global"
+    },
+    {
+      "name": "yuechan",
+      "url": "https://raw.githubusercontent.com/yuechan/Live/main/iptv.m3u",
+      "type": "m3u",
+      "region": "china"
+    }
+  ],
+  "channels_filter": {
+    "china": ["CCTV", "卫视", "地方"],
+    "hongkong": ["TVB", "凤凰", "香港"],
+    "taiwan": ["台视", "中视", "华视"],
+    "global": ["BBC", "CNN", "NHK", "France"]
+  },
+  "test_settings": {
+    "timeout": 10,
+    "min_speed": 500,
+    "max_threads": 50,
+    "test_duration": 5
+  }
+}
