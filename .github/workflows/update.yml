@@ -7,7 +7,7 @@ on:
   workflow_dispatch:  # 允许手动触发
   push:
     branches:
-      - main  # 当main分支有推送时也运行
+      - main
 
 jobs:
   update-sources:
@@ -15,36 +15,75 @@ jobs:
     
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4  # 升级到 v4，使用 Node.js 20+
     
     - name: Setup Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5  # 升级到 v5
       with:
         python-version: '3.10'
+        cache: 'pip'  # 启用 pip 缓存加速
     
     - name: Install dependencies
       run: |
+        python -m pip install --upgrade pip
         pip install -r requirements.txt
+    
+    - name: Create output directory
+      run: mkdir -p output
     
     - name: Collect IPTV sources
       run: |
+        echo "开始采集 IPTV 源..."
         python scripts/collect.py
+        echo "采集完成"
+      timeout-minutes: 10
     
     - name: Test channel speed
       run: |
+        echo "开始测速..."
         python scripts/test_speed.py
-      timeout-minutes: 30  # 设置30分钟超时
+        echo "测速完成"
+      timeout-minutes: 30
+      continue-on-error: true  # 测速即使部分失败也继续
+    
+    - name: Check if channels file exists
+      id: check_files
+      run: |
+        if [ -f output/all_channels.json ] || ls output/valid_channels_*.json 1> /dev/null 2>&1; then
+          echo "channels_exist=true" >> $GITHUB_OUTPUT
+          echo "频道数据文件存在"
+        else
+          echo "channels_exist=false" >> $GITHUB_OUTPUT
+          echo "警告: 未找到频道数据文件"
+        fi
     
     - name: Generate M3U files
+      if: steps.check_files.outputs.channels_exist == 'true'
       run: |
+        echo "开始生成播放列表..."
         python scripts/generate_m3u.py
+        echo "播放列表生成完成"
     
     - name: Commit and push changes
+      if: steps.check_files.outputs.channels_exist == 'true'
       run: |
         git config --global user.name 'GitHub Actions Bot'
         git config --global user.email 'actions@github.com'
-        git add output/ README.md
-        git diff --quiet && git diff --staged --quiet || (
+        
+        # 检查是否有文件变更
+        if git diff --quiet && git diff --staged --quiet; then
+          echo "没有文件变更，跳过提交"
+        else
+          git add output/ README.md
           git commit -m "Auto update IPTV sources [$(date +'%Y-%m-%d %H:%M:%S')]"
           git push
-        )
+          echo "提交完成"
+        fi
+    
+    - name: Upload artifacts (for debugging)
+      if: failure()
+      uses: actions/upload-artifact@v4
+      with:
+        name: debug-output
+        path: output/
+        retention-days: 3
