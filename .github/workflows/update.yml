@@ -2,8 +2,8 @@ name: Auto Update IPTV Sources
 
 on:
   schedule:
-    # 每天北京时间 2:00, 8:00, 14:00, 20:00 运行
-    - cron: '0 18,0,6,12 * * *'
+    # 每天北京时间 8:00, 18:00 运行
+    - cron: '0 0,10 * * *'
   workflow_dispatch:  # 允许手动触发
   push:
     branches:
