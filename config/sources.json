@@ -1,34 +1,163 @@
 {
   "sources": [
     {
-      "name": "fanmingming",
+      "name": "fanmingming-global",
       "url": "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/global.m3u",
       "type": "m3u",
-      "region": "global"
+      "region": "global",
+      "priority": 1,
+      "comment": "全球频道，更新频繁，质量较高"
     },
     {
-      "name": "iptv-org",
+      "name": "fanmingming-ipv6",
+      "url": "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
+      "type": "m3u",
+      "region": "china",
+      "priority": 1,
+      "comment": "中国大陆IPv6源，速度快"
+    },
+    {
+      "name": "iptv-org-main",
       "url": "https://iptv-org.github.io/iptv/index.m3u",
-      "type": "m3u", 
-      "region": "global"
+      "type": "m3u",
+      "region": "global",
+      "priority": 2,
+      "comment": "最全的IPTV源集合，全球频道"
     },
     {
-      "name": "yuechan",
+      "name": "iptv-org-china",
+      "url": "https://iptv-org.github.io/iptv/countries/cn.m3u",
+      "type": "m3u",
+      "region": "china",
+      "priority": 2,
+      "comment": "中国大陆频道专用"
+    },
+    {
+      "name": "iptv-org-hk",
+      "url": "https://iptv-org.github.io/iptv/countries/hk.m3u",
+      "type": "m3u",
+      "region": "hongkong",
+      "priority": 2,
+      "comment": "香港频道"
+    },
+    {
+      "name": "iptv-org-tw",
+      "url": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "type": "m3u",
+      "region": "taiwan",
+      "priority": 2,
+      "comment": "台湾频道"
+    },
+    {
+      "name": "iptv-org-mo",
+      "url": "https://iptv-org.github.io/iptv/countries/mo.m3u",
+      "type": "m3u",
+      "region": "macau",
+      "priority": 2,
+      "comment": "澳门频道"
+    },
+    {
+      "name": "yuechan-live",
       "url": "https://raw.githubusercontent.com/yuechan/Live/main/iptv.m3u",
       "type": "m3u",
-      "region": "china"
+      "region": "china",
+      "priority": 1,
+      "comment": "国内直播源，更新勤快"
+    },
+    {
+      "name": "YanG-1989",
+      "url": "https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
+      "type": "m3u",
+      "region": "china",
+      "priority": 1,
+      "comment": "国内卫视和地方台为主"
+    },
+    {
+      "name": "Ftindy-IPTV",
+      "url": "https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPV6.m3u",
+      "type": "m3u",
+      "region": "china",
+      "priority": 2,
+      "comment": "IPv6高速源，适合有IPv6网络"
+    },
+    {
+      "name": "kimwang1978",
+      "url": "https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged.m3u",
+      "type": "m3u",
+      "region": "china",
+      "priority": 2,
+      "comment": "国内综合源，定期更新"
+    },
+    {
+      "name": "ssili126-tv",
+      "url": "https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt",
+      "type": "txt",
+      "region": "china",
+      "priority": 2,
+      "comment": "TXT格式源，需要解析"
+    },
+    {
+      "name": "whpsky-iptv",
+      "url": "https://raw.githubusercontent.com/whpsky/iptv/main/iptv.m3u",
+      "type": "m3u",
+      "region": "china",
+      "priority": 2,
+      "comment": "稳定国内源"
+    },
+    {
+      "name": "sjc002-iptv",
+      "url": "https://sjc002.github.io/iptv/iptv.m3u",
+      "type": "m3u",
+      "region": "global",
+      "priority": 3,
+      "comment": "全球频道补充源"
+    },
+    {
+      "name": "vbskycn-iptv",
+      "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv_list.m3u",
+      "type": "m3u",
+      "region": "china",
+      "priority": 2,
+      "comment": "国内频道补充"
     }
   ],
   "channels_filter": {
-    "china": ["CCTV", "卫视", "地方"],
-    "hongkong": ["TVB", "凤凰", "香港"],
-    "taiwan": ["台视", "中视", "华视"],
-    "global": ["BBC", "CNN", "NHK", "France"]
+    "china_keywords": [
+      "CCTV", "央视", "卫视", "北京", "上海", "广东", "深圳", "浙江",
+      "江苏", "湖南", "湖北", "四川", "重庆", "天津", "山东", "安徽",
+      "福建", "江西", "河南", "河北", "辽宁", "吉林", "黑龙江", "陕西",
+      "山西", "甘肃", "青海", "云南", "贵州", "海南", "广西", "内蒙古",
+      "新疆", "西藏", "宁夏", "金鹰", "纪实", "财富", "少儿", "新闻",
+      "体育", "电影", "电视剧", "综艺", "音乐", "戏曲", "法制"
+    ],
+    "hongkong_keywords": [
+      "TVB", "凤凰", "香港", "VIUTV", "NOW", "有线", "翡翠", "明珠",
+      "J2", "无线", "财经", "资讯"
+    ],
+    "taiwan_keywords": [
+      "台视", "中视", "华视", "民视", "公视", "三立", "东森", "中天",
+      "TVBS", "年代", "八大", "纬来", "龙华", "爱尔达"
+    ],
+    "macau_keywords": [
+      "澳亚", "澳门", "莲花", "TDM"
+    ],
+    "international_keywords": [
+      "BBC", "CNN", "NHK", "KBS", "France", "DW", "RT", "半岛",
+      "Bloomberg", "CNBC", "Sky", "FOX", "国家地理", "Discovery",
+      "动物星球", "探索", "历史"
+    ],
+    "exclude_keywords": [
+      "购物", "广告", "测试", "成人", "XXX", "AV", "18+",
+      "推广", "导购", "广播"
+    ]
   },
   "test_settings": {
-    "timeout": 10,
-    "min_speed": 500,
-    "max_threads": 50,
-    "test_duration": 5
+    "timeout": 8,
+    "min_speed": 300,
+    "max_threads": 60,
+    "test_duration": 4,
+    "retry_count": 2,
+    "enable_speed_sort": true,
+    "priority_weight": true
   }
 }
