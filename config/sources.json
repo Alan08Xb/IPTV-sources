@@ -3,184 +3,299 @@
     {
       "name": "fanmingming-global",
       "url": "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/global.m3u",
-      "type": "m3u",
-      "region": "global",
-      "priority": 1,
-      "comment": "全球频道，更新频繁，质量较高"
+      "type": "m3u", "region": "global", "priority": 1,
+      "comment": "全球频道，更新频繁"
     },
     {
       "name": "fanmingming-ipv6",
       "url": "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
-      "type": "m3u",
-      "region": "china",
-      "priority": 1,
-      "comment": "中国大陆IPv6源，速度快"
+      "type": "m3u", "region": "china", "priority": 1,
+      "comment": "IPv6高速源"
+    },
+    {
+      "name": "fanmingming-v4",
+      "url": "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/v4.m3u",
+      "type": "m3u", "region": "china", "priority": 1,
+      "comment": "IPv4源"
     },
     {
       "name": "iptv-org-main",
       "url": "https://iptv-org.github.io/iptv/index.m3u",
-      "type": "m3u",
-      "region": "global",
-      "priority": 2,
-      "comment": "最全的IPTV源集合，全球频道"
+      "type": "m3u", "region": "global", "priority": 2,
+      "comment": "最全全球源"
     },
     {
       "name": "iptv-org-china",
       "url": "https://iptv-org.github.io/iptv/countries/cn.m3u",
-      "type": "m3u",
-      "region": "china",
-      "priority": 2,
-      "comment": "中国大陆频道专用"
+      "type": "m3u", "region": "china", "priority": 2,
+      "comment": "中国频道"
     },
     {
       "name": "iptv-org-hk",
       "url": "https://iptv-org.github.io/iptv/countries/hk.m3u",
-      "type": "m3u",
-      "region": "hongkong",
-      "priority": 2,
+      "type": "m3u", "region": "hongkong", "priority": 2,
       "comment": "香港频道"
     },
     {
       "name": "iptv-org-tw",
       "url": "https://iptv-org.github.io/iptv/countries/tw.m3u",
-      "type": "m3u",
-      "region": "taiwan",
-      "priority": 2,
+      "type": "m3u", "region": "taiwan", "priority": 2,
       "comment": "台湾频道"
     },
     {
       "name": "iptv-org-mo",
       "url": "https://iptv-org.github.io/iptv/countries/mo.m3u",
-      "type": "m3u",
-      "region": "macau",
-      "priority": 2,
+      "type": "m3u", "region": "macau", "priority": 2,
       "comment": "澳门频道"
     },
     {
       "name": "iptv-org-jp",
       "url": "https://iptv-org.github.io/iptv/countries/jp.m3u",
-      "type": "m3u",
-      "region": "japan",
-      "priority": 2,
+      "type": "m3u", "region": "japan", "priority": 2,
       "comment": "日本频道"
     },
     {
       "name": "iptv-org-kr",
       "url": "https://iptv-org.github.io/iptv/countries/kr.m3u",
-      "type": "m3u",
-      "region": "korea",
-      "priority": 2,
+      "type": "m3u", "region": "korea", "priority": 2,
       "comment": "韩国频道"
     },
     {
       "name": "iptv-org-us",
       "url": "https://iptv-org.github.io/iptv/countries/us.m3u",
-      "type": "m3u",
-      "region": "usa",
-      "priority": 2,
+      "type": "m3u", "region": "usa", "priority": 2,
       "comment": "美国频道"
+    },
+    {
+      "name": "iptv-org-sg",
+      "url": "https://iptv-org.github.io/iptv/countries/sg.m3u",
+      "type": "m3u", "region": "southeast_asia", "priority": 2,
+      "comment": "新加坡频道"
+    },
+    {
+      "name": "iptv-org-my",
+      "url": "https://iptv-org.github.io/iptv/countries/my.m3u",
+      "type": "m3u", "region": "southeast_asia", "priority": 2,
+      "comment": "马来西亚频道"
+    },
+    {
+      "name": "iptv-org-th",
+      "url": "https://iptv-org.github.io/iptv/countries/th.m3u",
+      "type": "m3u", "region": "southeast_asia", "priority": 2,
+      "comment": "泰国频道"
+    },
+    {
+      "name": "iptv-org-id",
+      "url": "https://iptv-org.github.io/iptv/countries/id.m3u",
+      "type": "m3u", "region": "southeast_asia", "priority": 2,
+      "comment": "印尼频道"
     },
     {
       "name": "yuechan-live",
       "url": "https://raw.githubusercontent.com/yuechan/Live/main/iptv.m3u",
-      "type": "m3u",
-      "region": "china",
-      "priority": 1,
-      "comment": "国内直播源，更新勤快"
+      "type": "m3u", "region": "china", "priority": 1,
+      "comment": "国内源，更新快"
     },
     {
       "name": "YanG-1989",
       "url": "https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
-      "type": "m3u",
-      "region": "china",
-      "priority": 1,
-      "comment": "国内卫视和地方台为主"
+      "type": "m3u", "region": "china", "priority": 1,
+      "comment": "卫视地方台"
+    },
+    {
+      "name": "YanG-1989-radio",
+      "url": "https://raw.githubusercontent.com/YanG-1989/m3u/main/Radio.m3u",
+      "type": "m3u", "region": "china", "priority": 3,
+      "comment": "广播源(可能含电视)"
     },
     {
       "name": "Ftindy-IPTV",
       "url": "https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPV6.m3u",
-      "type": "m3u",
-      "region": "china",
-      "priority": 2,
-      "comment": "IPv6高速源，适合有IPv6网络"
+      "type": "m3u", "region": "china", "priority": 2,
+      "comment": "IPv6高速"
     },
     {
       "name": "kimwang1978",
       "url": "https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged.m3u",
-      "type": "m3u",
-      "region": "china",
-      "priority": 2,
-      "comment": "国内综合源，定期更新"
+      "type": "m3u", "region": "china", "priority": 2,
+      "comment": "综合国内源"
     },
     {
-      "name": "ssili126-tv",
-      "url": "https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt",
-      "type": "txt",
-      "region": "china",
-      "priority": 2,
-      "comment": "TXT格式源，需要解析"
+      "name": "kimwang1978-m3u",
+      "url": "https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged.m3u",
+      "type": "m3u", "region": "china", "priority": 2,
+      "comment": "国内综合"
     },
     {
       "name": "whpsky-iptv",
       "url": "https://raw.githubusercontent.com/whpsky/iptv/main/iptv.m3u",
-      "type": "m3u",
-      "region": "china",
-      "priority": 2,
-      "comment": "稳定国内源"
+      "type": "m3u", "region": "china", "priority": 2,
+      "comment": "国内稳定源"
     },
     {
       "name": "vbskycn-iptv",
       "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv_list.m3u",
-      "type": "m3u",
-      "region": "china",
-      "priority": 2,
-      "comment": "国内频道补充"
+      "type": "m3u", "region": "china", "priority": 2,
+      "comment": "国内补充"
     },
     {
-      "name": "sjc002-iptv",
-      "url": "https://sjc002.github.io/iptv/iptv.m3u",
-      "type": "m3u",
-      "region": "global",
-      "priority": 3,
-      "comment": "全球频道补充源"
+      "name": "ssili126-tv",
+      "url": "https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt",
+      "type": "txt", "region": "china", "priority": 2,
+      "comment": "TXT格式源"
     },
     {
-      "name": "iptv-org-sea",
-      "url": "https://iptv-org.github.io/iptv/regions/asia.m3u",
-      "type": "m3u",
-      "region": "southeast_asia",
-      "priority": 3,
-      "comment": "东南亚频道（新加坡、马来西亚、泰国等）"
+      "name": "m3u8-zone",
+      "url": "https://raw.githubusercontent.com/m3u8-zone/m3u8-zone/main/m3u8/iptv.m3u",
+      "type": "m3u", "region": "china", "priority": 2,
+      "comment": "m3u8-zone源"
+    },
+    {
+      "name": "joevess-IPTV",
+      "url": "https://raw.githubusercontent.com/joevess/IPTV/main/sources/iptv_sources.m3u",
+      "type": "m3u", "region": "global", "priority": 2,
+      "comment": "joevess全球源"
+    },
+    {
+      "name": "joevess-china",
+      "url": "https://raw.githubusercontent.com/joevess/IPTV/main/m3u/iptv.m3u",
+      "type": "m3u", "region": "china", "priority": 2,
+      "comment": "joevess中国源"
+    },
+    {
+      "name": "BurningC4-IPTV",
+      "url": "https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u",
+      "type": "m3u", "region": "china", "priority": 2,
+      "comment": "BurningC4国内源"
+    },
+    {
+      "name": "Kimentanm-iptv",
+      "url": "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+      "type": "m3u", "region": "china", "priority": 2,
+      "comment": "Kimentanm源"
+    },
+    {
+      "name": "liveshow-iptv",
+      "url": "https://raw.githubusercontent.com/liveshow/iptv/main/m3u/iptv.m3u",
+      "type": "m3u", "region": "global", "priority": 3,
+      "comment": "liveshow全球源"
+    },
+    {
+      "name": "shengqiang-iptv",
+      "url": "https://raw.githubusercontent.com/shengqiangzhang/iptv/main/iptv.m3u",
+      "type": "m3u", "region": "china", "priority": 3,
+      "comment": "shengqiang源"
+    },
+    {
+      "name": "nicecool-iptv",
+      "url": "https://raw.githubusercontent.com/nicecool/iptv/main/iptv.m3u",
+      "type": "m3u", "region": "china", "priority": 3,
+      "comment": "nicecool源"
+    },
+    {
+      "name": "YueChang-IPTV",
+      "url": "https://raw.githubusercontent.com/YueChang/IPTV/main/iptv.m3u",
+      "type": "m3u", "region": "china", "priority": 3,
+      "comment": "YueChang源"
+    },
+    {
+      "name": "Guovin-IPTV",
+      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/main/output/result.m3u",
+      "type": "m3u", "region": "china", "priority": 2,
+      "comment": "Guovin国内源"
+    },
+    {
+      "name": "HuTuTu-IPTV",
+      "url": "https://raw.githubusercontent.com/HuTuTu/IPTV/main/iptv.m3u",
+      "type": "m3u", "region": "china", "priority": 3,
+      "comment": "HuTuTu源"
+    },
+    {
+      "name": "mwish-iptv",
+      "url": "https://raw.githubusercontent.com/mwish/iptv/master/iptv.m3u",
+      "type": "m3u", "region": "china", "priority": 3,
+      "comment": "mwish源"
     }
   ],
   "channels_filter": {
-    "china_keywords": ["CCTV","央视","卫视","北京","上海","广东","深圳","浙江","江苏","湖南","湖北","四川","重庆","天津","山东","安徽","福建","江西","河南","河北","辽宁","吉林","黑龙江","陕西","山西","甘肃","青海","云南","贵州","海南","广西","内蒙古","新疆","西藏","宁夏"],
-    "hongkong_keywords": ["TVB","凤凰","香港","VIUTV","NOW","有线","翡翠","明珠","J2","RTHK"],
-    "taiwan_keywords": ["台视","中视","华视","民视","公视","三立","东森","中天","TVBS","年代","八大","纬来","龙华","爱尔达"],
-    "macau_keywords": ["澳亚","澳门","莲花","TDM"],
-    "japan_keywords": ["NHK","日テレ","テレビ朝日","TBS","テレビ東京","フジテレビ","TOKYO MX","WOWOW"],
-    "korea_keywords": ["KBS","MBC","SBS","EBS","JTBC","tvN","YTN"],
-    "usa_keywords": ["ABC","NBC","CBS","FOX","PBS","CNN","MSNBC","CNBC","Bloomberg","ESPN"],
-    "southeast_asia_keywords": ["Channel 8","Channel 5","CNA","Suria","TV3","Thai","INDOSIAR","SCTV","RCTI","Metro"],
-    "exclude_keywords": ["购物","广告","测试","成人","XXX","AV","18+","推广","导购"]
+    "china_keywords": [
+      "CCTV", "央视", "卫视", "北京", "上海", "东方", "天津", "重庆",
+      "河北", "山西", "辽宁", "吉林", "黑龙江", "江苏", "浙江",
+      "安徽", "福建", "江西", "山东", "河南", "湖北", "湖南",
+      "广东", "海南", "四川", "贵州", "云南", "陕西", "甘肃",
+      "青海", "内蒙古", "广西", "西藏", "宁夏", "新疆",
+      "深圳", "厦门", "大连", "青岛", "宁波", "珠海", "汕头",
+      "金鹰", "纪实", "财富", "少儿", "新闻", "体育", "电影",
+      "电视剧", "综艺", "音乐", "戏曲", "法制", "教育", "农业",
+      "军事", "环球", "纪录", "探索", "发现", "求索", "兵器",
+      "生活", "时尚", "旅游", "卫生健康"
+    ],
+    "hongkong_keywords": [
+      "TVB", "凤凰", "香港", "VIUTV", "NOW", "有线", "翡翠", "明珠",
+      "J2", "无线", "财经", "资讯", "HKC", "RTHK", "HOY", "开电视"
+    ],
+    "taiwan_keywords": [
+      "台视", "中视", "华视", "民视", "公视", "三立", "东森", "中天",
+      "TVBS", "年代", "八大", "纬来", "龙华", "爱尔达", "非凡",
+      "大爱", "人间", "客家", "原住民族", "博斯", "ELEVEN"
+    ],
+    "macau_keywords": [
+      "澳亚", "澳门", "莲花", "TDM", "MASTV"
+    ],
+    "japan_keywords": [
+      "NHK", "日テレ", "テレビ朝日", "TBS", "テレビ東京", "フジテレビ",
+      "TOKYO MX", "WOWOW", "BS", "アニメ", "NTV", "TV Asahi",
+      "Fuji TV", "AT-X", "ANIMAX", "日本"
+    ],
+    "korea_keywords": [
+      "KBS", "MBC", "SBS", "EBS", "JTBC", "tvN", "MBN", "YTN",
+      "채널A", "TV조선", "OCN", "Tooniverse", "韩国", "아리랑"
+    ],
+    "usa_keywords": [
+      "ABC", "NBC", "CBS", "FOX", "PBS", "CNN", "MSNBC", "CNBC",
+      "Bloomberg", "ESPN", "C-SPAN", "The CW", "ION", "TNT",
+      "TBS", "USA Network", "AMC", "FX", "HBO", "Showtime",
+      "美国", "USA", "NewsNation", "Newsmax"
+    ],
+    "southeast_asia_keywords": [
+      "Channel 8", "Channel 5", "Suria", "Vasantham", "CNA",
+      "Channel U", "okto", "TV3", "NTV7", "8TV", "TV9", "RTM",
+      "TV1", "TV2", "Thai", "Channel 3", "Channel 7", "Mono",
+      "GMM", "INDOSIAR", "SCTV", "RCTI", "Trans", "ANTV",
+      "Metro", "CNN Indonesia", "Kompas", "新加坡", "马来西亚",
+      "泰国", "印尼", "菲律宾", "越南", "VTV", "HTV"
+    ],
+    "exclude_keywords": [
+      "购物", "广告", "测试", "成人", "XXX", "AV", "18+",
+      "推广", "导购", "广播", "RADIO", "试看", "体验",
+      "澳门彩票", "六合彩", "赌场", "赛事直播"
+    ]
   },
   "test_settings": {
     "timeout": 8,
-    "min_speed": 200,
-    "max_threads": 100,
+    "min_speed": 150,
+    "max_threads": 120,
     "test_duration": 4
   },
   "speed_tiers": {
     "high": 1000,
     "medium": 500,
-    "low": 200
+    "low": 150
   },
   "feiniu_settings": {
-    "target_regions": ["china","hongkong","taiwan","macau","southeast_asia","japan","korea","usa"],
+    "target_regions": ["china", "hongkong", "taiwan", "macau", "southeast_asia", "japan", "korea", "usa"],
     "max_total_channels": 200,
     "china_keep_all_cctv": true,
-    "china_satellite_selection": ["湖南卫视","浙江卫视","江苏卫视","东方卫视","北京卫视","广东卫视","深圳卫视","山东卫视","安徽卫视","湖北卫视","四川卫视","重庆卫视","天津卫视","黑龙江卫视","辽宁卫视","江西卫视","河南卫视","河北卫视","东南卫视","吉林卫视"],
-    "china_speed_tier": ["high","medium"],
+    "china_satellite_selection": [
+      "湖南卫视", "浙江卫视", "江苏卫视", "东方卫视", "北京卫视",
+      "广东卫视", "深圳卫视", "山东卫视", "安徽卫视", "湖北卫视",
+      "四川卫视", "重庆卫视", "天津卫视", "黑龙江卫视", "辽宁卫视",
+      "江西卫视", "河南卫视", "河北卫视", "东南卫视", "吉林卫视",
+      "贵州卫视", "云南卫视", "海南卫视", "广西卫视", "陕西卫视",
+      "山西卫视", "甘肃卫视", "青海卫视", "新疆卫视", "西藏卫视",
+      "宁夏卫视", "内蒙古卫视"
+    ],
+    "china_speed_tier": ["high", "medium"],
     "overseas_speed_tier": ["high"]
   }
 }
