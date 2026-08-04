@@ -146,37 +146,45 @@ class IPTVCollector:
         return '综合'
     
     def collect_all(self):
-        """采集所有源"""
-        all_channels = []
+    """采集所有源，支持优先级"""
+    all_channels = []
+    
+    # 按优先级排序源
+    sorted_sources = sorted(self.config['sources'], 
+                           key=lambda x: x.get('priority', 3))
+    
+    for source in sorted_sources:
+        logger.info(f"[P{source.get('priority', 3)}] 采集: {source['name']}")
         
-        for source in self.config['sources']:
-            logger.info(f"正在采集: {source['name']} - {source['url']}")
-            content = self.fetch_m3u(source['url'])
-            
-            if content:
-                if source['type'] == 'm3u':
-                    channels = self.parse_m3u(content)
-                else:
-                    channels = self.parse_txt(content)
-                
-                # 分类
-                for channel in channels:
-                    channel = self.classify_channel(channel)
-                    channel['source_name'] = source['name']
-                
-                all_channels.extend(channels)
-                logger.info(f"从 {source['name']} 获取到 {len(channels)} 个频道")
+        # ... 原有采集代码 ...
         
-        # 去重（按URL去重，保留第一个）
-        seen_urls = set()
-        unique_channels = []
-        for ch in all_channels:
-            if ch['url'] not in seen_urls:
-                seen_urls.add(ch['url'])
-                unique_channels.append(ch)
-        
-        logger.info(f"去重后共有 {len(unique_channels)} 个频道")
-        return unique_channels
+        for channel in channels:
+            channel = self.classify_channel(channel)
+            channel['source_name'] = source['name']
+            channel['source_priority'] = source.get('priority', 3)
+    
+    # 去重（按URL，保留高优先级源）
+    seen_urls = {}
+    for ch in all_channels:
+        url = ch['url']
+        if url in seen_urls:
+            # 如果当前源的优先级更高，替换
+            if ch.get('source_priority', 3) < seen_urls[url].get('source_priority', 3):
+                seen_urls[url] = ch
+        else:
+            seen_urls[url] = ch
+    
+    unique_channels = list(seen_urls.values())
+    
+    # 过滤排除关键词
+    exclude_keywords = self.config['channels_filter'].get('exclude_keywords', [])
+    unique_channels = [
+        ch for ch in unique_channels
+        if not any(kw in ch['name'].upper() for kw in exclude_keywords)
+    ]
+    
+    logger.info(f"去重过滤后: {len(unique_channels)} 个频道")
+    return unique_channels
     
     def save_channels(self, channels, filename='output/all_channels.json'):
         """保存频道列表"""
