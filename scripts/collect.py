@@ -2,26 +2,57 @@
 # -*- coding: utf-8 -*-
 """
 IPTV源自动采集脚本
-功能：从多个公开源采集IPTV频道
 """
 
 import requests
 import re
 import json
 import os
+import sys
 from datetime import datetime
-from urllib.parse import urlparse
 import logging
 
 # 设置日志
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(
+    level=logging.INFO, 
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler(sys.stdout)
+    ]
+)
 logger = logging.getLogger(__name__)
 
 class IPTVCollector:
     def __init__(self, config_path='config/sources.json'):
+        # 确保配置文件存在
+        if not os.path.exists(config_path):
+            logger.error(f"配置文件不存在: {config_path}")
+            # 创建默认配置
+            os.makedirs(os.path.dirname(config_path), exist_ok=True)
+            default_config = {
+                "sources": [],
+                "channels_filter": {"exclude_keywords": []},
+                "test_settings": {}
+            }
+            with open(config_path, 'w', encoding='utf-8') as f:
+                json.dump(default_config, f, ensure_ascii=False, indent=2)
+            logger.warning(f"已创建默认配置文件: {config_path}")
+        
         with open(config_path, 'r', encoding='utf-8') as f:
             self.config = json.load(f)
         self.channels = []
+    
+    # ... 其余方法保持不变 ...
+
+if __name__ == '__main__':
+    try:
+        collector = IPTVCollector()
+        channels = collector.collect_all()
+        collector.save_channels(channels)
+        logger.info(f"采集完成，共 {len(channels)} 个频道")
+    except Exception as e:
+        logger.error(f"采集过程出错: {e}", exc_info=True)
+        sys.exit(1)
         
     def fetch_m3u(self, url):
         """获取M3U文件内容"""
