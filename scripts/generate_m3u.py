@@ -517,8 +517,8 @@ class M3UGenerator:
         
         readme = f"""# 📺 IPTV 自动更新直播源
 
-[![Auto Update](https://github.com/你的用户名/iptv-sources/actions/workflows/update.yml/badge.svg)](https://github.com/你的用户名/iptv-sources/actions/workflows/update.yml)
-[![Update](https://img.shields.io/badge/更新频率-每6小时-green)](https://github.com/你的用户名/iptv-sources/actions)
+[![Auto Update](https://github.com/Alan08Xb/iptv-sources/actions/workflows/update.yml/badge.svg)](https://github.com/Alan08Xb/iptv-sources/actions/workflows/update.yml)
+[![Update](https://img.shields.io/badge/更新频率-每6小时-green)](https://github.com/Alan08Xb/iptv-sources/actions)
 
 > 🌐 自动采集、筛选、测速的IPTV直播源合集  
 > ⚡ 每日多次更新 | 🎯 多地区覆盖 | 🔍 智能筛选失效源  
@@ -539,34 +539,34 @@ class M3UGenerator:
 
 | 播放列表 | 链接 | 说明 |
 |---------|------|------|
-| 🚀 **飞牛影视优化版** | [feiniu.m3u](https://raw.githubusercontent.com/你的用户名/iptv-sources/main/output/feiniu.m3u) | **推荐** 精选≤200频道，CCTV全+卫视精选+海外高速 |
+| 🚀 **飞牛影视优化版** | [feiniu.m3u](https://raw.githubusercontent.com/Alan08Xb/iptv-sources/main/output/feiniu.m3u) | **推荐** 精选≤200频道，CCTV全+卫视精选+海外高速 |
 
 ### 📊 分层播放列表
 
 | 层级 | 链接 | 速度 | 适用场景 |
 |------|------|------|----------|
-| ⚡ 高速频道 | [tier1_highspeed.m3u](https://raw.githubusercontent.com/你的用户名/iptv-sources/main/output/tier1_highspeed.m3u) | >1MB/s | 极速体验 |
-| 🚀 高速+中速 | [tier_high_medium.m3u](https://raw.githubusercontent.com/你的用户名/iptv-sources/main/output/tier_high_medium.m3u) | >500KB/s | 稳定观看 |
-| ✅ 中速频道 | [tier2_midspeed.m3u](https://raw.githubusercontent.com/你的用户名/iptv-sources/main/output/tier2_midspeed.m3u) | >500KB/s | 备用选择 |
+| ⚡ 高速频道 | [tier1_highspeed.m3u](https://raw.githubusercontent.com/Alan08Xb/iptv-sources/main/output/tier1_highspeed.m3u) | >1MB/s | 极速体验 |
+| 🚀 高速+中速 | [tier_high_medium.m3u](https://raw.githubusercontent.com/Alan08Xb/iptv-sources/main/output/tier_high_medium.m3u) | >500KB/s | 稳定观看 |
+| ✅ 中速频道 | [tier2_midspeed.m3u](https://raw.githubusercontent.com/Alan08Xb/iptv-sources/main/output/tier2_midspeed.m3u) | >500KB/s | 备用选择 |
 
 ### 🌍 地区频道
 
 | 地区 | 完整版 | 高速版 | 稳定版 |
 |------|--------|--------|--------|
-| 🇨🇳 中国大陆 | [china.m3u](https://raw.githubusercontent.com/你的用户名/iptv-sources/main/output/china.m3u) | [china_highspeed.m3u](https://raw.githubusercontent.com/你的用户名/iptv-sources/main/output/china_highspeed.m3u) | [china_stable.m3u](https://raw.githubusercontent.com/你的用户名/iptv-sources/main/output/china_stable.m3u) |
-| 🇭🇰 香港 | [hongkong.m3u](https://raw.githubusercontent.com/你的用户名/iptv-sources/main/output/hongkong.m3u) | - | - |
-| 🇹🇼 台湾 | [taiwan.m3u](https://raw.githubusercontent.com/你的用户名/iptv-sources/main/output/taiwan.m3u) | - | - |
-| 🇲🇴 澳门 | [macau.m3u](https://raw.githubusercontent.com/你的用户名/iptv-sources/main/output/macau.m3u) | - | - |
-| 🇯🇵 日本 | [japan.m3u](https://raw.githubusercontent.com/你的用户名/iptv-sources/main/output/japan.m3u) | - | - |
-| 🇰🇷 韩国 | [korea.m3u](https://raw.githubusercontent.com/你的用户名/iptv-sources/main/output/korea.m3u) | - | - |
-| 🇺🇸 美国 | [usa.m3u](https://raw.githubusercontent.com/你的用户名/iptv-sources/main/output/usa.m3u) | - | - |
-| 🌏 东南亚 | [southeast_asia.m3u](https://raw.githubusercontent.com/你的用户名/iptv-sources/main/output/southeast_asia.m3u) | - | - |
+| 🇨🇳 中国大陆 | [china.m3u](https://raw.githubusercontent.com/Alan08Xb/iptv-sources/main/output/china.m3u) | [china_highspeed.m3u](https://raw.githubusercontent.com/你的用户名/iptv-sources/main/output/china_highspeed.m3u) | [china_stable.m3u](https://raw.githubusercontent.com/你的用户名/iptv-sources/main/output/china_stable.m3u) |
+| 🇭🇰 香港 | [hongkong.m3u](https://raw.githubusercontent.com/Alan08Xb/iptv-sources/main/output/hongkong.m3u) | - | - |
+| 🇹🇼 台湾 | [taiwan.m3u](https://raw.githubusercontent.com/Alan08Xb/iptv-sources/main/output/taiwan.m3u) | - | - |
+| 🇲🇴 澳门 | [macau.m3u](https://raw.githubusercontent.com/Alan08Xb/iptv-sources/main/output/macau.m3u) | - | - |
+| 🇯🇵 日本 | [japan.m3u](https://raw.githubusercontent.com/Alan08Xb/iptv-sources/main/output/japan.m3u) | - | - |
+| 🇰🇷 韩国 | [korea.m3u](https://raw.githubusercontent.com/Alan08Xb/iptv-sources/main/output/korea.m3u) | - | - |
+| 🇺🇸 美国 | [usa.m3u](https://raw.githubusercontent.com/Alan08Xb/iptv-sources/main/output/usa.m3u) | - | - |
+| 🌏 东南亚 | [southeast_asia.m3u](https://raw.githubusercontent.com/Alan08Xb/iptv-sources/main/output/southeast_asia.m3u) | - | - |
 
 ### 📦 完整合集
 
 | 播放列表 | 链接 | 说明 |
 |---------|------|------|
-| 🔗 全部频道 | [all_channels.m3u](https://raw.githubusercontent.com/你的用户名/iptv-sources/main/output/all_channels.m3u) | 所有可用频道（完整版） |
+| 🔗 全部频道 | [all_channels.m3u](https://raw.githubusercontent.com/Alan08Xb/iptv-sources/main/output/all_channels.m3u) | 所有可用频道（完整版） |
 
 ## 📊 频道统计
 
@@ -597,7 +597,7 @@ class M3UGenerator:
 ### 🖥️ 飞牛影视（推荐）
 1. 打开飞牛影视 → ⚙️ 设置 → 直播源管理
 2. 点击 ➕ 添加 → 选择 **M3U8源**
-3. 粘贴链接：`https://raw.githubusercontent.com/你的用户名/iptv-sources/main/output/feiniu.m3u`
+3. 粘贴链接：`https://raw.githubusercontent.com/Alan08Xb/iptv-sources/main/output/feiniu.m3u`
 4. 保存并刷新即可观看
 
 ### 📱 其他播放器
@@ -664,5 +664,11 @@ class M3UGenerator:
 
 
 if __name__ == '__main__':
-    generator = M3UGenerator()
-    generator.generate_all()
+    try:
+        generator = M3UGenerator()
+        generator.generate_all()
+    except Exception as e:
+        print(f"生成播放列表时出错: {e}")
+        import traceback
+        traceback.print_exc()
+        sys.exit(1)
