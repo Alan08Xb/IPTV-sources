@@ -38,12 +38,12 @@ jobs:
         echo "采集完成"
       timeout-minutes: 10
     
-    - name: Test channel speed
+    - name: Fast test channel speed
       run: |
         echo "开始测速..."
-        python scripts/test_speed.py
+        python scripts/test_speed_fast.py
         echo "测速完成"
-      timeout-minutes: 30
+      timeout-minutes: 12
       continue-on-error: true  # 测速即使部分失败也继续
     
     - name: Check if channels file exists
