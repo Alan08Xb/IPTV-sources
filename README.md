@@ -17,9 +17,9 @@
 ### 飞牛影视配置
 1. 打开飞牛影视 → 设置 → 直播源
 2. 添加M3U8源，填入以下URL之一：
-   - 全部频道: `https://raw.githubusercontent.com/你的用户名/仓库名/main/output/all_channels.m3u`
-   - 中国大陆: `https://raw.githubusercontent.com/你的用户名/仓库名/main/output/china.m3u`
-   - CCTV+卫视: `https://raw.githubusercontent.com/你的用户名/仓库名/main/output/china_mainland.m3u`
+   - 全部频道: `https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/all_channels.m3u`
+   - 中国大陆: `https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/china.m3u`
+   - CCTV+卫视: `https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/china_mainland.m3u`
 
 ### 其他播放器
 - VLC: 媒体 → 打开网络串流 → 粘贴M3U链接
