@@ -284,7 +284,7 @@
   },
   "feiniu_settings": {
     "target_regions": ["china", "hongkong", "taiwan", "macau", "southeast_asia", "japan", "korea", "usa"],
-    "max_total_channels": 200,
+    "max_total_channels": 250,
     "china_keep_all_cctv": true,
     "china_satellite_selection": [
       "湖南卫视", "浙江卫视", "江苏卫视", "东方卫视", "北京卫视",
