@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-IPTV源自动采集脚本
+IPTV源自动采集脚本 - 优化分类版
 """
 
 import requests
@@ -47,15 +47,34 @@ class IPTVCollector:
         for i in range(len(lines)):
             line = lines[i].strip()
             if line.startswith('#EXTINF:'):
-                name_match = re.search(r'tvg-name="([^"]*)"', line)
-                logo_match = re.search(r'tvg-logo="([^"]*)"', line)
-                group_match = re.search(r'group-title="([^"]*)"', line)
+                # 尝试多种方式提取频道名称
+                name = None
                 
+                # 方式1: tvg-name
+                name_match = re.search(r'tvg-name="([^"]*)"', line)
                 if name_match:
                     name = name_match.group(1)
-                else:
+                
+                # 方式2: 逗号后面的内容
+                if not name:
                     parts = line.split(',')
-                    name = parts[-1].strip() if len(parts) > 1 else 'Unknown'
+                    if len(parts) > 1:
+                        name = parts[-1].strip()
+                
+                # 方式3: 最后一个引号后的内容
+                if not name:
+                    last_quote = line.rfind('"')
+                    if last_quote > 0:
+                        name = line[last_quote+1:].strip()
+                
+                if not name:
+                    name = 'Unknown'
+                
+                # 清理名称
+                name = name.strip()
+                
+                logo_match = re.search(r'tvg-logo="([^"]*)"', line)
+                group_match = re.search(r'group-title="([^"]*)"', line)
                 
                 if i + 1 < len(lines):
                     url = lines[i + 1].strip()
@@ -89,53 +108,97 @@ class IPTVCollector:
         return channels
     
     def classify_channel(self, channel):
-        """分类频道"""
-        name = channel['name'].upper()
+        """优化后的分类逻辑 - 中国大陆优先"""
+        name = channel.get('name', '')
+        name_upper = name.upper()
+        group = channel.get('group', '')
         
         # 获取分类关键词
-        china_keywords = self.config.get('channels_filter', {}).get('china_keywords', ['CCTV', '卫视'])
-        hk_keywords = self.config.get('channels_filter', {}).get('hongkong_keywords', ['TVB', '凤凰'])
-        tw_keywords = self.config.get('channels_filter', {}).get('taiwan_keywords', ['台视', '中视'])
-        mo_keywords = self.config.get('channels_filter', {}).get('macau_keywords', ['澳亚', '澳门'])
-        jp_keywords = self.config.get('channels_filter', {}).get('japan_keywords', ['NHK'])
-        kr_keywords = self.config.get('channels_filter', {}).get('korea_keywords', ['KBS', 'MBC'])
-        us_keywords = self.config.get('channels_filter', {}).get('usa_keywords', ['ABC', 'NBC', 'CNN'])
-        sea_keywords = self.config.get('channels_filter', {}).get('southeast_asia_keywords', ['Channel 8'])
+        cf = self.config.get('channels_filter', {})
+        china_keywords = cf.get('china_keywords', [])
+        hk_keywords = cf.get('hongkong_keywords', [])
+        tw_keywords = cf.get('taiwan_keywords', [])
+        mo_keywords = cf.get('macau_keywords', [])
+        jp_keywords = cf.get('japan_keywords', [])
+        kr_keywords = cf.get('korea_keywords', [])
+        us_keywords = cf.get('usa_keywords', [])
+        sea_keywords = cf.get('southeast_asia_keywords', [])
         
-        region_map = [
-            ('japan', jp_keywords),
-            ('korea', kr_keywords),
-            ('usa', us_keywords),
-            ('southeast_asia', sea_keywords),
-            ('macau', mo_keywords),
-            ('hongkong', hk_keywords),
-            ('taiwan', tw_keywords),
-            ('china', china_keywords),
+        # 中国大陆频道关键词（扩展）
+        china_all_keywords = china_keywords + [
+            '卫视', 'CCTV', '央视', '北京', '上海', '东方', '天津', '重庆',
+            '河北', '山西', '辽宁', '吉林', '黑龙江', '江苏', '浙江',
+            '安徽', '福建', '江西', '山东', '河南', '湖北', '湖南',
+            '广东', '海南', '四川', '贵州', '云南', '陕西', '甘肃',
+            '青海', '台湾', '内蒙古', '广西', '西藏', '宁夏', '新疆',
+            '深圳', '厦门', '大连', '青岛', '宁波', '珠江',
+            '金鹰', '纪实', '财富', '少儿', '新闻', '体育', '电影',
+            '电视剧', '综艺', '音乐', '戏曲', '法制', '教育', '农业',
+            '军事', '环球', '纪录', '发现', '探索',
         ]
         
-        region_found = 'other'
-        for region, keywords in region_map:
-            if any(kw in name for kw in keywords):
-                region_found = region
-                break
+        # 央视关键词
+        cctv_keywords = ['CCTV', '央视', '中央']
         
-        channel['region'] = region_found
+        # 判断顺序：中国大陆优先
+        # 1. 先检查是否为央视
+        if any(kw in name_upper for kw in cctv_keywords):
+            channel['region'] = 'china'
+            channel['is_cctv'] = True
+        # 2. 检查中国大陆频道
+        elif any(kw in name for kw in china_all_keywords):
+            channel['region'] = 'china'
+            channel['is_cctv'] = False
+        # 3. 检查港澳台
+        elif any(kw in name for kw in hk_keywords):
+            channel['region'] = 'hongkong'
+        elif any(kw in name for kw in tw_keywords):
+            channel['region'] = 'taiwan'
+        elif any(kw in name for kw in mo_keywords):
+            channel['region'] = 'macau'
+        # 4. 检查海外
+        elif any(kw in name for kw in jp_keywords):
+            channel['region'] = 'japan'
+        elif any(kw in name for kw in kr_keywords):
+            channel['region'] = 'korea'
+        elif any(kw in name for kw in us_keywords):
+            channel['region'] = 'usa'
+        elif any(kw in name for kw in sea_keywords):
+            channel['region'] = 'southeast_asia'
+        # 5. 通过 group 再次判断
+        elif '卫视' in group or 'CCTV' in group.upper():
+            channel['region'] = 'china'
+        elif '香港' in group or 'HK' in group.upper():
+            channel['region'] = 'hongkong'
+        elif '台湾' in group or 'TW' in group.upper():
+            channel['region'] = 'taiwan'
+        elif '日本' in group or 'JP' in group.upper():
+            channel['region'] = 'japan'
+        elif '韩国' in group or 'KR' in group.upper():
+            channel['region'] = 'korea'
+        elif '美国' in group or 'US' in group.upper():
+            channel['region'] = 'usa'
+        else:
+            channel['region'] = 'other'
+        
         channel['category'] = self.get_category(name)
         return channel
     
     def get_category(self, name):
         """获取类别"""
+        name_upper = name.upper()
         categories = {
-            '新闻': ['新闻', 'NEWS', '资讯', '财经'],
-            '体育': ['体育', 'SPORT', '足球', '篮球'],
-            '影视': ['电影', '影视', 'MOVIE', '剧场'],
-            '综艺': ['综艺', '娱乐', 'ENTERTAINMENT'],
-            '少儿': ['少儿', '卡通', '儿童', '动漫'],
-            '音乐': ['音乐', 'MUSIC'],
-            '纪录片': ['纪录', '探索', 'DISCOVERY'],
+            '新闻': ['新闻', 'NEWS', '资讯', '财经', 'BLOOMBERG', 'CNN'],
+            '体育': ['体育', 'SPORT', '足球', '篮球', 'NBA', 'ESPN', '高尔夫', '网球'],
+            '影视': ['电影', '影视', 'MOVIE', '剧场', '影院', 'HBO', '好莱坞'],
+            '综艺': ['综艺', '娱乐', 'ENTERTAINMENT', '喜剧'],
+            '少儿': ['少儿', '卡通', '儿童', '动漫', 'ANIME', 'ANIMATION', 'KIDS'],
+            '音乐': ['音乐', 'MUSIC', 'MV', '演唱会'],
+            '纪录片': ['纪录', '探索', 'DISCOVERY', 'DOCUMENTARY', '国家地理', '历史'],
+            '教育': ['教育', '学习', '英语', '公开课'],
         }
         for cat, keywords in categories.items():
-            if any(kw in name.upper() for kw in keywords):
+            if any(kw in name_upper for kw in keywords):
                 return cat
         return '综合'
     
@@ -143,7 +206,6 @@ class IPTVCollector:
         """采集所有源"""
         all_channels = []
         
-        # 按优先级排序源
         sources = self.config.get('sources', [])
         sorted_sources = sorted(sources, key=lambda x: x.get('priority', 3))
         
@@ -174,7 +236,6 @@ class IPTVCollector:
         for ch in all_channels:
             url = ch.get('url', '')
             if url in seen_urls:
-                # 保留优先级更高的源
                 existing_priority = seen_urls[url].get('source_priority', 3)
                 current_priority = ch.get('source_priority', 3)
                 if current_priority < existing_priority:
@@ -191,7 +252,15 @@ class IPTVCollector:
             if not any(kw in ch.get('name', '').upper() for kw in exclude_keywords)
         ]
         
-        logger.info(f"总计: {len(unique_channels)} 个频道 (去重过滤后)")
+        # 统计
+        region_stats = defaultdict(int)
+        for ch in unique_channels:
+            region_stats[ch.get('region', 'other')] += 1
+        
+        logger.info(f"总计: {len(unique_channels)} 个频道")
+        for region, count in sorted(region_stats.items()):
+            logger.info(f"  {region}: {count}")
+        
         return unique_channels
     
     def save_channels(self, channels, filename='output/all_channels.json'):
@@ -204,6 +273,7 @@ class IPTVCollector:
 
 if __name__ == '__main__':
     try:
+        from collections import defaultdict
         collector = IPTVCollector()
         channels = collector.collect_all()
         collector.save_channels(channels)
