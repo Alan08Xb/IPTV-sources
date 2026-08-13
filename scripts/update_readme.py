@@ -1,117 +1,149 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-独立更新README脚本
+自动更新README.md
+读取output目录下的m3u文件统计信息，更新README
 """
 
-import json
 import os
-import glob
 import re
-from datetime import datetime
-from collections import defaultdict
+import json
+from datetime import datetime, timezone, timedelta
 
-def load_channels():
-    """加载最新的频道数据"""
-    patterns = [
-        'output/valid_channels_latest.json',
-        'output/all_channels.json',
-    ]
-    
-    for pattern in patterns:
-        if os.path.exists(pattern):
-            with open(pattern, 'r', encoding='utf-8') as f:
-                return json.load(f)
-    
-    files = glob.glob('output/valid_channels_*.json')
-    if files:
-        with open(max(files), 'r', encoding='utf-8') as f:
-            return json.load(f)
-    
-    return []
+def count_channels(m3u_file):
+    """统计m3u文件中的频道数"""
+    try:
+        with open(m3u_file, 'r', encoding='utf-8') as f:
+            content = f.read()
+        return content.count('#EXTINF:')
+    except:
+        return 0
+
+def get_file_size(m3u_file):
+    """获取文件大小(KB)"""
+    try:
+        return os.path.getsize(m3u_file) / 1024
+    except:
+        return 0
 
 def load_stats():
     """加载统计信息"""
-    if os.path.exists('output/stats.json'):
+    try:
         with open('output/stats.json', 'r', encoding='utf-8') as f:
             return json.load(f)
-    return {}
+    except:
+        return {}
 
-def generate_stats_table(channels):
+def generate_stats_section():
     """生成统计表格"""
-    stats = defaultdict(lambda: {'count': 0, 'speed': 0, 'high': 0, 'mid': 0})
+    output_dir = 'output'
     
-    for ch in channels:
-        region = ch.get('region', 'other')
-        speed = ch.get('speed', 0)
-        
-        stats[region]['count'] += 1
-        stats[region]['speed'] += speed
-        
-        if speed >= 1000:
-            stats[region]['high'] += 1
-        elif speed >= 500:
-            stats[region]['mid'] += 1
-    
-    region_order = ['china', 'hongkong', 'taiwan', 'macau', 'japan', 'korea', 'usa', 'southeast_asia', 'international', 'other']
-    emoji_map = {
-        'china': '🇨🇳', 'hongkong': '🇭🇰', 'taiwan': '🇹🇼', 'macau': '🇲🇴',
-        'japan': '🇯🇵', 'korea': '🇰🇷', 'usa': '🇺🇸', 'southeast_asia': '🌏',
-        'international': '🌍', 'other': '📡'
+    files = {
+        'all.m3u': ('📦 完整版', '全部频道(>150KB/s)'),
+        'china.m3u': ('🇨🇳 中国大陆', '高速+中速(>500KB/s)'),
+        'east_asia.m3u': ('🌏 东亚', '港澳台+日韩+东南亚(>1MB/s)'),
+        'overseas_highspeed.m3u': ('🌍 海外高速', '除大陆外所有地区(>1MB/s)'),
+        'feiniu.m3u': ('🎬 飞牛优化版', '精选频道'),
+        'category_新闻.m3u': ('📰 新闻', '新闻频道'),
+        'category_体育.m3u': ('⚽ 体育', '体育频道'),
+        'category_影视.m3u': ('🎬 影视', '影视频道'),
+        'category_综艺.m3u': ('🎭 综艺', '综艺频道'),
+        'category_少儿.m3u': ('🧒 少儿', '少儿频道'),
+        'category_音乐.m3u': ('🎵 音乐', '音乐频道'),
+        'category_纪录片.m3u': ('🎥 纪录片', '纪录片频道'),
+        'category_教育.m3u': ('📚 教育', '教育频道'),
+        'category_综合.m3u': ('📺 综合', '综合频道'),
     }
     
-    table = "| 地区 | 频道总数 | 平均速度 | 高速(>1MB) | 中速(>500KB) |\n"
-    table += "|------|----------|----------|------------|-------------|\n"
+    lines = []
+    lines.append("| 播放列表 | 说明 | 频道数 | 文件大小 |")
+    lines.append("|----------|------|--------|----------|")
     
-    total = 0
-    for region in region_order:
-        if region in stats:
-            data = stats[region]
-            avg = data['speed'] / data['count'] if data['count'] > 0 else 0
-            table += f"| {emoji_map.get(region, '📡')} {region} | {data['count']} | {avg:.0f} KB/s | {data['high']} | {data['mid']} |\n"
-            total += data['count']
+    total_channels = 0
+    for filename, (emoji_name, desc) in files.items():
+        filepath = os.path.join(output_dir, filename)
+        if os.path.exists(filepath):
+            count = count_channels(filepath)
+            size = get_file_size(filepath)
+            total_channels += count
+            link = f"[{emoji_name}](https://raw.githubusercontent.com/你的用户名/IPTV-sources/main/output/{filename})"
+            lines.append(f"| {link} | {desc} | {count} | {size:.0f}KB |")
     
-    table += f"| 📊 **总计** | **{total}** | - | - | - |\n"
-    return table
+    stats = load_stats()
+    if stats:
+        lines.append(f"\n> 📊 测速统计: 总测试 {stats.get('total_tested', '?')} 个 | "
+                     f"有效 {stats.get('valid_count', '?')} 个 | "
+                     f"成功率 {stats.get('success_rate', '?')} | "
+                     f"平均速度 {stats.get('avg_speed', 0):.0f}KB/s")
+    
+    return '\n'.join(lines)
+
+def generate_usage_section():
+    """生成使用说明"""
+    return """## 📥 播放列表链接
+
+| 类型 | 链接 | 适用场景 |
+|------|------|----------|
+| 🎬 飞牛优化版 | `https://raw.githubusercontent.com/你的用户名/IPTV-sources/main/output/feiniu.m3u` | **飞牛影视推荐** |
+| 🇨🇳 中国大陆 | `https://raw.githubusercontent.com/你的用户名/IPTV-sources/main/output/china.m3u` | 国内频道 |
+| 📦 完整版 | `https://raw.githubusercontent.com/你的用户名/IPTV-sources/main/output/all.m3u` | 全部可用频道 |
+| 🌍 海外高速 | `https://raw.githubusercontent.com/你的用户名/IPTV-sources/main/output/overseas_highspeed.m3u` | 海外高速频道 |
+
+### 🖥️ 飞牛影视配置
+1. 打开飞牛影视 → 设置 → 直播源管理
+2. 添加M3U8源，填入飞牛优化版链接
+3. 保存刷新即可"""
 
 def update_readme():
-    """更新README中的统计信息"""
-    channels = load_channels()
-    stats = load_stats()
-    total = len(channels)
+    """主函数：更新README"""
+    readme_path = 'README.md'
     
-    if not os.path.exists('README.md'):
-        print("README.md 不存在，跳过更新")
-        return
+    # 读取现有README
+    if os.path.exists(readme_path):
+        with open(readme_path, 'r', encoding='utf-8') as f:
+            readme = f.read()
+    else:
+        readme = ""
     
-    with open('README.md', 'r', encoding='utf-8') as f:
-        readme = f.read()
+    # 生成统计部分
+    stats_section = generate_stats_section()
+    usage_section = generate_usage_section()
     
-    # 更新统计表格
-    stats_table = generate_stats_table(channels)
-    pattern = r'<!-- STATS_START -->.*<!-- STATS_END -->'
-    replacement = f'<!-- STATS_START -->\n{stats_table}\n<!-- STATS_END -->'
-    readme = re.sub(pattern, replacement, readme, flags=re.DOTALL)
+    # 获取北京时间
+    beijing_tz = timezone(timedelta(hours=8))
+    now = datetime.now(beijing_tz).strftime('%Y-%m-%d %H:%M:%S')
     
-    # 更新最后更新时间
-    now = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    readme = re.sub(
-        r'📅 最后更新: .*',
-        f'📅 最后更新: {now}',
-        readme
-    )
+    # 构建新README
+    new_readme = f"""# 📺 IPTV 自动更新直播源
+
+> 🌐 自动采集、筛选、测速的IPTV直播源合集  
+> ⚡ 每日两次更新（08:00 快速测速 / 18:00 完整采集）  
+> 📅 最后更新: {now} (北京时间)
+
+## ✨ 特性
+
+- 🔄 **全自动更新**：每天两次自动采集和测速
+- 🧪 **自动测速**：多线程测速，剔除失效和低速节点
+- 🧹 **智能去重**：同名频道只保留最快源
+- 📊 **速度分层**：高速(>1MB/s)、中速(>500KB/s)、低速(>150KB/s)
+- 🚀 **飞牛优化**：专为飞牛影视定制的精选列表
+
+{usage_section}
+
+## 📊 频道统计
+
+{stats_section}
+
+## ⚠️ 免责声明
+
+> 本项目仅供学习研究使用，所有源均来自网络公开资源。请勿用于商业用途，如有侵权请联系删除。
+"""
     
-    # 更新频道总数
-    readme = re.sub(
-        r'可用频道.*?\d+',
-        f'可用频道-{total}',
-        readme
-    )
+    # 写入README
+    with open(readme_path, 'w', encoding='utf-8') as f:
+        f.write(new_readme)
     
-    with open('README.md', 'w', encoding='utf-8') as f:
-        f.write(readme)
-    
-    print(f"README已更新 - 总频道: {total}")
+    print(f"✅ README.md 已更新 ({now})")
 
 if __name__ == '__main__':
     update_readme()
