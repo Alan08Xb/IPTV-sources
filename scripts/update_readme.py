@@ -66,7 +66,7 @@ def generate_stats_section():
             count = count_channels(filepath)
             size = get_file_size(filepath)
             total_channels += count
-            link = f"[{emoji_name}](https://raw.githubusercontent.com/你的用户名/IPTV-sources/main/output/{filename})"
+            link = f"[{emoji_name}](https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/{filename})"
             lines.append(f"| {link} | {desc} | {count} | {size:.0f}KB |")
     
     stats = load_stats()
@@ -84,10 +84,10 @@ def generate_usage_section():
 
 | 类型 | 链接 | 适用场景 |
 |------|------|----------|
-| 🎬 飞牛优化版 | `https://raw.githubusercontent.com/你的用户名/IPTV-sources/main/output/feiniu.m3u` | **飞牛影视推荐** |
-| 🇨🇳 中国大陆 | `https://raw.githubusercontent.com/你的用户名/IPTV-sources/main/output/china.m3u` | 国内频道 |
-| 📦 完整版 | `https://raw.githubusercontent.com/你的用户名/IPTV-sources/main/output/all.m3u` | 全部可用频道 |
-| 🌍 海外高速 | `https://raw.githubusercontent.com/你的用户名/IPTV-sources/main/output/overseas_highspeed.m3u` | 海外高速频道 |
+| 🎬 飞牛优化版 | `https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/feiniu.m3u` | **飞牛影视推荐** |
+| 🇨🇳 中国大陆 | `https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/china.m3u` | 国内频道 |
+| 📦 完整版 | `https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/all.m3u` | 全部可用频道 |
+| 🌍 海外高速 | `https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/overseas_highspeed.m3u` | 海外高速频道 |
 
 ### 🖥️ 飞牛影视配置
 1. 打开飞牛影视 → 设置 → 直播源管理
