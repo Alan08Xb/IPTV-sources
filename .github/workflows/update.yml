@@ -52,7 +52,11 @@ jobs:
       run: |
         python scripts/generate_m3u.py
       timeout-minutes: 3
-    
+
+    - name: Update README          # ← 新增
+      run: python scripts/update_readme.py
+      timeout-minutes: 1
+      
     - name: Commit and push
       run: |
         git config --global user.name 'GitHub Actions Bot'
@@ -105,7 +109,11 @@ jobs:
         echo "Step 3/4: 生成播放列表..."
         python scripts/generate_m3u.py
       timeout-minutes: 3
-    
+
+    - name: Update README          # ← 新增
+      run: python scripts/update_readme.py
+      timeout-minutes: 1
+      
     - name: Commit and push
       run: |
         git config --global user.name 'GitHub Actions Bot'
