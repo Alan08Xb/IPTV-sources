@@ -1,16 +1,20 @@
 #EXTM3U
 #PLAYLIST:纪录片频道
-# Generated: 2026-08-17 10:44:36
-# Channels: 6
-#EXTINF:-1 group-title="Undefined" tvg-speed="17243KB/s",Discovery Turbo TV
+# Generated: 2026-08-18 00:39:39
+# Channels: 8
+#EXTINF:-1 group-title="Undefined" tvg-speed="16744KB/s",Discovery Turbo TV
 https://jmp2.uk/plu-6400f731d200410008f9b339.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/pHpFGeg.png" group-title="Religious" tvg-speed="2696KB/s",Ch4Teen Documentary (1080p)
-https://ch14.tv/live/ch4teendoc/playlist.m3u8
-#EXTINF:-1 group-title="央视IPV4" tvg-speed="1546KB/s",CGTN纪录
-https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/JHv0WxM.png" group-title="Documentary" tvg-speed="925KB/s",CGTN Documentary (1080p)
+#EXTINF:-1 group-title="Undefined" tvg-speed="4107KB/s",Afroland Documentary (814p)
+https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=6071
+#EXTINF:-1 tvg-logo="https://i.imgur.com/JHv0WxM.png" group-title="Documentary" tvg-speed="3344KB/s",CGTN Documentary (1080p)
 https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/x57klfS.png" group-title="Documentary" tvg-speed="395KB/s",Documentary+ International (1080p)
-https://1d153317c8db4250b3789601274e2402.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-887-DOCUMENTARYINTERNATIONAL-DOCUMENTARYPLUS/mt/documentaryplus/887/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/x57klfS.png" group-title="Documentary" tvg-speed="386KB/s",Documentary+ (1080p)
-https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/mt/documentaryplus/859/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Czxi7yk.png" group-title="Documentary;Education" tvg-speed="3318KB/s",Asharq Discovery (1080p)
+https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-logo="https://www.karbala-tv.iq/documentary/static/img/logo.png" group-title="Documentary;Religious" tvg-speed="2638KB/s",Karbala Documentary
+https://ktvlive.online/stream/hls/ch3.m3u8
+#EXTINF:-1 group-title="央视IPV4" tvg-speed="1870KB/s",CGTN纪录
+https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/之江纪录.png" group-title="浙江频道" tvg-speed="1529KB/s",之江纪录
+https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/v6VsFEt.png" group-title="Documentary" tvg-speed="176KB/s",Asharq Documentary (1080p)
+https://svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8
