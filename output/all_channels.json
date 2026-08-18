@@ -5714,6 +5714,17 @@
     "source_priority": 2
   },
   {
+    "name": "ACC Network (720p)",
+    "url": "http://23.239.31.26:8989/accnetwork/index.m3u8",
+    "logo": "https://i.imgur.com/TpCkbkT.png",
+    "group": "Sports",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "ACCDN (1080p)",
     "url": "https://raycom-accdn-firetv.amagi.tv/playlist.m3u8",
     "logo": "https://i.imgur.com/V6Kaqha.png",
@@ -10568,17 +10579,6 @@
     "name": "ANIME x HIDIVE (720p) [Geo-blocked]",
     "url": "https://d3f088nnrrvkwf.cloudfront.net/v1/amc_anime_x_hidive_1/samsungheadend_us/latest/main/hls/playlist.m3u8",
     "logo": "https://i.imgur.com/v0BlxCa.png",
-    "group": "Animation",
-    "source": "collected",
-    "region": "other",
-    "category": "少儿",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Anime Zone TV (480p)",
-    "url": "http://animezonetv.net/hls/stream.m3u8",
-    "logo": "https://i.imgur.com/AHaXlCh.png",
     "group": "Animation",
     "source": "collected",
     "region": "other",
@@ -36093,10 +36093,10 @@
   {
     "name": "Elevation Church (1080p)",
     "url": "https://linear-1066.frequency.stream/dist/stirr/1066/hls/master/playlist.m3u8",
-    "logo": "",
-    "group": "Undefined",
+    "logo": "https://i.imgur.com/VosP75g.png",
+    "group": "Religious",
     "source": "collected",
-    "region": "other",
+    "region": "usa",
     "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
@@ -43604,6 +43604,17 @@
     "source_priority": 2
   },
   {
+    "name": "Golden Nation Network (480p)",
+    "url": "https://streams.comclark.com/pknsd/onemedia/playlist.m3u8",
+    "logo": "https://i.imgur.com/HtPjeiu.png",
+    "group": "Entertainment;News",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Goldmines 2 (576p)",
     "url": "https://cdn-2.pishow.tv/live/1460/master.m3u8",
     "logo": "",
@@ -47553,10 +47564,10 @@
     "source_priority": 2
   },
   {
-    "name": "HTV9 HD (1080p) [Geo-blocked]",
-    "url": "https://live.fptplay53.net/epzhd1/htv9hd_vhls.smil/chunklist.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bf/HTV9_logo.webp",
-    "group": "General;News",
+    "name": "HTV4 (1080p)",
+    "url": "https://freem3u.xyz/api/live/play.m3u8?vid=9",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/HTV4_logo.webp/960px-HTV4_logo.webp.png",
+    "group": "Education",
     "source": "collected",
     "region": "southeast_asia",
     "category": "综合",
@@ -47564,10 +47575,10 @@
     "source_priority": 2
   },
   {
-    "name": "HTV Key (1080p)",
-    "url": "https://freem3u.xyz/api/live/play.m3u8?vid=9",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_HTV_Key.png",
-    "group": "Education",
+    "name": "HTV9 HD (1080p) [Geo-blocked]",
+    "url": "https://live.fptplay53.net/epzhd1/htv9hd_vhls.smil/chunklist.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bf/HTV9_logo.webp",
+    "group": "General;News",
     "source": "collected",
     "region": "southeast_asia",
     "category": "综合",
@@ -48983,12 +48994,12 @@
     "source_priority": 2
   },
   {
-    "name": "In Touch+ (1080p)",
+    "name": "In Touch+ (1080p) [Geo-blocked]",
     "url": "https://amg01540-amg01540c1-amgplt0095.playout.now3.amagi.tv/playlist.m3u8",
-    "logo": "",
-    "group": "Undefined",
+    "logo": "https://d2cc5gnf1jy2pj.cloudfront.net/custom_landing_pages/intouchplus/intouchplus_logo.svg",
+    "group": "Religious",
     "source": "collected",
-    "region": "other",
+    "region": "usa",
     "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
@@ -52679,6 +52690,17 @@
     "source_priority": 2
   },
   {
+    "name": "Kanal D2 (1080i)",
+    "url": "https://stream2.kanald.ro/iphone/knd2-live.m3u8",
+    "logo": "https://i.imgur.com/0SMSIm9.png",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Kanal D Drama (1080p)",
     "url": "http://190.93.224.42/KANAL-D-DRAMA/index.m3u8",
     "logo": "https://i.imgur.com/WIeZMKT.png",
@@ -53977,7 +53999,7 @@
     "source_priority": 2
   },
   {
-    "name": "Knowledge Channel (480p)",
+    "name": "Knowledge Channel (480p) [Not 24/7]",
     "url": "https://streams.comclark.com/pknsd/knowledge/playlist.m3u8",
     "logo": "https://i.imgur.com/YrmMWXD.png",
     "group": "Education",
@@ -58212,6 +58234,17 @@
     "source_priority": 2
   },
   {
+    "name": "Lotus TV (1080p)",
+    "url": "https://streams.comclark.com/pknhd/lotus_macau_hd/playlist.m3u8",
+    "logo": "https://i.imgur.com/7j8Lnog.png",
+    "group": "General",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Louga TV (480p)",
     "url": "https://stream.sen-gt.com/Mbacke/myStream/playlist.m3u8",
     "logo": "https://i.ibb.co/xXZ5kFy/unnamed.jpg",
@@ -58890,17 +58923,6 @@
     "source": "collected",
     "region": "usa",
     "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "M4 Sport",
-    "url": "http://88.212.15.19/live/m4_hun/index.m3u8",
-    "logo": "https://i.imgur.com/TQ4uJZk.png",
-    "group": "Sports",
-    "source": "collected",
-    "region": "other",
-    "category": "体育",
     "source_name": "iptv-org-main",
     "source_priority": 2
   },
@@ -69003,17 +69025,6 @@
     "source_priority": 2
   },
   {
-    "name": "NewsNet (720p) [Not 24/7]",
-    "url": "https://2-fss-2.streamhoster.com/pl_138/amlst:201950-1311088/playlist.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/98/NewsNetLogo2022.png",
-    "group": "News",
-    "source": "collected",
-    "region": "other",
-    "category": "新闻",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "NewsTime Bangla (576p)",
     "url": "https://cdn-2.pishow.tv/live/1494/master.m3u8",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS_TIME_BANGLA/images/LOGO_HD/image.png",
@@ -73000,17 +73011,6 @@
     "url": "https://lb1-live-mv.v2h-cdn.com/hls/ffba/yogvfi/yogvfi.m3u8",
     "logo": "https://i.imgur.com/HXFNbuc.png",
     "group": "General",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "One Media Network (480p)",
-    "url": "https://streams.comclark.com/pknsd/onemedia/playlist.m3u8",
-    "logo": "https://i.imgur.com/fyfZkKg.png",
-    "group": "Entertainment",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -87649,6 +87649,17 @@
     "source_priority": 2
   },
   {
+    "name": "Rock of Manila TV (480p) [Not 24/7]",
+    "url": "https://streams.comclark.com/pknsd/rock_tv_of_manila/playlist.m3u8",
+    "logo": "https://i.imgur.com/Pg2jrLe.png",
+    "group": "Music",
+    "source": "collected",
+    "region": "usa",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Rock TV (1080p) [Not 24/7]",
     "url": "https://stream.nasatv.com.mk/rocktv/hls/rocktv_live.m3u8",
     "logo": "https://i.imgur.com/Y9miDQo.png",
@@ -92381,7 +92392,7 @@
   {
     "name": "Setareh TV",
     "url": "https://setarehhls.wns.live/hls/stream.m3u8",
-    "logo": "",
+    "logo": "https://www.setareh.tv/images/logo/logo.webp",
     "group": "Undefined",
     "source": "collected",
     "region": "other",
@@ -92988,6 +92999,17 @@
     "url": "https://d38s7rrdbnh4oy.cloudfront.net/v1/master/215c0da80606fed29372070168106400a6ca7e1a/SSAI-Saudades/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/pt/b/b2/Show_do_Milh%C3%A3o_Logo_2024.webp",
     "group": "Entertainment",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Show Turk (1080p)",
+    "url": "https://raw.githubusercontent.com/bnyusuf67-crypto/streams/refs/heads/main/streams/shturk.m3u8",
+    "logo": "https://i.imgur.com/fdZpGDj.png",
+    "group": "Undefined",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -96827,6 +96849,17 @@
     "url": "https://jmp2.uk/plu-634dacf51d90320007fcd5fa.m3u8",
     "logo": "https://images.pluto.tv/channels/634dacf51d90320007fcd5fa/colorLogoPNG_1758310287876.png",
     "group": "Movies;Series",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Star TV",
+    "url": "http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2465/index.m3u8",
+    "logo": "https://i.imgur.com/6BBnG6f.png",
+    "group": "Entertainment",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -102457,6 +102490,17 @@
   {
     "name": "Telemundo West (2160p)",
     "url": "http://168.228.44.241:9997/play/a07g/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/960px-Telemundo_logo_2018.svg.png",
+    "group": "General",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Telemundo West HD (720p)",
+    "url": "https://streamer.metronethn.com/Telemundo/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/960px-Telemundo_logo_2018.svg.png",
     "group": "General",
     "source": "collected",
@@ -113423,7 +113467,7 @@
   },
   {
     "name": "TVP1 (1080p)",
-    "url": "https://estreams.tv.nej.cz/dash/CH_TVP1_Portable.ism/playlist.mpd",
+    "url": "https://lowa8026-cmyk.github.io/PL/TVP1.php.m3u8",
     "logo": "https://i.imgur.com/ewpSjBs.png",
     "group": "Undefined",
     "source": "collected",
@@ -118244,6 +118288,17 @@
     "url": "https://autopilot.catcast.tv/content/37909/index.m3u8",
     "logo": "https://i.imgur.com/XoR9zLh.png",
     "group": "Sports",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Vitebsk",
+    "url": "https://live.dc.beltelecom.by/vtv/vitebsk.stream/playlist.m3u8",
+    "logo": "https://i.imgur.com/qr26qQn.png",
+    "group": "Undefined",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -123696,6 +123751,17 @@
     "source_priority": 2
   },
   {
+    "name": "Zona M",
+    "url": "http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2470/index.m3u8",
+    "logo": "https://i.imgur.com/a6Dy3ao.png",
+    "group": "Music",
+    "source": "collected",
+    "region": "usa",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Zona Music TV (1080p)",
     "url": "https://acceso.radiosportstv.online:3022/stream/play.m3u8",
     "logo": "https://i.imgur.com/TJ5l9iI.png",
@@ -127347,54 +127413,6 @@
     "source_priority": 2
   },
   {
-    "name": "山西影视",
-    "url": "http://220.194.178.58:8888/newlive/live/hls/53/live.m3u8",
-    "logo": "",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "影视",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "山西文体",
-    "url": "http://220.194.178.58:8888/newlive/live/hls/55/live.m3u8",
-    "logo": "",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "山西法治",
-    "url": "http://220.194.178.58:8888/newlive/live/hls/54/live.m3u8",
-    "logo": "",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "山西经济",
-    "url": "http://220.194.178.58:8888/newlive/live/hls/52/live.m3u8",
-    "logo": "",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "岳阳公共 (576p)",
     "url": "http://live.hnxttv.com:9601/live/dspd/800K/tzwj_video.m3u8?BVUUID=C236454D-5355-2F5F-FA96-1887C72E55CE&auth=654837809071524@615@2E9A5FD0B225B012E3178551CF3754A8",
     "logo": "",
@@ -128254,40 +128272,6 @@
     "region": "china",
     "is_cctv": false,
     "category": "新闻",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "滁州公共 (450p)",
-    "url": "http://183.167.193.45:1935/live/cztvgg/playlist.m3u8",
-    "logo": "",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "滁州新闻综合 (450p)",
-    "url": "http://183.167.193.45:1935/live/cztvzh/playlist.m3u8",
-    "logo": "",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "新闻",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "滁州科教 (450p)",
-    "url": "http://183.167.193.45:1935/live/cztvkj/playlist.m3u8",
-    "logo": "https://i.imgur.com/9JfZJRv.png",
-    "group": "Education;Science",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
   },
