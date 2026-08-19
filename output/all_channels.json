@@ -5120,8 +5120,8 @@
     "source_priority": 2
   },
   {
-    "name": "ABC Australia (1080p)",
-    "url": "http://103.154.3.101:5001/live/2782.m3u8",
+    "name": "ABC Australia (480p)",
+    "url": "https://streams.comclark.com/pknsd/abc_australia/playlist.m3u8",
     "logo": "https://i.imgur.com/qQ33TVM.png",
     "group": "General",
     "source": "collected",
@@ -6895,6 +6895,17 @@
     "url": "https://livestream.telvue.com/accframingham1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8",
     "logo": "https://i.imgur.com/UoiUwFj.png",
     "group": "General",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "AFV (720p)",
+    "url": "https://linear-12.frequency.stream/dist/plex/12/hls/master/playlist.m3u8",
+    "logo": "https://i.imgur.com/TOB9vmW.png",
+    "group": "Comedy",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -9663,17 +9674,6 @@
     "source_priority": 2
   },
   {
-    "name": "America’s Funniest Home Videos (1080p)",
-    "url": "https://d1mp1kdk5zi1ie.cloudfront.net/playlist.m3u8",
-    "logo": "https://i.imgur.com/TOB9vmW.png",
-    "group": "Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "America's Got Talent (1080p)",
     "url": "https://d2mexh8isep4mf.cloudfront.net/AmericasGotTalent_GB.m3u8",
     "logo": "",
@@ -11885,17 +11885,6 @@
     "source_priority": 2
   },
   {
-    "name": "Aspire (720p)",
-    "url": "http://40.160.24.56/ASPIRE_SD/index.m3u8",
-    "logo": "https://i.imgur.com/TOM5qO6.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "Assam Talks (576p)",
     "url": "http://tvsen7.aynascope.net/AssamTalks/index.m3u8",
     "logo": "https://dtil.tmsimg.com/assets/s142683_ld_h15_aa.png?lock=720x540",
@@ -12978,6 +12967,17 @@
     "url": "http://45.228.235.116:8000/play/a0iy/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png",
     "group": "Movies",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "AXN PH (480p)",
+    "url": "https://streams.comclark.com/pknhd/axn/playlist.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png",
+    "group": "Movies;Series",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -17803,8 +17803,8 @@
     "source_priority": 2
   },
   {
-    "name": "Bounce (1080p)",
-    "url": "http://40.160.24.58/BOUNCE_TV/index.m3u8",
+    "name": "Bounce (720p)",
+    "url": "http://23.237.104.106:8080/USA_BOUNCE/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Bounce_TV_logo.svg/960px-Bounce_TV_logo.svg.png",
     "group": "Undefined",
     "source": "collected",
@@ -34826,7 +34826,7 @@
     "source_priority": 2
   },
   {
-    "name": "DZRHTV (480p)",
+    "name": "DZRHTV (1080p)",
     "url": "https://streams.comclark.com/pknsd/dzrh/playlist.m3u8",
     "logo": "https://i.imgur.com/qe1QqZh.png",
     "group": "News",
@@ -37128,28 +37128,6 @@
     "name": "ESPN8 The Ocho (1080p)",
     "url": "https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8",
     "logo": "https://images.fubo.tv/channel-config-ui/station-logos/on-dark/espn_8_the_ocho_bw.png",
-    "group": "Sports",
-    "source": "collected",
-    "region": "usa",
-    "category": "体育",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "ESPN Deportes (720p)",
-    "url": "http://40.160.24.58/ESPN_DEPORTES/index.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/ESPN_Deportes.svg/960px-ESPN_Deportes.svg.png",
-    "group": "Sports",
-    "source": "collected",
-    "region": "usa",
-    "category": "体育",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "ESPN Deportes HD (720p)",
-    "url": "https://gpuserver7.tier1streams.com/ESPN_DEPORTES/index.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/ESPN_Deportes.svg/960px-ESPN_Deportes.svg.png",
     "group": "Sports",
     "source": "collected",
     "region": "usa",
@@ -40689,8 +40667,8 @@
     "source_priority": 2
   },
   {
-    "name": "Fox Business Network (720p)",
-    "url": "http://40.160.24.58/FOX_BUSINESS_NETWORK/index.m3u8",
+    "name": "Fox Business Network (480p)",
+    "url": "https://247preview.foxbusiness.com/hls/live/2020026/fbnv3preview/primary.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Fox_Business.svg/960px-Fox_Business.svg.png",
     "group": "Business",
     "source": "collected",
@@ -40811,7 +40789,7 @@
   },
   {
     "name": "Fox Sports 2 (720p)",
-    "url": "https://ftv.itscwd273.workers.dev/?id=FOXSPORTS2",
+    "url": "https://tvsen7.aynascope.net/foxsports2/index.m3u8",
     "logo": "https://i.imgur.com/LHtxKI8.png",
     "group": "Sports",
     "source": "collected",
@@ -41129,8 +41107,8 @@
     "source_priority": 2
   },
   {
-    "name": "Freeform (1080p)",
-    "url": "http://40.160.24.52/FREEFORM/index.m3u8",
+    "name": "Freeform (1080p) [Geo-blocked]",
+    "url": "https://messi.damitv.st/papi/ts/freeform-usa/playlist.m3u8",
     "logo": "https://i.imgur.com/BGAGeIf.png",
     "group": "Family",
     "source": "collected",
@@ -43220,6 +43198,17 @@
   },
   {
     "name": "GMS TV",
+    "url": "http://158.101.222.193:88/georgia_play.php?id=gms",
+    "logo": "",
+    "group": "General",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "GMS TV",
     "url": "https://acasmedia6.acangroup.org/gmstv/gmstv_output/playlist.m3u8",
     "logo": "https://i.imgur.com/Ue02CIH.png",
     "group": "General",
@@ -44264,17 +44253,6 @@
     "source_priority": 2
   },
   {
-    "name": "Great American Family (1080p)",
-    "url": "http://40.160.24.58/GAC_FAMILY/index.m3u8",
-    "logo": "https://i.imgur.com/TzvnHDn.png",
-    "group": "Family;Movies",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "Great British Menu (720p)",
     "url": "https://all3media-great-british-menu-1-gb.rakuten.wurl.tv/playlist.m3u8",
     "logo": "",
@@ -45188,17 +45166,6 @@
     "source_priority": 2
   },
   {
-    "name": "Hallmark Family (1080p)",
-    "url": "http://40.160.24.53/HALLMARK_DRAMA/index.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Hallmark_Family_2024.svg/960px-Hallmark_Family_2024.svg.png",
-    "group": "Movies",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "Hallmark Movies & More (1080p)",
     "url": "https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991709",
     "logo": "https://provider-static.plex.tv/epg/cms/production/29af70d1-d3ba-4a16-bc4d-bd99e7e7def4/hallmark-movies-and-more_color.png",
@@ -45206,17 +45173,6 @@
     "source": "collected",
     "region": "other",
     "category": "影视",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Hallmark Mystery (1080p)",
-    "url": "http://40.160.24.53/HALLMARK_MOVIES_AND_MYSTERIES/index.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/32/Hallmark_Mystery_2024.svg",
-    "group": "Movies;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
   },
@@ -46311,7 +46267,7 @@
   },
   {
     "name": "History (720p)",
-    "url": "http://40.160.24.53/HISTORY_CHANNEL/index.m3u8",
+    "url": "http://212.5.144.156:8080/history/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png",
     "group": "Documentary",
     "source": "collected",
@@ -46809,17 +46765,6 @@
     "url": "https://jmp2.uk/plu-68bb16916523408b14bac7f8.m3u8",
     "logo": "",
     "group": "Undefined",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Home Network (720p)",
-    "url": "http://40.160.24.53/HGTV/index.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Home_Network_logo.svg/1920px-Home_Network_logo.svg.png",
-    "group": "Lifestyle",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -47488,7 +47433,7 @@
   },
   {
     "name": "HSN (720p)",
-    "url": "http://40.160.24.53/HSN/index.m3u8",
+    "url": "https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn1us/master.m3u8",
     "logo": "https://i.imgur.com/rnZN7rD.png",
     "group": "Shop",
     "source": "collected",
@@ -49449,17 +49394,6 @@
     "url": "https://all3media-international-insideoutside-2-gb.samsung.wurl.tv/playlist.m3u8",
     "logo": "",
     "group": "Undefined",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "INSP (720p)",
-    "url": "http://40.160.24.53/INSP/index.m3u8",
-    "logo": "https://i.imgur.com/YgOC51j.png",
-    "group": "Entertainment",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -52100,17 +52034,6 @@
     "url": "https://jmp2.uk/plu-60afa1508284e60007163c08.m3u8",
     "logo": "",
     "group": "Undefined",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Justice Central TV (720p)",
-    "url": "http://40.160.24.53/JUSTICE_CENTRAL/index.m3u8",
-    "logo": "https://i.imgur.com/peuHszg.png",
-    "group": "Entertainment",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -55792,8 +55715,8 @@
     "source_priority": 2
   },
   {
-    "name": "Laff (1080p)",
-    "url": "http://40.160.24.53/LAFF_TV/index.m3u8",
+    "name": "Laff (576p)",
+    "url": "http://tvsen7.aynascope.net/laff/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1e/LAFF_logo.png",
     "group": "Comedy",
     "source": "collected",
@@ -57079,17 +57002,6 @@
     "source_priority": 2
   },
   {
-    "name": "Lifetime (720p)",
-    "url": "http://40.160.24.53/LIFETIME/index.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/960px-Logo_Lifetime_2020.svg.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "Lifetime Asia (1080p)",
     "url": "http://nmk.ioapk.com:5050/4gtv-live029/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/960px-Logo_Lifetime_2020.svg.png",
@@ -57152,17 +57064,6 @@
     "source": "collected",
     "region": "other",
     "category": "影视",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Lifetime Real Women (576p)",
-    "url": "http://40.160.24.58/LIFETIME_REAL_WOMEN/index.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/LRW_logo_2012.png/960px-LRW_logo_2012.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
   },
@@ -57776,17 +57677,6 @@
     "url": "https://58c04fb1d143f.streamlock.net/loemedia/loemedia/playlist.m3u8",
     "logo": "https://i.imgur.com/8i6OwaS.png",
     "group": "General",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Logo (720p)",
-    "url": "http://40.160.24.53/LOGO_TV/index.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Logo_TV_2015.svg/500px-Logo_TV_2015.svg.png",
-    "group": "Entertainment",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -62184,7 +62074,7 @@
   },
   {
     "name": "MeTV (720p)",
-    "url": "http://40.160.24.53/METV/index.m3u8",
+    "url": "https://82934cf9c8696bd2.mediapackage.us-east-1.amazonaws.com/out/v1/23685237ffbb4047a8143ac2166ead44/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/MeTV_Logo.svg/960px-MeTV_Logo.svg.png",
     "group": "Entertainment",
     "source": "collected",
@@ -64582,7 +64472,7 @@
   },
   {
     "name": "MS NOW (720p)",
-    "url": "http://40.160.24.53/MSNBC/index.m3u8",
+    "url": "http://cdn.haititivi.com/MSNBC/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/MS_NOW_logo.svg/960px-MS_NOW_logo.svg.png",
     "group": "News",
     "source": "collected",
@@ -64824,7 +64714,7 @@
   },
   {
     "name": "MTV (720p)",
-    "url": "http://40.160.24.53/MTV/index.m3u8",
+    "url": "http://198.58.104.90:8989/mtv/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png",
     "group": "Entertainment",
     "source": "collected",
@@ -64834,8 +64724,8 @@
     "source_priority": 2
   },
   {
-    "name": "MTV2 (1080p)",
-    "url": "http://40.160.24.53/MTV2/index.m3u8",
+    "name": "MTV2 (720p)",
+    "url": "http://198.58.104.90:8989/mtv2/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/MTV2_logo_2013.svg/960px-MTV2_logo_2013.svg.png",
     "group": "Entertainment",
     "source": "collected",
@@ -64994,17 +64884,6 @@
     "group": "General",
     "source": "collected",
     "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "MTV Classic (576p)",
-    "url": "http://40.160.24.53/MTV_CLASSIC/index.m3u8",
-    "logo": "https://images.pluto.tv/channels/66a01dcb8561260008b0a41d/colorLogoPNG.png",
-    "group": "Music",
-    "source": "collected",
-    "region": "usa",
     "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
@@ -65252,8 +65131,8 @@
     "source_priority": 2
   },
   {
-    "name": "MTV Live (1080p)",
-    "url": "http://40.160.24.53/MTV_LIVE/index.m3u8",
+    "name": "MTV Live (720p)",
+    "url": "http://23.237.104.106:8080/USA_MTV_LIVE/index.m3u8",
     "logo": "https://i.imgur.com/3UByLqb.png",
     "group": "Music",
     "source": "collected",
@@ -65643,17 +65522,6 @@
     "group": "Entertainment",
     "source": "collected",
     "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Much (720p)",
-    "url": "http://40.160.24.53/MUCH/index.m3u8",
-    "logo": "https://i.imgur.com/JjYki5V.png",
-    "group": "Music",
-    "source": "collected",
-    "region": "usa",
     "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
@@ -67079,7 +66947,7 @@
   },
   {
     "name": "National Geographic (720p)",
-    "url": "http://40.160.24.53/NAT_GEO/index.m3u8",
+    "url": "http://212.5.144.156:8080/natgeo/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",
     "group": "Documentary",
     "source": "collected",
@@ -67146,17 +67014,6 @@
   {
     "name": "National Geographic Wild (1080p) [Geo-blocked]",
     "url": "https://saran-live.ercdn.net/natgeowild/index.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png",
-    "group": "Documentary",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "National Geographic Wild (720p)",
-    "url": "http://40.160.24.53/NAT_GEO_WILD/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png",
     "group": "Documentary",
     "source": "collected",
@@ -69004,19 +68861,8 @@
   },
   {
     "name": "Newsmax TV (720p)",
-    "url": "http://40.160.24.53/NEWSMAX/index.m3u8",
+    "url": "https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Newsmax_logo.svg/960px-Newsmax_logo.svg.png",
-    "group": "News",
-    "source": "collected",
-    "region": "usa",
-    "category": "新闻",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "NewsNation (720p)",
-    "url": "http://40.160.24.58/NEWSNATION/index.m3u8",
-    "logo": "https://thehill.com/wp-content/uploads/sites/2/2025/08/NN-Stacked-Logo_Blue_1400x787.png",
     "group": "News",
     "source": "collected",
     "region": "usa",
@@ -70483,17 +70329,6 @@
     "group": "Religious",
     "source": "collected",
     "region": "usa",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Nova (720p)",
-    "url": "http://40.160.24.55/Nova/index.m3u8",
-    "logo": "https://i.imgur.com/Vx1F4o5.png",
-    "group": "Lifestyle",
-    "source": "collected",
-    "region": "other",
     "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
@@ -72974,8 +72809,8 @@
     "source_priority": 2
   },
   {
-    "name": "One America News Network (1080p)",
-    "url": "http://40.160.24.55/ONE_AMERICA_NEWS/index.m3u8",
+    "name": "One America News Network (720p)",
+    "url": "http://23.237.104.106:8080/USA_OAN/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/One_America_News_Network_logo.svg/960px-One_America_News_Network_logo.svg.png",
     "group": "News",
     "source": "collected",
@@ -73678,8 +73513,8 @@
     "source_priority": 2
   },
   {
-    "name": "Outdoor Channel HD (1080p)",
-    "url": "http://40.160.24.55/OUTDOOR_CHANNEL/index.m3u8",
+    "name": "Outdoor Channel HD (720p)",
+    "url": "http://23.237.104.106:8080/USA_OUTDOOR/index.m3u8",
     "logo": "https://i.imgur.com/Kh4MWaY.png",
     "group": "Outdoor",
     "source": "collected",
@@ -73755,17 +73590,6 @@
     "source_priority": 2
   },
   {
-    "name": "Ovation (1080p)",
-    "url": "http://40.160.24.55/OVATION/index.m3u8",
-    "logo": "https://i.imgur.com/A3o9gvc.png",
-    "group": "Culture",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "Overcomers TV (720p)",
     "url": "https://glorystartv.live/Overcomers/index.m3u8",
     "logo": "https://overcomerstv.live/wp-content/uploads/2025/10/Overcomers-tv.png",
@@ -73833,7 +73657,7 @@
   },
   {
     "name": "Oxygen (720p)",
-    "url": "http://40.160.24.55/OXYGEN/index.m3u8",
+    "url": "http://198.58.104.90:8989/oxygen/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Oxygen_TV_%282017_Logo%29.svg/960px-Oxygen_TV_%282017_Logo%29.svg.png",
     "group": "Entertainment",
     "source": "collected",
@@ -74334,17 +74158,6 @@
     "source": "collected",
     "region": "other",
     "category": "影视",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Paramount Network (720p)",
-    "url": "http://40.160.24.55/PARAMOUNT_CHANNEL/index.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/960px-Paramount_Network.svg.png",
-    "group": "Movies;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
   },
@@ -75746,17 +75559,6 @@
     "source_priority": 2
   },
   {
-    "name": "Pingviin (576p)",
-    "url": "https://void.greenhosting.ru/PingviinEE_Mpeg4/index.m3u8",
-    "logo": "https://i.imgur.com/b6xupqO.png",
-    "group": "Animation;Kids",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "Pink (720p)",
     "url": "https://edge8.pink.rs/pinktv/index.m3u8",
     "logo": "https://i.imgur.com/66wHb7E.png",
@@ -75845,8 +75647,8 @@
     "source_priority": 2
   },
   {
-    "name": "PixL TV (720p)",
-    "url": "http://40.160.24.55/PIXL/index.m3u8",
+    "name": "PixL TV",
+    "url": "https://frndlymsl.akamaized.net/hls/live/2006426/pixlmsl/pixlmsl/playlist.m3u8?hdnts=st=1606053234~exp=3216054041~acl=*~hmac=208d261d9f98d76a5ac30aa2ce51751f88ee50cfc24812b7cbea8b0397489a07",
     "logo": "https://i.imgur.com/ysRh3Nl.png",
     "group": "Undefined",
     "source": "collected",
@@ -81136,17 +80938,6 @@
     "source_priority": 2
   },
   {
-    "name": "Pop TV (720p)",
-    "url": "http://40.160.24.55/POP/index.m3u8",
-    "logo": "https://i.imgur.com/XySNnh0.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "Pop Up (1080p) [Geo-blocked]",
     "url": "https://amg01753-amg01753c9-samsung-gb-8005.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01753-narrativeuk-popup-samsunggb/playlist.m3u8",
     "logo": "https://i.imgur.com/GdSotmS.png",
@@ -82775,8 +82566,8 @@
     "source_priority": 2
   },
   {
-    "name": "Pursuit Channel (1080p)",
-    "url": "http://40.160.24.55/PURSUIT/index.m3u8",
+    "name": "Pursuit Channel (720p)",
+    "url": "https://a-cdn.klowdtv.com/live3/pursuit_720p/playlist.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/en/d/d6/Pursuit_Channel_logo.png",
     "group": "Undefined",
     "source": "collected",
@@ -83381,7 +83172,7 @@
   },
   {
     "name": "QVC (720p)",
-    "url": "http://40.160.24.55/QVC/index.m3u8",
+    "url": "https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc1us/master.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/QVC_logo_2019.svg/960px-QVC_logo_2019.svg.png",
     "group": "Shop",
     "source": "collected",
@@ -86945,8 +86736,8 @@
     "source_priority": 2
   },
   {
-    "name": "RFD-TV (1080p)",
-    "url": "http://40.160.24.55/RFD-TV/index.m3u8",
+    "name": "RFD-TV",
+    "url": "https://rfdtv-jw.cdn.vustreams.com/live/7cba1a3b-318a-4097-8492-374478370b91/live.isml/7cba1a3b-318a-4097-8492-374478370b91.m3u8",
     "logo": "https://i.imgur.com/FcT3beY.png",
     "group": "Undefined",
     "source": "collected",
@@ -93018,7 +92809,7 @@
   },
   {
     "name": "Showtime (720p)",
-    "url": "http://40.160.24.55/SHOWTIME/index.m3u8",
+    "url": "https://gpuserver5.tier1streams.com/SHOWTIME/index.m3u8",
     "logo": "https://i.imgur.com/Or0LKsu.png",
     "group": "Undefined",
     "source": "collected",
@@ -93028,8 +92819,8 @@
     "source_priority": 2
   },
   {
-    "name": "Showtime 2 (1080p)",
-    "url": "http://40.160.24.55/SHOWTIME_2/index.m3u8",
+    "name": "Showtime 2 (720p)",
+    "url": "https://gpuserver5.tier1streams.com/SHOWTIME_2/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/960px-Showtime.svg.png",
     "group": "Undefined",
     "source": "collected",
@@ -93039,8 +92830,8 @@
     "source_priority": 2
   },
   {
-    "name": "Showtime Extreme (1080p)",
-    "url": "http://40.160.24.55/SHOWTIME_EXTREME/index.m3u8",
+    "name": "Showtime Extreme (720p)",
+    "url": "https://gpuserver5.tier1streams.com/SHOWTIME_EXTREME/index.m3u8",
     "logo": "https://i.imgur.com/byJNJdm.png",
     "group": "Undefined",
     "source": "collected",
@@ -93062,7 +92853,7 @@
   },
   {
     "name": "Showtime Next (720p)",
-    "url": "http://40.160.24.55/SHOWTIME_NEXT/index.m3u8",
+    "url": "https://gpuserver5.tier1streams.com/SHOWTIME_NEXT/index.m3u8",
     "logo": "https://i.imgur.com/1Ak2MX2.png",
     "group": "Undefined",
     "source": "collected",
@@ -93073,19 +92864,8 @@
   },
   {
     "name": "Showtime West (720p)",
-    "url": "http://40.160.24.55/SHOWTIME_WEST/index.m3u8",
+    "url": "https://gpuserver5.tier1streams.com/SHOWTIME_WEST/index.m3u8",
     "logo": "https://i.imgur.com/Or0LKsu.png",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "usa",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Showtime Women (720p)",
-    "url": "http://40.160.24.55/SHOWTIME_WOMEN/index.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/960px-Showtime.svg.png",
     "group": "Undefined",
     "source": "collected",
     "region": "usa",
@@ -93721,6 +93501,17 @@
     "source_priority": 2
   },
   {
+    "name": "Sky Mix HD (720p)",
+    "url": "http://188.138.29.131/skymix/index.m3u8",
+    "logo": "https://i.imgur.com/hHEz5rq.png",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Sky Nature (576p)",
     "url": "https://tvsen6.aynaott.com/skynature/index.m3u8",
     "logo": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1194.png",
@@ -93919,6 +93710,17 @@
     "source_priority": 2
   },
   {
+    "name": "Sky Sports F1 HD (720p)",
+    "url": "http://188.138.29.131/skysportsf1/index.m3u8",
+    "logo": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1306.png",
+    "group": "Sports",
+    "source": "collected",
+    "region": "other",
+    "category": "体育",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Sky Sports Football (1080p)",
     "url": "https://xemzi.short.gy/2000003",
     "logo": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3838.png",
@@ -93930,8 +93732,8 @@
     "source_priority": 2
   },
   {
-    "name": "Sky Sports Golf HD (1080p)",
-    "url": "https://xemzi.short.gy/2000009",
+    "name": "Sky Sports Golf HD (720p)",
+    "url": "http://188.138.29.131/skygolf/index.m3u8",
     "logo": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1322.png",
     "group": "Sports",
     "source": "collected",
@@ -94242,17 +94044,6 @@
     "url": "https://5d23269b3ec0c.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8",
     "logo": "https://static.tildacdn.com/tild3936-3138-4234-b536-326531343933/-_13x.png",
     "group": "Kids",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Smithsonian Channel (1080p)",
-    "url": "http://40.160.24.55/SMITHSONIAN/index.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/SmithsonianChannellogo.png/960px-SmithsonianChannellogo.png",
-    "group": "Science",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -96207,28 +95998,6 @@
     "source_priority": 2
   },
   {
-    "name": "Sportsman Channel (720p)",
-    "url": "http://40.160.24.55/Sportsman_Channel/index.m3u8",
-    "logo": "https://i.imgur.com/CXauv8M.png",
-    "group": "Sports",
-    "source": "collected",
-    "region": "other",
-    "category": "体育",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "SportsNet New York (1080p)",
-    "url": "http://40.160.24.55/SNY/index.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/SNY_logo.svg/960px-SNY_logo.svg.png",
-    "group": "Sports",
-    "source": "collected",
-    "region": "other",
-    "category": "体育",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "SporTV 3 (720p)",
     "url": "http://170.83.49.66:8083/SPORTV3HD/index.m3u8",
     "logo": "https://i.imgur.com/mWOR8pi.png",
@@ -96966,17 +96735,6 @@
     "source_priority": 2
   },
   {
-    "name": "Start TV (720p)",
-    "url": "http://40.160.24.55/START_TV/index.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Start_TV_logo.svg/960px-Start_TV_logo.svg.png",
-    "group": "Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "Starz (1080p)",
     "url": "http://23.237.104.106:8080/USA_STARZ/index.m3u8",
     "logo": "https://i.imgur.com/N7oSm4d.png",
@@ -97010,28 +96768,6 @@
     "source_priority": 2
   },
   {
-    "name": "Starz Edge (1080p)",
-    "url": "http://40.160.24.55/STARZ_EDGE/index.m3u8",
-    "logo": "https://i.imgur.com/MvH3Cz2.png",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Starz Encore (1080p)",
-    "url": "http://40.160.24.55/STARZ_ENCORE/index.m3u8",
-    "logo": "https://i.imgur.com/5ieoKO1.png",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "Starz Kids & Family (1080p)",
     "url": "http://23.237.104.106:8080/USA_STARZ_FAMILY/index.m3u8",
     "logo": "https://i.imgur.com/eE9FzEP.png",
@@ -97039,17 +96775,6 @@
     "source": "collected",
     "region": "other",
     "category": "少儿",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Starz West (720p)",
-    "url": "http://40.160.24.55/STARZ_WEST/index.m3u8",
-    "logo": "https://i.imgur.com/N7oSm4d.png",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
   },
@@ -98165,6 +97890,17 @@
     "source_priority": 2
   },
   {
+    "name": "STV (360p)",
+    "url": "https://vodcdn.bamboo-cloud.com/livehls/6a81edf1063044437202e65c/master.m3u8",
+    "logo": "https://i.postimg.cc/4dHXzBRr/In-Shot-20260816-223433608.png",
+    "group": "General",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "STV HD (720p)",
     "url": "https://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%B1%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%C2%AB%D0%A1%D0%A2%D0%92%C2%BB.svg/960px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%B1%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%C2%AB%D0%A1%D0%A2%D0%92%C2%BB.svg.png",
@@ -98385,17 +98121,6 @@
     "source_priority": 2
   },
   {
-    "name": "Sundance TV (720p)",
-    "url": "http://40.160.24.55/SUNDANCE/index.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/SundanceTV_2014.svg/960px-SundanceTV_2014.svg.png",
-    "group": "Movies",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "Sunna TV (576p)",
     "url": "https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_015/Stream/playlist.m3u8",
     "logo": "https://i.imgur.com/K2Snk2T.png",
@@ -98507,7 +98232,7 @@
   },
   {
     "name": "Super Digital TV (1080p) [Not 24/7]",
-    "url": "https://stream.inliveserver.com:19360/8006/8006.m3u8",
+    "url": "https://mp.panelchs.com/hls/8032/8032.m3u8",
     "logo": "https://www.vivalivetv.com/public/files/shows/0/1/3431-294x165-FFFFFF.jpg",
     "group": "General",
     "source": "collected",
@@ -108175,17 +107900,6 @@
     "source_priority": 2
   },
   {
-    "name": "TSN1 (1080p)",
-    "url": "http://40.160.24.55/TSN_1/index.m3u8",
-    "logo": "https://i.imgur.com/eRFE0jZ.png",
-    "group": "Sports",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "TSN The Ocho (1080p)",
     "url": "https://d3pnbvng3bx2nj.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rds8g35qfqrnv/TSN_The_Ocho.m3u8",
     "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400003R3_20240709T002034SQUARE.png",
@@ -108431,7 +108145,7 @@
     "name": "TV1 (1080p)",
     "url": "https://live.mana2.my/Tv1/index.m3u8?auth_key=1745177809-03fbff3dfc194161829ff0dbf94a205a-0-c6dcdd3499b8b5488b7de0f6613b8047&token=1745177809-03fbff3dfc194161829ff0dbf94a205a-0-c6dcdd3499b8b5488b7de0f6613b8047",
     "logo": "https://i.imgur.com/wSyPmiY.png",
-    "group": "Undefined",
+    "group": "General",
     "source": "collected",
     "region": "southeast_asia",
     "category": "综合",
@@ -108508,7 +108222,7 @@
     "name": "TV2 (1080p)",
     "url": "https://live.mana2.my/Tv2/index.m3u8?auth_key=1745177833-e4f0090e3d3b4ed1b2b4f5df87a24d34-0-d43f8be1101f9bb00363d62de6514e4d&token=1745177833-e4f0090e3d3b4ed1b2b4f5df87a24d34-0-d43f8be1101f9bb00363d62de6514e4d",
     "logo": "https://i.imgur.com/LGEdeyJ.png",
-    "group": "Undefined",
+    "group": "General",
     "source": "collected",
     "region": "southeast_asia",
     "category": "综合",
@@ -110562,17 +110276,6 @@
     "source_priority": 2
   },
   {
-    "name": "TV Land (720p)",
-    "url": "http://40.160.24.55/TV_LAND/index.m3u8",
-    "logo": "https://i.imgur.com/VNNS4mF.png",
-    "group": "Classic",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "TV Land Drama",
     "url": "https://jmp2.uk/plu-5d40bebc5e3d2750a2239d7e.m3u8",
     "logo": "https://i.imgur.com/y1rXIAS.png",
@@ -111247,17 +110950,6 @@
     "name": "TV One (576p)",
     "url": "http://92.114.85.72:8000/play/a070",
     "logo": "https://i.imgur.com/qkbRslf.png",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "TV One (1080p)",
-    "url": "http://40.160.24.55/TV_ONE/index.m3u8",
-    "logo": "https://i.imgur.com/tthm8Q5.png",
     "group": "Undefined",
     "source": "collected",
     "region": "other",
@@ -116172,17 +115864,6 @@
     "source_priority": 2
   },
   {
-    "name": "Up TV (1080p)",
-    "url": "http://40.160.24.55/Up_TV/index.m3u8",
-    "logo": "https://i.imgur.com/AvR9LSn.png",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "UPP TV/Bolivisión SCZ (720p) [Not 24/7]",
     "url": "https://alba-bo-bolivision-upptv.stream.mediatiquestream.com/index.m3u8",
     "logo": "",
@@ -116283,7 +115964,7 @@
   },
   {
     "name": "USA Network (1080p)",
-    "url": "http://40.160.24.55/USA_NETWORK/index.m3u8",
+    "url": "http://190.11.225.124:5000/live/usa_hd/playlist.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/960px-USA_Network_logo_%282016%29.svg.png",
     "group": "Comedy;Movies;Series;Sports",
     "source": "collected",
@@ -116297,17 +115978,6 @@
     "url": "http://138.121.15.230:9002/USA/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/960px-USA_Network_logo_%282016%29.svg.png",
     "group": "Undefined",
-    "source": "collected",
-    "region": "usa",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "USA Network West (1080p)",
-    "url": "http://40.160.24.55/USA_NETWORK_WEST/index.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/960px-USA_Network_logo_%282016%29.svg.png",
-    "group": "Comedy;Movies;Series;Sports",
     "source": "collected",
     "region": "usa",
     "category": "综合",
@@ -117536,34 +117206,12 @@
     "source_priority": 2
   },
   {
-    "name": "VH1 (720p)",
-    "url": "http://40.160.24.55/VH1/index.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/960px-VH1_logonew.svg.png",
-    "group": "Music",
-    "source": "collected",
-    "region": "usa",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "VH1 Queens of Reality",
     "url": "https://jmp2.uk/plu-66abefe5d2d50d00082c7d12.m3u8",
     "logo": "https://images.pluto.tv/channels/66abefe5d2d50d00082c7d12/colorLogoPNG.png",
     "group": "Entertainment",
     "source": "collected",
     "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "VH1 West (720p)",
-    "url": "http://40.160.24.55/VH1_WEST/index.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/960px-VH1_logonew.svg.png",
-    "group": "Music",
-    "source": "collected",
-    "region": "usa",
     "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
@@ -119032,17 +118680,6 @@
     "source_priority": 2
   },
   {
-    "name": "W Network (720p)",
-    "url": "http://40.160.24.55/W_NETWORK/index.m3u8",
-    "logo": "https://i.imgur.com/t7XdBh8.png",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "W Polsce PL (720p)",
     "url": "https://lowa8026-cmyk.github.io/WPolscePL.m3u8",
     "logo": "https://i.imgur.com/HQ8UyhL.png",
@@ -119935,7 +119572,7 @@
   },
   {
     "name": "We TV (720p)",
-    "url": "http://40.160.24.55/WE_TV/index.m3u8",
+    "url": "http://170.254.17.2/WE_TV/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/We_TV_logo_2014.svg/960px-We_TV_logo_2014.svg.png",
     "group": "Series",
     "source": "collected",
@@ -119957,7 +119594,7 @@
   },
   {
     "name": "WeatherNation (1080p)",
-    "url": "http://40.160.24.55/WEATHER_NATION/index.m3u8",
+    "url": "https://d2ferbiwcx1539.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8zd06wicndthf-ssai-prd/WNNationalSamsung/WNNationalSamsung.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/WeatherNation_Logo.svg/960px-WeatherNation_Logo.svg.png",
     "group": "Weather",
     "source": "collected",
