@@ -1,66 +1,100 @@
 #EXTM3U
 #PLAYLIST:体育频道
-# Generated: 2026-08-20 00:39:58
-# Channels: 31
-#EXTINF:-1 group-title="Undefined" tvg-speed="16182KB/s",The NBA Channel (720p)
-https://jmp2.uk/plu-6792c30abc03978b9b8bb832.m3u8
-#EXTINF:-1 tvg-logo="https://images.fubo.tv/channel-config-ui/station-logos/on-dark/espn_8_the_ocho_bw.png" group-title="Sports" tvg-speed="6252KB/s",ESPN8 The Ocho (1080p)
-https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png" group-title="Sports" tvg-speed="6200KB/s",beIN SPORTS XTRA (1080p)
-https://bein-xtra-bein.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png" group-title="Sports" tvg-speed="5714KB/s",beIN Sports USA (1080p) [Geo-blocked]
-https://messi.damitv.st/papi/ts/beinsports-usa/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/vJZgpOb.png" group-title="Sports" tvg-speed="5348KB/s",We Sport TV
-http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2471/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/RPJiolQ.png" group-title="Education" tvg-speed="3385KB/s",Midpen Media Center Youth Education and Sports Channel 28 (720p)
-https://5c2974786200d.streamlock.net/live-chan28/ngrp:ch28_all/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ZkuZmIo.png" group-title="Sports" tvg-speed="2551KB/s",Bahrain Sports 2 (720p) [Not 24/7]
-https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Wz5bQKx.jpeg" group-title="Sports" tvg-speed="2500KB/s",Sporty TV
-https://dash2.antik.sk/live/sporty_tv/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/fBpLsbC.png" group-title="Sports" tvg-speed="2383KB/s",Bahrain Sports 1 (720p) [Not 24/7]
-https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/DrrlxTO.png" group-title="Sports" tvg-speed="2216KB/s",Al Iraqia Sport (720p)
-https://imn-live.esite-lab.com/hls/iraqia-sports-1.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ESPN3_Logo.png/960px-ESPN3_Logo.png" group-title="Sports" tvg-speed="2157KB/s",ESPN 3 (1080p)
-http://190.83.2.182:8090/ESPN3/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/kQq5DMU.png" group-title="Sports" tvg-speed="1679KB/s",Okko Prajm Sport (1080p)
-http://stream.mcquack.net/493/index.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/57/Maincast_%28HD_Logo%29_2024.png" group-title="Sports" tvg-speed="1482KB/s",Maincast Cybersport (1080p)
-http://stream.mcquack.net/487/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/O9BapV9.png" group-title="Sports" tvg-speed="1264KB/s",Fox Sports 1 (720p)
-http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png" group-title="Sports" tvg-speed="1191KB/s",TyC Sports USA
-http://45.170.130.224:8000/play/a020/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/PK%20Sports.jpeg" group-title="Sports" tvg-speed="1139KB/s",PK Sports (720p)
-https://lbgo.bozztv.com/ssh101/ssh101/pksportshd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" group-title="Sports" tvg-speed="1094KB/s",ESPN (1080p)
-http://181.78.197.59:8000/play/a07z/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HHmc14i.png" group-title="Kids" tvg-speed="1038KB/s",TVS Pinball Network (480p)
-https://rpn.bozztv.com/gusa/gusa-TVSCartoonNetwork/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="1030KB/s",Retake E-sport Live (720p)
-https://jmp2.uk/plu-66fd1338ec9d6d00081e0443.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/africa24tv.com/wp-content/uploads/2023/12/LOGO-AFRICASPORT-4-HD-sans-fond.png?fit=512%2C107&ssl=1" group-title="News;Sports" tvg-speed="937KB/s",Africa 24 Sport (1080p)
-https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/V562tpO.png" group-title="Sports" tvg-speed="864KB/s",beIN SPORTS XTRA en Espanol (1080p)
-http://201.190.41.246:9060/play/a03y/index.m3u8
-#EXTINF:-1 tvg-logo="https://msports.pk/wp-content/uploads/2026/02/m-sports-300.png" group-title="Sports" tvg-speed="716KB/s",M Sports (1080p)
-https://cdn.rabta.stream/M-Sports/index.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f32d2db0af67400077f29c4/colorLogoSVG_1780355759776.svg" group-title="Sports" tvg-speed="654KB/s",Pluto TV Esportes
-https://jmp2.uk/plu-5f32d2db0af67400077f29c4.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="510KB/s",Dyn Sport Mix (720p)
-https://jmp2.uk/plu-6866525c8a412a0e95c438b4.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/OprRgQN.png" group-title="Animation" tvg-speed="508KB/s",eSports Max TV
-https://cdnlive.klicgo.net/esportsmax/live/playlist_dvr.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="390KB/s",Fox Sports (720p)
+# Generated: 2026-08-20 10:43:40
+# Channels: 48
+#EXTINF:-1 tvg-logo="https://i.imgur.com/lta5Mog.png" group-title="Sports" tvg-speed="19766KB/s",World of Freesports (1080p)
+https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="18986KB/s",Fox Sports (720p)
 https://live-manifest.production-public.tubi.io/live/6035c7fd-efff-4ec7-93dc-aa0c7a58ba47/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6357f3de3643ba0007bc0b50/colorLogoPNG_1746816938506.png" group-title="Sports" tvg-speed="280KB/s",Pluto TV Sport
+#EXTINF:-1 group-title="Undefined" tvg-speed="18429KB/s",Retake E-sport Live (720p)
+https://jmp2.uk/plu-66fd1338ec9d6d00081e0443.m3u8
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6357f3de3643ba0007bc0b50/colorLogoPNG_1746816938506.png" group-title="Sports" tvg-speed="14128KB/s",Pluto TV Sport
 https://jmp2.uk/plu-62cd74e38f6f0d000798cd93.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="231KB/s",Speed Sport 1 (1080p)
-https://linear-599.frequency.stream/dist/stirr/599/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/7QnJojr.png" group-title="Sports" tvg-speed="183KB/s",N Sports (1080p)
+#EXTINF:-1 group-title="Undefined" tvg-speed="14087KB/s",Retake E-sport Live
+https://jmp2.uk/plu-69a164f76c0414a7ec68de54.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="12569KB/s",Auto Motor Sport
+https://jmp2.uk/plu-5f760c3d41aa2d0007bfde19.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9d/Talksport_logo.png" group-title="Sports" tvg-speed="5747KB/s",talkSPORT (1080p)
+https://af7a8b4e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfdGFsa1NQT1JUX0hMUw/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/z854PC3.png" group-title="Sports" tvg-speed="4519KB/s",MNB Sport (1080p)
+https://live.mnb.mn/hls/mnb_sport.stream.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/myyWeXY.png" group-title="Sports" tvg-speed="4256KB/s",Polsat Sport Premium 2 (1080p) [Not 24/7]
+http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7305/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/RPJiolQ.png" group-title="Education" tvg-speed="4096KB/s",Midpen Media Center Youth Education and Sports Channel 28 (720p)
+https://5c2974786200d.streamlock.net/live-chan28/ngrp:ch28_all/playlist.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="3457KB/s",MSG SportsZone (720p)
+https://d2a31kzot4f8t3.cloudfront.net/v1/amc_msgsportszone_1/samsungheadend_us/latest/main/hls/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ZkuZmIo.png" group-title="Sports" tvg-speed="3418KB/s",Bahrain Sports 2 (720p) [Not 24/7]
+https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s158255_ld_h15_aa.png?lock=720x540" group-title="Sports" tvg-speed="3364KB/s",DD Sports SD (1080p)
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/%C4%8CT_sport_logo.png/960px-%C4%8CT_sport_logo.png" group-title="Sports" tvg-speed="3336KB/s",ČT Sport (720p)
+http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/0L9tW3Z.png" group-title="Sports" tvg-speed="3244KB/s",Canal Showsport (720p)
+https://livestream.lumpentv.com.ar/hls/lumpen.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="2941KB/s",Sports First (1080p)
+https://d4ddgdmj1cvnm.cloudfront.net/scheduler/scheduleMaster/409.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Wz5bQKx.jpeg" group-title="Sports" tvg-speed="2908KB/s",Sporty TV
+https://dash2.antik.sk/live/sporty_tv/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ESPN3_Logo.png/960px-ESPN3_Logo.png" group-title="Sports" tvg-speed="2537KB/s",ESPN 3 (1080p)
+http://190.83.2.182:8090/ESPN3/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/q8BENJg.png" group-title="Sports" tvg-speed="2426KB/s",CBS Sports HQ (1080p) [Geo-blocked]
+https://propee33f9c2.airspace-cdn.cbsivideo.com/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/R1hGX1d.png" group-title="Sports" tvg-speed="2274KB/s",KTV Sport (1080p)
+https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="2068KB/s",Sport Fishing TV (1080p)
+https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/eea68b79-bfe2-451e-a227-d637a5b9548a/manifest.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="1789KB/s",Sportoutdoor.tv
+https://gto2000-sportoutdoortv-1-it.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/n6vITLu.png" group-title="Sports" tvg-speed="1726KB/s",Türkmenistan Sport (406p) [Not 24/7]
+https://alpha.tv.online.tm/hls/ch004.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/l4oX0gf.png" group-title="Sports" tvg-speed="1706KB/s",KTV Sport Plus (1080p)
+https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/TVR_Sport_Logo_2023.svg/960px-TVR_Sport_Logo_2023.svg.png" group-title="General;Sports" tvg-speed="1326KB/s",TVR Sport
+https://tvr-sport.lg.mncdn.com/tvrsport/smil:tvrsport.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/O9BapV9.png" group-title="Sports" tvg-speed="1312KB/s",Fox Sports 1 (720p)
+http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" group-title="Sports" tvg-speed="1297KB/s",ESPN (1080p)
+http://181.78.197.59:8000/play/a07z/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/V562tpO.png" group-title="Sports" tvg-speed="1173KB/s",beIN SPORTS XTRA en Espanol (1080p)
+http://201.190.41.246:9060/play/a03y/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/ESPN_Deportes.svg/960px-ESPN_Deportes.svg.png" group-title="Sports" tvg-speed="1160KB/s",ESPN Deportes HD (720p)
+http://168.228.44.241:9998/play/a0dz/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ESPN_4_logo.svg/960px-ESPN_4_logo.svg.png" group-title="Sports" tvg-speed="1119KB/s",ESPN 4 (1080p)
+http://181.78.197.59:8000/play/a07n/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Ziggo_Sport_logo.svg/960px-Ziggo_Sport_logo.svg.png" group-title="Sports" tvg-speed="1102KB/s",Ziggo Sport 5 (1080p)
+http://145.239.5.177/349/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/bRmGbsyV/A3-SPORTTV.jpg" group-title="Sports" tvg-speed="1092KB/s",AS3 Sport TV (1080p)
+https://streamtv.as3sport.online:3394/hybrid/play.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/mWOR8pi.png" group-title="Sports" tvg-speed="1046KB/s",SporTV 3 (720p)
+http://170.83.49.66:8083/SPORTV3HD/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/U8cHMOt.png" group-title="Sports" tvg-speed="985KB/s",ACI Sport TV (1080p)
+https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="916KB/s",The NBA Channel (720p)
+https://jmp2.uk/plu-6792c30abc03978b9b8bb832.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/1l3t5jd.png" group-title="Sports" tvg-speed="910KB/s",BEK TV Sports West (720p)
+https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/LHtxKI8.png" group-title="Sports" tvg-speed="677KB/s",Fox Sports 2 (720p)
+https://tvsen7.aynascope.net/foxsports2/index.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="650KB/s",U&Transport (720p)
+https://jmp2.uk/plu-64c0d6765dc1660008a3e033.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OprRgQN.png" group-title="Animation" tvg-speed="514KB/s",eSports Max TV
+https://cdnlive.klicgo.net/esportsmax/live/playlist_dvr.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png" group-title="Sports" tvg-speed="395KB/s",beIN SPORTS XTRA (1080p)
+https://bein-xtra-bein.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="354KB/s",NBA FAST Channel (720p)
+https://live-manifest.production-public.tubi.io/live/553b8d5e-fd2a-4a61-bdfa-73b34c299d75/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/BKaEtqL.png" group-title="Sports" tvg-speed="275KB/s",Астрахань.Ru Sport (720p)
+https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/BURPHzI.png" group-title="Sports" tvg-speed="234KB/s",Premier Sports (1080p)
+https://amg19223-amg19223c3-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c3-amgplt0351/playlist.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="229KB/s",Shooting Sports Life (1080p)
+https://linear-1312.frequency.stream/dist/stirr/1312/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/qFNRJLb.png" group-title="Sports" tvg-speed="221KB/s",fubo Sports Network (1080p)
+https://dnf08l6u6uxnz.cloudfront.net/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/SYOaOQc.png" group-title="Sports" tvg-speed="183KB/s",Okko Sport (1080p)
+http://stream.mcquack.net/492/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7QnJojr.png" group-title="Sports" tvg-speed="165KB/s",N Sports (1080p)
 https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5ff3934600d4c7000733ff49/colorLogoPNG.png" group-title="Sports" tvg-speed="177KB/s",Pluto TV E-Sports
-https://jmp2.uk/plu-5ff3934600d4c7000733ff49.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="166KB/s",Roku Sports Channel (1080p)
-https://d3ialx0k0mla2a.cloudfront.net/Roku_Sports_Channel.m3u8
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/acf3d1d8-c53e-49ca-86e9-0d9410b106b4/Willow_Sports_dark_Background_1500_1000_color.png" group-title="Sports" tvg-speed="158KB/s",Willow Sports (1080p)
+https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8
