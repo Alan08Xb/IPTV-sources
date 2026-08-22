@@ -1,74 +1,66 @@
 #EXTM3U
 #PLAYLIST:中国大陆频道
-# Generated: 2026-08-21 10:43:08
-# Channels: 35
-#EXTINF:-1 group-title="Undefined" tvg-speed="6006KB/s",浙江 Ⅰ 绍兴影视 (720p)
-http://live.shaoxing.com.cn/video/s10001-sxtv3/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="5398KB/s",福州电视台少儿频道 (FZTV-少儿) (1080p)
-http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="3817KB/s",宇哥电影
+# Generated: 2026-08-22 00:40:18
+# Channels: 31
+#EXTINF:-1 group-title="Undefined" tvg-speed="9014KB/s",宇哥电影
 http://epg.112114.xyz/douyu/413573
-#EXTINF:-1 tvg-logo="https://i.imgur.com/OK8mdJV.png" group-title="Sports" tvg-speed="2756KB/s",CCTV-5+
-https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="2523KB/s",白山新闻综合 [Geo-blocked]
-https://stream2.jlntv.cn/baishan1/sd/live.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HGLFdfk.png" group-title="General" tvg-speed="2511KB/s",CCTV-4 Europe
-https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
-#EXTINF:-1 group-title="4K8K频道" tvg-speed="2488KB/s",河北4K
-https://event.pull.hebtv.com:443/live/live101.m3u8
-#EXTINF:-1 tvg-logo="https://www.tvchinese.net/uploads/tv/baicheng.jpg" group-title="General" tvg-speed="2476KB/s",白城新闻综合 [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3tivvMm.png" group-title="Documentary" tvg-speed="5673KB/s",CCTV-9 (576i)
+https://xykt-fix.github.io/Y77.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="4096KB/s",福州电视台少儿频道 (FZTV-少儿) (1080p)
+http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.tvchinese.net/uploads/tv/baicheng.jpg" group-title="General" tvg-speed="2817KB/s",白城新闻综合 [Geo-blocked]
 https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/c5SXW7i.png" group-title="Kids" tvg-speed="2092KB/s",CCTV-14 (1080p)
-http://74.91.26.218:82/live/cctv14hd.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/jSQURxS.png" group-title="Education;Outdoor" tvg-speed="2089KB/s",CCTV-17 (1080p)
-http://74.91.26.218:82/live/cctv17hd.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/V2ncOXi.png" group-title="Education" tvg-speed="2054KB/s",CCTV-World Geography (1080p)
-http://38.75.136.137:98/gslb/dsdqpub/sjdl.m3u8?auth=testpub
-#EXTINF:-1 group-title="Undefined" tvg-speed="1906KB/s",广东 Ⅰ 韶关综合台 (720p) [Not 24/7]
-https://www.sgmsw.cn/videos/tv/201805/1308/SB05RIYZOU8JR418AUQOF62CAJQ08D0E/hls/live.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/sSSO7UD.png" group-title="Education" tvg-speed="1905KB/s",CCTV-10 (720p)
+#EXTINF:-1 group-title="Undefined" tvg-speed="2587KB/s",通化新闻 [Geo-blocked]
+https://stream2.jlntv.cn/tonghua1/sd/live.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HGLFdfk.png" group-title="General" tvg-speed="2055KB/s",CCTV-4 Europe
+https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sSSO7UD.png" group-title="Education" tvg-speed="2029KB/s",CCTV-10 (720p)
 http://74.91.26.218:82/live/cctv10hd.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/之江纪录.png" group-title="浙江频道" tvg-speed="1853KB/s",之江纪录
-https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="1840KB/s",上虞1新闻综合 (720p) [Not 24/7]
-https://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Fy6HkX0.png" group-title="Sports" tvg-speed="1830KB/s",CCTV-Storm Football (1080p)
-http://38.75.136.137:98/gslb/dsdqpub/fyzq.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://i.imgur.com/qSg862A.png" group-title="News" tvg-speed="1809KB/s",CCTV+ 2 (600p) [Not 24/7]
-https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江少儿.png" group-title="浙江频道" tvg-speed="1801KB/s",浙江少儿
-https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江国际.png" group-title="浙江频道" tvg-speed="1752KB/s",浙江国际
-https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ILamhwU.png" group-title="Business" tvg-speed="1700KB/s",CCTV-2 (720p)
+#EXTINF:-1 group-title="Undefined" tvg-speed="1995KB/s",白山新闻综合 [Geo-blocked]
+https://stream2.jlntv.cn/baishan1/sd/live.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ILamhwU.png" group-title="Business" tvg-speed="1899KB/s",CCTV-2 (720p)
 http://74.91.26.218:82/live/cctv2hd.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/钱江都市.png" group-title="浙江频道" tvg-speed="1648KB/s",浙江钱江都市
-https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/CKcPMQC.png" group-title="Education" tvg-speed="1642KB/s",CCTV-7 (720p)
-http://74.91.26.218:82/live/cctv7hd.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江新闻.png" group-title="浙江频道" tvg-speed="1626KB/s",浙江公共新闻
-https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/tWt4Wou.png" group-title="General" tvg-speed="1626KB/s",CCTV-4 Asia (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/GyHaZ8X.png" group-title="Culture" tvg-speed="1857KB/s",CCTV-8 (720p)
+http://74.91.26.218:82/live/cctv8hd.m3u8
+#EXTINF:-1 group-title="4K8K频道" tvg-speed="1834KB/s",河北4K
+https://event.pull.hebtv.com:443/live/live101.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/tWt4Wou.png" group-title="General" tvg-speed="1820KB/s",CCTV-4 Asia (720p)
 http://74.91.26.218:82/live/cctv4hd.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="1603KB/s",武进生活 (576p) [Not 24/7]
-https://live.wjyanghu.com/live/CH2.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/CCV0eRG.png" group-title="Music" tvg-speed="1582KB/s",CCTV-15 (1080p)
-https://xykt-fix.github.io/play/a02e/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="1502KB/s",武进新闻 (576p) [Not 24/7]
-https://live.wjyanghu.com/live/CH1.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江教科影视.png" group-title="浙江频道" tvg-speed="1490KB/s",浙江教科影视
-https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江经济生活.png" group-title="浙江频道" tvg-speed="1460KB/s",浙江经视
-https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/rEttkKm.png" group-title="Movies" tvg-speed="1459KB/s",CCTV-Storm Theater (1080p)
-http://38.75.136.137:98/gslb/dsdqpub/fyjc.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://i.imgur.com/TVs9PBc.png" group-title="Classic" tvg-speed="1326KB/s",CCTV-Nostalgia Theater (1080p)
+#EXTINF:-1 group-title="Undefined" tvg-speed="1818KB/s",延边新闻综合 [Geo-blocked]
+https://stream2.jlntv.cn/jlyb/sd/live.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/TVs9PBc.png" group-title="Classic" tvg-speed="1813KB/s",CCTV-Nostalgia Theater (1080p)
 http://38.75.136.137:98/gslb/dsdqpub/hjjc.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://i.imgur.com/gBbLyqh.png" group-title="General" tvg-speed="1323KB/s",CCTV-4 America (1080p)
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江经济生活.png" group-title="浙江频道" tvg-speed="1635KB/s",浙江经视
+https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/AzpRtCz.png" group-title="Lifestyle" tvg-speed="1623KB/s",CCTV-Health (1080p)
+http://38.75.136.137:98/gslb/dsdqpub/wsjk.m3u8?auth=testpub
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江少儿.png" group-title="浙江频道" tvg-speed="1622KB/s",浙江少儿
+https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江国际.png" group-title="浙江频道" tvg-speed="1614KB/s",浙江国际
+https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江教科影视.png" group-title="浙江频道" tvg-speed="1599KB/s",浙江教科影视
+https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/6MTar6J.png" group-title="News" tvg-speed="1525KB/s",CCTV-13 (720p)
+http://74.91.26.218:82/live/cctv13hd.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/之江纪录.png" group-title="浙江频道" tvg-speed="1514KB/s",之江纪录
+https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="1434KB/s",辽源新闻综合 [Geo-blocked]
+https://stream2.jlntv.cn/liaoyuan1/sd/live.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/qSg862A.png" group-title="News" tvg-speed="1425KB/s",CCTV+ 2 (600p) [Not 24/7]
+https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/钱江都市.png" group-title="浙江频道" tvg-speed="1413KB/s",浙江钱江都市
+https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="1371KB/s",广东 Ⅰ 韶关综合台 (720p) [Not 24/7]
+https://www.sgmsw.cn/videos/tv/201805/1308/SB05RIYZOU8JR418AUQOF62CAJQ08D0E/hls/live.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江新闻.png" group-title="浙江频道" tvg-speed="1358KB/s",浙江公共新闻
+https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="1309KB/s",武进新闻 (576p) [Not 24/7]
+https://live.wjyanghu.com/live/CH1.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gBbLyqh.png" group-title="General" tvg-speed="1291KB/s",CCTV-4 America (1080p)
 https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江民生休闲.png" group-title="浙江频道" tvg-speed="1275KB/s",浙江民生休闲
-https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
-#EXTINF:-1 group-title="央视IPV4" tvg-speed="1250KB/s",CGTN纪录
-https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="1240KB/s",蕭山生活頻道 (720p) [Not 24/7]
+#EXTINF:-1 group-title="Undefined" tvg-speed="1185KB/s",萧山新闻综合 (720p) [Not 24/7]
+https://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="749KB/s",蕭山生活頻道 (720p) [Not 24/7]
 https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/6MTar6J.png" group-title="News" tvg-speed="676KB/s",CCTV-13 (1080p)
+http://go.bkpcp.top/mg/cctv13
