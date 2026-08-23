@@ -31493,7 +31493,7 @@
     "source_priority": 2
   },
   {
-    "name": "DD Tamil (1080p)",
+    "name": "DD Tamil HD (1080p)",
     "url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/abf46b14847e45499f4a47f3a9afe93d/index.m3u8",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_TAMIL/images/LOGO_HD/image.png",
     "group": "General",
@@ -36806,6 +36806,17 @@
     "source_priority": 2
   },
   {
+    "name": "Epic Bharat Digital (1080p)",
+    "url": "https://cc-p1izg43bk7sj5.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-p1izg43bk7sj5/DIYC/PMSL/IN10/Nazara_IN_B/Nazara_IN_B.m3u8",
+    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG0032BW6T.png?lock=720x540",
+    "group": "Entertainment",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Epic Bhojpuri (576p)",
     "url": "https://mumt01.tangotv.in/O5aw8Zn3EPICBHOJPURI/index.m3u8",
     "logo": "https://dtil.tmsimg.com/assets/GNLZZGG0032BVJ8.png?lock=720x540",
@@ -37356,13 +37367,13 @@
     "source_priority": 2
   },
   {
-    "name": "ESPN UHD (2160p)",
-    "url": "https://sra72yz.s.gy/ESPN_UHD_NL.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png",
-    "group": "Sports",
+    "name": "ESPNews (720p)",
+    "url": "http://41.205.93.154/ESPNNEWS/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/960px-ESPNews.svg.png",
+    "group": "News;Sports",
     "source": "collected",
     "region": "usa",
-    "category": "体育",
+    "category": "新闻",
     "source_name": "iptv-org-main",
     "source_priority": 2
   },
@@ -38841,9 +38852,42 @@
     "source_priority": 2
   },
   {
+    "name": "Faith Africa (1080p)",
+    "url": "https://faithnow-hls.secdn.net/faithnow-holland-channel/play/FaithAfrica.smil/playlist.m3u8",
+    "logo": "https://i.imgur.com/yAZE7aU.png",
+    "group": "Religious",
+    "source": "collected",
+    "region": "usa",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Faith TV (1080p)",
+    "url": "https://faithnow-hls.secdn.net/faithnow-holland-channel/play/FaithTV.smil/playlist.m3u8",
+    "logo": "https://i.imgur.com/lUBnKK1.png",
+    "group": "Religious",
+    "source": "collected",
+    "region": "usa",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Faith TV (576p)",
     "url": "https://cdn.freevisiontv.co.za/sttv/smil:faith.stream.smil/playlist.m3u8",
     "logo": "https://admango.cdn.mangomolo.com/analytics/uploads/188/6544bcf232.jpg",
+    "group": "Religious",
+    "source": "collected",
+    "region": "usa",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Faith UK (1080p)",
+    "url": "https://faithnow-hls.secdn.net/faithnow-c-channel/play/FaithUK.smil/playlist.m3u8",
+    "logo": "https://i.imgur.com/mn8I2wt.png",
     "group": "Religious",
     "source": "collected",
     "region": "usa",
@@ -47938,17 +47982,6 @@
     "source_priority": 2
   },
   {
-    "name": "Hub Sports 1 (720p)",
-    "url": "https://sra72yz.s.gy/HUB_SPORTS_1_HD.m3u8",
-    "logo": "https://i.imgur.com/bhxPddO.png",
-    "group": "Sports",
-    "source": "collected",
-    "region": "other",
-    "category": "体育",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "Huda TV (720p) [Not 24/7]",
     "url": "https://cdn.bestream.io:19360/elfaro1/elfaro1.m3u8",
     "logo": "https://i.imgur.com/1UUjU26.png",
@@ -52162,6 +52195,17 @@
     "source_priority": 2
   },
   {
+    "name": "JOTX-DTV",
+    "url": "https://tvtokyo.mov3.co/hls/tvtokyo.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/TV_Tokyo_%28Japanese%29_2023.svg/960px-TV_Tokyo_%28Japanese%29_2023.svg.png",
+    "group": "General",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "JOURNY TV (720p)",
     "url": "https://d3s3a5c7f101eb.cloudfront.net/playlist.m3u8",
     "logo": "https://i.imgur.com/1JNrLxq.png",
@@ -53114,6 +53158,17 @@
     "group": "Music",
     "source": "collected",
     "region": "usa",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Kangba TV",
+    "url": "http://110.185.237.164:8888/hls/30/index.m3u8",
+    "logo": "https://www.tvchinese.net/uploads/tv/kangbatv.jpg",
+    "group": "General",
+    "source": "collected",
+    "region": "other",
     "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
@@ -64372,17 +64427,6 @@
     "source_priority": 2
   },
   {
-    "name": "MoreMax East HD (720p)",
-    "url": "https://sra72yz.s.gy/MORE_MAX_EAST_HD.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/MoreMax_Logo.svg/960px-MoreMax_Logo.svg.png",
-    "group": "Movies",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "Mork vom Ork",
     "url": "https://jmp2.uk/plu-642ad2127ef83900085f8910.m3u8",
     "logo": "",
@@ -64940,6 +64984,17 @@
     "source": "collected",
     "region": "other",
     "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "MRTV Sports [Not 24/7]",
+    "url": "https://mrtvott.com/cache/MRTV-SPORT/master.m3u8",
+    "logo": "https://i.imgur.com/cFTR4kC.png",
+    "group": "Sports",
+    "source": "collected",
+    "region": "other",
+    "category": "体育",
     "source_name": "iptv-org-main",
     "source_priority": 2
   },
@@ -67760,17 +67815,6 @@
     "source_priority": 2
   },
   {
-    "name": "Nazara (1080p)",
-    "url": "https://cc-p1izg43bk7sj5.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-p1izg43bk7sj5/DIYC/PMSL/IN10/Nazara_IN_B/Nazara_IN_B.m3u8",
-    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG0032BW6T.png?lock=720x540",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "NBA FAST Channel (720p)",
     "url": "https://live-manifest.production-public.tubi.io/live/553b8d5e-fd2a-4a61-bdfa-73b34c299d75/playlist.m3u8",
     "logo": "",
@@ -69841,17 +69885,6 @@
   {
     "name": "Nickelodeon (1080p)",
     "url": "http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8",
-    "logo": "https://i.imgur.com/E84jnP8.png",
-    "group": "Kids",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Nickelodeon +1 (720p)",
-    "url": "https://sra72yz.s.gy/NICKELODEON_UK_PLUS_1.m3u8",
     "logo": "https://i.imgur.com/E84jnP8.png",
     "group": "Kids",
     "source": "collected",
@@ -92390,6 +92423,17 @@
     "source_priority": 2
   },
   {
+    "name": "SEC Network (1080p)",
+    "url": "http://23.237.104.106:8080/USA_SEC_NETWORK/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/SEC_Network_logo.svg/960px-SEC_Network_logo.svg.png",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Seenluft24 (1080p)",
     "url": "https://h056.video-stream-hosting.de/easycast7-live/_definst_/mp4:livestreamhd20/playlist.m3u8?ref=",
     "logo": "https://i.imgur.com/3TgBg9v.jpg",
@@ -95305,17 +95349,6 @@
     "source_priority": 2
   },
   {
-    "name": "Sony BBC Earth HD (720p)",
-    "url": "https://sra72yz.s.gy/SONY_BBC_EARTH_HD.m3u8",
-    "logo": "https://dtil.tmsimg.com/assets/s143800_ld_h15_aa.png?lock=720x540",
-    "group": "Documentary",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "Sony Canal Novelas",
     "url": "https://a89829b8dca2471ab52ea9a57bc28a35.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/CanelaTV_SonyCanalNovelas/playlist.m3u8",
     "logo": "",
@@ -97322,6 +97355,17 @@
     "url": "https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5",
     "logo": "https://i.imgur.com/9O3DHRB.png",
     "group": "Undefined",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Star Vijay (396p)",
+    "url": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starvijayuk.smil/playlist.m3u8",
+    "logo": "https://i.imgur.com/dZtJHAe.png",
+    "group": "Entertainment",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -103357,6 +103401,17 @@
     "source_priority": 2
   },
   {
+    "name": "Telesol (1080p)",
+    "url": "https://cdn1.tvlin.net/open/telesol/playlist.m3u8",
+    "logo": "https://i.imgur.com/79sTxtP.png",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Telestar1",
     "url": "https://dvb.tennet.ro/mobile_tv/telestar.m3u8",
     "logo": "https://i.imgur.com/BTKh5ef.png",
@@ -105777,6 +105832,17 @@
     "source_priority": 2
   },
   {
+    "name": "The Walk TV",
+    "url": "https://wggstv16.ddns.net:9953/hls/walk1.m3u8",
+    "logo": "https://i.imgur.com/p3RAxjp.png",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "The Walking Dead by AMC (720p)",
     "url": "https://jmp2.uk/plu-678aa104680721c77c506746.m3u8",
     "logo": "",
@@ -106186,17 +106252,6 @@
   {
     "name": "Tigo Sports (1080p)",
     "url": "http://45.5.119.43:4000/play/a05t/index.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Tigo_Sports_2025.png/960px-Tigo_Sports_2025.png",
-    "group": "Sports",
-    "source": "collected",
-    "region": "other",
-    "category": "体育",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Tigo Sports+ (1080p) [Not 24/7]",
-    "url": "https://lbgo.bozztv.com/ssh101/ssh101/events2py/playlist.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Tigo_Sports_2025.png/960px-Tigo_Sports_2025.png",
     "group": "Sports",
     "source": "collected",
@@ -121881,6 +121936,17 @@
     "source_priority": 2
   },
   {
+    "name": "World TV Guatemala (720p)",
+    "url": "https://183.bozztv.com/giatv/giatv-worldtvgt/worldtvgt/playlist.m3u8",
+    "logo": "https://i.ibb.co/G4cTmRgz/World-Tv-Guatemala.png",
+    "group": "General",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "World War TV (1080p)",
     "url": "https://aenetworks-worldwartv-rakuten.amagi.tv/playlist.m3u8",
     "logo": "",
@@ -123887,6 +123953,17 @@
     "url": "http://103.72.101.252:8080/live/1358.m3u8",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TALKIES/images/LOGO_HD/LOGO_HD_image.png",
     "group": "Movies",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Zee Tamil HD (720p)",
+    "url": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:zeetamil1.smil/playlist.m3u8",
+    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG00233WCL.png?lock=720x540",
+    "group": "Entertainment",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -129503,28 +129580,6 @@
     "source": "collected",
     "region": "hongkong",
     "category": "新闻",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "邢台城生",
-    "url": "http://222.223.119.21:8888/newlive/live/hls/55/live.m3u8",
-    "logo": "",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "邢台综合",
-    "url": "http://222.223.119.21:8888/newlive/live/hls/54/live.m3u8",
-    "logo": "",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
   },
