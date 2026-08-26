@@ -10763,32 +10763,21 @@
     "source_priority": 2
   },
   {
-    "name": "Antena International (720P)",
-    "url": "https://stream1.antenaplay.ro/as/asrolive1/playlist.m3u8",
-    "logo": "https://static.wikia.nocookie.net/logopedia/images/3/38/Antena_Interna%C8%9Bional_2022.png/revision/latest/scale-to-width-down/512",
-    "group": "General",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Antena Monden (720p)",
-    "url": "https://stream1.antenaplay.ro/live/AntenaMonden/playlist.m3u8",
-    "logo": "https://static.wikia.nocookie.net/logopedia/images/0/01/Antena_Monden_2022.png/revision/latest/scale-to-width-down/300",
-    "group": "Lifestyle",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "Antena Seis TV (720p) [Geo-blocked]",
     "url": "https://video1.azulstream.com:8081/antenaseistv/index.m3u8",
     "logo": "https://i.imgur.com/9Nh2mo9.png",
     "group": "General",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Antena Stars (720p)",
+    "url": "https://stream1.antenaplay.ro/live/AntenaMonden/playlist.m3u8",
+    "logo": "https://static.wikia.nocookie.net/logopedia/images/7/7e/A_Stars_2022.png/revision/latest/scale-to-width-down/300",
+    "group": "Entertainment",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -11360,6 +11349,17 @@
     "name": "Argentinísima Satelital (540p)",
     "url": "https://stream1.sersat.com/hls/argentinisima.m3u8",
     "logo": "https://i.imgur.com/xFgJawa.png",
+    "group": "General",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Arges TV (720p)",
+    "url": "https://btutzctahuf0wjoq.cdn.streamingserver.io/hls/yjvam8hlp2g3u08z02tv0yz66rq3cy.m3u8",
+    "logo": "https://i.imgur.com/qufz6nk.png",
     "group": "General",
     "source": "collected",
     "region": "other",
@@ -39908,9 +39908,64 @@
     "source_priority": 2
   },
   {
+    "name": "FILMBOX+ Comedy Romania",
+    "url": "https://nosignal1.antenaplay.ro/hls/fb-comedy-hd/index.m3u8",
+    "logo": "https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bcomedy.png",
+    "group": "Movies",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "FILMBOX+ Festival",
     "url": "https://dash3.antik.sk/live/test_filmbox_arthouse_atk_1200/playlist.m3u8",
     "logo": "https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bfestival.png",
+    "group": "Movies",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "FILMBOX+ Festival HD (1080p)",
+    "url": "https://nosignal1.antenaplay.ro/hls/fb-festival-hd/index.m3u8",
+    "logo": "https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bfestival.png",
+    "group": "Movies",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "FILMBOX+ Hits Romania (576p)",
+    "url": "https://nosignal1.antenaplay.ro/hls/fb-hits-sd/index.m3u8",
+    "logo": "https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bhits.png",
+    "group": "Movies",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "FILMBOX+ Love & Crime Romania",
+    "url": "https://nosignal1.antenaplay.ro/hls/fb-love-and-crime-sd/index.m3u8",
+    "logo": "https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Blove-and-crime.png",
+    "group": "Movies",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "FILMBOX+ One Romania (576p)",
+    "url": "https://nosignal1.antenaplay.ro/hls/fb-one-sd/index.m3u8",
+    "logo": "https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bone.png",
     "group": "Movies",
     "source": "collected",
     "region": "other",
@@ -44770,6 +44825,17 @@
     "source_priority": 2
   },
   {
+    "name": "Greater Love TV (720p)",
+    "url": "https://rpn.bozztv.com/dvrfl04/itv04019/index.m3u8",
+    "logo": "https://i.imgur.com/WE0cRXR.png",
+    "group": "Religious",
+    "source": "collected",
+    "region": "usa",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Green Gold TV",
     "url": "https://vglivessai.akamaized.net/eu/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/675a37e5-f517-434e-adae-d25ae1706340/fbdb017c-7b61-4f62-8719-28b27e44c862/4.m3u8",
     "logo": "",
@@ -46288,8 +46354,8 @@
     "source_priority": 2
   },
   {
-    "name": "Hello Taste (720p)",
-    "url": "https://stream1.antenaplay.ro/live/HelloTaste/playlist.m3u8",
+    "name": "Hello Taste",
+    "url": "https://dai.google.com/linear/hls/pa/event/YeG0_KbLRjGeYKU2qVhl_Q/stream/30ddffe9-87f0-4dc7-b0fe-8f0e12044f3e:GRQ/variant/c209b0d3694ace6f439e2179fdad8e66/bandwidth/2628000.m3u8",
     "logo": "https://i.imgur.com/TdKO0er.png",
     "group": "Cooking",
     "source": "collected",
@@ -47614,6 +47680,39 @@
     "group": "Sports",
     "source": "collected",
     "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Hosanna TV",
+    "url": "https://asia.mslivestream.net/mslive/bfba54c5c96a6359e2da0ca35f4998af.sdp/playlist.m3u8",
+    "logo": "https://i.imgur.com/VYorU1L.png",
+    "group": "Religious",
+    "source": "collected",
+    "region": "usa",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Hosanna TV Global",
+    "url": "https://ktismaservers.in:3349/live/hosannatvlive.m3u8",
+    "logo": "https://i.imgur.com/VYorU1L.png",
+    "group": "Religious",
+    "source": "collected",
+    "region": "usa",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Hosanna TV Hindi",
+    "url": "https://ktismaservers.in:3466/live/hosannattvhindhilive.m3u8",
+    "logo": "https://i.imgur.com/VYorU1L.png",
+    "group": "Religious",
+    "source": "collected",
+    "region": "usa",
     "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
@@ -52032,10 +52131,10 @@
   {
     "name": "Joel Osteen Network (1080p)",
     "url": "https://linear-860.frequency.stream/dist/xumo/860/hls/master/playlist.m3u8",
-    "logo": "",
-    "group": "Undefined",
+    "logo": "https://www.tablotv.com/wp-content/uploads/2025/05/Osteen_black.png",
+    "group": "Religious",
     "source": "collected",
-    "region": "other",
+    "region": "usa",
     "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
@@ -100189,8 +100288,8 @@
     "source_priority": 2
   },
   {
-    "name": "Swerve Sports (1080p)",
-    "url": "https://linear-253.frequency.stream/dist/stirr/253/hls/master/playlist.m3u8",
+    "name": "Swerve Sports (720p)",
+    "url": "https://a-cdn.klowdtv.com/live3/swervewomenssports_720p/playlist.m3u8",
     "logo": "https://i.imgur.com/GT0Yi2T.png",
     "group": "Sports",
     "source": "collected",
@@ -118438,6 +118537,17 @@
     "source_priority": 2
   },
   {
+    "name": "Video Mix TV",
+    "url": "https://2-fss-2.streamhoster.com/pl_118/206436-3189488-1/playlist.m3u8",
+    "logo": "https://i.imgur.com/nyLrIPP.png",
+    "group": "Music",
+    "source": "collected",
+    "region": "usa",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Video Rola (1080p)",
     "url": "https://d3b2epqdk0p7vd.cloudfront.net/out/v1/8a448b5e16384af4a3c8146a7b049c32/index.m3u8",
     "logo": "https://i.imgur.com/9w54eVy.png",
@@ -118680,8 +118790,8 @@
     "source_priority": 2
   },
   {
-    "name": "Village TV (576p)",
-    "url": "https://villagetv.applelive.in/villagetv/villagetv/index.m3u8",
+    "name": "Village TV (1080p)",
+    "url": "https://live.villagetv.net/villagetv/hd/index.m3u8",
     "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/VillageTV.png",
     "group": "Religious",
     "source": "collected",
@@ -123161,6 +123271,28 @@
     "url": "http://23.237.104.106:8080/USA_YES_NETWORK/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/YES_Network_logo.svg/960px-YES_Network_logo.svg.png",
     "group": "Undefined",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "YET Max (720p)",
+    "url": "https://live.yettelevision.com:5443/LiveApp/streams/yettv2.m3u8",
+    "logo": "https://yettelevision.com/assets/images/logo/channel_11847.png",
+    "group": "Music",
+    "source": "collected",
+    "region": "usa",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "YET TV (720p)",
+    "url": "https://live.yettelevision.com:5443/LiveApp/streams/yettv.m3u8",
+    "logo": "https://yettelevision.com/assets/images/logo/channel_1.png",
+    "group": "Entertainment",
     "source": "collected",
     "region": "other",
     "category": "综合",
