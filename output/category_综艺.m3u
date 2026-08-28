@@ -1,8 +1,10 @@
 #EXTM3U
 #PLAYLIST:综艺频道
-# Generated: 2026-08-27 20:23:25
-# Channels: 2
-#EXTINF:-1 tvg-logo="https://i.imgur.com/c9q6oT0.png" group-title="Entertainment" tvg-speed="1601KB/s",MRTV Entertainment
-https://mrtvott.com/cache/MRTV-Ent-HD/master.m3u8
-#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s159096_ld_h15_aa.png?lock=720x540" group-title="Entertainment" tvg-speed="1067KB/s",Sony Entertainment Television HD (1080p)
+# Generated: 2026-08-28 07:28:21
+# Channels: 3
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s159096_ld_h15_aa.png?lock=720x540" group-title="Entertainment" tvg-speed="1543KB/s",Sony Entertainment Television HD (1080p)
 http://38.96.178.205/SONYHD/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/c9q6oT0.png" group-title="Entertainment" tvg-speed="395KB/s",MRTV Entertainment
+https://mrtvott.com/cache/MRTV-Ent-HD/master.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Entertainment_Tonight_2021.svg/960px-Entertainment_Tonight_2021.svg.png" group-title="Entertainment;News" tvg-speed="239KB/s",Entertainment Tonight (1080p)
+https://enterbcef94b.airspace-cdn.cbsivideo.com/master.m3u8

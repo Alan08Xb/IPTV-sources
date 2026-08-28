@@ -1,42 +1,40 @@
 #EXTM3U
 #PLAYLIST:音乐频道
-# Generated: 2026-08-27 20:23:25
-# Channels: 19
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/YRF_Music.png" group-title="Music" tvg-speed="8378KB/s",YRF Music (1080p)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/dLgoKJ0.png" group-title="Music" tvg-speed="4003KB/s",One Music Television
-https://oneapp.b-cdn.net/1080p/index.m3u8
-#EXTINF:-1 group-title="Music" tvg-speed="3223KB/s",Persiana Music
-https://musichls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HimuPPb.png" group-title="Music" tvg-speed="2667KB/s",Deluxe Music (720p)
+# Generated: 2026-08-28 07:28:21
+# Channels: 18
+#EXTINF:-1 group-title="Undefined" tvg-speed="3631KB/s",Feva Music (1080p)
+https://d2y0xw9ugf4if7.cloudfront.net/scheduler/scheduleMaster/417.m3u8
+#EXTINF:-1 tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4900002RV_20250811T033455SQUARE.png" group-title="Music" tvg-speed="3541KB/s",ETV Music (1080p)
+https://cc-szivnms4rlah6.akamaized.net/WWBI/Amagi/ETV_Music_IN/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://musicboxdance.com/music_box_dance_logo.png" group-title="Music" tvg-speed="3448KB/s",Music Box Dance
+http://88.212.15.19/live/mb_dance/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HimuPPb.png" group-title="Music" tvg-speed="3368KB/s",Deluxe Music (720p)
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Fykhzxh.jpg" group-title="Music" tvg-speed="1963KB/s",A2i Music (720p) [Not 24/7]
-https://stream.sen-gt.com/A2iMusic/myStream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DHOOM_MUSIC/images/LOGO_HD/image.png" group-title="Music" tvg-speed="1909KB/s",Dhoom Music (720p)
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DHOOM_MUSIC/images/LOGO_HD/image.png" group-title="Music" tvg-speed="2117KB/s",Dhoom Music (720p)
 https://cdn-1.pishow.tv/live/1456/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/L38mC6H.png" group-title="Music" tvg-speed="1701KB/s",California Music Channel (1080p)
-https://cmc-cmctv-cineverse.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="1356KB/s",Fon Music (576p)
-http://stream.mcquack.net/317/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="1225KB/s",MVMT of Culture (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/iBcqT8L.png" group-title="Music;Religious" tvg-speed="1812KB/s",3ABN Praise Him Music Network
+https://3abn.bozztv.com/3abn1/PraiseHim/smil:PraiseHim.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png?lock=720x540" group-title="Music" tvg-speed="1531KB/s",B4U Music (576p)
+https://cdn-2.pishow.tv/live/415/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/IiiRmrf.png" group-title="Music" tvg-speed="1408KB/s",CCTV-Storm Music (1080p)
+http://38.75.136.137:98/gslb/dsdqpub/fyyy.m3u8?auth=testpub
+#EXTINF:-1 group-title="Undefined" tvg-speed="1301KB/s",MVMT of Culture (1080p)
 https://d2kwqe56yti97f.cloudfront.net/scheduler/scheduleMaster/490.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/gNWg9tl.png" group-title="Music" tvg-speed="1182KB/s",30A Music (720p)
+#EXTINF:-1 tvg-logo="https://btb.j00r.us/images/logo_BTBMusic.webp" group-title="Music" tvg-speed="1080KB/s",BTB Music (1080p)
+https://panel.btb.j00r.us/memfs/ebaffae6-0086-49d7-843d-57f2c561de86.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gNWg9tl.png" group-title="Music" tvg-speed="1048KB/s",30A Music (720p)
 https://30a-tv.com/music.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/KImqYnN.jpeg" group-title="Music" tvg-speed="1135KB/s",Vintage Music (720p)
-https://59ef525c24caa.streamlock.net/vmtv/tvvintage/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/kj21hwd.png" group-title="Music" tvg-speed="1009KB/s",15+ Music (1080p)
+#EXTINF:-1 tvg-logo="https://vantagetv.ee/vantage_music.png" group-title="Music" tvg-speed="995KB/s",Vantage Music UK (1080p) [Geo-blocked]
+https://hls.vantagetv.co.uk/vmusicuk_stream/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/JdKxscs.png" group-title="Music" tvg-speed="864KB/s",AlbKanale Music TV (1080p)
+https://albportal.net/albkanalemusic.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/kj21hwd.png" group-title="Music" tvg-speed="842KB/s",15+ Music (1080p)
 https://live.15plusmg.ru/memfs/ce3366b1-bf25-4e24-96bb-1adf0d44bd3d.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="1007KB/s",WATC Harmony Gospel Music TV (1080p)
-https://tgn.bozztv.com/watc57/watc57-harmony/watc57-harmony/index.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5873fc21cad696fb37aa9054/colorLogoPNG.png" group-title="Entertainment" tvg-speed="653KB/s",Live Music
-https://jmp2.uk/plu-5873fc21cad696fb37aa9054.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/DfsCJwk/Uz-biz-music-5462.jpg" group-title="Music" tvg-speed="569KB/s",BIZ Music (1080p)
-https://fl.biztv.media/music_720_QAKpGmVUjaPApCNjpsgBxrdqNihAkl/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/QsANRSu.png" group-title="Music" tvg-speed="561KB/s",CMC-USA Country Music Channel (720p)
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PTC_MUSIC/images/LOGO_HD/image.png" group-title="Music" tvg-speed="709KB/s",PTC Music (720p)
+https://d2lk5u59tns74c.cloudfront.net/out/v1/f913cf893c594f73b114216e74a2efbc/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/QsANRSu.png" group-title="Music" tvg-speed="652KB/s",CMC-USA Country Music Channel (720p)
 https://hwlive.streamingmediahosting.com/14215-live/0_obd393sh/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHOWBOX/images/LOGO_HD/image.png" group-title="Music" tvg-speed="505KB/s",Epic Music (576p)
-https://mumt04.tangotv.in/m18aqlK4EPICMUSIC/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/j6IiysJ.png" group-title="Animation;Kids;Music" tvg-speed="426KB/s",MCN6 Music Channel (1080p) [Not 24/7]
-https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_MUSIC.smil/Playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Swd9NP7n/music-tv-granada.png" group-title="Music" tvg-speed="165KB/s",Music TV Granada (1080p) [Not 24/7]
-https://cloudvideo.servers10.com:8081/8032/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/L38mC6H.png" group-title="Music" tvg-speed="171KB/s",California Music Channel (1080p)
+https://cmc-cmctv-cineverse.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHOWBOX/images/LOGO_HD/image.png" group-title="Music" tvg-speed="170KB/s",Epic Music Digital (1080p)
+https://cc-3cyxq80qusspd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3cyxq80qusspd/playlist.m3u8
