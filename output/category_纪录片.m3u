@@ -1,16 +1,12 @@
 #EXTM3U
 #PLAYLIST:纪录片频道
-# Generated: 2026-08-31 17:37:20
-# Channels: 6
-#EXTINF:-1 group-title="Undefined" tvg-speed="20492KB/s",Discovery Turbo TV
-https://jmp2.uk/plu-6400f731d200410008f9b339.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="4608KB/s",Afroland Documentary (814p)
-https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=6071
-#EXTINF:-1 tvg-logo="https://www.karbala-tv.iq/documentary/static/img/logo.png" group-title="Documentary;Religious" tvg-speed="2827KB/s",Karbala Documentary
+# Generated: 2026-09-01 02:27:57
+# Channels: 4
+#EXTINF:-1 tvg-logo="https://www.karbala-tv.iq/documentary/static/img/logo.png" group-title="Documentary;Religious" tvg-speed="3722KB/s",Karbala Documentary
 https://ktvlive.online/stream/hls/ch3.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/aeu5zIC.png" group-title="Documentary" tvg-speed="2631KB/s",RT Documentary English (1080p) [Geo-blocked]
-https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/4XV7cjU.png" group-title="Documentary" tvg-speed="1607KB/s",MWD Documentary [Geo-blocked]
-http://203.81.84.130/hls/mwd_document/index.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/之江纪录.png" group-title="浙江频道" tvg-speed="1572KB/s",之江纪录
+#EXTINF:-1 group-title="Undefined" tvg-speed="3229KB/s",Afroland Documentary (814p)
+https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=6071
+#EXTINF:-1 group-title="Undefined" tvg-speed="2909KB/s",Discovery Turbo TV
+https://jmp2.uk/plu-6400f731d200410008f9b339.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/之江纪录.png" group-title="浙江频道" tvg-speed="2123KB/s",之江纪录
 https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
