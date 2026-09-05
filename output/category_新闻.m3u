@@ -1,262 +1,266 @@
 #EXTM3U
 #PLAYLIST:新闻频道
-# Generated: 2026-09-04 14:15:47
-# Channels: 129
-#EXTINF:-1 group-title="Undefined" tvg-speed="23562KB/s",浙江新闻
-http://101.66.195.43:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="19136KB/s",CNN Headlines International
-https://jmp2.uk/plu-66c45ba803e3b20008d8c294.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="18911KB/s",Global News Calgary
-https://jmp2.uk/plu-62cbf23dcfb48300077f8348.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="18788KB/s",CNN HEADLINES
-https://jmp2.uk/plu-5421f71da6af422839419cb3.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="18595KB/s",Global News Lethbridge
-https://jmp2.uk/plu-62cbf7439cb58900088dc77b.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="17905KB/s",CBS News Philadelphia (720p)
-https://jmp2.uk/plu-5eb1b05ea168cc000767ba67.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="14702KB/s",CBC News British Columbia
-https://jmp2.uk/plu-66a8f01914a2bb00084dd86c.m3u8
-#EXTINF:-1 tvg-logo="https://static.files.bbci.co.uk/ws/simorgh-assets/public/pashto/images/metadata/poster-1024x576.png" group-title="Undefined" tvg-speed="14366KB/s",BBC News Pashto (720p)
-https://vs-cmaf-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_afghan_tv/pc_hd_abr_v2.mpd
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ASIANET_NEWS/images/LOGO_HD/image.png" group-title="News" tvg-speed="11193KB/s",Asianet News (1080p)
-https://amg13737-amg13737c1-amgplt0016.playout.now3.amagi.tv/playlist/amg13737-amg13737c1-amgplt0016/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="News" tvg-speed="10804KB/s",ABC News Live 3 (720p)
-https://abcnews-streams.akamaized.net/hls/live/2023562/abcnewshudson3/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business" tvg-speed="10454KB/s",Bloomberg TV+
-https://86ebec83.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0Jsb29tYmVyZ1RWUGx1c19ITFM/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="10126KB/s",NBC 5 Chicago Live News (1080p)
-https://d368vp0qqzvkid.cloudfront.net/11603/88889704/hls/master.m3u8?ads.xumo_channelId=88889704a&ads.xumo_ifaType=&ads.xumo_providerId=3818&ads.xumo_providerName=NBCNCHI
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="News" tvg-speed="8377KB/s",ABC News Live 5 (720p)
-https://abcnews-streams.akamaized.net/hls/live/2023564/abcnewshudson5/master.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="News" tvg-speed="8369KB/s",ABC News Live 2 (720p)
-https://abcnews-streams.akamaized.net/hls/live/2023561/abcnewshudson2/master.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="News" tvg-speed="8315KB/s",ABC News Live 10 (720p)
-https://abcnews-streams.akamaized.net/hls/live/2023569/abcnewshudson10/master.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="News" tvg-speed="8137KB/s",ABC News Live 1 (720p)
-https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bloomberg_Originals.png" group-title="Business;Documentary" tvg-speed="7959KB/s",Bloomberg Originals
-https://e96a7526.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0Jsb29tYmVyZ09yaWdpbmFsc19ITFM/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="7841KB/s",ABC 25 News Central Texas (720p)
-https://content.uplynk.com/channel/9d4e02c9c3544c269d32e6b316792c8f.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="News" tvg-speed="7438KB/s",ABC News Live 7 (720p)
-https://abcnews-streams.akamaized.net/hls/live/2023566/abcnewshudson7/master.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="News" tvg-speed="7408KB/s",ABC News Live 9 (720p)
-https://abcnews-streams.akamaized.net/hls/live/2023568/abcnewshudson9/master.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="7230KB/s",Euronews
-https://jmp2.uk/plu-61de8e502c8e9400077e5de7.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News" tvg-speed="7138KB/s",Euronews French (720p)
-https://2f6c5bf4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0ZyYW5jYWlzX0hMUw/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Ez7qAZP.png" group-title="News" tvg-speed="6328KB/s",News 12 New York (1080p)
-https://aegis-cloudfront-1.tubi.video/97fbb992-c212-4164-8406-abb6f731e517/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/bV6sawt.png" group-title="News" tvg-speed="6250KB/s",Fresh News
-http://streaming-android.freshnewsasia.tv:1935/live/ngrp:myStream_all/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/5UxU4zc.png" group-title="News" tvg-speed="6142KB/s",Africanews (720p)
-https://c3c275b999764df8a2dd55ffe2996818.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6576/bitok/eyJzdGlkIjoiOTU0NDAyODQtOTU0My00Yzc2LThmZjQtNDRhY2YwYmQxYTYwIiwibWt0IjoicGwiLCJjaCI6NjYwNiwicHRmIjo1fQ==/26036/africanews-en.m3u8
-#EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3878-294x165-FFFFFF.jpg" group-title="News" tvg-speed="5083KB/s",Telenews TV
-https://hilandofinotv.essastream.com:3480/live/telenewscanallive.m3u8
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_INDIA_TV_SPEED_NEWS/images/LOGO_HD/image.png" group-title="News" tvg-speed="4706KB/s",India TV Speed News (1080p)
-https://cc-lyf4c0hwzg5dd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lyf4c0hwzg5dd/v1/vglive-sk-479089/main.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HRrkhLq.png" group-title="News" tvg-speed="4463KB/s",Estrella News (1080p)
-https://estrella-news-oando.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/dtrTfZC.png" group-title="News" tvg-speed="4370KB/s",Dunya News (UK Feed) (720p) [Not 24/7]
-https://ukintl.dunyanews.tv/liveuk/ngrp:dunyalive_all/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bloomberg_Originals.png" group-title="Business;Documentary" tvg-speed="4266KB/s",Bloomberg Originals (1080p)
-https://86fdc85a.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfQmxvb21iZXJnT3JpZ2luYWxzX0hMUw/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/News_12_logo_2019.png/960px-News_12_logo_2019.png" group-title="News" tvg-speed="4233KB/s",News12 Long Island (1080p) [Geo-blocked]
-https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12LH_WEST_A1/index_new.m3u8?omap=https
-#EXTINF:-1 tvg-logo="https://www.tvchinese.net/uploads/tv/cfxwzhpd.jpg" group-title="News" tvg-speed="4185KB/s",Chifeng Comprehensive News Chanel
-http://play1-qk.nmtv.cn/live/1735546697341033.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Newsy_2021.svg/960px-Newsy_2021.svg.png" group-title="News" tvg-speed="4184KB/s",Newsy (1080p)
-https://547f72e6652371c3.mediapackage.us-east-1.amazonaws.com/out/v1/e3e6e29095844c4ba7d887f01e44a5ef/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/5UxU4zc.png" group-title="News" tvg-speed="4107KB/s",Africanews English (720p)
-https://cdn-euronews.akamaized.net/live/eds/africanews-en/25049/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News" tvg-speed="4078KB/s",Euronews Russian (720p)
-https://cdn-euronews.akamaized.net/live/eds/euronews-ru/25071/index.m3u8
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS18_KERALA/images/LOGO_HD/image.png" group-title="News" tvg-speed="3774KB/s",News18 Kerala (1080p)
-https://n18syndication.akamaized.net/bpk-tv/News18_Kerala_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ubxwfMY.png" group-title="News" tvg-speed="3703KB/s",CBS News Minnesota (720p)
-https://cbsn-min.cbsnstream.cbsnews.com/out/v1/76518f06941246ba810c8d175600bf74/master.m3u8
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1a/Logo-cbsn-bayarea-1920x1080.jpg/revision/latest/scale-to-width-down/512" group-title="News" tvg-speed="3660KB/s",CBS News Bay Area (720p)
-https://cbsn-sf.cbsnstream.cbsnews.com/out/v1/dac63c1abb3f4a2dac9f508f44bb072a/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/FjtzQQs.png" group-title="News" tvg-speed="3441KB/s",Sky News Arabia (Portrait) (1280p) [Not 24/7]
-https://stream.skynewsarabia.com/vertical/vertical.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/qGbVQir.png" group-title="News" tvg-speed="3440KB/s",CBS News Chicago (720p)
-https://cbsn-chi.cbsnstream.cbsnews.com/out/v1/b2fc0d5715d54908adf07f97d2616646/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/2oyYwBw.png" group-title="News" tvg-speed="3338KB/s",CBS News Colorado (720p)
-https://cbsn-den.cbsnstream.cbsnews.com/out/v1/2e49baf2906244ecb01b07d9885fbe7a/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/klULxMV.png" group-title="News" tvg-speed="3272KB/s",CBS News Los Angeles (720p)
-https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/tuP9GW8.png" group-title="News" tvg-speed="3269KB/s",Cheddar News (1080p)
-https://hls.livecdn.io/cheddar.com/cheddar/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/bQfQeEA.jpeg" group-title="News" tvg-speed="3143KB/s",Lahore News (720p) [Not 24/7]
-https://vcdn.dunyanews.tv/lahorelive/ngrp:lnews_1_all/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/5UxU4zc.png" group-title="News" tvg-speed="3072KB/s",Africanews French (720p)
-https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/bqRC3sl.png" group-title="Business;News" tvg-speed="2980KB/s",Asharq News (1080p)
-https://live-news.asharq.com/asharq.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/c2bwn4G.png" group-title="News" tvg-speed="2967KB/s",Al Najah News (720p)
-https://streaming.najah.edu:8443/hls/AlNajah.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/91JLpxr.png" group-title="Religious" tvg-speed="2835KB/s",ACNN (480p)
-https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_014/Stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/1PbtW0y.png" group-title="News" tvg-speed="2779KB/s",Dunya News (INT Feed) (720p) [Not 24/7]
-https://imob.dunyanews.tv/livehd/ngrp:dunyalivehd_2_all/playlist.m3u8
-#EXTINF:-1 group-title="News" tvg-speed="2775KB/s",Pro TV News (1080p)
-https://cmero-ott-live.ssl.cdn.cra.cz/channels/cme-ro-voyo-news/playlist.m3u8?offsetSeconds=0&url=0
-#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s142682_ld_h15_aa.png?lock=720x540" group-title="News" tvg-speed="2630KB/s",Asianet Suvarna News (1080p) [Not 24/7]
-https://asianetnews.vgcdn.net/vglive-sk-335835/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/BXFPz8c.png" group-title="News" tvg-speed="2417KB/s",Newsmax Balkans (1080p)
-https://newsmaxadria.mts-si.tv/newsmaxadria/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="2374KB/s",农安新闻综合 [Geo-blocked]
-https://stream2.jlntv.cn/naxw/sd/live.m3u8
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS7_TAMIL/images/LOGO_HD/image.png" group-title="News" tvg-speed="2343KB/s",News 7 Tamil (576p)
-https://segment.yuppcdn.net/240122/news7/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="2305KB/s",吉林市新闻综合 [Geo-blocked]
-https://stream2.jlntv.cn/jilin1/sd/live.m3u8
-#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s158138_ld_h15_aa.png?lock=720x540" group-title="News" tvg-speed="2230KB/s",ABP News (1080p)
-https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-472500/abpnews/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/feQTXeZ.jpg" group-title="News" tvg-speed="2141KB/s",Al Iraqia News (720p)
-https://imn-live.esite-lab.com/hls/iraqia-news.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="2041KB/s",松原新闻综合 [Geo-blocked]
-https://stream2.jlntv.cn/sytv/sd/live.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/vstHOYx.png" group-title="News" tvg-speed="2035KB/s",TVídeoNews (720p) [Not 24/7]
-https://video01.logicahost.com.br/tvideonews/tvideonews/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="1991KB/s",辽源新闻综合 [Geo-blocked]
-https://stream2.jlntv.cn/liaoyuan1/sd/live.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/PeAcXB9.png" group-title="News" tvg-speed="1963KB/s",Al-Sharqiya News (1080p)
-https://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="1803KB/s",WTVQ ABC 36 News (Lexington KY) (720p)
-https://townnews.g-mana.live/media/14d1fd2c-0548-4803-80ad-6657831a7981/main.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="1788KB/s",CBS News Texas (720p)
-https://cbsn-dal.cbsnstream.cbsnews.com/out/v1/ffa98bbf7d2b4c038c229bd4d9122708/master.m3u8
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/I/51Icdznow+L.png" group-title="News" tvg-speed="1770KB/s",CityNews Toronto (720p)
-https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/8tzsC9h.png" group-title="News" tvg-speed="1732KB/s",IRINN2 Live Farsi News
-https://ncdn.telewebion.ir/irinn2/live/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江新闻.png" group-title="浙江频道" tvg-speed="1626KB/s",浙江公共新闻
-https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="1602KB/s",延边新闻综合 [Geo-blocked]
-https://stream2.jlntv.cn/jlyb/sd/live.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/gwPaw3v.png" group-title="Music" tvg-speed="1514KB/s",HMI PROMZ NEWS (720p)
-https://video1.getstreamhosting.com:1936/8326/8326/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/vyVEXYL.png" group-title="News" tvg-speed="1462KB/s",AL24 News
-https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/I/51Icdznow+L.png" group-title="News" tvg-speed="1391KB/s",CityNews Edmonton
-https://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/Video-2Mbps.m3u8
-#EXTINF:-1 tvg-logo="https://www.i24news.tv/images/favicon.png" group-title="News" tvg-speed="1331KB/s",I24 News Hebrew (1080p)
-https://i24newshebrew-cdn.encoders.immergo.tv/master.m3u8
-#EXTINF:-1 tvg-logo="https://www.tvchinese.net/uploads/tv/anshun.jpg" group-title="News" tvg-speed="1331KB/s",Anshun Comprehensive News Channel
-https://hplayer1.juyun.tv/camera/154379194.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="1311KB/s",CNN Noticias
-https://jmp2.uk/plu-673248f9030a2c0008033af8.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Ora_News_%28Albania%29.svg/960px-Ora_News_%28Albania%29.svg.png" group-title="News" tvg-speed="1270KB/s",Ora News (720p)
-https://live1.mediadesk.al/oranews.m3u8
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/C_News_Bharat.png" group-title="News" tvg-speed="1203KB/s",Cnews Bharat (720p)
-https://legitpro.co.in/cnews/cnews/index.fmp4.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="1190KB/s",余姚新闻综合 (576p)
-https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8
-#EXTINF:-1 group-title="News" tvg-speed="1170KB/s",ASTV News 1 (720p) [Not 24/7]
-http://news1.live14.com/stream/news1.m3u8
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png" group-title="News" tvg-speed="1141KB/s",BBC News (1080p)
-https://xemzi.short.gy/1000015
-#EXTINF:-1 tvg-logo="https://i.imgur.com/eG33jue.png" group-title="News" tvg-speed="1128KB/s",News 24 Albania (392p)
-http://tv.balkanweb.com:8081/news24/livestream/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="1104KB/s",WDEF-TV News Chattanooga TN (720p)
-https://townnews.g-mana.live/media/a54a6409-5e91-46f0-9fee-06904c1fd094/main.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/oxaHaTq.png" group-title="News" tvg-speed="993KB/s",TOLOnews (720p)
-https://tgn.bozztv.com/eshgtv-dvrfl05/gin-tolonews/index.m3u8
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/News11.png" group-title="General" tvg-speed="862KB/s",News 11 (396p)
-https://d1msejlow1t3l4.cloudfront.net/fta/news11bharat/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/svPXoAP.png" group-title="News" tvg-speed="856KB/s",Aik News
-https://s2.ideationtec.live/Pnn/Pnn.m3u8?token=KsR3k27_sH3n-2
-#EXTINF:-1 tvg-logo="https://i.imgur.com/qPRQZMI.png" group-title="News" tvg-speed="847KB/s",Aleph News (720p)
-https://stream-aleph.m.ro/Aleph/ngrp:Alephnewsmain.stream_all/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Prime_9_News.png" group-title="News" tvg-speed="831KB/s",Prime9 News (576p)
-https://mumt01.tangotv.in/O5aw8Zn3PRIME9NEWS/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="807KB/s",CBS News (720p)
+# Generated: 2026-09-05 01:48:32
+# Channels: 131
+#EXTINF:-1 group-title="Undefined" tvg-speed="19656KB/s",CNN Headlines International
+https://jmp2.uk/plu-66dff9d46ad04d0008fda4de.m3u8
+#EXTINF:-1 tvg-logo="https://staticcyl.euronews.com/wp-content/uploads/2023/03/Logo_Euronews_white-on-neon_german_RGB.png" group-title="News" tvg-speed="18740KB/s",Euronews (720p)
+https://jmp2.uk/plu-6639d7d4b18d700008da5316.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="18667KB/s",CBS News (720p)
 https://jmp2.uk/plu-62310f66d5888f0007534342.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="750KB/s",Global News Montreal
-https://jmp2.uk/plu-62cbfbd6ad95670007f567af.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/799WMit.png" group-title="News" tvg-speed="749KB/s",Sadhna News Madhya Pradesh/Chhattisgarh (576p)
-https://mumt04.tangotv.in/m18aqlK4SADHNEWSPMRAJ/index.m3u8
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_FIRST_INDIA_NEWS_RAJASTHAN/images/LOGO_HD/image.png" group-title="News" tvg-speed="744KB/s",First India News (576p)
-https://mumt03.tangotv.in/Dsly5z3H1STINDIANEWS/index.m3u8
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS24_MPCG/images/LOGO_HD/image.png" group-title="News" tvg-speed="742KB/s",News 24 MP & Chhattisgarh (576p)
-https://mumt04.tangotv.in/m18aqlK4NEWS24MPCG/index.m3u8
-#EXTINF:-1 tvg-logo="https://mnews.pk/wp-content/uploads/2025/10/mnews-logo-news.png" group-title="News" tvg-speed="725KB/s",M News (1080p)
-https://cdn.rabta.stream/M-News/index.m3u8
-#EXTINF:-1 tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/brk-news.png" group-title="News" tvg-speed="722KB/s",BRK News (720p)
-https://mumbai-edge.smartplaytv.in/BRKNEWS/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/diQftzP.png" group-title="News" tvg-speed="688KB/s",Mathrubhumi News (576p)
-https://streams.tangotv.in/MATHRUBHUMINEWS/ORIGIN/index.m3u8
-#EXTINF:-1 tvg-logo="https://papaji.freetvindia.com/media/News_Live_Bangla.png" group-title="News" tvg-speed="662KB/s",News Live Bangla (576p)
-https://mumt06.tangotv.in/qYyB8fXVINDRADHANU/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="655KB/s",Global News Toronto
+#EXTINF:-1 group-title="Undefined" tvg-speed="18039KB/s",CNN Headlines
+https://jmp2.uk/plu-66c45c274f25dd00092739ee.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="17388KB/s",CBS News Philadelphia (720p)
+https://jmp2.uk/plu-5eb1b05ea168cc000767ba67.m3u8
+#EXTINF:-1 tvg-logo="https://static.files.bbci.co.uk/ws/simorgh-assets/public/pashto/images/metadata/poster-1024x576.png" group-title="Undefined" tvg-speed="16132KB/s",BBC News Pashto (720p)
+https://vs-cmaf-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_afghan_tv/pc_hd_abr_v2.mpd
+#EXTINF:-1 group-title="Undefined" tvg-speed="15606KB/s",Global News Toronto
 https://jmp2.uk/plu-62cc00b3b821cf00070f82c3.m3u8
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_VIP_NEWS/images/LOGO_HD/image.png" group-title="News" tvg-speed="653KB/s",VIP News (360p)
-https://live.vipnews24x7.co.in/vipnews24x7/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/GB_News_Logo.svg/960px-GB_News_Logo.svg.png" group-title="News" tvg-speed="651KB/s",GB News (1080p)
-https://amg01076-lightningintern-gbnewsau-samsungau-et7fz.amagi.tv/playlist/amg01076-lightningintern-gbnewsau-samsungau/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/zillarbarta.png" group-title="Classic;News" tvg-speed="634KB/s",ZillarBarta News
-https://server.zillarbarta.com/zillarbarta/index.m3u8
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Real_News_Kerala.png" group-title="News" tvg-speed="630KB/s",Real News Kerala (1080p) [Not 24/7]
-https://bk7l298nyx53-hls-live.5centscdn.com/realnews/e7dee419f91aa9e65939d3677fb9c4f5.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="616KB/s",CNNi
-https://jmp2.uk/plu-66c45afaa72e7b0008a2b153.m3u8
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOODNEWS_TV/images/LOGO_HD/image.png" group-title="Religious" tvg-speed="609KB/s",GoodNews TV (720p)
-https://bpgdlwwar3ze-hls-live.wmncdn.net/goodnews/live.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/qfINs2r.png" group-title="News" tvg-speed="594KB/s",Kashish News (720p)
-https://server.thelegitpro.in/kashishnews/kashishnews/index.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/GB_News_Logo.svg/960px-GB_News_Logo.svg.png" group-title="News" tvg-speed="410KB/s",GB News HD (2160p)
-https://xemzi.short.gy/1000017
-#EXTINF:-1 group-title="Undefined" tvg-speed="389KB/s",CNN Originals
-https://jmp2.uk/plu-66e0b4536ad04d0008fff4b2.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/UfN6aAi.png" group-title="News" tvg-speed="364KB/s",Top Stories by Newsy (720p)
-https://content.uplynk.com/channel/33c48f602cfd4474b957eb4ad999caf8.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/C4w0eYC.png" group-title="News" tvg-speed="342KB/s",America's Voice News (720p)
-https://jmp2.uk/plu-5e1f7da4bc7d740009831259.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/VNJ4soR.png" group-title="News" tvg-speed="328KB/s",Euronews Georgia
-http://nue01-edge01.itdc.ge/euronewsgeorgia/mpegts
-#EXTINF:-1 tvg-logo="https://www.tvchinese.net/uploads/tv/haerbin.jpg" group-title="News" tvg-speed="323KB/s",Harbin Comprehensive News Channel
-https://stream.hrbtv.net/xwzh/playlist.m3u8?_upt=ef41dd531755913594
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HXbsPfB.png" group-title="News" tvg-speed="323KB/s",ERT News HD (1080p)
-https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERTNews/default/index.m3u8
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png" group-title="News" tvg-speed="310KB/s",BBC News Latin America (720p)
-http://138.121.15.230:9002/BBC-NEWS/index.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/960px-CBS_News_247_logo.svg.png" group-title="News" tvg-speed="302KB/s",CBS News 24/7 (720p)
-https://jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="281KB/s",KITV 4 Island News (720p)
-https://fuel-streaming-prod01.fuelmedia.io/v1/sem/c4067ddc-0e67-4928-b7ec-624481f721a6.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="248KB/s",Breaking News by LeadStory (1080p)
-https://amg02703-leadstory-leadstory-samsungnz-vc7nn.amagi.tv/playlist/amg02703-leadstory-leadstory-samsungnz/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="244KB/s",Global News BC
-https://jmp2.uk/plu-62cbf063257170000724590c.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="News" tvg-speed="244KB/s",ABC News Live 6 (720p)
+#EXTINF:-1 group-title="Undefined" tvg-speed="14296KB/s",Euronews
+https://jmp2.uk/plu-61de8e502c8e9400077e5de7.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/News9.png" group-title="News" tvg-speed="11283KB/s",News9Live (1080p)
+https://amg01106-amg01106c3-amgplt0844.playout.now3.amagi.tv/ts-ap-s1-n1/playlist/amg01106-amg01106c3-amgplt0844/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="News" tvg-speed="10385KB/s",ABC News Live 6 (720p)
 https://abcnews-streams.akamaized.net/hls/live/2023565/abcnewshudson6/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business" tvg-speed="237KB/s",Bloomberg TV EMEA Live Event (720p)
-https://bloomberg.com/media-manifest/streams/eu-event.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="236KB/s",Global News National (720p)
-https://jmp2.uk/plu-62cbef9ebb857100072fc187.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="234KB/s",Global News Peterborough
-https://jmp2.uk/plu-62cbfcd8c2db990007861e43.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/aDbc64y.png" group-title="News" tvg-speed="214KB/s",Salem News Channel (1080p)
-https://amg00732-salemmediagroup-snc-ono-ekp8j.amagi.tv/playlist/amg00732-salemmediagroup-snc-ono/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/8xnwMRR.png" group-title="News" tvg-speed="207KB/s",News18 Urdu (1080p)
-https://n18syndication.akamaized.net/bpk-tv/News18_Urdu_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="192KB/s",CBC News Toronto (720p)
-https://jmp2.uk/plu-6536721dbfbaec00088687c0.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business" tvg-speed="190KB/s",Bloomberg TV US Politics Live Event (720p)
-https://bloomberg.com/media-manifest/streams/politics.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="188KB/s",WPTV News West Palm Beach FL (720p)
-https://content.uplynk.com/channel/b02350ef854c4eef8358eead1f59a5cc.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="187KB/s",WFTX News Fort Myers FL (720p)
-https://content.uplynk.com/channel/8975f81e6efd4e609873c3e8e25c7756.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="186KB/s",Global News Regina
-https://jmp2.uk/plu-62cbff53ca8f2200080253b5.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="176KB/s",CBC News
-https://jmp2.uk/plu-6536725167bd1a00084481bc.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/bpc4v0u.png" group-title="News" tvg-speed="170KB/s",CBS News New York (720p)
-https://cbsn-ny.cbsnstream.cbsnews.com/out/v1/ec3897d58a9b45129a77d67aa247d136/master.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/This_TV_logo.svg/960px-This_TV_logo.svg.png" group-title="News" tvg-speed="158KB/s",Newsmax 2 (1080p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="News" tvg-speed="10326KB/s",ABC News Live 8 (720p)
+https://abcnews-streams.akamaized.net/hls/live/2023567/abcnewshudson8/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business" tvg-speed="9760KB/s",Bloomberg TV Asia Live Event (720p)
+https://bloomberg.com/media-manifest/streams/asia-event.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="News" tvg-speed="9750KB/s",ABC News Live 5 (720p)
+https://abcnews-streams.akamaized.net/hls/live/2023564/abcnewshudson5/master.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="News" tvg-speed="9496KB/s",ABC News Live 2 (720p)
+https://abcnews-streams.akamaized.net/hls/live/2023561/abcnewshudson2/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sSNhk2g.png" group-title="News" tvg-speed="6970KB/s",CNews (1080p)
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-dm.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News" tvg-speed="6783KB/s",Euronews Italian (720p)
+https://acb6ca89.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0l0YWxpYW5vX0hMUw/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Ez7qAZP.png" group-title="News" tvg-speed="6741KB/s",News 12 New York (1080p)
+https://aegis-cloudfront-1.tubi.video/97fbb992-c212-4164-8406-abb6f731e517/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png" group-title="News" tvg-speed="6564KB/s",BBC News (1080p) [Geo-blocked]
+https://pb-iiczlgfysam0q.akamaized.net/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5UxU4zc.png" group-title="News" tvg-speed="6377KB/s",Africanews (720p)
+https://c3c275b999764df8a2dd55ffe2996818.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6576/bitok/eyJzdGlkIjoiOTU0NDAyODQtOTU0My00Yzc2LThmZjQtNDRhY2YwYmQxYTYwIiwibWt0IjoicGwiLCJjaCI6NjYwNiwicHRmIjo1fQ==/26036/africanews-en.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="6376KB/s",Global News Saskatoon
+https://jmp2.uk/plu-62cc00359cb58900088dc840.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business" tvg-speed="5785KB/s",Bloomberg TV+ (2160p)
+https://d8975dc3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9CbG9vbWJlcmdUVlBsdXNfSExT/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_INDIA_TV_SPEED_NEWS/images/LOGO_HD/image.png" group-title="News" tvg-speed="5732KB/s",India TV Speed News (1080p)
+https://cc-lyf4c0hwzg5dd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lyf4c0hwzg5dd/v1/vglive-sk-479089/main.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p6FPNcCk/news12plus-LI.jpg" group-title="News" tvg-speed="5607KB/s",News12+ Long Island (1080p) [Geo-blocked]
+https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_LI_A1/index_new.m3u8
+#EXTINF:-1 tvg-logo="https://www.thegtcnetwork.com/gtc-news.png" group-title="News" tvg-speed="5489KB/s",GTC News (1080p)
+https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/921cca59-daee-4f89-8c38-7ffe8de44f4c/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.tvchinese.net/uploads/tv/cfxwzhpd.jpg" group-title="News" tvg-speed="5244KB/s",Chifeng Comprehensive News Chanel
+http://play1-qk.nmtv.cn/live/1735546697341033.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/WQKYPKD.png" group-title="News" tvg-speed="5127KB/s",Alalam News Channel Syria (1080p)
+http://live2.alalam.ir/live/Alalam/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HRrkhLq.png" group-title="News" tvg-speed="5068KB/s",Estrella News (1080p)
+https://estrella-news-oando.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/News_12_logo_2019.png/960px-News_12_logo_2019.png" group-title="News" tvg-speed="4912KB/s",News12 Long Island (1080p) [Geo-blocked]
+https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12LH_WEST_A1/index_new.m3u8?omap=https
+#EXTINF:-1 group-title="Undefined" tvg-speed="4825KB/s",CBC News Toronto (1080p) [Geo-blocked]
+https://amagi-streams.akamaized.net/hls/live/2110961/cbctoronto/master.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="4813KB/s",CBC News Explore (1080p) [Geo-blocked]
+https://amagi-streams.akamaized.net/hls/live/2110962/cbcexplore/master.m3u8
+#EXTINF:-1 tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/DD%20News%20HD.png" group-title="News" tvg-speed="4796KB/s",DD News HD (1080p)
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/0811cd8c37ca4c409d5385a6cd2fa18b/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/This_TV_logo.svg/960px-This_TV_logo.svg.png" group-title="News" tvg-speed="4548KB/s",Newsmax 2 (1080p)
 https://amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="157KB/s",Global News Edmonton
-https://jmp2.uk/plu-62cbf2de1fba5f0007e47d9c.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/C4w0eYC.png" group-title="News" tvg-speed="4541KB/s",America's Voice News (720p)
+https://jmp2.uk/plu-5e1f7da4bc7d740009831259.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/FQ3zDZE.png" group-title="News" tvg-speed="4267KB/s",News18 Bihar Jharkhand (1080p)
+https://n18syndication.akamaized.net/bpk-tv/News18_Bihar_Jharkhand_NW18_MOB/output01/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5UxU4zc.png" group-title="News" tvg-speed="4245KB/s",Africanews English (720p)
+https://cdn-euronews.akamaized.net/live/eds/africanews-en/25049/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/tuP9GW8.png" group-title="News" tvg-speed="4014KB/s",Cheddar News (1080p)
+https://hls.livecdn.io/cheddar.com/cheddar/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HZDRG0K.png" group-title="News" tvg-speed="3954KB/s",Record News (720p)
+http://45.162.64.114/RECORD_NEWS/index.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS18_RAJASTHAN/images/LOGO_HD/image.png" group-title="News" tvg-speed="3941KB/s",News18 Rajasthan (1080p)
+https://n18syndication.akamaized.net/bpk-tv/News18_Rajasthan_NW18_MOB/output01/master.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="News" tvg-speed="3935KB/s",ABC News Live (1080p) [Geo-blocked]
+https://pb-0n3n2ej0w8pl9.akamaized.net/ABCNewsLive_Disney.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS18_ASSAM_NORTHSYMHYPEAST/images/LOGO_HD/image.png" group-title="News" tvg-speed="3839KB/s",News18 Assam North-East (1080p)
+https://n18syndication.akamaized.net/bpk-tv/News18_Assam_North_East_NW18_MOB/output01/master.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143596_ld_h15_aa.png?lock=720x540" group-title="News" tvg-speed="3813KB/s",News Nation (1080p)
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6cd2f649739a45ca9de1daf81cc7d0f2/index.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOOD_NEWS_TODAY/images/LOGO_HD/image.png" group-title="News" tvg-speed="3755KB/s",Good News Today (720p)
+https://aajtaklive.vgcdn.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/3196cced-ce29-4219-9809-f07ccdaa02b9/vglive-sk-848805/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/91JLpxr.png" group-title="Religious" tvg-speed="3446KB/s",ACNN (480p)
+https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_014/Stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ETV_News.png" group-title="News" tvg-speed="3333KB/s",ETV News (1080p)
+https://cc-3448kp65yhc5w.akamaized.net/WWBI/Amagi/ETV_News_IN/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/bqRC3sl.png" group-title="Business;News" tvg-speed="3259KB/s",Asharq News (1080p)
+https://live-news.asharq.com/asharq.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/c2bwn4G.png" group-title="News" tvg-speed="3167KB/s",Al Najah News (720p)
+https://streaming.najah.edu:8443/hls/AlNajah.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/dtrTfZC.png" group-title="News" tvg-speed="3052KB/s",Dunya News (UK Feed) (720p) [Not 24/7]
+https://ukintl.dunyanews.tv/liveuk/ngrp:dunyalive_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s142682_ld_h15_aa.png?lock=720x540" group-title="News" tvg-speed="2981KB/s",Asianet Suvarna News (1080p) [Not 24/7]
+https://asianetnews.vgcdn.net/vglive-sk-335835/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5eK8Bc4.png" group-title="News" tvg-speed="2735KB/s",MRTV News
+https://mrtvott.com/cache/MRTV-NEWS-HD/master.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="2715KB/s",江津新闻综合 (480p)
+http://222.179.155.21:1935/ch1.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/mrXMW7H.png" group-title="News" tvg-speed="2642KB/s",Newsmax Spanish (1080p)
+https://n1ottesorkatv.akamaized.net/hls/live/2113795/Live_1/index.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s158138_ld_h15_aa.png?lock=720x540" group-title="News" tvg-speed="2311KB/s",ABP News (1080p)
+https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-472500/abpnews/master.m3u8
+#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1604994875459518464/lGt2wEqM_400x400.jpg" group-title="Weather" tvg-speed="2262KB/s",Sky News Weather (720p)
+https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vstHOYx.png" group-title="News" tvg-speed="2162KB/s",TVídeoNews (720p) [Not 24/7]
+https://video01.logicahost.com.br/tvideonews/tvideonews/playlist.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="2109KB/s",WMGT-TV News (Macon GA) (720p)
+https://townnews.g-mana.live/media/e6909128-cd42-4690-8340-4b8a49455666/main.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/feQTXeZ.jpg" group-title="News" tvg-speed="2094KB/s",Al Iraqia News (720p)
+https://imn-live.esite-lab.com/hls/iraqia-news.m3u8
+#EXTINF:-1 tvg-logo="https://www.tvchinese.net/uploads/tv/baicheng.jpg" group-title="General" tvg-speed="2036KB/s",白城新闻综合 [Geo-blocked]
+https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/PeAcXB9.png" group-title="News" tvg-speed="1956KB/s",Al-Sharqiya News (1080p)
+https://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="1868KB/s",辽源新闻综合 [Geo-blocked]
+https://stream2.jlntv.cn/liaoyuan1/sd/live.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="1795KB/s",延边新闻综合 [Geo-blocked]
+https://stream2.jlntv.cn/jlyb/sd/live.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png" group-title="News" tvg-speed="1744KB/s",i24NEWS English World (1080p)
+https://i24newsenglish-cdn.encoders.immergo.tv/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VKW9xw6.png" group-title="Entertainment;News;Shop" tvg-speed="1737KB/s",Extra ProNews (576p)
+http://62.1.176.18:8888/extra/index.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="1589KB/s",上虞1新闻综合 (720p) [Not 24/7]
+https://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/qvCgI8N.png" group-title="News" tvg-speed="1499KB/s",News Central
+https://wf.newscentral.ng:8443/hls/stream.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/eG33jue.png" group-title="News" tvg-speed="1466KB/s",News 24 Albania (392p)
+http://tv.balkanweb.com:8081/news24/livestream/playlist.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="1445KB/s",萧山新闻综合 (720p) [Not 24/7]
+https://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="News" tvg-speed="1428KB/s",ABC News Live 3 (720p)
+https://abcnews-streams.akamaized.net/hls/live/2023562/abcnewshudson3/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gwPaw3v.png" group-title="Music" tvg-speed="1306KB/s",HMI PROMZ NEWS (720p)
+https://video1.getstreamhosting.com:1936/8326/8326/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png" group-title="News" tvg-speed="1305KB/s",BBC News Latin America (720p)
+http://138.121.15.230:9002/BBC-NEWS/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vyVEXYL.png" group-title="News" tvg-speed="1276KB/s",AL24 News
+https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/22Scope_News.png" group-title="News" tvg-speed="1274KB/s",22Scope News (1080p)
+https://thelegitpro.in/HDlive/22scope/index.fmp4.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="1219KB/s",余姚新闻综合 (576p)
+https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png" group-title="News" tvg-speed="1210KB/s",Fox News Channel (720p)
+http://45.190.28.50/FOX_NEWS/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business" tvg-speed="1162KB/s",Bloomberg TV (1080p)
+http://23.237.104.106:8080/USA_BLOOMBERG/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/qPRQZMI.png" group-title="News" tvg-speed="1077KB/s",Aleph News (720p)
+https://stream-aleph.m.ro/Aleph/ngrp:Alephnewsmain.stream_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="News" tvg-speed="1033KB/s",ABC News Live 10 (720p)
+https://abcnews-streams.akamaized.net/hls/live/2023569/abcnewshudson10/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business" tvg-speed="984KB/s",Bloomberg TV EMEA Live Event (720p)
+https://bloomberg.com/media-manifest/streams/eu-event.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business" tvg-speed="932KB/s",Bloomberg TV+
+https://86ebec83.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0Jsb29tYmVyZ1RWUGx1c19ITFM/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/qfINs2r.png" group-title="News" tvg-speed="916KB/s",Kashish News (720p)
+https://server.thelegitpro.in/kashishnews/kashishnews/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/svPXoAP.png" group-title="News" tvg-speed="869KB/s",Aik News
+https://s2.ideationtec.live/Pnn/Pnn.m3u8?token=KsR3k27_sH3n-2
+#EXTINF:-1 tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Calcutta%20News.png" group-title="News" tvg-speed="783KB/s",AKD Calcutta News (1080p)
+https://live.legitpro.co.in/cnnnews/index.m3u8
+#EXTINF:-1 tvg-logo="https://papaji.freetvindia.com/media/News_Live_Bangla.png" group-title="News" tvg-speed="770KB/s",News Live Bangla (576p)
+https://mumt06.tangotv.in/qYyB8fXVINDRADHANU/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/L5GeJFb.png" group-title="News" tvg-speed="755KB/s",NE News (576p)
+https://mumt05.tangotv.in/87NeALx2NENEWS/preview.mp4
+#EXTINF:-1 tvg-logo="https://i.imgur.com/m80uxdz.png" group-title="News" tvg-speed="737KB/s",BEK TV News (720p)
+https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEeast.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/DD%20News%20HD.png" group-title="News" tvg-speed="737KB/s",DD News (576p)
+https://streams.tangotv.in/DDNEWS/ORIGIN/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/BW95PMF.png" group-title="News" tvg-speed="731KB/s",Palitra News (480p) [Not 24/7]
+https://live.palitranews.ge/hls/palitratv/index.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="726KB/s",农安新闻综合 [Geo-blocked]
+https://stream2.jlntv.cn/naxw/sd/live.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/960px-CBS_News_247_logo.svg.png" group-title="News" tvg-speed="720KB/s",CBS News 24/7 (720p)
+https://jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="710KB/s",Global News Kingston
+https://jmp2.uk/plu-62cbf4964446e2000742073e.m3u8
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6102e04e9ab1db0007a980a1/colorLogoPNG.png" group-title="News" tvg-speed="652KB/s",Pluto TV Record News (720p)
+https://jmp2.uk/plu-6102e04e9ab1db0007a980a1.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="651KB/s",CBS News Texas (720p)
+https://jmp2.uk/plu-5eceb0d4065c240007688ec6.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="645KB/s",Global News National (720p)
+https://jmp2.uk/plu-62cbef9ebb857100072fc187.m3u8
+#EXTINF:-1 tvg-logo="https://sund-images.sunnxt.com/202222/300x300_24News_202222_d63feca0-79ae-47ea-b75a-66c17d456f4c.png" group-title="News" tvg-speed="638KB/s",24 News (576p)
+https://mumt07.tangotv.in/zHjX9OFlTWENTYFOURNEWS/index.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="609KB/s",CNN Originals
+https://jmp2.uk/plu-66e0b4536ad04d0008fff4b2.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ANB_NEWS/images/LOGO_HD/image.png" group-title="News" tvg-speed="605KB/s",ANB News (720p)
+https://server.livelegitpro.in:9899/anbnews/anbnews/index.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bloomberg_Originals.png" group-title="Business;Documentary" tvg-speed="599KB/s",Bloomberg Originals (1080p)
+https://bloomberg.com/media-manifest/streams/qt.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="595KB/s",KPVM Newsmax 2
+https://2-fss-2.streamhoster.com/pl_120/206858-4404556-1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_VIP_NEWS/images/LOGO_HD/image.png" group-title="News" tvg-speed="571KB/s",VIP News (360p)
+https://live.vipnews24x7.co.in/vipnews24x7/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="564KB/s",NBC Los Angeles News (720p)
+https://jmp2.uk/plu-65790cda6e4f6a0008768764.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="552KB/s",浙江新闻
+http://101.66.195.43:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="News" tvg-speed="547KB/s",ABC News Live 4 (720p)
+https://abcnews-streams.akamaized.net/hls/live/2023563/abcnewshudson4/master.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="484KB/s",CBC News
+https://jmp2.uk/plu-6536725167bd1a00084481bc.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="News" tvg-speed="476KB/s",ABC News Live 7 (720p)
+https://abcnews-streams.akamaized.net/hls/live/2023566/abcnewshudson7/master.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="433KB/s",Global News Montreal
+https://jmp2.uk/plu-62cbfbd6ad95670007f567af.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="News" tvg-speed="430KB/s",ABC News Live 9 (720p)
+https://abcnews-streams.akamaized.net/hls/live/2023568/abcnewshudson9/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/SjTdhvJ.png" group-title="News" tvg-speed="375KB/s",CBC News (1080p)
+https://d2ny9lo79ujali.cloudfront.net/CBC_News_International.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png" group-title="News" tvg-speed="362KB/s",BBC News (1080p)
+https://xemzi.short.gy/1000015
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VNJ4soR.png" group-title="News" tvg-speed="347KB/s",Euronews Georgia
+http://nue01-edge01.itdc.ge/euronewsgeorgia/mpegts
+#EXTINF:-1 tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1404.png" group-title="News" tvg-speed="332KB/s",Sky News
+https://jmp2.uk/plu-55b285cd2665de274553d66f.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="318KB/s",Global News Calgary
+https://jmp2.uk/plu-62cbf23dcfb48300077f8348.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/iTH9Z0j.png" group-title="News" tvg-speed="304KB/s",Bilyonaryo News Channel (1080p) [Geo-blocked]
+https://amg19223-amg19223c11-amgplt0352.playout.now3.amagi.tv/playlist/amg19223-amg19223c11-amgplt0352/playlist.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="257KB/s",ABC 25 News Central Texas (720p)
+https://content.uplynk.com/channel/9d4e02c9c3544c269d32e6b316792c8f.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/0e1kSGX.png" group-title="News" tvg-speed="252KB/s",CBS News Sacramento (720p)
+https://lineup.cbsivideo.com/playout/c1ed69db-6b71-4581-a937-a70ab4089f8a/index.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="251KB/s",Breaking News by LeadStory (1080p)
+https://amg02703-leadstory-leadstory-samsungnz-vc7nn.amagi.tv/playlist/amg02703-leadstory-leadstory-samsungnz/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="News" tvg-speed="209KB/s",ABC News Live 1 (720p)
+https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9f9YMsA.png" group-title="Religious" tvg-speed="209KB/s",CBN News Channel (1080p)
+https://fastly.live.brightcove.com/6380396819112/us-east-1/734546207001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiczFpM3ZpLmVncmVzcy50N2M3emwiLCJhY2NvdW50X2lkIjoiNzM0NTQ2MjA3MDAxIiwiZWhuIjoiZmFzdGx5LmxpdmUuYnJpZ2h0Y292ZS5jb20iLCJpc3MiOiJibGl2ZS1wbGF5YmFjay1zb3VyY2UtYXBpIiwic3ViIjoicGF0aG1hcHRva2VuIiwiYXVkIjpbIjczNDU0NjIwNzAwMSJdLCJqdGkiOiI2MzgwMzk2ODE5MTEyIn0.GDYp4IWtzwPkupEWeeOavnioVknO-Ev3UGlHvM1rE6I/playlist-hls.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS18_GUJARATI/images/LOGO_HD/image.png" group-title="News" tvg-speed="209KB/s",News18 Gujarati (1080p)
+https://n18syndication.akamaized.net/bpk-tv/News18_Gujarati_NW18_MOB/output01/master.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="206KB/s",KITV 4 Island News (720p)
+https://fuel-streaming-prod01.fuelmedia.io/v1/sem/c4067ddc-0e67-4928-b7ec-624481f721a6.m3u8
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/I/51Icdznow+L.png" group-title="News" tvg-speed="196KB/s",CityNews Edmonton
+https://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/Video-2Mbps.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/SvjU4h6.png" group-title="News" tvg-speed="192KB/s",Sky News Arabia (1080p)
+https://live-stream.skynewsarabia.com/c-horizontal-channel/horizontal-stream/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HXbsPfB.png" group-title="News" tvg-speed="188KB/s",ERT News HD (1080p)
+https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERTNews/default/index.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="188KB/s",通化新闻 [Geo-blocked]
+https://stream2.jlntv.cn/tonghua1/sd/live.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS18_KERALA/images/LOGO_HD/image.png" group-title="News" tvg-speed="182KB/s",News18 Kerala (1080p)
+https://n18syndication.akamaized.net/bpk-tv/News18_Kerala_NW18_MOB/output01/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/BrW7gk8.png" group-title="News" tvg-speed="177KB/s",ABC News (720p)
+https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="173KB/s",CBC News British Columbia
+https://jmp2.uk/plu-66a8f01914a2bb00084dd86c.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/cMels2Y.png" group-title="News" tvg-speed="172KB/s",CBS News Detroit (720p)
+https://cbsn-det.cbsnstream.cbsnews.com/out/v1/169f5c001bc74fa7a179b19c20fea069/master.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Euro_News.png" group-title="News" tvg-speed="169KB/s",Euronews English (720p)
+https://jmp2.uk/plu-61de96114757070008d33cae.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Un9IrUh.png" group-title="News" tvg-speed="158KB/s",CBS News Pittsburgh (720p)
+https://cbsn-pit.cbsnstream.cbsnews.com/out/v1/6966dabf8150405ab26f854e3cd6a2b8/master.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TV5_TELUGU/images/LOGO_HD/image.png" group-title="News" tvg-speed="157KB/s",TV5 News (576p)
+https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/tv5_nim_https/110322/tv5/playlist.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="156KB/s",WJXT News4JAX (Jacksonville FL) (720p)
+https://dai.google.com/linear/hls/event/RDmbn03GRCOLNG1eetEKhg/master.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png" group-title="News" tvg-speed="155KB/s",BBC News North America (1080p)
+http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8
