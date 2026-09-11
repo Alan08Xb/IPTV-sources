@@ -1,14 +1,12 @@
 #EXTM3U
 #PLAYLIST:纪录片频道
-# Generated: 2026-09-10 14:15:11
-# Channels: 5
-#EXTINF:-1 tvg-logo="https://i.imgur.com/x57klfS.png" group-title="Documentary" tvg-speed="9038KB/s",Documentary+ (1080p)
-https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/mt/documentaryplus/859/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/之江纪录.png" group-title="浙江频道" tvg-speed="1537KB/s",之江纪录
-https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/CGTN纪录.png" group-title="央视频道" tvg-speed="439KB/s",CGTN纪录
-https://0472.org/hls/cgtnd.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Czxi7yk.png" group-title="Documentary;Education" tvg-speed="273KB/s",Asharq Discovery (1080p)
-https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/x57klfS.png" group-title="Documentary" tvg-speed="236KB/s",Documentary+ International (1080p)
+# Generated: 2026-09-11 01:49:14
+# Channels: 4
+#EXTINF:-1 tvg-logo="https://i.imgur.com/x57klfS.png" group-title="Documentary" tvg-speed="5602KB/s",Documentary+ International (1080p)
 https://1d153317c8db4250b3789601274e2402.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-887-DOCUMENTARYINTERNATIONAL-DOCUMENTARYPLUS/mt/documentaryplus/887/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4XV7cjU.png" group-title="Documentary" tvg-speed="1638KB/s",MWD Documentary [Geo-blocked]
+http://203.81.84.130/hls/mwd_document/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/x57klfS.png" group-title="Documentary" tvg-speed="1079KB/s",Documentary+ (1080p)
+https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/mt/documentaryplus/859/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/aeu5zIC.png" group-title="Documentary" tvg-speed="251KB/s",RT Documentary English (1080p) [Geo-blocked]
+https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8
