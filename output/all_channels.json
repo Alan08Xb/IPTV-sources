@@ -5549,6 +5549,28 @@
     "source_priority": 2
   },
   {
+    "name": "Acasa Gold",
+    "url": "http://eb4b8dcf.kablakaka.ru/iptv/AE8BY6FHF5ZGAG/6945/index.m3u8",
+    "logo": "https://static.wikia.nocookie.net/logopedia/images/f/fb/Acasa_Gold_2022.svg/revision/latest/scale-to-width-down/512",
+    "group": "Entertainment",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Acasa HD",
+    "url": "http://eb4b8dcf.kablakaka.ru/iptv/AE8BY6FHF5ZGAG/6988/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Acasa_2022_flat.png/960px-Acasa_2022_flat.png",
+    "group": "Entertainment",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "ACC Network (720p)",
     "url": "http://23.239.31.26:8989/accnetwork/index.m3u8",
     "logo": "https://i.imgur.com/TpCkbkT.png",
@@ -18117,6 +18139,17 @@
     "url": "https://live.obslivestream.com/canal8/index.m3u8",
     "logo": "https://i.imgur.com/O5MrFjY.png",
     "group": "General",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Canal 8 Mar del Plata (720p) [Not 24/7]",
+    "url": "https://canal8mdq.unpocodeawita.workers.dev/",
+    "logo": "https://i.imgur.com/G7TaQ1L.png",
+    "group": "Undefined",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -36561,17 +36594,6 @@
     "source": "collected",
     "region": "usa",
     "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "FX Movie Channel HD (1080p)",
-    "url": "https://sra72yz.s.gy/FX_MOVIE_CHANNEL_US.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/FXM_Logo.svg/960px-FXM_Logo.svg.png",
-    "group": "Movies",
-    "source": "collected",
-    "region": "usa",
-    "category": "影视",
     "source_name": "iptv-org-main",
     "source_priority": 2
   },
@@ -60006,8 +60028,8 @@
     "source_priority": 2
   },
   {
-    "name": "Nick Jr. (1080p)",
-    "url": "https://sra72yz.s.gy/NICK_JR_US.m3u8",
+    "name": "Nick Jr. (720p)",
+    "url": "http://212.5.144.156:8080/nickjr/index.m3u8",
     "logo": "https://i.imgur.com/KT4tdQs.png",
     "group": "Kids",
     "source": "collected",
@@ -60171,8 +60193,8 @@
     "source_priority": 2
   },
   {
-    "name": "Nickelodeon (1080p)",
-    "url": "http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8",
+    "name": "Nickelodeon (720p)",
+    "url": "http://198.58.104.90:8989/nickelodeon/index.m3u8",
     "logo": "https://i.imgur.com/E84jnP8.png",
     "group": "Kids",
     "source": "collected",
@@ -60424,8 +60446,8 @@
     "source_priority": 2
   },
   {
-    "name": "Nicktoons (1080p)",
-    "url": "https://sra72yz.s.gy/NICKTOONS_US.m3u8",
+    "name": "Nicktoons (720p)",
+    "url": "http://41.205.93.154/NICKTOONS/index.m3u8",
     "logo": "https://images.pluto.tv/channels/654ca7f92c1d3300086b608c/colorLogoPNG_1751457678592.png",
     "group": "Kids",
     "source": "collected",
@@ -71853,6 +71875,17 @@
     "source_priority": 2
   },
   {
+    "name": "Prima News",
+    "url": "https://hls02ns.antenaplay.ro/hls/prima-news-hd/index.m3u8",
+    "logo": "https://i.imgur.com/wlqGfU2.png",
+    "group": "News",
+    "source": "collected",
+    "region": "other",
+    "category": "新闻",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Prima Show (1080p)",
     "url": "http://88.212.15.19/live/test_prima_show_hevc_25p/playlist.m3u8",
     "logo": "https://i.imgur.com/XbwAwkp.png",
@@ -72051,12 +72084,34 @@
     "source_priority": 2
   },
   {
+    "name": "Pro Arena HD",
+    "url": "http://eb4b8dcf.kablakaka.ru/iptv/AE8BY6FHF5ZGAG/6990/index.m3u8",
+    "logo": "https://i.imgur.com/KQmB9Cc.png",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Pro Business (720p)",
     "url": "https://tv-streaming.bsh.ru:21938/probusiness/probusiness.stream/playlist.m3u8",
     "logo": "https://i.imgur.com/1u8KvTD.png",
     "group": "Business",
     "source": "collected",
     "region": "usa",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Pro Cinema",
+    "url": "http://eb4b8dcf.kablakaka.ru/iptv/AE8BY6FHF5ZGAG/6951/index.m3u8",
+    "logo": "https://i.imgur.com/TvHFGwZ.png",
+    "group": "Movies",
+    "source": "collected",
+    "region": "other",
     "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
@@ -85307,17 +85362,6 @@
     "source_priority": 2
   },
   {
-    "name": "Starz (1080p)",
-    "url": "http://23.237.104.106:8080/USA_STARZ/index.m3u8",
-    "logo": "https://i.imgur.com/N7oSm4d.png",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "Starz Cinema (720p)",
     "url": "http://23.237.104.106:8080/USA_STARZ_CINEMA/index.m3u8",
     "logo": "https://i.imgur.com/ghzzKoT.png",
@@ -89512,6 +89556,17 @@
     "name": "Telefe Rosario (720p) [Geo-blocked]",
     "url": "https://smt-usr-edge01.sensa.com.ar/output/ARR2/TelefeRosarioH/playlist.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Telefe_Rosario_%282018%29.png/960px-Telefe_Rosario_%282018%29.png",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Telefe Salta",
+    "url": "https://canal11saltatv.unpocodeawita.workers.dev/",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Telefe_Salta_%282018%29.png/960px-Telefe_Salta_%282018%29.png",
     "group": "Undefined",
     "source": "collected",
     "region": "other",
