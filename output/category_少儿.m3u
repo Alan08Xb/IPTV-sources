@@ -1,72 +1,56 @@
 #EXTM3U
 #PLAYLIST:少儿频道
-# Generated: 2026-09-13 14:16:40
-# Channels: 34
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/69492467ae33e24d916e56cf/colorLogoPNG_1770896970638.png" group-title="Animation" tvg-speed="21026KB/s",Pluto TV Star Trek: Animation
-https://jmp2.uk/plu-69492467ae33e24d916e56cf.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f12136385bccc00070142ed/colorLogoPNG_1777595293242.png" group-title="Animation" tvg-speed="19276KB/s",Pluto TV Anime
-https://jmp2.uk/plu-5f12136385bccc00070142ed.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/612f761008a9e50007984ba0/colorLogoPNG.png" group-title="Animation;Comedy" tvg-speed="18552KB/s",Pluto TV Animation
-https://jmp2.uk/plu-612f761008a9e50007984ba0.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/691b3669c48674840c3b832a/colorLogoPNG_1778491402325.png" group-title="Entertainment" tvg-speed="15479KB/s",Pluto TV ANIME GO!
-https://jmp2.uk/plu-691b3669c48674840c3b832a.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/uENch0P.png" group-title="Comedy" tvg-speed="13338KB/s",Comedy Central Animation
-https://jmp2.uk/plu-64f8a949f5b5e4000862467c.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/611e6ddc7fcd580007d1eb5f/colorLogoPNG_1748852055317.png" group-title="Kids" tvg-speed="12328KB/s",Pluto TV Kids Club
-https://jmp2.uk/plu-611e6ddc7fcd580007d1eb5f.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/v0BlxCa.png" group-title="Animation" tvg-speed="8096KB/s",ANIME x HIDIVE
-https://jmp2.uk/plu-6793eaa4bc03978b9bc63db1.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/FxDBbpz.jpeg" group-title="Kids;Religious" tvg-speed="7192KB/s",God Stands Kids Club TV English
-https://online.godstands.tv:5443/WebRTCApp/streams/kidsenglish.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/FxDBbpz.jpeg" group-title="Kids;Religious" tvg-speed="6646KB/s",God Stands Kids Club TV Chinese
-https://online.godstands.tv:5443/WebRTCApp/streams/KidsChinese.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/RGsg8XfM/IMG-2512.webp" group-title="Kids" tvg-speed="5681KB/s",ON Kids (720p)
-https://freem3u.xyz/api/live/play.m3u8?vid=179
-#EXTINF:-1 tvg-logo="https://hosting.renderforestsites.com/35126779/1657983/media/37034d6b30d2c092aa6827a34fa145ab.png" group-title="Kids" tvg-speed="5545KB/s",Groovia Kids (576p)
-https://gist.githubusercontent.com/iptvonlinetv/244b66c61f162a7c0c2b4fa59b528139/raw/2376b7ba1989ebbd383301ec7d645e222a6c9338/udp780.510.345:4545.m3u8
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/29/ABC_Kids_%282020%29.svg/revision/latest/scale-to-width-down/512" group-title="Kids" tvg-speed="5478KB/s",ABC Kids
-https://c.mjh.nz/abc-kids.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ambc9le.png" group-title="Education;Kids" tvg-speed="5091KB/s",PBS Kids Pacific (1080p)
-https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ambc9le.png" group-title="Education;Kids" tvg-speed="3687KB/s",PBS Kids Mountain (1080p)
-https://livestream.pbskids.org/out/v1/3fe3030a2c8045a3932f4289d9eba3e6/mst.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/SRX6EPY.png" group-title="Animation;Kids;Religious" tvg-speed="3055KB/s",Kuriakos Kids (1080p)
-https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/vZHtxQb.png" group-title="Kids" tvg-speed="3031KB/s",Moonbug Kids (1080p)
-https://moonbug-rokuus.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/z3npqO1.png" group-title="Animation;Kids;Religious" tvg-speed="2206KB/s",3ABN Kids Network
-https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/xFm2co6.png" group-title="Kids" tvg-speed="2034KB/s",Akili Kids!
-https://m6.livecdn.io/akilikids.co.ke/akilikids.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/B5YiUIP.png" group-title="Kids" tvg-speed="1355KB/s",Kids TV
-http://origin5.mediacdn.ru/live/kidstv/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/2JO5Y8c.png" group-title="Kids" tvg-speed="1350KB/s",4 Fun Kids (576i)
-https://stream.4fun.tv:8889/hls/4fk_high/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/eE9FzEP.png" group-title="Kids" tvg-speed="1326KB/s",Starz Kids & Family (1080p)
-http://23.237.104.106:8080/USA_STARZ_FAMILY/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3027-294x165-FFFFFF.jpg" group-title="Animation;Kids" tvg-speed="983KB/s",Extrema Kids TV [Not 24/7]
-https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://rutvkids.ru/brand/logo-kids.png" group-title="Kids" tvg-speed="935KB/s",RU.TV Kids (720p)
-https://rutvkids.ru/live/efir/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/4Pn0ADQ.png" group-title="Kids;Movies" tvg-speed="758KB/s",KidsFlix (1080p) [Not 24/7]
-https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Kr3U3Ub.png" group-title="Kids;Religious" tvg-speed="731KB/s",Logos TV Kids (720p) [Not 24/7]
-https://streamer1.streamhost.org/salive/logoskidsH/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f1214a637c6fd00079c652f/colorLogoPNG.png" group-title="Kids" tvg-speed="683KB/s",Pluto TV Kids
-https://jmp2.uk/plu-5dd6dae8ce788b0009eaf77b.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/67f68bd2135aeda9ddf0ef54/colorLogoPNG_1746816413112.png" group-title="Animation;Comedy" tvg-speed="494KB/s",Pluto TV Adult Animation
-https://jmp2.uk/plu-67f68bd2135aeda9ddf0ef54.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f1aab1d29b39600073e243f/colorLogoPNG_1750751398943.png" group-title="Kids" tvg-speed="436KB/s",Pluto TV Kids Spain (720p)
-https://jmp2.uk/plu-5f1aab1d29b39600073e243f.m3u8
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png" group-title="Animation;Kids" tvg-speed="356KB/s",Mr. Bean Anime Italy (1080p)
-https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8
-#EXTINF:-1 group-title="Kids" tvg-speed="344KB/s",EKids (576p)
-http://78.108.244.134:8899/ekids
-#EXTINF:-1 tvg-logo="https://i.imgur.com/tMfEsVr.png" group-title="Kids" tvg-speed="297KB/s",LEGO Kids TV
+# Generated: 2026-09-14 02:03:10
+# Channels: 26
+#EXTINF:-1 tvg-logo="https://i.imgur.com/tMfEsVr.png" group-title="Kids" tvg-speed="17106KB/s",LEGO Kids TV
 https://jmp2.uk/plu-60fb01a24795a6000762fe83.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/FxDBbpz.jpeg" group-title="Kids;Religious" tvg-speed="270KB/s",God Stands Kids Club TV Urdu
-https://online.godstands.tv:5443/WebRTCApp/streams/KidsUrdu.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/609e7e423e9173000706a681/colorLogoPNG_1750147033956.png" group-title="Kids" tvg-speed="249KB/s",Pluto TV Kids Classics (720p)
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6452c77ed3fdde00080eb3a8/colorLogoPNG.png" group-title="Kids" tvg-speed="16934KB/s",90s Kids TV 2
+https://jmp2.uk/plu-6452c77ed3fdde00080eb3a8.m3u8
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/609e7e423e9173000706a681/colorLogoPNG_1750147033956.png" group-title="Kids" tvg-speed="16003KB/s",Pluto TV Kids Classics (720p)
 https://jmp2.uk/plu-609e7e423e9173000706a681.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/FxDBbpz.jpeg" group-title="Kids;Religious" tvg-speed="229KB/s",God Stands Kids Club TV Arabic
+#EXTINF:-1 tvg-logo="https://i.imgur.com/v0BlxCa.png" group-title="Animation" tvg-speed="15770KB/s",ANIME x HIDIVE
+https://jmp2.uk/plu-6793eaa4bc03978b9bc63db1.m3u8
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6452c814939a590008567a3b/colorLogoPNG_1731836283044.png" group-title="Kids" tvg-speed="14641KB/s",90's Kids
+https://jmp2.uk/plu-6452c814939a590008567a3b.m3u8
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/69492467ae33e24d916e56cf/colorLogoPNG_1770896970638.png" group-title="Animation" tvg-speed="14228KB/s",Pluto TV Star Trek: Animation
+https://jmp2.uk/plu-69492467ae33e24d916e56cf.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/FxDBbpz.jpeg" group-title="Kids;Religious" tvg-speed="7162KB/s",God Stands Kids Club TV Arabic
 https://online.godstands.tv:5443/WebRTCApp/streams/KidsArabic.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/cPrUCFw.png" group-title="Kids" tvg-speed="4801KB/s",HappyKids (1080p)
+https://dil9xdvretp0f.cloudfront.net/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ambc9le.png" group-title="Education;Kids" tvg-speed="4577KB/s",PBS Kids Pacific (1080p)
+https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ambc9le.png" group-title="Education;Kids" tvg-speed="4153KB/s",PBS Kids Alaska (1080p)
+https://livestream.pbskids.org/out/v1/94b88ad58fc14f84a9382341f1c00b82/akst.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OIFK6JB.png" group-title="Animation" tvg-speed="3932KB/s",Animation+ (1080p) [Geo-blocked]
+https://pb-ioe9d0fpkd6pp.akamaized.net/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://hosting.renderforestsites.com/35126779/1657983/media/37034d6b30d2c092aa6827a34fa145ab.png" group-title="Kids" tvg-speed="3394KB/s",Groovia Kids (576p)
+https://gist.githubusercontent.com/iptvonlinetv/244b66c61f162a7c0c2b4fa59b528139/raw/2376b7ba1989ebbd383301ec7d645e222a6c9338/udp780.510.345:4545.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/z3npqO1.png" group-title="Animation;Kids;Religious" tvg-speed="1865KB/s",3ABN Kids Network
+https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f12136385bccc00070142ed/colorLogoPNG_1777595293242.png" group-title="Animation" tvg-speed="1639KB/s",Pluto TV Anime
+https://jmp2.uk/plu-5dcde17bf6591d0009839e02.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xFm2co6.png" group-title="Kids" tvg-speed="1603KB/s",Akili Kids!
+https://m6.livecdn.io/akilikids.co.ke/akilikids.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3027-294x165-FFFFFF.jpg" group-title="Animation;Kids" tvg-speed="1309KB/s",Extrema Kids TV [Not 24/7]
+https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/2JO5Y8c.png" group-title="Kids" tvg-speed="1113KB/s",4 Fun Kids (576i)
+https://stream.4fun.tv:8889/hls/4fk_high/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f1214a637c6fd00079c652f/colorLogoPNG.png" group-title="Kids" tvg-speed="685KB/s",Pluto TV Kids
+https://jmp2.uk/plu-5f1214a637c6fd00079c652f.m3u8
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/652557d93fd33c000802f995/colorLogoPNG_1733440546104.png" group-title="Kids" tvg-speed="524KB/s",Pluto TV Super Kids
+https://jmp2.uk/plu-652557d93fd33c000802f995.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/deeQqYZ.png" group-title="Kids" tvg-speed="352KB/s",Forever Kids
+https://jmp2.uk/plu-56171fafada51f8004c4b40f.m3u8
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/67f68bd2135aeda9ddf0ef54/colorLogoPNG_1746816413112.png" group-title="Animation;Comedy" tvg-speed="349KB/s",Pluto TV Adult Animation
+https://jmp2.uk/plu-67f68bd2135aeda9ddf0ef54.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/uENch0P.png" group-title="Comedy" tvg-speed="336KB/s",Comedy Central Animation
+https://jmp2.uk/plu-64f8a949f5b5e4000862467c.m3u8
+#EXTINF:-1 tvg-logo="https://bejoy.kids/wp-content/uploads/2025/09/Logo_Bejoy.png" group-title="Kids" tvg-speed="258KB/s",BeJoy.kids (1080p)
+https://stream.paroledivita.org/bejoy.m3u8
+#EXTINF:-1 group-title="Kids" tvg-speed="258KB/s",EKids (576p)
+http://78.108.244.134:8899/ekids
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/691b3669c48674840c3b832a/colorLogoPNG_1778491402325.png" group-title="Entertainment" tvg-speed="154KB/s",Pluto TV ANIME GO!
+https://jmp2.uk/plu-691b3669c48674840c3b832a.m3u8
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/66c8cae7fed35b0008580ec0/colorLogoPNG.png" group-title="Kids" tvg-speed="152KB/s",Pluto TV Kids Club
+https://jmp2.uk/plu-66c8cae7fed35b0008580ec0.m3u8
