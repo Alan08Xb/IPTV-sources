@@ -1,14 +1,8 @@
 #EXTM3U
 #PLAYLIST:综艺频道
-# Generated: 2026-09-16 14:48:32
-# Channels: 5
-#EXTINF:-1 tvg-logo="https://i.imgur.com/XeWzy7e.png" group-title="Entertainment" tvg-speed="3032KB/s",CG Entertainment
-https://cgentertainment-cgtv-1-it.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s159096_ld_h15_aa.png?lock=720x540" group-title="Entertainment" tvg-speed="913KB/s",Sony Entertainment Television HD (1080p)
-http://38.96.178.205/SONYHD/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ocs2DeU.png" group-title="Entertainment" tvg-speed="522KB/s",Great Entertainment Television (720p)
+# Generated: 2026-09-17 02:07:24
+# Channels: 2
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ocs2DeU.png" group-title="Entertainment" tvg-speed="946KB/s",Great Entertainment Television (720p)
 https://a-cdn.klowdtv.com/live2/greattv_720p/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/PWzq0aU.png" group-title="Entertainment" tvg-speed="226KB/s",ROCK Entertainment HD (720p)
-http://58.8.186.128:10006/bysid/2612
-#EXTINF:-1 tvg-logo="https://i.imgur.com/03bcq49.png" group-title="Entertainment" tvg-speed="190KB/s",World Entertainment TV 42
-http://3bb.engatetv.com:25461/hstn/line/147
+#EXTINF:-1 tvg-logo="https://i.imgur.com/XeWzy7e.png" group-title="Entertainment" tvg-speed="316KB/s",CG Entertainment
+https://cgentertainment-cgtv-1-it.samsung.wurl.tv/playlist.m3u8
