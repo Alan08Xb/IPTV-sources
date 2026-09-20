@@ -1,12 +1,16 @@
 #EXTM3U
 #PLAYLIST:综艺频道
-# Generated: 2026-09-20 02:01:18
-# Channels: 4
-#EXTINF:-1 tvg-logo="https://i.imgur.com/232ndRK.png" group-title="Music" tvg-speed="4674KB/s",Afrobeat TV Entertainment (1080p)
-https://stream.ecable.tv/afrobeats/index.m3u8
-#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s159096_ld_h15_aa.png?lock=720x540" group-title="Entertainment" tvg-speed="1985KB/s",Sony Entertainment Television HD (1080p)
+# Generated: 2026-09-20 14:05:46
+# Channels: 6
+#EXTINF:-1 tvg-logo="https://i.imgur.com/c9q6oT0.png" group-title="Entertainment" tvg-speed="2544KB/s",MRTV Entertainment
+https://mrtvott.com/cache/MRTV-Ent-HD/master.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s159096_ld_h15_aa.png?lock=720x540" group-title="Entertainment" tvg-speed="1390KB/s",Sony Entertainment Television HD (1080p)
 http://38.96.178.205/SONYHD/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/XeWzy7e.png" group-title="Entertainment" tvg-speed="719KB/s",CG Entertainment
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Entertainment_Tonight_2021.svg/960px-Entertainment_Tonight_2021.svg.png" group-title="Entertainment;News" tvg-speed="998KB/s",Entertainment Tonight (1080p)
+https://enterbcef94b.airspace-cdn.cbsivideo.com/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/XeWzy7e.png" group-title="Entertainment" tvg-speed="345KB/s",CG Entertainment
 https://cgentertainment-cgtv-1-it.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/PWzq0aU.png" group-title="Entertainment" tvg-speed="211KB/s",ROCK Entertainment HD (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/PWzq0aU.png" group-title="Entertainment" tvg-speed="198KB/s",ROCK Entertainment HD (720p)
 http://58.8.186.128:10006/bysid/2612
+#EXTINF:-1 tvg-logo="https://i.imgur.com/03bcq49.png" group-title="Entertainment" tvg-speed="187KB/s",World Entertainment TV 42
+http://3bb.engatetv.com:25461/hstn/line/147
