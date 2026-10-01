@@ -1,10 +1,10 @@
 #EXTM3U
 #PLAYLIST:综艺频道
-# Generated: 2026-10-01 02:48:17
+# Generated: 2026-10-01 17:01:56
 # Channels: 3
-#EXTINF:-1 tvg-logo="https://i.imgur.com/XeWzy7e.png" group-title="Entertainment" tvg-speed="3742KB/s",CG Entertainment
-https://cgentertainment-cgtv-1-it.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/232ndRK.png" group-title="Music" tvg-speed="217KB/s",Afrobeat TV Entertainment (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/232ndRK.png" group-title="Music" tvg-speed="1371KB/s",Afrobeat TV Entertainment (1080p)
 https://stream.ecable.tv/afrobeats/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/PWzq0aU.png" group-title="Entertainment" tvg-speed="152KB/s",ROCK Entertainment HD (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/XeWzy7e.png" group-title="Entertainment" tvg-speed="258KB/s",CG Entertainment
+https://cgentertainment-cgtv-1-it.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/PWzq0aU.png" group-title="Entertainment" tvg-speed="218KB/s",ROCK Entertainment HD (720p)
 http://58.8.186.128:10006/bysid/2612
