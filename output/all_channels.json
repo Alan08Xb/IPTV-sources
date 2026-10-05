@@ -112740,7 +112740,18 @@
   },
   {
     "name": "CCTV1",
-    "url": "http://101.66.194.121:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": true,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "CCTV1",
+    "url": "http://182.114.49.222:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -112751,7 +112762,7 @@
   },
   {
     "name": "CCTV2",
-    "url": "http://101.66.194.121:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=0&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -112762,7 +112773,18 @@
   },
   {
     "name": "CCTV3",
-    "url": "http://101.66.194.121:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": true,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "CCTV3",
+    "url": "http://182.114.49.222:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -112773,7 +112795,7 @@
   },
   {
     "name": "CCTV5",
-    "url": "http://101.66.194.121:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -112784,7 +112806,7 @@
   },
   {
     "name": "CCTV6",
-    "url": "http://101.66.194.121:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=0&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -112795,7 +112817,7 @@
   },
   {
     "name": "CCTV7",
-    "url": "http://101.66.194.121:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=0&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -112806,7 +112828,18 @@
   },
   {
     "name": "CCTV8",
-    "url": "http://101.66.194.121:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": true,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "CCTV8",
+    "url": "http://182.114.49.222:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -112817,7 +112850,18 @@
   },
   {
     "name": "CCTV9",
-    "url": "http://101.66.194.121:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": true,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "CCTV9",
+    "url": "http://182.114.49.222:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -112828,7 +112872,18 @@
   },
   {
     "name": "CCTV10",
-    "url": "http://101.66.194.121:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": true,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "CCTV10",
+    "url": "http://182.114.49.222:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -112839,7 +112894,40 @@
   },
   {
     "name": "CCTV11",
-    "url": "http://101.66.194.121:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": true,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "CCTV11",
+    "url": "http://182.114.49.222:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": true,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "CCTV12",
+    "url": "http://101.66.195.51:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": true,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "CCTV12",
+    "url": "http://182.114.49.222:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -112850,7 +112938,18 @@
   },
   {
     "name": "CCTV13",
-    "url": "http://101.66.194.121:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": true,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "CCTV13",
+    "url": "http://182.114.49.222:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -112861,7 +112960,18 @@
   },
   {
     "name": "CCTV14",
-    "url": "http://101.66.194.121:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": true,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "CCTV14",
+    "url": "http://182.114.49.222:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -112872,7 +112982,18 @@
   },
   {
     "name": "CCTV15",
-    "url": "http://101.66.194.121:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://125.125.234.183:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": true,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "CCTV15",
+    "url": "http://101.66.195.51:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=0&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -112883,7 +113004,7 @@
   },
   {
     "name": "东南卫视",
-    "url": "http://101.66.194.121:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=0&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -112894,7 +113015,18 @@
   },
   {
     "name": "东方卫视",
-    "url": "http://101.66.194.121:9901/tsfile/live/0018_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0018_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": false,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "东方卫视",
+    "url": "http://182.114.49.222:9901/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -112905,7 +113037,18 @@
   },
   {
     "name": "云南卫视",
-    "url": "http://101.66.194.121:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://125.125.234.183:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": false,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "云南卫视",
+    "url": "http://101.66.195.51:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -112916,7 +113059,18 @@
   },
   {
     "name": "北京卫视",
-    "url": "http://101.66.194.121:9901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": false,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "北京卫视",
+    "url": "http://182.114.49.222:9901/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -112927,7 +113081,7 @@
   },
   {
     "name": "吉林卫视",
-    "url": "http://101.66.194.121:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -112938,7 +113092,7 @@
   },
   {
     "name": "四川卫视",
-    "url": "http://101.66.194.121:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=0&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -112949,7 +113103,18 @@
   },
   {
     "name": "安徽卫视",
-    "url": "http://101.66.194.121:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": false,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "安徽卫视",
+    "url": "http://182.114.49.222:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -112960,7 +113125,7 @@
   },
   {
     "name": "山东卫视",
-    "url": "http://101.66.194.121:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=0&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -112971,7 +113136,18 @@
   },
   {
     "name": "山西卫视",
-    "url": "http://101.66.194.121:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": false,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "山西卫视",
+    "url": "http://182.114.49.222:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -112982,7 +113158,7 @@
   },
   {
     "name": "广东卫视",
-    "url": "http://101.66.194.121:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -112993,7 +113169,18 @@
   },
   {
     "name": "广西卫视",
-    "url": "http://101.66.194.121:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": false,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "旅游卫视",
+    "url": "http://125.125.234.183:9901/tsfile/live/0114_1.m3u8?key=txiptv&playlive=1&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -113004,7 +113191,18 @@
   },
   {
     "name": "江苏卫视",
-    "url": "http://101.66.194.121:9901/tsfile/live/0017_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0017_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": false,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "江苏卫视",
+    "url": "http://182.114.49.222:9901/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -113015,7 +113213,7 @@
   },
   {
     "name": "江西卫视",
-    "url": "http://101.66.194.121:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -113026,7 +113224,7 @@
   },
   {
     "name": "河北卫视",
-    "url": "http://101.66.194.121:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -113037,7 +113235,18 @@
   },
   {
     "name": "河南卫视",
-    "url": "http://101.66.194.121:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://125.125.234.183:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": false,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "河南卫视",
+    "url": "http://101.66.195.51:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=0&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -113048,7 +113257,40 @@
   },
   {
     "name": "浙江卫视",
-    "url": "http://101.66.194.121:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": false,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "浙江卫视",
+    "url": "http://182.114.49.222:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": false,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "深圳卫视",
+    "url": "http://125.125.234.183:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": false,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "深圳卫视",
+    "url": "http://182.114.49.222:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -113059,7 +113301,18 @@
   },
   {
     "name": "湖北卫视",
-    "url": "http://101.66.194.121:9901/tsfile/live/0132_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0132_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": false,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "湖北卫视",
+    "url": "http://182.114.49.222:9901/tsfile/live/0132_1.m3u8?key=txiptv&playlive=1&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -113070,7 +113323,18 @@
   },
   {
     "name": "湖南卫视",
-    "url": "http://101.66.194.121:9901/tsfile/live/0019_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0019_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": false,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "湖南卫视",
+    "url": "http://182.114.49.222:9901/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -113081,7 +113345,7 @@
   },
   {
     "name": "贵州卫视",
-    "url": "http://101.66.194.121:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -113092,7 +113356,29 @@
   },
   {
     "name": "辽宁卫视",
-    "url": "http://101.66.194.121:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://125.125.234.183:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": false,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "辽宁卫视",
+    "url": "http://101.66.195.51:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": false,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "辽宁卫视",
+    "url": "http://182.114.49.222:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -113103,7 +113389,7 @@
   },
   {
     "name": "重庆卫视",
-    "url": "http://101.66.194.121:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=0&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -113114,7 +113400,7 @@
   },
   {
     "name": "陕西卫视",
-    "url": "http://101.66.194.121:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -113125,7 +113411,7 @@
   },
   {
     "name": "黑龙江卫视",
-    "url": "http://101.66.194.121:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=0&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -113136,7 +113422,7 @@
   },
   {
     "name": "杭州影视",
-    "url": "http://101.66.194.121:9901/tsfile/live/1011_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/1011_1.m3u8?key=txiptv&playlive=0&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "other",
@@ -113145,8 +113431,63 @@
     "source_priority": 2
   },
   {
+    "name": "河南新闻",
+    "url": "http://182.114.49.222:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": false,
+    "category": "新闻",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "河南民生",
+    "url": "http://182.114.49.222:9901/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": false,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "河南法制报道",
+    "url": "http://182.114.49.222:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": false,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "河南电视剧",
+    "url": "http://182.114.49.222:9901/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": false,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "河南都市报道",
+    "url": "http://182.114.49.222:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": false,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
     "name": "浙江新闻",
-    "url": "http://101.66.194.121:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=0&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -113157,7 +113498,7 @@
   },
   {
     "name": "金鹰卡通",
-    "url": "http://101.66.194.121:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "url": "http://101.66.195.51:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
