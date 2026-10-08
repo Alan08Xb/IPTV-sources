@@ -2865,8 +2865,8 @@
     "source_priority": 2
   },
   {
-    "name": "4 Fun TV (576i) [Not 24/7]",
-    "url": "https://stream.4fun.tv:8888/hls/4f_high/index.m3u8",
+    "name": "4 Fun TV",
+    "url": "https://stream.4fun.tv:8888/sd/4fun_sd_high.m3u8",
     "logo": "https://i.imgur.com/rI1wo2l.png",
     "group": "Music",
     "source": "collected",
@@ -11027,7 +11027,7 @@
     "source_priority": 2
   },
   {
-    "name": "Asianet HD (720p) [Not 24/7]",
+    "name": "Asianet HD (1080p)",
     "url": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starasianet.smil/chunklist_b1928000.m3u8",
     "logo": "https://i.imgur.com/Wv7MOzg.png",
     "group": "Entertainment",
@@ -12138,17 +12138,6 @@
     "source_priority": 2
   },
   {
-    "name": "AXN Poland",
-    "url": "https://2203.weebvideo.stream/hls/1288486/s/DI_yOeqLvqKFgnP7nYS18cjzG8MYtfk13VVnqo8DPkw/current/high/index.m3u8",
-    "logo": "https://i.imgur.com/i5wOhkf.png",
-    "group": "Movies",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "AXN Spin (Poland)",
     "url": "http://92.114.85.87:8010/play/a00b/index.m3u8",
     "logo": "https://i.imgur.com/LGEbwnT.png",
@@ -12373,6 +12362,17 @@
     "url": "https://azt-mun.otteravision.com/azt/mun/mun.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Azteca_Internacional_logo_2023.png",
     "group": "Entertainment",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Azteca Uno (1080p)",
+    "url": "http://38.44.109.41:8003/play/a033/index.m3u8",
+    "logo": "https://i.imgur.com/rRxgBtI.png",
+    "group": "General",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -21268,6 +21268,28 @@
     "source_priority": 2
   },
   {
+    "name": "Cartoon Network Latin America North Atlantic (1080p)",
+    "url": "http://38.252.238.18:8000/play/a053/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png",
+    "group": "Animation;Kids",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Cartoon Network Latin America South Atlantic (1080p)",
+    "url": "http://158.172.217.18:8000/play/a03a/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png",
+    "group": "Animation;Kids",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Casa Italia 53 (720p)",
     "url": "https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8",
     "logo": "https://i.imgur.com/X8BI1Md.png",
@@ -24474,6 +24496,17 @@
     "source_priority": 2
   },
   {
+    "name": "Cinemax West (720p)",
+    "url": "http://23.237.104.106:8080/USA_CINEMAX_WEST/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cinemax_2016.svg/960px-Cinemax_2016.svg.png",
+    "group": "Movies",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Cinemax Classics (1080p)",
     "url": "http://23.237.104.106:8080/USA_5STARMAX/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/Cinemax_Classics_Logo.png/960px-Cinemax_Classics_Logo.png",
@@ -24488,6 +24521,17 @@
     "name": "Cinemax Hits (1080p)",
     "url": "http://23.237.104.106:8080/USA_MOREMAX/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Cinemax_Hits_Logo.png/960px-Cinemax_Hits_Logo.png",
+    "group": "Movies",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Cinemax Latin America HD (1080p)",
+    "url": "http://38.65.175.84:8000/play/a093/index.m3u8",
+    "logo": "https://i.imgur.com/cZWoJWD.png",
     "group": "Movies",
     "source": "collected",
     "region": "other",
@@ -26373,6 +26417,17 @@
     "source": "collected",
     "region": "other",
     "category": "少儿",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Comedy Central Brasil (480p)",
+    "url": "https://stmv2.srvif.com/gafeab/gafeab/playlist.m3u8",
+    "logo": "https://comcastadvertising.com/wp-content/uploads/2021/10/Comedy-Central-White.png",
+    "group": "Comedy",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
   },
@@ -29743,6 +29798,17 @@
     "source_priority": 2
   },
   {
+    "name": "Destination America (720p)",
+    "url": "http://23.237.104.106:8080/USA_DESTINATION_AMERICA/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Destination_America_logo.svg/960px-Destination_America_logo.svg.png",
+    "group": "Travel",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Det sene show med Christian Fuhlendorff",
     "url": "https://jmp2.uk/plu-660d6bc10cd4630008f4a25a.m3u8",
     "logo": "https://images.pluto.tv/channels/660d6bc10cd4630008f4a25a/colorLogoPNG.png",
@@ -30311,6 +30377,28 @@
     "source": "collected",
     "region": "other",
     "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Discovery Channel Latin America (1080p)",
+    "url": "http://45.171.64.30:6060/play/a032/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png",
+    "group": "Entertainment",
+    "source": "collected",
+    "region": "other",
+    "category": "纪录片",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Discovery Kids Latin America Mexico (1080p)",
+    "url": "http://38.65.175.84:8000/play/a0an/index.m3u8",
+    "logo": "",
+    "group": "Kids",
+    "source": "collected",
+    "region": "other",
+    "category": "少儿",
     "source_name": "iptv-org-main",
     "source_priority": 2
   },
@@ -31312,6 +31400,17 @@
     "source": "collected",
     "region": "other",
     "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Dongguan Comprehensive News Channel",
+    "url": "https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8",
+    "logo": "https://www.tvchinese.net/uploads/tv/dgtv1.jpg",
+    "group": "News",
+    "source": "collected",
+    "region": "other",
+    "category": "新闻",
     "source_name": "iptv-org-main",
     "source_priority": 2
   },
@@ -42129,17 +42228,6 @@
     "source_priority": 2
   },
   {
-    "name": "History TV18 HD (1080p) [Geo-blocked]",
-    "url": "https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/playlist/amg01448-samsungindia-historychannelenglish-samsungin/playlist.m3u8",
-    "logo": "https://dtil.tmsimg.com/assets/s143133_ld_h15_aa.png?lock=720x540",
-    "group": "Documentary",
-    "source": "collected",
-    "region": "southeast_asia",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "History Ukraine",
     "url": "http://dtv.vol.net.ua/History_HD/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/960px-History_%282021%29.svg.png",
@@ -45117,6 +45205,17 @@
     "source": "collected",
     "region": "other",
     "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Investigation Discovery Latin America South (1080p)",
+    "url": "http://38.65.175.84:8000/play/a0ch/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png",
+    "group": "Documentary",
+    "source": "collected",
+    "region": "other",
+    "category": "纪录片",
     "source_name": "iptv-org-main",
     "source_priority": 2
   },
@@ -50456,8 +50555,8 @@
     "source_priority": 2
   },
   {
-    "name": "La Kalle (720p)",
-    "url": "https://mdstrm.com/live-stream-playlist/58d191f07290fbb058025843.m3u8",
+    "name": "La Kalle (1080p)",
+    "url": "http://200.122.223.13:55000/play/la-kalle-tdt/index.m3u8",
     "logo": "https://www.tdtparatodos.tv/sites/default/files/la_kalle.png",
     "group": "Music",
     "source": "collected",
@@ -54130,8 +54229,8 @@
     "source_priority": 2
   },
   {
-    "name": "Maria Vision (360p) [Not 24/7]",
-    "url": "https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Mariavision/master.m3u8",
+    "name": "Maria Vision (1080p)",
+    "url": "http://200.122.223.13:55000/play/a022/index.m3u8",
     "logo": "https://i.imgur.com/GylOPxE.png",
     "group": "Religious",
     "source": "collected",
@@ -55368,6 +55467,17 @@
     "group": "Music",
     "source": "collected",
     "region": "usa",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Med.TV (720p)",
+    "url": "https://med-tv-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-hls-aes128-medtv-1-restreaming/bitok/eyJzdGlkIjoiMGUzYjU2OWQtYTY3NC00ZDQxLThmZmMtNjA2NWU5YzMwNTViIiwibWt0IjoiaXQiLCJjaCI6IjUiLCJwdGYiOjV9/hls/main.m3u8",
+    "logo": "https://i.imgur.com/ejGeXPD.png",
+    "group": "Culture",
+    "source": "collected",
+    "region": "other",
     "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
@@ -57012,8 +57122,8 @@
     "source_priority": 2
   },
   {
-    "name": "MNCTV HD (720p)",
-    "url": "https://mncmedia.malingtv.workers.dev/mnctv.m3u8",
+    "name": "MNCTV HD",
+    "url": "http://202.150.172.59/MNCTV/tracks-v1a1/mono.m3u8",
     "logo": "https://i.imgur.com/SK8pjQy.png",
     "group": "General",
     "source": "collected",
@@ -61731,8 +61841,8 @@
     "source_priority": 2
   },
   {
-    "name": "NET (1080p)",
-    "url": "https://stream.smashmalta.com:25463/live/webplayer/livestream/22.m3u8",
+    "name": "NET [Geo-blocked]",
+    "url": "http://80.79.6.221:25461/smash/public/22",
     "logo": "https://i.imgur.com/K4Uve1n.png",
     "group": "General",
     "source": "collected",
@@ -67440,17 +67550,6 @@
     "source_priority": 2
   },
   {
-    "name": "Oxygen (720p)",
-    "url": "http://198.58.104.90:8989/oxygen/index.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Oxygen_TV_%282017_Logo%29.svg/960px-Oxygen_TV_%282017_Logo%29.svg.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "Oxygen Music (1080p)",
     "url": "https://oxygenmusic.hu:2443/hls/oxygenmusic.m3u8",
     "logo": "https://oxygenmusic.hu/static/media/logo.png",
@@ -68034,8 +68133,8 @@
     "source_priority": 2
   },
   {
-    "name": "Parliament of Malta (1080p)",
-    "url": "https://stream.smashmalta.com:25463/live/webplayer/livestream/23.m3u8",
+    "name": "Parliament of Malta [Geo-blocked]",
+    "url": "http://80.79.6.221:25461/smash/public/23",
     "logo": "https://upload.wikimedia.org/wikipedia/en/5/53/Logo_of_the_Parliament_of_Malta.png",
     "group": "Legislative",
     "source": "collected",
@@ -76955,6 +77054,17 @@
     "source_priority": 2
   },
   {
+    "name": "Raizal TV (1080p)",
+    "url": "http://200.122.223.13:55000/play/raizal-tv-ses-6/index.m3u8",
+    "logo": "https://i.imgur.com/qWNSxq8.png",
+    "group": "Culture",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Raj Digital Plus (1080p)",
     "url": "https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RajTV_Digital_plus/master_1.m3u8",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_DIGITAL_PLUS/images/LOGO_HD/image.png",
@@ -77047,17 +77157,6 @@
     "url": "https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RAJTV/master_1.m3u8",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_TV/images/LOGO_HD/image.png",
     "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Rajawali TV (1080p)",
-    "url": "http://202.150.172.59/RajawaliTV/index.m3u8",
-    "logo": "https://i.imgur.com/dlsv1sl.png",
-    "group": "Undefined",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -78991,8 +79090,8 @@
     "source_priority": 2
   },
   {
-    "name": "Republic Bangla (1080p)",
-    "url": "https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-456368/main.m3u8",
+    "name": "Republic Bangla (576p)",
+    "url": "https://streams.tangotv.in/RBANGLA/ORIGIN/index.m3u8",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RSYMDOT_BANGLA/images/LOGO_HD/image.png",
     "group": "News",
     "source": "collected",
@@ -92070,6 +92169,17 @@
     "source_priority": 2
   },
   {
+    "name": "TBS (720p)",
+    "url": "http://193.254.245.162/TBS/index.m3u8",
+    "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/TBS_2020.svg/960px-TBS_2020.svg.png",
+    "group": "General",
+    "source": "collected",
+    "region": "japan",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "TBS TV (720p)",
     "url": "https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8",
     "logo": "https://i.imgur.com/iOnWS6V.png",
@@ -92096,6 +92206,17 @@
     "url": "https://live.tcm10.com.br/tcm10hd/stream.m3u8",
     "logo": "https://i.imgur.com/aMuMVvB.png",
     "group": "News",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "TCM Latin America South (1080p)",
+    "url": "http://45.171.64.30:6060/play/a014/index.m3u8",
+    "logo": "https://i.imgur.com/QpDkrmT.png",
+    "group": "Undefined",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -92470,6 +92591,17 @@
     "url": "http://uk4.streamingpulse.com:1935/TeleabruzzoTV/TeleabruzzoTV/playlist.m3u8",
     "logo": "https://i.imgur.com/XymK2PR.png",
     "group": "Undefined",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Tele Amiga (720p)",
+    "url": "http://200.122.223.13:55000/play/tele-amiga-ses-6/index.m3u8",
+    "logo": "https://i.imgur.com/gBZFZNv.png",
+    "group": "Culture",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -96547,8 +96679,8 @@
     "source_priority": 2
   },
   {
-    "name": "Tigo Sports (Paraguay) (1080p)",
-    "url": "http://45.170.130.224:8000/play/a04k/index.m3u8?hls",
+    "name": "Tigo Sports (Paraguay)",
+    "url": "http://45.134.141.161:2200/ARG/Tigo_Sports/tracks-v1a1/mono.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Tigo_Sports_2025.png/960px-Tigo_Sports_2025.png",
     "group": "Sports",
     "source": "collected",
@@ -97097,7 +97229,7 @@
     "source_priority": 2
   },
   {
-    "name": "TNT (576p)",
+    "name": "TNT (Russia) (576p)",
     "url": "http://stream.mcquack.net/135/index.m3u8",
     "logo": "https://i.imgur.com/T4A6rEI.png",
     "group": "Entertainment",
@@ -97108,10 +97240,21 @@
     "source_priority": 2
   },
   {
-    "name": "TNT HD (1080p)",
+    "name": "TNT (Russia) HD (1080p)",
     "url": "http://45.153.24.78/TNT/index.m3u8",
     "logo": "https://i.imgur.com/T4A6rEI.png",
     "group": "Entertainment",
+    "source": "collected",
+    "region": "usa",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "TNT (United States) (720p)",
+    "url": "http://193.254.245.162/TNT-HD/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/960px-TNT_Logo_2016.svg.png",
+    "group": "General",
     "source": "collected",
     "region": "usa",
     "category": "综合",
@@ -97152,6 +97295,17 @@
     "source_priority": 2
   },
   {
+    "name": "TNT Latin America (1080p)",
+    "url": "http://45.171.64.30:6060/play/a03i/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/960px-TNT_Logo_2016.svg.png",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "usa",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "TNT Novelas (1080p)",
     "url": "http://190.93.224.42/TNT-NOVELAS/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/TNT_Novelas_2025.svg/1920px-TNT_Novelas_2025.svg.png",
@@ -97166,6 +97320,17 @@
     "name": "TNT Novelas Brazil (720p)",
     "url": "http://45.162.64.114/TNT_NOVELAS/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/TNT_Novelas_2025.svg/1920px-TNT_Novelas_2025.svg.png",
+    "group": "Series",
+    "source": "collected",
+    "region": "usa",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "TNT Series Latin America (1080p)",
+    "url": "http://168.196.127.137:6001/play/a095/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/75/TNT_Series_Logo_2016.png",
     "group": "Series",
     "source": "collected",
     "region": "usa",
@@ -97420,6 +97585,17 @@
     "url": "http://api.toonamiaftermath.com:3000/pst/playlist.m3u8",
     "logo": "https://i.imgur.com/aSjhZK7.png",
     "group": "Animation",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Tooncast (1080p)",
+    "url": "http://38.134.250.110:8000/play/a01t/index.m3u8",
+    "logo": "https://i.imgur.com/3yXRbQy.png",
+    "group": "Animation;Kids",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -98940,6 +99116,17 @@
     "group": "Movies",
     "source": "collected",
     "region": "southeast_asia",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "truTV (720p)",
+    "url": "http://23.237.104.106:8080/USA_TRUTV/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/TruTV_2014.svg/960px-TruTV_2014.svg.png",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "other",
     "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
@@ -103763,6 +103950,17 @@
     "source_priority": 2
   },
   {
+    "name": "TVes (1080p)",
+    "url": "https://vs20.live.opencaster.com/tves_5fd18b1e/index.m3u8",
+    "logo": "https://i.imgur.com/QX5DVUB.png",
+    "group": "General",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "TVG2 (720p) [Geo-blocked]",
     "url": "https://crtvg-tvg2.flumotion.cloud/playlist.m3u8",
     "logo": "https://i.imgur.com/yFy6gxg.png",
@@ -103972,8 +104170,8 @@
     "source_priority": 2
   },
   {
-    "name": "TVM (Malta) (1080p)",
-    "url": "https://stream.smashmalta.com:25463/live/webplayer/livestream/19.m3u8",
+    "name": "TVM (Malta) [Geo-blocked]",
+    "url": "http://80.79.6.221:25461/smash/public/19",
     "logo": "https://i.imgur.com/V0iMsED.png",
     "group": "General",
     "source": "collected",
@@ -104144,17 +104342,6 @@
     "source": "collected",
     "region": "other",
     "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "TVMsport+ (1080p)",
-    "url": "https://stream.smashmalta.com:25463/live/webplayer/livestream/29.m3u8",
-    "logo": "https://i.imgur.com/YIreFti.png",
-    "group": "Sports",
-    "source": "collected",
-    "region": "other",
-    "category": "体育",
     "source_name": "iptv-org-main",
     "source_priority": 2
   },
@@ -104709,17 +104896,6 @@
     "source_priority": 2
   },
   {
-    "name": "TVRI (1080i)",
-    "url": "https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/960px-TVRILogo2019.svg.png",
-    "group": "General",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "TVRI Aceh (720p)",
     "url": "https://ott-balancer.tvri.go.id/live/eds/Aceh/hls/Aceh.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/960px-TVRILogo2019.svg.png",
@@ -104810,6 +104986,17 @@
   {
     "name": "TVRI Gorontalo (480p)",
     "url": "https://ott-balancer.tvri.go.id/live/eds/Gorontalo/hls/Gorontalo.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/960px-TVRILogo2019.svg.png",
+    "group": "General",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "TVRI HD (1080i)",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/960px-TVRILogo2019.svg.png",
     "group": "General",
     "source": "collected",
@@ -105879,17 +106066,6 @@
     "url": "https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8",
     "logo": "https://i.postimg.cc/jjGpZf4T/UCV-Logo.png",
     "group": "Culture",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "UDAR (1080p)",
-    "url": "http://5.188.159.128:8070/udar/index.m3u8",
-    "logo": "https://mt.media/upload/iblock/2b3/2b3cf99141bf7f99cda377eec62ec084.png",
-    "group": "Sports",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -107892,6 +108068,17 @@
     "url": "https://videoserver.tmcreativos.com:19360/cablerasvia/cablerasvia.m3u8",
     "logo": "https://i.imgur.com/FiptbGQ.png",
     "group": "General",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "VIA TV",
+    "url": "http://88.212.15.19/live/via_tv/index.m3u8",
+    "logo": "https://web02.antik.sk/assets/img/channels/247e7974b5eeaeda06744f312d2bbc51.svg",
+    "group": "Undefined",
     "source": "collected",
     "region": "other",
     "category": "综合",
