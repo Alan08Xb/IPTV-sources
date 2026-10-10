@@ -3052,6 +3052,17 @@
     "source_priority": 2
   },
   {
+    "name": "5USA (360p)",
+    "url": "https://lb.iptvnetwork.net/ls28/10115/playlist.m3u8",
+    "logo": "https://i.imgur.com/Pi7so2l.png",
+    "group": "Entertainment",
+    "source": "collected",
+    "region": "usa",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "6PR (1080p)",
     "url": "https://6prlive.akamaized.net/hls/live/2033806/6PR/index.m3u8",
     "logo": "https://i.imgur.com/Q9iCxg1.png",
@@ -3206,7 +3217,7 @@
     "source_priority": 2
   },
   {
-    "name": "8XM HD",
+    "name": "8XM",
     "url": "https://cdn4.mjunoon.tv:8087/streamtest/131M/chunks.m3u8",
     "logo": "https://i.ibb.co/Kc0xHyBb/8XM-Logo.png",
     "group": "Music",
@@ -4262,6 +4273,61 @@
     "source_priority": 2
   },
   {
+    "name": ".black (576p)",
+    "url": "http://stream.mcquack.net/263/index.m3u8",
+    "logo": "https://i.imgur.com/Q4A6ci4.png",
+    "group": "Entertainment",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": ".red (576p)",
+    "url": "http://5.188.159.128:8070/RED/index.m3u8",
+    "logo": "https://i.imgur.com/GET9Qut.png",
+    "group": "Entertainment",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": ".red HD (1080p)",
+    "url": "http://178.134.1.158:8081/red/index.m3u8",
+    "logo": "https://i.imgur.com/GET9Qut.png",
+    "group": "Entertainment",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": ".sci-fi (576p)",
+    "url": "http://stream.mcquack.net/180/index.m3u8",
+    "logo": "https://i.imgur.com/nSSUHcg.png",
+    "group": "Science",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": ":24 (1080p)",
+    "url": "http://88.212.15.27/live/test_trojka_25p/playlist.m3u8",
+    "logo": "https://i.imgur.com/tTCuczU.png",
+    "group": "News",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "¡OPA! (720p)",
     "url": "https://5f1af61612fb5.streamlock.net/genteopa/videogenteopa_720p/playlist.m3u8",
     "logo": "https://i.imgur.com/300c1ZH.png",
@@ -4332,61 +4398,6 @@
     "url": "https://stream.plustv.by/plustv-web/plustv/playlist.m3u8",
     "logo": "https://static.tildacdn.biz/tild6366-6336-4230-b562-656138633562/___TV-___188-76.webp",
     "group": "General",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": ".black (576p)",
-    "url": "http://stream.mcquack.net/263/index.m3u8",
-    "logo": "https://i.imgur.com/Q4A6ci4.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": ".red (576p)",
-    "url": "http://5.188.159.128:8070/RED/index.m3u8",
-    "logo": "https://i.imgur.com/GET9Qut.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": ".red HD (1080p)",
-    "url": "http://178.134.1.158:8081/red/index.m3u8",
-    "logo": "https://i.imgur.com/GET9Qut.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": ".sci-fi (576p)",
-    "url": "http://stream.mcquack.net/180/index.m3u8",
-    "logo": "https://i.imgur.com/nSSUHcg.png",
-    "group": "Science",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": ":24 (1080p)",
-    "url": "http://88.212.15.27/live/test_trojka_25p/playlist.m3u8",
-    "logo": "https://i.imgur.com/tTCuczU.png",
-    "group": "News",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -5751,6 +5762,17 @@
     "url": "http://23.239.31.26:8989/accnetwork/index.m3u8",
     "logo": "https://i.imgur.com/TpCkbkT.png",
     "group": "Sports",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Acces Direct (576p)",
+    "url": "https://live77cdn2.antenaplay.ro/live2_fast/ch6/stream.m3u8",
+    "logo": "https://assets.antenaplay.ro/2026/05/07/BBOXtLtkSKfKAK5pSBag.png",
+    "group": "Entertainment",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -7497,7 +7519,7 @@
   },
   {
     "name": "Al Sharqiya News (1080p)",
-    "url": "https://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8",
+    "url": "https://indexforce.com/newshighres/mystream/playlist.m3u8",
     "logo": "https://i.imgur.com/PeAcXB9.png",
     "group": "News",
     "source": "collected",
@@ -8060,17 +8082,6 @@
     "name": "Alhaqeqa Aldawlia (1080p) [Not 24/7]",
     "url": "https://ghaasiflu.online/alhqeqa/index.m3u8",
     "logo": "",
-    "group": "News",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Alhurra (720p)",
-    "url": "https://mbn-ingest-worldsafe.akamaized.net/hls/live/2038900/MBN_Alhurra_Worldsafe_HLS/merge.m3u8",
-    "logo": "https://i.imgur.com/tiQp2sR.png",
     "group": "News",
     "source": "collected",
     "region": "other",
@@ -9663,6 +9674,17 @@
     "source_priority": 2
   },
   {
+    "name": "Animal Planet Latin America (1080p)",
+    "url": "http://190.128.214.97:64333/play/a01n/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png",
+    "group": "Documentary",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Animal Planet Latin America HD (720p) [Geo-blocked]",
     "url": "http://15.204.246.24:8080/AnimalPlanetHD/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png",
@@ -9835,6 +9857,17 @@
     "source": "collected",
     "region": "other",
     "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Antena 3 CNN (576p)",
+    "url": "https://live4dai.antenaplay.ro/live2_aws4_sdi11/live2_aws4_sdi11_600k.m3u8",
+    "logo": "https://static.wikia.nocookie.net/logopedia/images/8/82/Antena_3_CNN_2022_v1.png/revision/latest/scale-to-width-down/512",
+    "group": "News",
+    "source": "collected",
+    "region": "usa",
+    "category": "新闻",
     "source_name": "iptv-org-main",
     "source_priority": 2
   },
@@ -23066,6 +23099,17 @@
     "source_priority": 2
   },
   {
+    "name": "Channel 4 (360p)",
+    "url": "https://lb.iptvnetwork.net/ls28/10104/playlist.m3u8",
+    "logo": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1621.png",
+    "group": "General",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Channel 5 (Russia) (576p)",
     "url": "http://str2.iptvhd.ru:8080/5_kanal/index.m3u8",
     "logo": "https://i.imgur.com/KPXMa3U.png",
@@ -23091,6 +23135,17 @@
     "name": "Channel 5 (Thailand) (1080p)",
     "url": "https://639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/playlist.m3u8",
     "logo": "https://i.imgur.com/wOIaqg7.png",
+    "group": "General",
+    "source": "collected",
+    "region": "southeast_asia",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Channel 5 (United Kingdom) (360p)",
+    "url": "https://lb.iptvnetwork.net/ls28/10105/playlist.m3u8",
+    "logo": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1800.png",
     "group": "General",
     "source": "collected",
     "region": "southeast_asia",
@@ -24584,6 +24639,17 @@
     "source_priority": 2
   },
   {
+    "name": "Cinemax Latin America (720p)",
+    "url": "https://streaming.onnethn.com/CINEMAX/playlist.m3u8",
+    "logo": "https://i.imgur.com/cZWoJWD.png",
+    "group": "Movies",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Cinemax Latin America HD (1080p)",
     "url": "http://38.65.175.84:8000/play/a093/index.m3u8",
     "logo": "https://i.imgur.com/cZWoJWD.png",
@@ -25981,9 +26047,31 @@
     "source_priority": 2
   },
   {
+    "name": "CNN (1080p)",
+    "url": "https://amg01918-cnnus-amg01918c2-vizio-us-9192.playouts.now.amagi.tv/playlist/amg01918-cnnus-cnnoriginals-vizious/playlist.m3u8",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/CNN.png",
+    "group": "News",
+    "source": "collected",
+    "region": "usa",
+    "category": "新闻",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "CNN Chile (1080p)",
     "url": "http://190.110.96.238:8000/play/a0f5/index.m3u8",
     "logo": "https://i.imgur.com/t4EXijz.png",
+    "group": "News",
+    "source": "collected",
+    "region": "usa",
+    "category": "新闻",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "CNN en Espanol (1080p)",
+    "url": "https://streaming.onnethn.com/CNN_ESPANOL/playlist.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg/960px-Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg.png",
     "group": "News",
     "source": "collected",
     "region": "usa",
@@ -30480,6 +30568,17 @@
     "source_priority": 2
   },
   {
+    "name": "Discovery Kids Latin America (1080p)",
+    "url": "http://181.224.200.5:2277/play/a00o/index.m3u8",
+    "logo": "",
+    "group": "Kids",
+    "source": "collected",
+    "region": "other",
+    "category": "少儿",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Discovery Kids Latin America Brazil (720p) [Geo-blocked]",
     "url": "http://15.204.246.24:8080/DiscoveryKidsHD/index.m3u8",
     "logo": "",
@@ -30513,10 +30612,54 @@
     "source_priority": 2
   },
   {
+    "name": "Discovery Science Latin America (720p)",
+    "url": "http://45.171.64.30:6060/play/a007/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Discovery_science_new_logo_2017.png/960px-Discovery_science_new_logo_2017.png",
+    "group": "Science",
+    "source": "collected",
+    "region": "other",
+    "category": "纪录片",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Discovery Theater Latin America (1080p)",
+    "url": "http://181.224.200.5:2277/play/a0bj/index.m3u8",
+    "logo": "https://i.imgur.com/AqR0Jkn.png",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "other",
+    "category": "纪录片",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Discovery Turbo (720p)",
     "url": "http://41.205.93.154/ESPNNEWS/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Discovery_Turbo_2025.svg/1920px-Discovery_Turbo_2025.svg.png",
     "group": "Auto",
+    "source": "collected",
+    "region": "other",
+    "category": "纪录片",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Discovery Turbo Latin America (1080p)",
+    "url": "http://38.134.250.110:8000/play/a01y/index.m3u8",
+    "logo": "https://i.imgur.com/1pQPxu3.png",
+    "group": "Auto",
+    "source": "collected",
+    "region": "other",
+    "category": "纪录片",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Discovery World (1080p)",
+    "url": "http://168.196.127.137:6001/play/a097/index.m3u8",
+    "logo": "https://i.imgur.com/yNFmUkE.png",
+    "group": "Entertainment",
     "source": "collected",
     "region": "other",
     "category": "纪录片",
@@ -32343,6 +32486,17 @@
     "url": "https://jmp2.uk/plu-64d1606b4c5ed80008e3b8b9.m3u8",
     "logo": "https://images.pluto.tv/channels/62e919ca865c590007ecd0bd/colorLogoPNG.png",
     "group": "Series",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "E4 (360p)",
+    "url": "https://lb.iptvnetwork.net/ls28/10113/playlist.m3u8",
+    "logo": "https://i.imgur.com/22MfjF4.png",
+    "group": "Entertainment",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -34443,6 +34597,17 @@
     "name": "ESPN Deportes HD (720p)",
     "url": "http://168.228.44.241:9998/play/a0dz/index.m3u8",
     "logo": "https://imgx.fubo.tv/station_logos/espn-hd-deportes_c.png",
+    "group": "Sports",
+    "source": "collected",
+    "region": "usa",
+    "category": "体育",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "ESPN Premium HD (1080p)",
+    "url": "http://190.128.214.97:64333/play/a02i/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN_Premium_logo.svg/960px-ESPN_Premium_logo.svg.png",
     "group": "Sports",
     "source": "collected",
     "region": "usa",
@@ -37346,6 +37511,17 @@
   {
     "name": "Food Network (720p)",
     "url": "http://23.237.104.106:8080/USA_FOOD_NETWORK/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png",
+    "group": "Cooking",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Food Network Latin America (1080p)",
+    "url": "http://168.196.127.137:6001/play/a09v/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png",
     "group": "Cooking",
     "source": "collected",
@@ -41700,6 +41876,39 @@
     "source_priority": 2
   },
   {
+    "name": "HBO 2 Latin America (576p)",
+    "url": "http://38.65.175.84:8000/play/a0ct/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/960px-HBO2_logo.svg.png",
+    "group": "Movies;Series",
+    "source": "collected",
+    "region": "usa",
+    "category": "影视",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "HBO 2 Latin America HD (1080p)",
+    "url": "http://45.171.64.30:6060/play/a00i/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/960px-HBO2_logo.svg.png",
+    "group": "Movies;Series",
+    "source": "collected",
+    "region": "usa",
+    "category": "影视",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "HBO Family Latin America (1080p)",
+    "url": "http://45.171.64.30:6060/play/a00k/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/HBO_Family.svg/960px-HBO_Family.svg.png",
+    "group": "Family",
+    "source": "collected",
+    "region": "usa",
+    "category": "影视",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "HBO Latin America (720p) [Geo-blocked]",
     "url": "http://15.204.246.24:8080/HBOHD/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png",
@@ -42045,6 +42254,17 @@
     "url": "https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/8424fb7f-99a9-87ae-3861-f0620849d11c/source/index.m3u8",
     "logo": "https://i.imgur.com/0aIH6V5.png",
     "group": "General",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "HGTV Latin America (1080p)",
+    "url": "http://38.87.224.19:2220/play/a01p/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/960px-HGTV_US_Logo_2015.svg.png",
+    "group": "Lifestyle",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -42767,12 +42987,23 @@
     "source_priority": 2
   },
   {
-    "name": "HMTV (720p)",
+    "name": "HMTV (India) (720p)",
     "url": "https://cdn.pishow.tv/ott/live/280/master.m3u8",
     "logo": "https://dtil.tmsimg.com/assets/s143136_ld_h15_aa.png?lock=720x540",
     "group": "News",
     "source": "collected",
     "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "HMTV (Nigeria) (720p)",
+    "url": "https://customer-yzxu6n447dx2x45h.cloudflarestream.com/f255a1e5ef17a8277e15e5f409951e98/manifest/video.m3u8",
+    "logo": "https://watchhmtv.com/hmtv_logo.svg",
+    "group": "Music",
+    "source": "collected",
+    "region": "usa",
     "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
@@ -43651,6 +43882,17 @@
     "url": "https://dethich.pw/htv9/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bf/HTV9_logo.webp",
     "group": "General;News",
+    "source": "collected",
+    "region": "southeast_asia",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "HTV (720p)",
+    "url": "http://45.171.64.30:6060/play/a012/index.m3u8",
+    "logo": "https://i.imgur.com/NlKFNHS.png",
+    "group": "Music",
     "source": "collected",
     "region": "southeast_asia",
     "category": "综合",
@@ -44802,6 +45044,17 @@
     "source_priority": 2
   },
   {
+    "name": "In Puii Mei (576p)",
+    "url": "https://live77cdn2.antenaplay.ro/live2_fast/ch7/stream.m3u8",
+    "logo": "https://assets.antenaplay.ro/2026/05/07/aUyRzOHx0tkHM6SXjA9K.png",
+    "group": "Comedy",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "In the Kitchen (720p)",
     "url": "https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc4us/master.m3u8",
     "logo": "https://i.imgur.com/HrRUd6r.png",
@@ -45267,6 +45520,17 @@
     "name": "Intercomarcal TV (576p) [Not 24/7]",
     "url": "https://streamingtvi.gestec-video.com/hls/tvixa.m3u8",
     "logo": "https://i.imgur.com/KLPSnAT.png",
+    "group": "General",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Intermedia TV (576p)",
+    "url": "https://live.intermediatv.ro/ram/playlist.m3u8",
+    "logo": "https://i.imgur.com/cNXM4Mu.png",
     "group": "General",
     "source": "collected",
     "region": "other",
@@ -45748,6 +46012,17 @@
     "source_priority": 2
   },
   {
+    "name": "iRoast (576p)",
+    "url": "https://live77cdn2.antenaplay.ro/live2_fast/ch3/stream.m3u8",
+    "logo": "https://assets.antenaplay.ro/2026/05/07/1CKR5EoJo1qeSZCe9lkT.png",
+    "group": "Comedy",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Iron Chef",
     "url": "https://jmp2.uk/plu-6582f8dadfed030008e5a93d.m3u8",
     "logo": "https://i.imgur.com/rk7fMNe.png",
@@ -46078,12 +46353,56 @@
     "source_priority": 2
   },
   {
+    "name": "ITV1 (360p)",
+    "url": "https://lb.iptvnetwork.net/ls28/10103/playlist.m3u8",
+    "logo": "https://i.imgur.com/xwPekCF.png",
+    "group": "General",
+    "source": "collected",
+    "region": "southeast_asia",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "ITV2 (360p)",
+    "url": "https://lb.iptvnetwork.net/ls28/10106/playlist.m3u8",
+    "logo": "https://i.imgur.com/2BpUK0W.png",
+    "group": "General",
+    "source": "collected",
+    "region": "southeast_asia",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "ITV2 HD (1080p)",
     "url": "https://xemzi.short.gy/1000012",
     "logo": "https://i.imgur.com/2BpUK0W.png",
     "group": "General",
     "source": "collected",
     "region": "southeast_asia",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "ITV3 (360p)",
+    "url": "https://lb.iptvnetwork.net/ls28/10107/playlist.m3u8",
+    "logo": "https://i.imgur.com/JuyM2z5.png",
+    "group": "Entertainment",
+    "source": "collected",
+    "region": "southeast_asia",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "ITV4 (360p)",
+    "url": "https://lb.iptvnetwork.net/ls28/10108/playlist.m3u8",
+    "logo": "https://i.imgur.com/DYI4IA2.png",
+    "group": "General",
+    "source": "collected",
+    "region": "other",
     "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
@@ -46126,6 +46445,17 @@
     "url": "https://redirector.dps.live/hls/itv/playlist.m3u8",
     "logo": "https://rhk91h.infiniteuploads.cloud/2025/08/Logo-ITV-Patagonia.jpg",
     "group": "General",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "iUmor (576p)",
+    "url": "https://live77cdn2.antenaplay.ro/live2_fast/ch2/stream.m3u8",
+    "logo": "https://assets.antenaplay.ro/2026/05/07/pB32HtJzC1i0xlH75Rb0.png",
+    "group": "Comedy",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -46447,17 +46777,6 @@
     "group": "General",
     "source": "collected",
     "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Jawhara TV (720p) [Not 24/7]",
-    "url": "https://streaming.toutech.net/live/jtv/index.m3u8",
-    "logo": "https://i.imgur.com/mRSQ5bP.png",
-    "group": "Music",
-    "source": "collected",
-    "region": "usa",
     "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
@@ -50559,6 +50878,28 @@
     "url": "https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(ka)/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/La5_Mediaset.svg/960px-La5_Mediaset.svg.png",
     "group": "Entertainment",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "LA7 HD (1080p)",
+    "url": "https://d3k8wzt41aflvx.cloudfront.net/LA7HD/Live.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/LA7_-_Logo_2011.svg/960px-LA7_-_Logo_2011.svg.png",
+    "group": "General",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "La7 Cinema (720p)",
+    "url": "http://102.129.186.182:81/la7d/index.m3u8",
+    "logo": "https://i.imgur.com/khPweok.png",
+    "group": "Undefined",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -57815,6 +58156,17 @@
     "source_priority": 2
   },
   {
+    "name": "More4 (360p)",
+    "url": "https://lb.iptvnetwork.net/ls28/10114/playlist.m3u8",
+    "logo": "https://i.imgur.com/cx5YcAU.png",
+    "group": "Entertainment",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "More Grace TV (410p) [Not 24/7]",
     "url": "https://atechgroupuk.site/ETV.m3u8",
     "logo": "https://i.imgur.com/DNTeCQt.png",
@@ -59762,7 +60114,7 @@
     "source_priority": 2
   },
   {
-    "name": "Music Channel",
+    "name": "Music Channel SD",
     "url": "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-ncn/live_hq?offsetSeconds=0",
     "logo": "https://i.imgur.com/nadVCxM.png",
     "group": "Music",
@@ -60787,7 +61139,7 @@
   {
     "name": "National 24 Plus",
     "url": "https://hls01ns.antenaplay.ro/hls/n24-plus-sd/index.m3u8",
-    "logo": "https://i.imgur.com/VxBdga3.png",
+    "logo": "https://static.wikia.nocookie.net/logopedia/images/2/26/National_24_Plus_TV.svg/revision/latest/scale-to-width-down/1000?cb=20250202201124",
     "group": "General",
     "source": "collected",
     "region": "other",
@@ -61016,9 +61368,20 @@
     "source_priority": 2
   },
   {
+    "name": "National TV2",
+    "url": "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-telestar1/live_hq?offsetSeconds=0",
+    "logo": "https://static.wikia.nocookie.net/logopedia/images/a/a8/National_TV_2_2026.png/revision/latest/scale-to-width-down/1000?cb=20260611184456",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "southeast_asia",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "National TV",
     "url": "https://hls01ns.antenaplay.ro/hls/national-tv-sd/index.m3u8",
-    "logo": "https://i.imgur.com/KHzUIwG.png",
+    "logo": "https://static.wikia.nocookie.net/logopedia/images/b/bd/National_TV_2025.png",
     "group": "General",
     "source": "collected",
     "region": "other",
@@ -64602,6 +64965,17 @@
     "source_priority": 2
   },
   {
+    "name": "NPO 1 (360p)",
+    "url": "https://lb.iptvnetwork.net/ls28/10001/playlist.m3u8",
+    "logo": "https://i.imgur.com/HEtJEBa.png",
+    "group": "General",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "NPO 1 HD (720p) [Geo-blocked]",
     "url": "https://bpm.tv.delta.nl/hls/combined/1/mobile.m3u8",
     "logo": "https://i.imgur.com/HEtJEBa.png",
@@ -67903,7 +68277,7 @@
   },
   {
     "name": "Pakapaka (1080p)",
-    "url": "http://190.128.214.97:64333/play/a02r/index.m3u8",
+    "url": "http://138.59.227.20:8000/play/a05t/index.m3u8",
     "logo": "https://i.imgur.com/GJbRWwH.png",
     "group": "Kids",
     "source": "collected",
@@ -68421,7 +68795,7 @@
   {
     "name": "Party Mix HD (1080p)",
     "url": "https://hls02ns.antenaplay.ro/hls/party-mix-hd/index.m3u8",
-    "logo": "https://i.imgur.com/leF8AGo.png",
+    "logo": "https://yt3.googleusercontent.com/ytc/AIdro_lCn4ThcMw7giX9jeLHURb1oqoNIYN3YlObhwLkrsSNfg=w226-c-h226-k-c0x00ffffff-no-l90-rj",
     "group": "Music",
     "source": "collected",
     "region": "usa",
@@ -74513,6 +74887,17 @@
     "source_priority": 2
   },
   {
+    "name": "Polsat Film HD",
+    "url": "http://92.63.196.180:8080/live/74173747597177/7vfxky4rjx3j/10208.m3u8?token=Q0FaWEpZFFsXAwNWUFMEBwJXAwMDVlpTBgVTVwEHAQNeWgoACVVXVQAVGEZGFUdTUl9qWwIVAlBSAQBdGENHQ10RbVBdEwxDAgANUAJVFxoRRlxfAxUCUU4RQA1QQwheTQ9eFRtUThVQRVoFWT5RU0VbVldEDVYUDl8cRlsPbVRdDlNXXRMMQwQVGEZcEkUUCVxAXgobGgMLR0IFQAQQClYWXlUVE1UOQFlAFkxDDxRjfhceRFJAFQddQw1bDxAKGg4BTAETGkNcRGsWUBJBRFZTWFcUFQJDUhEcRlkASm9bDFxXXFJCCFpZR0YPQwQUHxBYXQheTA4QbEANUEMIXk0PXkQ=",
+    "logo": "https://i.imgur.com/wGH6shZ.png",
+    "group": "Movies",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Polsat Games HD (1080p)",
     "url": "http://92.63.196.180:8080/live/74173747597177/7vfxky4rjx3j/10209.m3u8?token=Q0FaWEpZFFsXAwNWUFMEBwJXAwMDVlpTBgVTVwEHAQNeWgoACVVXVQAVGEZGFUdTUl9qWwIVAlBSAQBdGENHQ10RbVBdEwxDAgANUAJVFxoRRlxfAxUCUU4RQA1QQwheTQ9eFRtUThVQRVoFWT5RU0VbVldEDVYUDl8cRlsPbVRdDlNXXRMMQwQVGEZcEkUUCVxAXgobGgMLR0IFQAQQClYWXlUVE1UOQFlAFkxDDxRjfhceRFJAFQddQw1bDxAKGg4BTAETGkNcRGsWUBJBRFZTWFcUFQJDUhEcRlkASm9bDFxXXFJCCFpZR0YPQwQUHxBYXQheTA4QbEANUEMIXk0PXkQ=",
     "logo": "https://i.imgur.com/OSCrBvh.png",
@@ -75230,7 +75615,7 @@
   {
     "name": "Prima News",
     "url": "https://hls02ns.antenaplay.ro/hls/prima-news-hd/index.m3u8",
-    "logo": "https://i.imgur.com/wlqGfU2.png",
+    "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Prima_News_logo_2022.svg/1280px-Prima_News_logo_2022.svg.png",
     "group": "News",
     "source": "collected",
     "region": "other",
@@ -75428,7 +75813,7 @@
   {
     "name": "Pro Arena (1080p)",
     "url": "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-prox/live_fullhd?offsetSeconds=0",
-    "logo": "https://i.imgur.com/KQmB9Cc.png",
+    "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/PRO_Arena_Logo_%282022-present%29.svg/960px-PRO_Arena_Logo_%282022-present%29.svg.png",
     "group": "Undefined",
     "source": "collected",
     "region": "other",
@@ -75439,7 +75824,7 @@
   {
     "name": "Pro Arena HD",
     "url": "http://eb4b8dcf.kablakaka.ru/iptv/AE8BY6FHF5ZGAG/6990/index.m3u8",
-    "logo": "https://i.imgur.com/KQmB9Cc.png",
+    "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/PRO_Arena_Logo_%282022-present%29.svg/960px-PRO_Arena_Logo_%282022-present%29.svg.png",
     "group": "Undefined",
     "source": "collected",
     "region": "other",
@@ -75461,7 +75846,7 @@
   {
     "name": "Pro Cinema (1080p)",
     "url": "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-procinema/live_fullhd?offsetSeconds=0",
-    "logo": "https://i.imgur.com/TvHFGwZ.png",
+    "logo": "https://static.wikia.nocookie.net/logopedia/images/a/a6/Pro_Cinema_logo_2022.svg/revision/latest/scale-to-width-down/1000?cb=20220419100521",
     "group": "Movies",
     "source": "collected",
     "region": "other",
@@ -75494,7 +75879,7 @@
   {
     "name": "PRO TV HD (1080p)",
     "url": "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv/live_fullhd?offsetSeconds=0",
-    "logo": "https://i.imgur.com/zVk3WlT.png",
+    "logo": "https://static.wikia.nocookie.net/logopedia/images/8/8a/Pro_TV_Aug_2025.svg/revision/latest/scale-to-width-down/1000?cb=20250810105837",
     "group": "Undefined",
     "source": "collected",
     "region": "other",
@@ -75516,7 +75901,7 @@
   {
     "name": "PRO TV International",
     "url": "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv-international/live_fullhd?offsetSeconds=0",
-    "logo": "https://i.imgur.com/vfr1ZYw.png",
+    "logo": "https://static.wikia.nocookie.net/logopedia/images/4/4f/PRO_TV_Interna%C8%9Bional_%282017%29.svg/revision/latest/scale-to-width-down/1000?cb=20220821114700",
     "group": "Undefined",
     "source": "collected",
     "region": "other",
@@ -75681,7 +76066,7 @@
   {
     "name": "PROTV News (1080p)",
     "url": "https://cmero-ott-live.ssl.cdn.cra.cz/channels/cme-ro-voyo-news/playlist.m3u8?offsetSeconds=0&url=0",
-    "logo": "",
+    "logo": "https://static.wikia.nocookie.net/logopedia/images/8/85/Pro_TV_News_%282017%29.png/revision/latest?cb=20171005155753",
     "group": "News",
     "source": "collected",
     "region": "other",
@@ -80344,6 +80729,17 @@
     "source_priority": 2
   },
   {
+    "name": "Romania TV (576p)",
+    "url": "https://hls01ns.antenaplay.ro/hls/romania-tv-sd/index.m3u8",
+    "logo": "https://i.imgur.com/ZIfEp5I.png",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Romantica TV (1080p)",
     "url": "https://stream10.xdevel.com/video0s977363-1901/stream/playlist_dvr.m3u8",
     "logo": "https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/Romantica%20TV.jpeg",
@@ -82588,45 +82984,12 @@
     "source_priority": 2
   },
   {
-    "name": "S Free! (360p)",
-    "url": "https://vodcdn.bamboo-cloud.com/livehls/6a81c67306304414d27742d3/master.m3u8",
-    "logo": "https://i.postimg.cc/DZ47qB39/In-Shot-20260816-210045369.png",
-    "group": "General",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "S KPop! (480p)",
-    "url": "https://vodcdn.bamboo-cloud.com/livehls/6aac8803063044569e156563/master.m3u8",
-    "logo": "https://i.postimg.cc/521WRm5k/In-Shot-20260918-070004312.png",
-    "group": "Kids;Music",
-    "source": "collected",
-    "region": "usa",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "S Metro TV (360p)",
     "url": "https://vodcdn.bamboo-cloud.com/livehls/6a9f8b4606304461c50dfe93/master.m3u8",
     "logo": "https://i.postimg.cc/1z72qQKC/In-Shot-20260908-064106298.png",
     "group": "General",
     "source": "collected",
     "region": "southeast_asia",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "S Premium! HD (360p)",
-    "url": "https://vodcdn.bamboo-cloud.com/livehls/68d0876e06304461862415b2/master.m3u8",
-    "logo": "https://i.postimg.cc/Mp1TTWq0/In-Shot-20260818-135217619.png",
-    "group": "General",
-    "source": "collected",
-    "region": "other",
     "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
@@ -82650,17 +83013,6 @@
     "source": "collected",
     "region": "other",
     "category": "体育",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "S Tom Sings (1080p)",
-    "url": "https://vodcdn.bamboo-cloud.com/livehls/6a8408ae0630440c2f39aec3/master.m3u8",
-    "logo": "https://i.postimg.cc/5tfB3Ktv/In-Shot-20260818-133542271.png",
-    "group": "Kids",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
   },
@@ -89551,6 +89903,17 @@
     "source_priority": 2
   },
   {
+    "name": "Starz West (720p)",
+    "url": "http://23.237.104.106:8080/USA_STARZ_WEST/index.m3u8",
+    "logo": "https://i.imgur.com/N7oSm4d.png",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Starz Cinema (720p)",
     "url": "http://23.237.104.106:8080/USA_STARZ_CINEMA/index.m3u8",
     "logo": "https://i.imgur.com/ghzzKoT.png",
@@ -90325,17 +90688,6 @@
     "url": "http://122.248.43.242:1935/SAMARINDATV/_definst_/myStream/playlist.m3u8",
     "logo": "https://i.imgur.com/EIrXgT8.png",
     "group": "Undefined",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "STV (United States) (360p)",
-    "url": "https://vodcdn.bamboo-cloud.com/livehls/6a81edf1063044437202e65c/master.m3u8",
-    "logo": "https://i.postimg.cc/4dHXzBRr/In-Shot-20260816-223433608.png",
-    "group": "General",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -92741,8 +93093,19 @@
     "source_priority": 2
   },
   {
-    "name": "TeenNick (406p)",
+    "name": "TeenNick (Israel) (406p)",
     "url": "http://89.33.29.115:8080/TeenNick/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/TeenNick_2019_logo.svg/960px-TeenNick_2019_logo.svg.png",
+    "group": "Kids",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "TeenNick (United States) (432p)",
+    "url": "http://tvsen7.aynascope.net/teennick/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/TeenNick_2019_logo.svg/960px-TeenNick_2019_logo.svg.png",
     "group": "Kids",
     "source": "collected",
@@ -98780,6 +99143,17 @@
     "source_priority": 2
   },
   {
+    "name": "TraLaLa DSN",
+    "url": "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-inedit-tv/live_hq?offsetSeconds=0",
+    "logo": "https://tralaladsn.ro/assets/identity/logo.svg",
+    "group": "Kids",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "TraLaLa TV",
     "url": "https://hls01ns.antenaplay.ro/hls/tralala-hd/index.m3u8",
     "logo": "https://i.imgur.com/xJBMnjy.png",
@@ -99488,6 +99862,17 @@
     "url": "http://181.114.57.246:4000/play/9w2G3HTtuTmrtgPZ/index.m3u8",
     "logo": "https://i.imgur.com/GEyxDnf.png",
     "group": "News",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "TSN4 (720p)",
+    "url": "http://109.104.153.220:80/TSN-4/index.m3u8",
+    "logo": "https://i.imgur.com/qJyAWU8.png",
+    "group": "Sports",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -106195,7 +106580,7 @@
   },
   {
     "name": "TyC Sports (1080p)",
-    "url": "http://45.181.87.106/TYCSPORTSHD/index.m3u8",
+    "url": "https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png",
     "group": "Sports",
     "source": "collected",
@@ -108174,8 +108559,8 @@
     "source_priority": 2
   },
   {
-    "name": "Verbum TV (480p) [Not 24/7]",
-    "url": "https://edge3-moblive.yuppcdn.net/drm1/smil:verbumtvdrm.smil/index.m3u8",
+    "name": "Verbum TV (1080p)",
+    "url": "https://video-eu1.streamerr.co/hls/scb80244b91/live.m3u8",
     "logo": "https://i.imgur.com/YEKEaB4.png",
     "group": "Undefined",
     "source": "collected",
@@ -109683,7 +110068,7 @@
   {
     "name": "VP TV",
     "url": "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-vp-tv/live_lq?offsetSeconds=0",
-    "logo": "",
+    "logo": "https://www.vptv.ro/wp-content/uploads/2016/02/sigla-vp-tv.gif",
     "group": "Undefined",
     "source": "collected",
     "region": "other",
@@ -112422,7 +112807,18 @@
   {
     "name": "YRF Music (1080p)",
     "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
-    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/YRF_Music.png",
+    "logo": "https://i.imgur.com/pKj3F4M.png",
+    "group": "Music",
+    "source": "collected",
+    "region": "usa",
+    "category": "音乐",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "YRF Music Nepal",
+    "url": "https://vidaa.kableone.com/hls/live/2111218/YrfMusic/1.m3u8",
+    "logo": "https://i.imgur.com/mxx05Z9.png",
     "group": "Music",
     "source": "collected",
     "region": "usa",
@@ -113619,6 +114015,17 @@
     "source_priority": 2
   },
   {
+    "name": "Zoom (India) Nepal (720p)",
+    "url": "https://pubads.g.doubleclick.net/ssai/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZOOM/images/LOGO_HD/image.png",
+    "group": "Music",
+    "source": "collected",
+    "region": "usa",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Zoom Tecnologico Plus (720p)",
     "url": "https://5f700d5b2c46f.streamlock.net/zoomtec/zoomtec/playlist.m3u8",
     "logo": "https://cdn.m3u.cl/logo/1617_Zoom_Tecnologico_Plus.png",
@@ -113758,445 +114165,6 @@
     "region": "china",
     "is_cctv": true,
     "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "CCTV1",
-    "url": "http://101.66.199.13:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": true,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "CCTV2",
-    "url": "http://101.66.199.13:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": true,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "CCTV3",
-    "url": "http://101.66.199.13:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": true,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "CCTV5",
-    "url": "http://101.66.199.13:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": true,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "CCTV6",
-    "url": "http://101.66.199.13:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": true,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "CCTV7",
-    "url": "http://101.66.199.13:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": true,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "CCTV8",
-    "url": "http://101.66.199.13:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": true,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "CCTV9",
-    "url": "http://101.66.199.13:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": true,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "CCTV10",
-    "url": "http://101.66.199.13:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": true,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "CCTV11",
-    "url": "http://101.66.199.13:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": true,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "CCTV12",
-    "url": "http://101.66.199.13:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": true,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "CCTV13",
-    "url": "http://101.66.199.13:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": true,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "CCTV14",
-    "url": "http://101.66.199.13:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": true,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "CCTV15",
-    "url": "http://101.66.199.13:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": true,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "东南卫视",
-    "url": "http://101.66.199.13:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "东方卫视",
-    "url": "http://101.66.199.13:9901/tsfile/live/0018_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "云南卫视",
-    "url": "http://101.66.199.13:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "北京卫视",
-    "url": "http://101.66.199.13:9901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "吉林卫视",
-    "url": "http://101.66.199.13:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "四川卫视",
-    "url": "http://101.66.199.13:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "安徽卫视",
-    "url": "http://101.66.199.13:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "山东卫视",
-    "url": "http://101.66.199.13:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "山西卫视",
-    "url": "http://101.66.199.13:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "广东卫视",
-    "url": "http://101.66.199.13:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "广西卫视",
-    "url": "http://101.66.199.13:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "江苏卫视",
-    "url": "http://101.66.199.13:9901/tsfile/live/0017_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "江西卫视",
-    "url": "http://101.66.199.13:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "河北卫视",
-    "url": "http://101.66.199.13:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "河南卫视",
-    "url": "http://101.66.199.13:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "浙江卫视",
-    "url": "http://101.66.199.13:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "湖北卫视",
-    "url": "http://101.66.199.13:9901/tsfile/live/0132_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "湖南卫视",
-    "url": "http://101.66.199.13:9901/tsfile/live/0019_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "贵州卫视",
-    "url": "http://101.66.199.13:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "辽宁卫视",
-    "url": "http://101.66.199.13:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "重庆卫视",
-    "url": "http://101.66.199.13:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "陕西卫视",
-    "url": "http://101.66.199.13:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "黑龙江卫视",
-    "url": "http://101.66.199.13:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "杭州影视",
-    "url": "http://101.66.199.13:9901/tsfile/live/1011_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "other",
-    "category": "影视",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "浙江新闻",
-    "url": "http://101.66.199.13:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "新闻",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "金鹰卡通",
-    "url": "http://101.66.199.13:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "少儿",
     "source_name": "ssili126-tv",
     "source_priority": 2
   },

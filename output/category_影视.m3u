@@ -1,122 +1,100 @@
 #EXTM3U
 #PLAYLIST:影视频道
-# Generated: 2026-10-10 03:02:40
-# Channels: 59
-#EXTINF:-1 tvg-logo="https://i.imgur.com/sj5h9bl.png" group-title="Movies" tvg-speed="25939KB/s",Paramount Movie Channel
-https://jmp2.uk/plu-5cb0cae7a461406ffe3f5213.m3u8
-#EXTINF:-1 tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3709.png" group-title="Movies" tvg-speed="23493KB/s",GREAT! movies (1080p)
-https://amg01753-narrativeuk-amg01753c3-lg-gb-1833.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatmovies-lggb/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/61f33318210549000806a530/colorLogoPNG.png" group-title="Movies;Series" tvg-speed="21610KB/s",Classic Movie Westerns
+# Generated: 2026-10-10 15:50:06
+# Channels: 48
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/61f33318210549000806a530/colorLogoPNG.png" group-title="Movies;Series" tvg-speed="26236KB/s",Classic Movie Westerns
 https://jmp2.uk/plu-61f33318210549000806a530.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/MovieSphere_Gold_2025_logo.svg/500px-MovieSphere_Gold_2025_logo.svg.png" group-title="Movies" tvg-speed="19888KB/s",MovieSphere Gold WFXT (1080p)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionmystery-tablo/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/h1ejU90.png" group-title="Movies" tvg-speed="16790KB/s",MovieSphere AU (1080p)
-https://amg00353-lionsgatefilmsi-moviesphereaus-samsungau-7qzhf.amagi.tv/playlist/amg00353-lionsgatefilmsi-moviesphereaus-samsungau/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies" tvg-speed="11882KB/s",Rakuten TV Comedy Movies UK (1080p)
-https://9be783d652cd4b099cf63e1dc134c4a3.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6181/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies" tvg-speed="10546KB/s",Rakuten TV Action Movies UK (1080p)
-https://54045f0c40fd442c8b06df076aaf1e85.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6065/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies" tvg-speed="9867KB/s",Rakuten TV Top Movies Italy (1080p)
-https://d4a4999341764c67a67e9ec9eb3790ab.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5984/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies" tvg-speed="9256KB/s",Rakuten TV Top Movies Finland (1080p)
-https://1d1b0d4cb6ae4c31985d13221795695b.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6057/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies" tvg-speed="8735KB/s",Rakuten TV Comedy Movies (1080p)
-https://71db867f03ce4d71a29e92155f07ab87.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6180/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/NCqZdaL.png" group-title="Movies;Religious" tvg-speed="8654KB/s",ABN Bible Movies Channel (720p)
-https://mediaserver.abnvideos.com/streams/abnbiblemovies.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies" tvg-speed="8383KB/s",Rakuten TV Action Movies Finland (1080p)
-https://bca5a421a70c46ad911efd0a4767c4bf.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6075/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies" tvg-speed="7490KB/s",Rakuten TV Drama Movies Germany (1080p)
-https://968754c2483045c1a9a7f677caec35b6.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6096/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/JWihdcl.png" group-title="Movies" tvg-speed="7354KB/s",Movies Thriller (1080p)
-https://shd-amg-fast.edgenextcdn.net/tx012/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/h1ejU90.png" group-title="Movies" tvg-speed="7071KB/s",MovieSphere (1080p)
-https://amg00353-lionsgatestudio-moviesphere-xumo-zh5u0.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/29af70d1-d3ba-4a16-bc4d-bd99e7e7def4/hallmark-movies-and-more_color.png" group-title="Movies" tvg-speed="6837KB/s",Hallmark Movies & More (1080p)
-https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991709
-#EXTINF:-1 tvg-logo="https://i.imgur.com/wCgirjc.png" group-title="Movies" tvg-speed="5535KB/s",NEW K.MOVIES (1080p)
-https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=GB1700007PK&channel_id=newid_343&tp=samsung_tvplus
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies" tvg-speed="4974KB/s",Rakuten TV Drama Movies Italy (1080p)
-https://f84e0b1628464fab846160df957f269e.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6094/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="Movies" tvg-speed="4340KB/s",MyTime Movie Network (United Kingdom) (1080p)
-https://appletree-mytimeuk-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="Movies" tvg-speed="4081KB/s",MyTime Movie Network (Mexico) (720p)
-https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/5pOZQB4.png" group-title="Classic;Movies" tvg-speed="3818KB/s",ARTFLIX Movie Classics (720p)
-https://amogonetworx-artflix-1-nl.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/iSVnzR1.png" group-title="Movies" tvg-speed="3788KB/s",24 Hour Free Movies (720p)
-https://d1j2u714xk898n.cloudfront.net/scheduler/scheduleMaster/145.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/h1ejU90.png" group-title="Movies" tvg-speed="3680KB/s",MovieSphere UK (1080p)
-https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/aiGQtzI.png" group-title="Movies" tvg-speed="3642KB/s",MyTime Movie Network (Brazil) (720p)
-https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/5KRsqeF.png" group-title="Movies" tvg-speed="3408KB/s",MWD Movies [Not 24/7]
-http://203.81.84.130/hls/mwd_movie/index.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2CSpCdAxnLpqebMLZh6h7vMPk6LYpdqkVHA&s" group-title="Music" tvg-speed="2897KB/s",Movie Music by Stingray (1080p)
-https://lotus.stingray.com/manifest/cmusic-cme004-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/cQN3nWt.png" group-title="Religious" tvg-speed="2877KB/s",Gospel Movie TV (360p)
-https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143826_ld_h15_aa.png?lock=720x540" group-title="Movies" tvg-speed="2635KB/s",Star Maa Movies HD (720p)
-https://da86m1sqpm3o0.cloudfront.net/28072023/smil:maamovies.smil/chunklist_b2628000.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/wFqhK3p.png" group-title="Movies" tvg-speed="2528KB/s",Grjngo Western Movies (720p)
-https://amogonetworx-grjngo-3-dk.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江教科影视.png" group-title="浙江频道" tvg-speed="2449KB/s",浙江教科影视
-https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_KHUSHBOO_BANGLA/images/LOGO_HD/image.png" group-title="Entertainment" tvg-speed="2193KB/s",Khushboo Bangla (720p)
-https://cdn.pishow.tv/ott/live/1473/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/NIVhISa.png" group-title="Movies" tvg-speed="1939KB/s",Movies Action (1080p)
-https://shd-amg-fast.edgenextcdn.net/tx011/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png" group-title="Undefined" tvg-speed="1777KB/s",HBO Latin America (720p) [Geo-blocked]
-http://15.204.246.24:8080/HBOHD/index.m3u8
-#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143638_ld_h9_ab.png?lock=720x540" group-title="Movies" tvg-speed="1771KB/s",Oscar Movies Bhojpuri (720p)
-https://cdn.pishow.tv/ott/live/233/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/laGiFM1.png" group-title="Movies" tvg-speed="1736KB/s",Mei Ah Movie Channel (1080p)
-http://103.172.187.30:12000/stream/mytv/null-9/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Family;Movies" tvg-speed="1721KB/s",Rakuten TV Family Movies Italy (1080p)
-https://3315fc3e7276420f895e19cf807dbee1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6215/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HYgxPVQ.png" group-title="Movies" tvg-speed="1651KB/s",MyTime Movie Network East (1080p)
-https://appletree-mytimeau-samsung.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://www.jagobd.com/wp-content/uploads/2016/02/moviebangla.jpg?x50681" group-title="Movies" tvg-speed="1644KB/s",Movie Bangla
-http://alvetv.com/moviebanglatv/8080/index.m3u8
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MOVIES_NOW/images/LOGO_HD/image.png" group-title="Movies" tvg-speed="1619KB/s",Movies Now HD (1080p)
-http://103.151.60.162:2122/play/a02w/index.m3u8?hls
-#EXTINF:-1 tvg-logo="https://i.imgur.com/5CtiQ45.png" group-title="Movies" tvg-speed="1600KB/s",Bflix Movies (576p)
-http://103.151.60.162:2122/play/a01e/index.m3u8?hls
-#EXTINF:-1 group-title="Movies" tvg-speed="1423KB/s",30A TV Classic Movies (720p)
-https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8
-#EXTINF:-1 group-title="Movies" tvg-speed="1213KB/s",MH One Movies (576p)
-https://mumt03.tangotv.in/Dsly5z3HMHONEMOVIE/index.m3u8
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PUBLIC_MOVIES/images/LOGO_HD/image.png" group-title="Movies" tvg-speed="1112KB/s",Public Movies (576p)
-https://mumt04.tangotv.in/m18aqlK4PUBLICMOVIES/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/st1xMsw.png" group-title="Classic" tvg-speed="1101KB/s",TVS Classic Movies (288p)
-https://rpn.bozztv.com/gusa/gusa-tvsclassicmovies/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies" tvg-speed="928KB/s",Rakuten TV Action Movies Germany (1080p)
-https://284824cf70404fdfb6ddf9349009c710.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6066/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/OR9APjb.png" group-title="Movies" tvg-speed="908KB/s",TVS Drive In Movie (360p)
-https://rpn.bozztv.com/gusa/gusa-tvsdriveinmovie/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/M9kMFJl.png" group-title="Movies" tvg-speed="894KB/s",B4U Movies (576p)
-https://streams.tangotv.in/B4UMOVIES/ORIGIN/index.m3u8
-#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143303_ld_h15_aa.png?lock=720x540" group-title="Movies" tvg-speed="856KB/s",Manoranjan Movies (576p)
-https://mumt04.tangotv.in/m18aqlK4MANORANJANMOVIES/index.m3u8
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Maha_Movies.png" group-title="Movies" tvg-speed="669KB/s",Maha Movie (576p)
-https://cdn.pishow.tv/ott/live/10007/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Family;Movies" tvg-speed="664KB/s",Rakuten TV Family Movies UK (1080p)
-https://e3207568b726401995c25670faaf32e4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6203/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/kyE3vXf.png" group-title="Movies" tvg-speed="544KB/s",HITS Movies (576p)
-http://103.151.60.162:2122/play/a01h/index.m3u8?hls
-#EXTINF:-1 tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" group-title="Undefined" tvg-speed="437KB/s",Top Movies Polska (1080p)
-https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Family;Movies" tvg-speed="403KB/s",Rakuten TV Family Movies Finland (1080p)
-https://758ee983d61e400381dea6fa8154f4e0.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6227/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Family;Movies" tvg-speed="252KB/s",Rakuten TV Family Movies (1080p)
-https://b0d59c8c98974e708e5ccb9a27cdfdfc.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6205/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies" tvg-speed="248KB/s",Rakuten TV Top Movies Germany (1080p)
-https://cbb622b29f5d43b598991f3fa19de291.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5985/master.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5c5c3b948002db3c3e0b262e/colorLogoPNG.png" group-title="Movies" tvg-speed="240KB/s",Pluto TV Movies GB
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5c5c3b948002db3c3e0b262e/colorLogoPNG.png" group-title="Movies" tvg-speed="18122KB/s",Pluto TV Movies GB
 https://jmp2.uk/plu-5ad8d3a31b95267e225e4e09.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/w4fxiKi.png" group-title="Classic" tvg-speed="201KB/s",TVS Nostalgia Movies (480p)
-https://rpn.bozztv.com/gusa/gusa-tvsNostalgiaMovies/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.tvchinese.net/uploads/tv/haerbin.jpg" group-title="Movies" tvg-speed="163KB/s",Harbin Movie Channel
+#EXTINF:-1 tvg-logo="https://i.imgur.com/h1ejU90.png" group-title="Movies" tvg-speed="17580KB/s",MovieSphere AU (1080p)
+https://amg00353-lionsgatefilmsi-moviesphereaus-samsungau-7qzhf.amagi.tv/playlist/amg00353-lionsgatefilmsi-moviesphereaus-samsungau/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sj5h9bl.png" group-title="Movies" tvg-speed="16434KB/s",Paramount Movie Channel
+https://jmp2.uk/plu-5cb0cae7a461406ffe3f5213.m3u8
+#EXTINF:-1 tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3709.png" group-title="Movies" tvg-speed="16218KB/s",GREAT! movies (1080p)
+https://amg01753-narrativeuk-amg01753c3-lg-gb-1833.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatmovies-lggb/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies" tvg-speed="7720KB/s",Rakuten TV Comedy Movies Germany (1080p)
+https://ecac08c9e2214375b907d6825aaf9a01.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6182/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Family;Movies" tvg-speed="7573KB/s",Rakuten TV Family Movies Italy (1080p)
+https://3315fc3e7276420f895e19cf807dbee1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6215/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies" tvg-speed="7551KB/s",Rakuten TV Top Movies Italy (1080p)
+https://d4a4999341764c67a67e9ec9eb3790ab.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5984/master.m3u8
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/29af70d1-d3ba-4a16-bc4d-bd99e7e7def4/hallmark-movies-and-more_color.png" group-title="Movies" tvg-speed="7461KB/s",Hallmark Movies & More (1080p)
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991709
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies" tvg-speed="7455KB/s",Rakuten TV Drama Movies UK (1080p)
+https://fee09fd665814f51b939b6d106cf5f66.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6093/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NCqZdaL.png" group-title="Movies;Religious" tvg-speed="7387KB/s",ABN Bible Movies Channel (720p)
+https://mediaserver.abnvideos.com/streams/abnbiblemovies.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/h1ejU90.png" group-title="Movies" tvg-speed="6726KB/s",MovieSphere UK (1080p)
+https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/MovieSphere_Gold_2025_logo.svg/500px-MovieSphere_Gold_2025_logo.svg.png" group-title="Movies" tvg-speed="5655KB/s",MovieSphere Gold WFXT (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionmystery-tablo/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN38000072R_20260325T012318SQUARE.png" group-title="Movies" tvg-speed="5342KB/s",The Movie Club (1080p)
+https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-mp2ar4ca425xo.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2CSpCdAxnLpqebMLZh6h7vMPk6LYpdqkVHA&s" group-title="Music" tvg-speed="5047KB/s",Movie Music by Stingray (1080p)
+https://lotus.stingray.com/manifest/cmusic-cme004-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="Movies" tvg-speed="3003KB/s",MyTime Movie Network (Spain) (1080p)
+https://appletree-mytimespain-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png" group-title="Undefined" tvg-speed="2909KB/s",HBO Latin America (720p) [Geo-blocked]
+http://15.204.246.24:8080/HBOHD/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wFqhK3p.png" group-title="Movies" tvg-speed="2596KB/s",Grjngo Western Movies (720p)
+https://amogonetworx-grjngo-3-dk.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143638_ld_h9_ab.png?lock=720x540" group-title="Movies" tvg-speed="2360KB/s",Oscar Movies Bhojpuri (720p)
+https://cdn.pishow.tv/ott/live/233/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/JWihdcl.png" group-title="Movies" tvg-speed="2216KB/s",Movies Thriller (1080p)
+https://shd-amg-fast.edgenextcdn.net/tx012/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://www.jagobd.com/wp-content/uploads/2016/02/moviebangla.jpg?x50681" group-title="Movies" tvg-speed="1971KB/s",Movie Bangla
+http://alvetv.com/moviebanglatv/8080/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/cQN3nWt.png" group-title="Religious" tvg-speed="1783KB/s",Gospel Movie TV (360p)
+https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_KHUSHBOO_BANGLA/images/LOGO_HD/image.png" group-title="Entertainment" tvg-speed="1480KB/s",Khushboo Bangla (720p)
+https://cdn.pishow.tv/ott/live/1473/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/dwr98qb.png" group-title="Classic" tvg-speed="1231KB/s",TVS Western Movie (270p)
+https://rpn.bozztv.com/gusa/gusa-tvswesternmovies/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/st1xMsw.png" group-title="Classic" tvg-speed="1169KB/s",TVS Classic Movies (288p)
+https://rpn.bozztv.com/gusa/gusa-tvsclassicmovies/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5CtiQ45.png" group-title="Movies" tvg-speed="1080KB/s",Bflix Movies (576p)
+http://103.151.60.162:2122/play/a01e/index.m3u8?hls
+#EXTINF:-1 group-title="Movies" tvg-speed="1069KB/s",MH One Movies (576p)
+https://mumt03.tangotv.in/Dsly5z3HMHONEMOVIE/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OR9APjb.png" group-title="Movies" tvg-speed="1063KB/s",TVS Drive In Movie (360p)
+https://rpn.bozztv.com/gusa/gusa-tvsdriveinmovie/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/kyE3vXf.png" group-title="Movies" tvg-speed="1058KB/s",HITS Movies (576p)
+http://103.151.60.162:2122/play/a01h/index.m3u8?hls
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143303_ld_h15_aa.png?lock=720x540" group-title="Movies" tvg-speed="1056KB/s",Manoranjan Movies (576p)
+https://mumt04.tangotv.in/m18aqlK4MANORANJANMOVIES/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/960px-HBO2_logo.svg.png" group-title="Movies;Series" tvg-speed="822KB/s",HBO 2 Latin America (576p)
+http://38.65.175.84:8000/play/a0ct/index.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143826_ld_h15_aa.png?lock=720x540" group-title="Movies" tvg-speed="728KB/s",Star Maa Movies HD (720p)
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:maamovies.smil/chunklist_b2628000.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江教科影视.png" group-title="浙江频道" tvg-speed="663KB/s",浙江教科影视
+https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies" tvg-speed="663KB/s",Rakuten TV Action Movies Italy (1080p)
+https://87f2e2e5e7624e3bad85da1ca2ed31a7.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6067/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies" tvg-speed="626KB/s",Rakuten TV Action Movies Germany (1080p)
+https://284824cf70404fdfb6ddf9349009c710.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6066/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies" tvg-speed="616KB/s",Rakuten TV Comedy Movies (1080p)
+https://71db867f03ce4d71a29e92155f07ab87.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6180/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/M9kMFJl.png" group-title="Movies" tvg-speed="457KB/s",B4U Movies (576p)
+https://streams.tangotv.in/B4UMOVIES/ORIGIN/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/HBO_Family.svg/960px-HBO_Family.svg.png" group-title="Family" tvg-speed="448KB/s",HBO Family Latin America (1080p)
+http://45.171.64.30:6060/play/a00k/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.tvchinese.net/uploads/tv/haerbin.jpg" group-title="Movies" tvg-speed="389KB/s",Harbin Movie Channel
 https://stream.hrbtv.net/yspd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies" tvg-speed="159KB/s",Rakuten TV Top Movies UK (1080p)
-https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NIVhISa.png" group-title="Movies" tvg-speed="375KB/s",Movies Action (1080p)
+https://shd-amg-fast.edgenextcdn.net/tx011/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies" tvg-speed="368KB/s",Rakuten TV Action Movies Finland (1080p)
+https://bca5a421a70c46ad911efd0a4767c4bf.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6075/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wCgirjc.png" group-title="Movies" tvg-speed="347KB/s",NEW K.MOVIES (1080p)
+https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=GB1700007PK&channel_id=newid_343&tp=samsung_tvplus
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies" tvg-speed="345KB/s",Rakuten TV Action Movies UK (1080p)
+https://54045f0c40fd442c8b06df076aaf1e85.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6065/master.m3u8
+#EXTINF:-1 group-title="Movies" tvg-speed="313KB/s",30A TV Classic Movies (720p)
+https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies" tvg-speed="303KB/s",Rakuten TV Comedy Movies Finland (1080p)
+https://a300af98e00746e2acf2346f43e47bd1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6191/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/h1ejU90.png" group-title="Movies" tvg-speed="219KB/s",MovieSphere (1080p)
+https://amg00353-lionsgatestudio-moviesphere-xumo-zh5u0.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HYgxPVQ.png" group-title="Movies" tvg-speed="180KB/s",MyTime Movie Network East (1080p)
+https://appletree-mytimeau-samsung.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/iSVnzR1.png" group-title="Movies" tvg-speed="156KB/s",24 Hour Free Movies (720p)
+https://d1j2u714xk898n.cloudfront.net/scheduler/scheduleMaster/145.m3u8
