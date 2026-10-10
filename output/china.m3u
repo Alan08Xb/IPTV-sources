@@ -1,122 +1,130 @@
 #EXTM3U
 #PLAYLIST:中国大陆频道
-# Generated: 2026-10-09 16:55:57
-# Channels: 59
-#EXTINF:-1 tvg-logo="https://i.imgur.com/6MTar6J.png" group-title="News" tvg-speed="77516KB/s",CCTV-13 HD (1080p)
-http://go.bkpcp.top/mg/cctv13
-#EXTINF:-1 group-title="Undefined" tvg-speed="33801KB/s",黑龙江卫视
-http://101.66.199.13:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="33487KB/s",四川卫视
-http://101.66.199.13:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="30481KB/s",CCTV10
-http://101.66.199.13:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="30302KB/s",吉林卫视
-http://101.66.199.13:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="29683KB/s",河北卫视
-http://101.66.199.13:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="29630KB/s",CCTV13
-http://101.66.199.13:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="28662KB/s",CCTV8
-http://101.66.199.13:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="28477KB/s",CCTV9
-http://101.66.199.13:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="28458KB/s",CCTV6
-http://101.66.199.13:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="28402KB/s",北京卫视
-http://101.66.199.13:9901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="28363KB/s",CCTV15
-http://101.66.199.13:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="27893KB/s",贵州卫视
-http://101.66.199.13:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="27294KB/s",CCTV14
-http://101.66.199.13:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="23971KB/s",CCTV11
-http://101.66.199.13:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="19397KB/s",东南卫视
-http://101.66.199.13:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="19383KB/s",浙江卫视
-http://101.66.199.13:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="18922KB/s",浙江新闻
-http://101.66.199.13:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="7972KB/s",湖南卫视
-http://101.66.199.13:9901/tsfile/live/0019_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="7343KB/s",东方卫视
-http://101.66.199.13:9901/tsfile/live/0018_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="7269KB/s",江苏卫视
-http://101.66.199.13:9901/tsfile/live/0017_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="6745KB/s",山东卫视
-http://101.66.199.13:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="6526KB/s",广西卫视
+# Generated: 2026-10-10 03:02:40
+# Channels: 63
+#EXTINF:-1 group-title="Undefined" tvg-speed="41920KB/s",广西卫视
 http://101.66.199.13:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="4919KB/s",重庆卫视
-http://101.66.199.13:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="3873KB/s",金鹰卡通
-http://101.66.199.13:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="3750KB/s",CCTV5
+#EXTINF:-1 group-title="Undefined" tvg-speed="41547KB/s",CCTV12
+http://101.66.199.13:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="Undefined" tvg-speed="41284KB/s",CCTV5
 http://101.66.199.13:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HGLFdfk.png" group-title="General" tvg-speed="2404KB/s",CCTV-4 Europe
-https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/GyHaZ8X.png" group-title="Culture" tvg-speed="2245KB/s",CCTV-8 (720p)
-http://74.91.26.218:82/live/cctv8hd.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ILamhwU.png" group-title="Business" tvg-speed="2038KB/s",CCTV-2 (720p)
-http://74.91.26.218:82/live/cctv2hd.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/tWt4Wou.png" group-title="General" tvg-speed="1974KB/s",CCTV-4 Asia (720p)
-http://74.91.26.218:82/live/cctv4hd.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/sSSO7UD.png" group-title="Education" tvg-speed="1950KB/s",CCTV-10 (720p)
-http://74.91.26.218:82/live/cctv10hd.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/jSQURxS.png" group-title="Education;Outdoor" tvg-speed="1938KB/s",CCTV-17 HD (1080p)
-http://74.91.26.218:82/live/cctv17hd.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/c5SXW7i.png" group-title="Kids" tvg-speed="1933KB/s",CCTV-14 HD (1080p)
-http://74.91.26.218:82/live/cctv14hd.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Fy6HkX0.png" group-title="Sports" tvg-speed="1800KB/s",CCTV-Storm Football (1080p)
-http://38.75.136.137:98/gslb/dsdqpub/fyzq.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://i.imgur.com/fxVPMJF.png" group-title="Undefined" tvg-speed="1766KB/s",CCTV-8K HD (1080p)
-http://192.151.150.154/live/cctv8k.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江民生休闲.png" group-title="浙江频道" tvg-speed="1710KB/s",浙江民生休闲
-https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/WK3keM9.png" group-title="Sports" tvg-speed="1695KB/s",CCTV-Billiards (1080p)
-http://38.75.136.137:98/gslb/dsdqpub/ystq.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江教科影视.png" group-title="浙江频道" tvg-speed="1680KB/s",浙江教科影视
-https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="1606KB/s",广东卫视
-http://101.66.199.13:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="央视IPV4" tvg-speed="1567KB/s",CGTN纪录
-https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/钱江都市.png" group-title="浙江频道" tvg-speed="1562KB/s",浙江钱江都市
-https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
-#EXTINF:-1 group-title="4K8K频道" tvg-speed="1561KB/s",河北4K
-https://event.pull.hebtv.com:443/live/live101.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江新闻.png" group-title="浙江频道" tvg-speed="1484KB/s",浙江公共新闻
-https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/qSg862A.png" group-title="News" tvg-speed="1410KB/s",CCTV+ 2 (600p) [Not 24/7]
-https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江国际.png" group-title="浙江频道" tvg-speed="1368KB/s",浙江国际
-https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/QlF96eS.png" group-title="Documentary" tvg-speed="1244KB/s",CCTV-Weapon & Technology (1080p)
-http://38.75.136.137:98/gslb/dsdqpub/gfjs.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://i.imgur.com/U8d4Is6.png" group-title="News" tvg-speed="1218KB/s",CCTV+ 1 (600p) [Not 24/7]
-https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江经济生活.png" group-title="浙江频道" tvg-speed="1101KB/s",浙江经视
-https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/之江纪录.png" group-title="浙江频道" tvg-speed="902KB/s",之江纪录
-https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="882KB/s",安徽卫视
-http://101.66.199.13:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江少儿.png" group-title="浙江频道" tvg-speed="741KB/s",浙江少儿
-https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="636KB/s",云南卫视
-http://101.66.199.13:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="611KB/s",陕西卫视
-http://101.66.199.13:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="607KB/s",山西卫视
-http://101.66.199.13:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="607KB/s",江西卫视
-http://101.66.199.13:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="595KB/s",辽宁卫视
-http://101.66.199.13:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="566KB/s",湖北卫视
+#EXTINF:-1 group-title="Undefined" tvg-speed="40032KB/s",CCTV10
+http://101.66.199.13:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="Undefined" tvg-speed="38238KB/s",浙江新闻
+http://101.66.199.13:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="Undefined" tvg-speed="38099KB/s",江苏卫视
+http://101.66.199.13:9901/tsfile/live/0017_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="Undefined" tvg-speed="37894KB/s",湖南卫视
+http://101.66.199.13:9901/tsfile/live/0019_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="Undefined" tvg-speed="37003KB/s",贵州卫视
+http://101.66.199.13:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="Undefined" tvg-speed="36764KB/s",湖北卫视
 http://101.66.199.13:9901/tsfile/live/0132_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="552KB/s",河南卫视
-http://101.66.199.13:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="552KB/s",CCTV1
+#EXTINF:-1 group-title="Undefined" tvg-speed="34971KB/s",吉林卫视
+http://101.66.199.13:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="Undefined" tvg-speed="33948KB/s",四川卫视
+http://101.66.199.13:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="Undefined" tvg-speed="31940KB/s",CCTV1
 http://101.66.199.13:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="Undefined" tvg-speed="30271KB/s",CCTV6
+http://101.66.199.13:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="Undefined" tvg-speed="26588KB/s",重庆卫视
+http://101.66.199.13:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="Undefined" tvg-speed="20706KB/s",CCTV14
+http://101.66.199.13:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="Undefined" tvg-speed="19494KB/s",陕西卫视
+http://101.66.199.13:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="Undefined" tvg-speed="18574KB/s",东南卫视
+http://101.66.199.13:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="Undefined" tvg-speed="17579KB/s",山西卫视
+http://101.66.199.13:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="Undefined" tvg-speed="14993KB/s",CCTV11
+http://101.66.199.13:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="Undefined" tvg-speed="13452KB/s",辽宁卫视
+http://101.66.199.13:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="Undefined" tvg-speed="10391KB/s",东方卫视
+http://101.66.199.13:9901/tsfile/live/0018_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="Undefined" tvg-speed="9198KB/s",CCTV3
+http://101.66.199.13:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="Undefined" tvg-speed="8690KB/s",山东卫视
+http://101.66.199.13:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="Undefined" tvg-speed="7665KB/s",北京卫视
+http://101.66.199.13:9901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-logo="https://epg.yang-1989.xyz/logo/虎牙.png" group-title="•影视「轮播」" tvg-speed="7458KB/s",音乐石榴「音乐」
+https://cdn.ttvb.eu.org/huya/17091681
+#EXTINF:-1 group-title="Undefined" tvg-speed="6889KB/s",江西卫视
+http://101.66.199.13:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3tivvMm.png" group-title="Documentary" tvg-speed="5020KB/s",CCTV-9 (576i)
+https://xykt-fix.github.io/Y77.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="4656KB/s",CCTV7
+http://101.66.199.13:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-logo="https://i.imgur.com/iqJJTmH.png" group-title="Sports" tvg-speed="2867KB/s",CCTV-Golf & Tennis (1080p)
+http://38.75.136.137:98/gslb/dsdqpub/gefwq.m3u8?auth=testpub
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HGLFdfk.png" group-title="General" tvg-speed="2858KB/s",CCTV-4 Europe
+https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/WK3keM9.png" group-title="Sports" tvg-speed="2764KB/s",CCTV-Billiards (1080p)
+http://38.75.136.137:98/gslb/dsdqpub/ystq.m3u8?auth=testpub
+#EXTINF:-1 tvg-logo="https://i.imgur.com/rEttkKm.png" group-title="Movies" tvg-speed="2617KB/s",CCTV-Storm Theater (1080p)
+http://38.75.136.137:98/gslb/dsdqpub/fyjc.m3u8?auth=testpub
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/钱江都市.png" group-title="浙江频道" tvg-speed="2584KB/s",浙江钱江都市
+https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
+#EXTINF:-1 group-title="央视IPV4" tvg-speed="2514KB/s",CGTN纪录
+https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江教科影视.png" group-title="浙江频道" tvg-speed="2449KB/s",浙江教科影视
+https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
+#EXTINF:-1 group-title="4K8K频道" tvg-speed="2234KB/s",河北4K
+https://event.pull.hebtv.com:443/live/live101.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jSQURxS.png" group-title="Education;Outdoor" tvg-speed="2231KB/s",CCTV-17 HD (1080p)
+http://74.91.26.218:82/live/cctv17hd.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江新闻.png" group-title="浙江频道" tvg-speed="2199KB/s",浙江公共新闻
+https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/iFlkIuw.png" group-title="Entertainment" tvg-speed="2164KB/s",CCTV-3 (720p)
+http://74.91.26.218:82/live/cctv3hd.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3yTuiOM.png" group-title="Lifestyle" tvg-speed="2124KB/s",CCTV-12 (720p)
+http://74.91.26.218:82/live/cctv12hd.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/eFxD3hq.png" group-title="Movies" tvg-speed="2079KB/s",CCTV-The First Theater (1080p)
+http://38.75.136.137:98/gslb/dsdqpub/dyjc.m3u8?auth=testpub
+#EXTINF:-1 tvg-logo="https://i.imgur.com/TVs9PBc.png" group-title="Classic" tvg-speed="2066KB/s",CCTV-Nostalgia Theater (1080p)
+http://38.75.136.137:98/gslb/dsdqpub/hjjc.m3u8?auth=testpub
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江经济生活.png" group-title="浙江频道" tvg-speed="2004KB/s",浙江经视
+https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江国际.png" group-title="浙江频道" tvg-speed="1969KB/s",浙江国际
+https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/FVbP0aP.png" group-title="Lifestyle" tvg-speed="1954KB/s",CCTV-Women's Fashion SD (1080p)
+http://38.75.136.137:98/gslb/dsdqpub/nxss.m3u8?auth=testpub
+#EXTINF:-1 tvg-logo="https://i.imgur.com/qSg862A.png" group-title="News" tvg-speed="1721KB/s",CCTV+ 2 (600p) [Not 24/7]
+https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江民生休闲.png" group-title="浙江频道" tvg-speed="1693KB/s",浙江民生休闲
+https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CCV0eRG.png" group-title="Music" tvg-speed="1512KB/s",CCTV-15 (1080p)
+https://xykt-fix.github.io/play/a02e/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/GyHaZ8X.png" group-title="Culture" tvg-speed="1409KB/s",CCTV-8 (720p)
+http://74.91.26.218:82/live/cctv8hd.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江少儿.png" group-title="浙江频道" tvg-speed="1273KB/s",浙江少儿
+https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CKcPMQC.png" group-title="Education" tvg-speed="1200KB/s",CCTV-7 (720p)
+http://74.91.26.218:82/live/cctv7hd.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/rFiaef7.png" group-title="Movies" tvg-speed="1063KB/s",CCTV-6 HD (1080p)
+http://69.30.245.50/live/cctv6.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="834KB/s",云南卫视
+http://101.66.199.13:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="Undefined" tvg-speed="818KB/s",CCTV15
+http://101.66.199.13:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-logo="https://i.imgur.com/U8d4Is6.png" group-title="News" tvg-speed="814KB/s",CCTV+ 1 (600p) [Not 24/7]
+https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="809KB/s",CCTV8
+http://101.66.199.13:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="Undefined" tvg-speed="786KB/s",黑龙江卫视
+http://101.66.199.13:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="Undefined" tvg-speed="774KB/s",CCTV2
+http://101.66.199.13:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="Undefined" tvg-speed="749KB/s",CCTV13
+http://101.66.199.13:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Fy6HkX0.png" group-title="Sports" tvg-speed="622KB/s",CCTV-Storm Football (1080p)
+http://38.75.136.137:98/gslb/dsdqpub/fyzq.m3u8?auth=testpub
+#EXTINF:-1 group-title="Undefined" tvg-speed="598KB/s",CCTV9
+http://101.66.199.13:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sSSO7UD.png" group-title="Education" tvg-speed="558KB/s",CCTV-10 (720p)
+http://74.91.26.218:82/live/cctv10hd.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-speed="507KB/s",河北卫视
+http://101.66.199.13:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=0

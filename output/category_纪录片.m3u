@@ -1,30 +1,40 @@
 #EXTM3U
 #PLAYLIST:纪录片频道
-# Generated: 2026-10-09 16:55:57
-# Channels: 13
-#EXTINF:-1 tvg-logo="https://i.imgur.com/x57klfS.png" group-title="Documentary" tvg-speed="8169KB/s",Documentary+ (1080p)
-https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/mt/documentaryplus/859/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://www.karbala-tv.iq/documentary/static/img/logo.png" group-title="Documentary;Religious" tvg-speed="2889KB/s",Karbala Documentary
-https://ktvlive.online/stream/hls/ch3.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/4XV7cjU.png" group-title="Documentary" tvg-speed="2395KB/s",MWD Documentary [Geo-blocked]
-http://203.81.84.130/hls/mwd_document/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Czxi7yk.png" group-title="Documentary;Education" tvg-speed="1867KB/s",Asharq Discovery (1080p)
-https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png" group-title="Documentary" tvg-speed="1631KB/s",Investigation Discovery (1080p) [Geo-blocked]
-http://212.5.144.156:8080/id/index.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" group-title="Entertainment" tvg-speed="1571KB/s",Discovery Channel (1080p) [Geo-blocked]
-http://212.5.144.156:8080/discovery/index.m3u8
-#EXTINF:-1 group-title="央视IPV4" tvg-speed="1567KB/s",CGTN纪录
-https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Discovery_Turbo_2025.svg/1920px-Discovery_Turbo_2025.svg.png" group-title="Auto" tvg-speed="1393KB/s",Discovery Turbo (720p)
-http://41.205.93.154/ESPNNEWS/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/pHpFGeg.png" group-title="Religious" tvg-speed="995KB/s",Ch4Teen Documentary (1080p)
-https://ch14.tv/live/ch4teendoc/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/之江纪录.png" group-title="浙江频道" tvg-speed="902KB/s",之江纪录
-https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/x57klfS.png" group-title="Documentary" tvg-speed="751KB/s",Documentary+ International (1080p)
+# Generated: 2026-10-10 03:02:40
+# Channels: 18
+#EXTINF:-1 tvg-logo="https://i.imgur.com/x57klfS.png" group-title="Documentary" tvg-speed="9932KB/s",Documentary+ International (1080p)
 https://1d153317c8db4250b3789601274e2402.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-887-DOCUMENTARYINTERNATIONAL-DOCUMENTARYPLUS/mt/documentaryplus/887/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/yNFmUkE.png" group-title="Entertainment" tvg-speed="567KB/s",Discovery World Brazil (720p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/x57klfS.png" group-title="Documentary" tvg-speed="7214KB/s",Documentary+ (1080p)
+https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/mt/documentaryplus/859/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/yNFmUkE.png" group-title="Entertainment" tvg-speed="4031KB/s",Discovery World Brazil (720p) [Geo-blocked]
 http://15.204.246.24:8080/DiscoveryWorldHD/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/JHv0WxM.png" group-title="Documentary" tvg-speed="181KB/s",CGTN Documentary (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/v6VsFEt.png" group-title="Documentary" tvg-speed="3240KB/s",Asharq Documentary (1080p)
+https://svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/aeu5zIC.png" group-title="Documentary" tvg-speed="3194KB/s",RT Documentary (1080p) [Geo-blocked]
+https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8
+#EXTINF:-1 group-title="央视IPV4" tvg-speed="2514KB/s",CGTN纪录
+https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/JHv0WxM.png" group-title="Documentary" tvg-speed="1971KB/s",CGTN Documentary (1080p)
 https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" group-title="Entertainment" tvg-speed="1554KB/s",Discovery Channel Latin America (1080p)
+http://45.171.64.30:6060/play/a032/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Discovery_Turbo_2025.svg/1920px-Discovery_Turbo_2025.svg.png" group-title="Auto" tvg-speed="1472KB/s",Discovery Turbo (720p)
+http://41.205.93.154/ESPNNEWS/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png" group-title="Documentary" tvg-speed="1461KB/s",Investigation Discovery (1080p) [Geo-blocked]
+http://212.5.144.156:8080/id/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.karbala-tv.iq/documentary/static/img/logo.png" group-title="Documentary;Religious" tvg-speed="1407KB/s",Karbala Documentary
+https://ktvlive.online/stream/hls/ch3.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png" group-title="Documentary" tvg-speed="1149KB/s",Investigation Discovery Latin America South (1080p)
+http://38.65.175.84:8000/play/a0ch/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" group-title="Entertainment" tvg-speed="1103KB/s",Discovery Channel (1080p) [Geo-blocked]
+http://212.5.144.156:8080/discovery/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/pHpFGeg.png" group-title="Religious" tvg-speed="812KB/s",Ch4Teen Documentary (1080p)
+https://ch14.tv/live/ch4teendoc/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Czxi7yk.png" group-title="Documentary;Education" tvg-speed="787KB/s",Asharq Discovery (1080p)
+https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4XV7cjU.png" group-title="Documentary" tvg-speed="691KB/s",MWD Documentary [Geo-blocked]
+http://203.81.84.130/hls/mwd_document/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/aeu5zIC.png" group-title="Documentary" tvg-speed="665KB/s",RT Documentary Russian (1080p)
+https://rt-doc.rttv.com/dvr/rtdru/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/之江纪录.png" group-title="浙江频道" tvg-speed="496KB/s",之江纪录
+https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
