@@ -1,38 +1,30 @@
 #EXTM3U
 #PLAYLIST:纪录片频道
-# Generated: 2026-10-10 15:50:06
-# Channels: 17
-#EXTINF:-1 tvg-logo="https://i.imgur.com/x57klfS.png" group-title="Documentary" tvg-speed="10034KB/s",Documentary+ International (1080p)
-https://1d153317c8db4250b3789601274e2402.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-887-DOCUMENTARYINTERNATIONAL-DOCUMENTARYPLUS/mt/documentaryplus/887/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/x57klfS.png" group-title="Documentary" tvg-speed="6680KB/s",Documentary+ (1080p)
+# Generated: 2026-10-11 02:32:39
+# Channels: 13
+#EXTINF:-1 tvg-logo="https://i.imgur.com/x57klfS.png" group-title="Documentary" tvg-speed="9870KB/s",Documentary+ (1080p)
 https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/mt/documentaryplus/859/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/JHv0WxM.png" group-title="Documentary" tvg-speed="3220KB/s",CGTN Documentary (1080p)
-https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/v6VsFEt.png" group-title="Documentary" tvg-speed="2330KB/s",Asharq Documentary (1080p)
-https://svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/aeu5zIC.png" group-title="Documentary" tvg-speed="2270KB/s",RT Documentary (1080p) [Geo-blocked]
-https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/yNFmUkE.png" group-title="Entertainment" tvg-speed="1616KB/s",Discovery World Brazil (720p) [Geo-blocked]
-http://15.204.246.24:8080/DiscoveryWorldHD/index.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Discovery_Turbo_2025.svg/1920px-Discovery_Turbo_2025.svg.png" group-title="Auto" tvg-speed="1507KB/s",Discovery Turbo (720p)
-http://41.205.93.154/ESPNNEWS/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/yNFmUkE.png" group-title="Entertainment" tvg-speed="1478KB/s",Discovery World (1080p)
-http://168.196.127.137:6001/play/a097/index.m3u8
-#EXTINF:-1 group-title="央视IPV4" tvg-speed="1432KB/s",CGTN纪录
-https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png" group-title="Documentary" tvg-speed="1415KB/s",Investigation Discovery Latin America South (1080p)
-http://38.65.175.84:8000/play/a0ch/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.karbala-tv.iq/documentary/static/img/logo.png" group-title="Documentary;Religious" tvg-speed="1357KB/s",Karbala Documentary
+#EXTINF:-1 tvg-logo="https://i.imgur.com/x57klfS.png" group-title="Documentary" tvg-speed="7848KB/s",Documentary+ International (1080p)
+https://1d153317c8db4250b3789601274e2402.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-887-DOCUMENTARYINTERNATIONAL-DOCUMENTARYPLUS/mt/documentaryplus/887/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://www.karbala-tv.iq/documentary/static/img/logo.png" group-title="Documentary;Religious" tvg-speed="3095KB/s",Karbala Documentary
 https://ktvlive.online/stream/hls/ch3.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png" group-title="Documentary" tvg-speed="1269KB/s",Investigation Discovery (1080p) [Geo-blocked]
-http://212.5.144.156:8080/id/index.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/之江纪录.png" group-title="浙江频道" tvg-speed="1115KB/s",之江纪录
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Czxi7yk.png" group-title="Documentary;Education" tvg-speed="2783KB/s",Asharq Discovery (1080p)
+https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/之江纪录.png" group-title="浙江频道" tvg-speed="2171KB/s",之江纪录
 https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/1pQPxu3.png" group-title="Auto" tvg-speed="1072KB/s",Discovery Turbo Latin America (1080p)
-http://38.134.250.110:8000/play/a01y/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/AqR0Jkn.png" group-title="Undefined" tvg-speed="839KB/s",Discovery Theater Latin America (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/AqR0Jkn.png" group-title="Undefined" tvg-speed="1235KB/s",Discovery Theater Latin America (1080p)
 http://181.224.200.5:2277/play/a0bj/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/pHpFGeg.png" group-title="Religious" tvg-speed="769KB/s",Ch4Teen Documentary (1080p)
-https://ch14.tv/live/ch4teendoc/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" group-title="Entertainment" tvg-speed="695KB/s",Discovery Channel Latin America (1080p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Discovery_science_new_logo_2017.png/960px-Discovery_science_new_logo_2017.png" group-title="Science" tvg-speed="1173KB/s",Discovery Science Latin America (720p)
+http://45.171.64.30:6060/play/a007/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/yNFmUkE.png" group-title="Entertainment" tvg-speed="1133KB/s",Discovery World (1080p)
+http://168.196.127.137:6001/play/a097/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" group-title="Entertainment" tvg-speed="1103KB/s",Discovery Channel Latin America (1080p)
 http://45.171.64.30:6060/play/a032/index.m3u8
+#EXTINF:-1 group-title="央视IPV4" tvg-speed="1078KB/s",CGTN纪录
+https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png" group-title="Documentary" tvg-speed="823KB/s",Investigation Discovery Latin America South (1080p)
+http://38.65.175.84:8000/play/a0ch/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Discovery_Turbo_2025.svg/1920px-Discovery_Turbo_2025.svg.png" group-title="Auto" tvg-speed="721KB/s",Discovery Turbo (720p)
+http://41.205.93.154/ESPNNEWS/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/1pQPxu3.png" group-title="Auto" tvg-speed="528KB/s",Discovery Turbo Latin America (1080p)
+http://38.134.250.110:8000/play/a01y/index.m3u8
