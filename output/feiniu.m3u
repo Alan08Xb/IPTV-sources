@@ -1,278 +1,190 @@
 #EXTM3U
 #PLAYLIST:飞牛影视专用精选
-# Generated: 2026-10-12 02:57:11
-# Channels: 137
-#EXTINF:-1 group-title="Undefined" tvg-speed="4661KB/s",CCTV2
-http://1.197.251.49:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ILamhwU.png" group-title="Business" tvg-speed="787KB/s",CCTV-2 (720p)
+# Generated: 2026-10-12 19:46:09
+# Channels: 93
+#EXTINF:-1 tvg-logo="https://i.imgur.com/TpA3cUl.png" group-title="General" tvg-speed="688KB/s",CCTV-1 (720p)
+http://74.91.26.218:82/live/cctv1hd.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ILamhwU.png" group-title="Business" tvg-speed="1269KB/s",CCTV-2 (720p)
 http://74.91.26.218:82/live/cctv2hd.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="2895KB/s",CCTV4
-http://1.197.251.49:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HGLFdfk.png" group-title="General" tvg-speed="1926KB/s",CCTV-4 Europe
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HGLFdfk.png" group-title="General" tvg-speed="2300KB/s",CCTV-4 Europe
 https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/tWt4Wou.png" group-title="General" tvg-speed="1717KB/s",CCTV-4 Asia (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/tWt4Wou.png" group-title="General" tvg-speed="2043KB/s",CCTV-4 Asia (720p)
 http://74.91.26.218:82/live/cctv4hd.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/rFiaef7.png" group-title="Movies" tvg-speed="1309KB/s",CCTV-6 HD (1080p)
-http://69.30.245.50/live/cctv6.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/CKcPMQC.png" group-title="Education" tvg-speed="1895KB/s",CCTV-7 (720p)
-http://74.91.26.218:82/live/cctv7hd.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="3853KB/s",CCTV8
-http://1.197.251.49:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="https://i.imgur.com/3tivvMm.png" group-title="Documentary" tvg-speed="7416KB/s",CCTV-9 (576i)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/GyHaZ8X.png" group-title="Culture" tvg-speed="1111KB/s",CCTV-8 (720p)
+http://74.91.26.218:82/live/cctv8hd.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3tivvMm.png" group-title="Documentary" tvg-speed="6440KB/s",CCTV-9 (576i)
 https://xykt-fix.github.io/Y77.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="3711KB/s",CCTV10
-http://1.197.251.49:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="https://i.imgur.com/sSSO7UD.png" group-title="Education" tvg-speed="639KB/s",CCTV-10 (720p)
-http://74.91.26.218:82/live/cctv10hd.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="3606KB/s",CCTV11
-http://1.197.251.49:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="https://i.imgur.com/CjOWx7L.png" group-title="Music" tvg-speed="2015KB/s",CCTV-11 (720p)
-http://74.91.26.218:82/live/cctv11hd.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/6MTar6J.png" group-title="News" tvg-speed="29028KB/s",CCTV-13 HD (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/6MTar6J.png" group-title="News" tvg-speed="52414KB/s",CCTV-13 HD (1080p)
 http://go.bkpcp.top/mg/cctv13
-#EXTINF:-1 group-title="Undefined" tvg-speed="4546KB/s",CCTV13
-http://1.197.251.49:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="https://i.imgur.com/6MTar6J.png" group-title="News" tvg-speed="1461KB/s",CCTV-13 (720p)
-http://74.91.26.218:82/live/cctv13hd.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="4804KB/s",CCTV14
-http://1.197.251.49:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="https://i.imgur.com/CCV0eRG.png" group-title="Music" tvg-speed="2638KB/s",CCTV-15 (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CCV0eRG.png" group-title="Music" tvg-speed="12048KB/s",CCTV-15 (1080p)
 https://xykt-fix.github.io/play/a02e/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="4564KB/s",CCTV17
-http://1.197.251.49:9901/tsfile/live/0007_2.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="https://i.imgur.com/WK3keM9.png" group-title="Sports" tvg-speed="2144KB/s",CCTV-Billiards (1080p)
-http://38.75.136.137:98/gslb/dsdqpub/ystq.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://i.imgur.com/TVs9PBc.png" group-title="Classic" tvg-speed="1854KB/s",CCTV-Nostalgia Theater (1080p)
-http://38.75.136.137:98/gslb/dsdqpub/hjjc.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Fy6HkX0.png" group-title="Sports" tvg-speed="1834KB/s",CCTV-Storm Football (1080p)
-http://38.75.136.137:98/gslb/dsdqpub/fyzq.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://i.imgur.com/AzpRtCz.png" group-title="Lifestyle" tvg-speed="1829KB/s",CCTV-Health (1080p)
-http://38.75.136.137:98/gslb/dsdqpub/wsjk.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://i.imgur.com/eFxD3hq.png" group-title="Movies" tvg-speed="1459KB/s",CCTV-The First Theater (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/rEttkKm.png" group-title="Movies" tvg-speed="1973KB/s",CCTV-Storm Theater (1080p)
+http://38.75.136.137:98/gslb/dsdqpub/fyjc.m3u8?auth=testpub
+#EXTINF:-1 tvg-logo="https://i.imgur.com/eFxD3hq.png" group-title="Movies" tvg-speed="1704KB/s",CCTV-The First Theater (1080p)
 http://38.75.136.137:98/gslb/dsdqpub/dyjc.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://i.imgur.com/FVbP0aP.png" group-title="Lifestyle" tvg-speed="1347KB/s",CCTV-Women's Fashion SD (1080p)
-http://38.75.136.137:98/gslb/dsdqpub/nxss.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://i.imgur.com/qSg862A.png" group-title="News" tvg-speed="1336KB/s",CCTV+ 2 (600p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/qSg862A.png" group-title="News" tvg-speed="1325KB/s",CCTV+ 2 (600p) [Not 24/7]
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/U8d4Is6.png" group-title="News" tvg-speed="1309KB/s",CCTV+ 1 (600p) [Not 24/7]
-https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/iqJJTmH.png" group-title="Sports" tvg-speed="1217KB/s",CCTV-Golf & Tennis (1080p)
-http://38.75.136.137:98/gslb/dsdqpub/gefwq.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Paig8gG.png" group-title="Undefined" tvg-speed="1118KB/s",CCTV-Culture of Quality SD (1080p)
-http://38.75.136.137:98/gslb/dsdqpub/ysjp.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://i.imgur.com/V2ncOXi.png" group-title="Education" tvg-speed="995KB/s",CCTV-World Geography SD (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/V2ncOXi.png" group-title="Education" tvg-speed="1312KB/s",CCTV-World Geography SD (1080p)
 http://38.75.136.137:98/gslb/dsdqpub/sjdl.m3u8?auth=testpub
-#EXTINF:-1 group-title="Undefined" tvg-speed="4162KB/s",云南卫视
-http://1.197.251.49:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="3770KB/s",湖南卫视
-http://1.197.251.49:9901/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="3589KB/s",陕西卫视
-http://1.197.251.49:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="3575KB/s",北京卫视
-http://1.197.251.49:9901/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="3498KB/s",辽宁卫视
-http://125.125.236.31:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="3342KB/s",河北卫视
-http://125.125.236.31:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="3258KB/s",江西卫视
-http://1.197.251.49:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="3240KB/s",广东卫视
-http://125.125.236.31:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="3106KB/s",河南卫视
-http://1.197.251.49:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="2982KB/s",东方卫视
-http://1.197.251.49:9901/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="2032KB/s",四川卫视
-http://1.197.251.49:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="1709KB/s",上海卫视
-http://125.125.236.31:9901/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="3608KB/s",河南民生
-http://1.197.251.49:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="3253KB/s",金鹰卡通
-http://1.197.251.49:9901/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="3152KB/s",河南新闻
-http://1.197.251.49:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="4K8K频道" tvg-speed="2615KB/s",河北4K
+#EXTINF:-1 tvg-logo="https://i.imgur.com/FVbP0aP.png" group-title="Lifestyle" tvg-speed="1183KB/s",CCTV-Women's Fashion SD (1080p)
+http://38.75.136.137:98/gslb/dsdqpub/nxss.m3u8?auth=testpub
+#EXTINF:-1 group-title="4K8K频道" tvg-speed="2096KB/s",河北4K
 https://event.pull.hebtv.com:443/live/live101.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-speed="2609KB/s",河南公共
-http://1.197.251.49:9901/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="Undefined" tvg-speed="2478KB/s",福建东南
-http://1.197.251.49:9901/tsfile/live/1018_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/钱江都市.png" group-title="浙江频道" tvg-speed="1772KB/s",浙江钱江都市
-https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江新闻.png" group-title="浙江频道" tvg-speed="1740KB/s",浙江公共新闻
-https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/之江纪录.png" group-title="浙江频道" tvg-speed="1657KB/s",之江纪录
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/之江纪录.png" group-title="浙江频道" tvg-speed="1506KB/s",之江纪录
 https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江国际.png" group-title="浙江频道" tvg-speed="1570KB/s",浙江国际
-https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
-#EXTINF:-1 group-title="央视IPV4" tvg-speed="1483KB/s",CGTN纪录
-https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江教科影视.png" group-title="浙江频道" tvg-speed="1477KB/s",浙江教科影视
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/钱江都市.png" group-title="浙江频道" tvg-speed="1296KB/s",浙江钱江都市
+https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江教科影视.png" group-title="浙江频道" tvg-speed="1265KB/s",浙江教科影视
 https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江民生休闲.png" group-title="浙江频道" tvg-speed="1466KB/s",浙江民生休闲
-https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江经济生活.png" group-title="浙江频道" tvg-speed="1379KB/s",浙江经视
-https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/浙江少儿.png" group-title="浙江频道" tvg-speed="1324KB/s",浙江少儿
-https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/TVB%20Vietnam.jpeg" group-title="General" tvg-speed="10708KB/s",TVB Vietnam (1080p)
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/CGTN纪录.png" group-title="央视频道" tvg-speed="551KB/s",CGTN纪录
+https://0472.org/hls/cgtnd.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/M8wbVYK.png" group-title="Weather" tvg-speed="16207KB/s",AccuWeather NOW (1080p)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/EzNf2Yx.png" group-title="Sports" tvg-speed="11871KB/s",NBC Sports NOW (1080p)
+https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/TVB%20Vietnam.jpeg" group-title="General" tvg-speed="11637KB/s",TVB Vietnam (1080p)
 https://amg01868-amg01868c3-tvbanywhere-us-4491.playouts.now.amagi.tv/playlist/amg01868-tvbusa-tvbvietnam-tvbanywhereus/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/GuM4GnX.png" group-title="Music" tvg-speed="3436KB/s",NOW Rock (1080p)
-https://lightning-now90s-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/gJ9eMaG.png" group-title="Documentary" tvg-speed="2893KB/s",Curiosity NOW EN (1080p)
-https://amg00170-amg00170c4-samsung-gb-4232.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/1JnyzHv.png" group-title="News" tvg-speed="2577KB/s",LiveNOW from FOX (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/1JnyzHv.png" group-title="News" tvg-speed="2891KB/s",LiveNOW from FOX (720p)
 https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/eMjutHS.png" group-title="Sports" tvg-speed="12260KB/s",CBS Sports Golazo Network (720p)
-https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="General" tvg-speed="11113KB/s",CBS KWTV-DT (720p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/GuM4GnX.png" group-title="Music" tvg-speed="2513KB/s",NOW Rock (1080p)
+https://lightning-now90s-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5EYjWK7.png" group-title="Entertainment" tvg-speed="2253KB/s",NOW TV (720p)
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4S1rkhm.png" group-title="Entertainment" tvg-speed="1563KB/s",TVBS-Asia (1080p)
+http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jnXpcwV.png" group-title="General" tvg-speed="34273KB/s",NTV (Maldives)
+https://sunplay-cdn.bitratelabs.com/live/local-channel/ntv-e3d4300b49c8c901e9339174215d7580/index.m3u8
+#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/TBS_2020.svg/960px-TBS_2020.svg.png" group-title="General" tvg-speed="18790KB/s",TBS (720p) [Geo-blocked]
+https://turnerlive.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="General" tvg-speed="9610KB/s",CBS KWTV-DT (720p) [Not 24/7]
 https://fuel-streaming-prod01.fuelmedia.io/v1/sem/e48409e7-672d-42f2-b5e0-ebb6744b0425.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="General" tvg-speed="8131KB/s",CBS KZTV (720p)
-https://content.uplynk.com/channel/d1f868588ae5476dadaeff450170a183.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="General" tvg-speed="7233KB/s",CBS WHIO-TV (1080p)
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-whiobreaking-ono/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/MiPdjSX.png" group-title="General" tvg-speed="6450KB/s",Mega TV (United States) WSBS-TV (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MiPdjSX.png" group-title="General" tvg-speed="7253KB/s",Mega TV (United States) WSBS-TV (1080p)
 https://mdstrm.com/live-stream-playlist/67ed74e8af482ba71d47fd7b.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/TBjVU9L.png" group-title="General" tvg-speed="6293KB/s",CBS WJAX-TV (1080p)
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wjaxbreaking-ono/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/0e1kSGX.png" group-title="News" tvg-speed="4756KB/s",CBS News Sacramento (720p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="General" tvg-speed="6048KB/s",CBS KIRO-TV (1080p)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-kirobreaking-ono/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/TBS_2020.svg/960px-TBS_2020.svg.png" group-title="General" tvg-speed="5322KB/s",TBS West (720p) [Geo-blocked]
+https://turnerlive.warnermediacdn.com/hls/live/2023174/tbswest/slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/0e1kSGX.png" group-title="News" tvg-speed="4781KB/s",CBS News Sacramento (720p)
 https://lineup.cbsivideo.com/playout/c1ed69db-6b71-4581-a937-a70ab4089f8a/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/bpc4v0u.png" group-title="News" tvg-speed="4367KB/s",CBS News New York (720p)
-https://cbsn-ny.cbsnstream.cbsnews.com/out/v1/ec3897d58a9b45129a77d67aa247d136/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ambc9le.png" group-title="Education;Kids" tvg-speed="4172KB/s",PBS Kids Mountain (1080p)
-https://livestream.pbskids.org/out/v1/3fe3030a2c8045a3932f4289d9eba3e6/mst.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/cMels2Y.png" group-title="News" tvg-speed="4131KB/s",CBS News Detroit (720p)
-https://cbsn-det.cbsnstream.cbsnews.com/out/v1/169f5c001bc74fa7a179b19c20fea069/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/U9CYaok.png" group-title="Series" tvg-speed="4092KB/s",PBS Antiques Roadshow (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ambc9le.png" group-title="Education;Kids" tvg-speed="4673KB/s",PBS Kids Pacific (1080p)
+https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="Education" tvg-speed="4327KB/s",PBS (1080p) [Geo-blocked]
+https://pbs.lls.cdn.pbs.org/est/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/U9CYaok.png" group-title="Series" tvg-speed="4271KB/s",PBS Antiques Roadshow (1080p)
 https://amg00953-pbsusa-antiroadshow-xumo-x6ud5.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/IDotHmQ.png" group-title="Undefined" tvg-speed="3710KB/s",BST (576p)
-https://bsttv.bonus-tv.ru/cdn/bst/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="Education" tvg-speed="3429KB/s",PBS WEDQ (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ubxwfMY.png" group-title="News" tvg-speed="3721KB/s",CBS News Minnesota (720p)
+https://cbsn-min.cbsnstream.cbsnews.com/out/v1/76518f06941246ba810c8d175600bf74/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jy3UfCe.png" group-title="News" tvg-speed="3569KB/s",CBS News Baltimore (720p)
+https://lineup.cbsivideo.com/playout/8877a7d5-b094-4ac8-bc72-75a5fed68e5b/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Brry7cZ.png" group-title="Series" tvg-speed="3557KB/s",PBS Nature (1080p)
+https://d3mr43kyql7wgk.cloudfront.net/PBS_Nature.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/bPoPAbR.png" group-title="Religious" tvg-speed="3383KB/s",CGNTV Chinese (1080p)
+https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/TBjVU9L.png" group-title="General" tvg-speed="3337KB/s",CBS WJAX-TV (1080p)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wjaxbreaking-ono/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="Education" tvg-speed="3078KB/s",PBS WEDQ (1080p)
 https://wedqdt4.lls.pbs.org/wedqdt4-hls.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="General" tvg-speed="3271KB/s",CBS KCCI (720p)
-https://aegis-cloudfront-1.tubi.video/8d1f164d-34ef-4f70-b948-ae33826a0aaa/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1a/Logo-cbsn-bayarea-1920x1080.jpg/revision/latest/scale-to-width-down/512" group-title="News" tvg-speed="3261KB/s",CBS News Bay Area (720p)
-https://cbsn-sf.cbsnstream.cbsnews.com/out/v1/dac63c1abb3f4a2dac9f508f44bb072a/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="Education" tvg-speed="3185KB/s",PBS KQED (1080p)
-https://kqeddt2.lls.pbs.org/kqeddt2-hls.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/pOSroOE.png" group-title="Education" tvg-speed="3134KB/s",NBS (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/pOSroOE.png" group-title="Education" tvg-speed="2993KB/s",NBS (720p)
 https://media.joycorp.co.kr:4443/live/ngrp:live_all/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/9un7R3N.png" group-title="News" tvg-speed="3115KB/s",CBS News Boston (720p)
-https://cbsn-bos.cbsnstream.cbsnews.com/out/v1/589d66ec6eb8434c96c28de0370d1326/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/DExbVa9.png" group-title="News" tvg-speed="2684KB/s",CBS News Miami (720p)
-https://cbsn-mia.cbsnstream.cbsnews.com/out/v1/ac174b7938264d24ae27e56f6584bca0/master.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/NTV_%28Turkey%29_logo.svg/960px-NTV_%28Turkey%29_logo.svg.png" group-title="General" tvg-speed="2666KB/s",NTV (Turkiye)
-https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
-#EXTINF:-1 tvg-logo="https://i.imgur.com/lxWdjXG.png" group-title="Movies" tvg-speed="5332KB/s",MBC+ Drama (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-plus-drama/e37251ec2aac8f6c98f75cd0fa37cd28/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/CiA3plN.png" group-title="General" tvg-speed="5246KB/s",MBC 1 Egypt (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1-na/eec141533c90dd34722c503a296dd0d8/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/BcXASJp.png" group-title="Entertainment" tvg-speed="5066KB/s",MBC 4 (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-4/24f134f1cd63db9346439e96b86ca6ed/index.m3u8
-#EXTINF:-1 tvg-logo="https://media0070.elcinema.com/tvguide/1399_1.png" group-title="Series" tvg-speed="5003KB/s",MBC Masr Drama (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-drama/567b703c19ede6598222de81b0e4508b/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/4FXiyjn.png" group-title="Entertainment" tvg-speed="4716KB/s",MBC Persia (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-persia/818ee8e4b592dc497608f066d825bfb4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/o2elx0u.png" group-title="General" tvg-speed="4600KB/s",MBC Masr (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/o2elx0u.png" group-title="General" tvg-speed="4553KB/s",MBC Masr USA (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-usa/cd8d40acdab28aac0582faa3bd3983f1/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/lF8UxvR.png" group-title="Music" tvg-speed="4105KB/s",MBC FM (1080p)
-https://dbbv9umqcd7cs.cloudfront.net/out/v1/db15b75c3cc0400c91961468d6a232ac/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/KHo7Gtn.png" group-title="General" tvg-speed="3940KB/s",MBC Masr 2 (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-2/754931856515075b0aabf0e583495c68/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/TTAGFHG.png" group-title="Movies" tvg-speed="3819KB/s",MBC Bollywood (1080p) [Geo-blocked]
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-bollywood/546eb40d7dcf9a209255dd2496903764/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/CiA3plN.png" group-title="General" tvg-speed="3810KB/s",MBC 1 USA (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="General" tvg-speed="2725KB/s",CBS WCBI-TV (720p)
+https://townnews.g-mana.live/media/4efc62fa-ad0b-445c-a839-4d1e7636988e/main.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="General" tvg-speed="2602KB/s",CBS KCCI (720p)
+https://aegis-cloudfront-1.tubi.video/8d1f164d-34ef-4f70-b948-ae33826a0aaa/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="Education" tvg-speed="2600KB/s",PBS KVIE (1080p)
+https://kviedt2.lls.pbs.org/kviedt2-hls.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CiA3plN.png" group-title="General" tvg-speed="6409KB/s",MBC 1 USA (1080p) [Geo-blocked]
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1-usa/fdac3a4fc0473f1f56e07ec1d63a4b7b/index.m3u8
-#EXTINF:-1 tvg-logo="https://shahid.mbc.net/mediaObject/c2b6a882-458b-446e-b0fe-f97f7992149a?height=auto&width=144&croppingPoint=&version=1&type=png" group-title="Music" tvg-speed="3588KB/s",MBC Mood (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-mood/78367bf48ccdba501d0d014a10c21031/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/IZxjnyp.png" group-title="Entertainment" tvg-speed="3188KB/s",Estrella TV WMBC-TV (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/D0LxiPE.png" group-title="General" tvg-speed="5584KB/s",MBC Iraq (1080p)
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4FXiyjn.png" group-title="Entertainment" tvg-speed="5464KB/s",MBC Persia (1080p)
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-persia/818ee8e4b592dc497608f066d825bfb4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/lF8UxvR.png" group-title="Music" tvg-speed="4052KB/s",MBC FM (1080p)
+https://dbbv9umqcd7cs.cloudfront.net/out/v1/db15b75c3cc0400c91961468d6a232ac/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/IZxjnyp.png" group-title="Entertainment" tvg-speed="3217KB/s",Estrella TV WMBC-TV (720p)
 http://d029dcec.kazmazpaz.ru/iptv/GVR4V8HYAGBS5V/1098/manifest.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/mptwwLs.png" group-title="Music" tvg-speed="2103KB/s",MBC Loud
-https://radio-loud-fm.mbc.net/radio-loud-fm_1.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/RRc23ra.png" group-title="Culture;Entertainment;Music" tvg-speed="1404KB/s",MBC America (1080p)
-https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da92-4d42-896fa2ff3eb3/source/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/iSB5Obl.png" group-title="Religious" tvg-speed="1204KB/s",OCN TV
+#EXTINF:-1 tvg-logo="https://i.imgur.com/BcXASJp.png" group-title="Entertainment" tvg-speed="2806KB/s",MBC 4 (1080p)
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-4/24f134f1cd63db9346439e96b86ca6ed/index.m3u8
+#EXTINF:-1 tvg-logo="https://media0070.elcinema.com/tvguide/1399_1.png" group-title="Series" tvg-speed="1401KB/s",MBC Masr Drama (1080p)
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-drama/567b703c19ede6598222de81b0e4508b/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/iSB5Obl.png" group-title="Religious" tvg-speed="1046KB/s",OCN TV
 https://5d12bc59c4748.streamlock.net/redirect/ocnbroadcasting.com/ocnbroadcasting2?type=m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/b3HG9wm/Logo-site.png" group-title="Religious" tvg-speed="27691KB/s",Sivan TV (1080p)
-http://sivantv.livebox.co.in/sivantvhls/sivan.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/pKj3F4M.png" group-title="Music" tvg-speed="19113KB/s",YRF Music (1080p)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6047fbdbbb776a0007e7f2ff/colorLogoPNG.png" group-title="Music" tvg-speed="16756KB/s",MTV Biggest Pop BR (1080p)
-https://jmp2.uk/plu-6047fbdbbb776a0007e7f2ff.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/lhgrqmA.png" group-title="Religious" tvg-speed="16348KB/s",Caribbean Gospel TV
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Wp6d0F8.png" group-title="Religious" tvg-speed="34151KB/s",The Now Network (480p) [Not 24/7]
+https://mediaprod1.nowcast.cc:5443/LiveApp/streams/anZPy7eaVWLyDMZB1697488814699.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/lhgrqmA.png" group-title="Religious" tvg-speed="24287KB/s",Caribbean Gospel TV
 https://25466019af9b7aed.servers.dvcloud.tv/hls/iptv_providers/fhvtgifbqbcjp0g19mdd76t18tpalu4k.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/9Cobb2i.png" group-title="Religious" tvg-speed="13698KB/s",MTA5 Africa (1080p)
-https://chlivemta.akamaized.net/hls/live/2010555/mtaafrica2/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/66a01dcb8561260008b0a41d/colorLogoPNG.png" group-title="Music" tvg-speed="13368KB/s",MTV Classic BR (720p)
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/654102ed770cf1000866c307/colorLogoPNG.png" group-title="Music" tvg-speed="20691KB/s",Yo! MTV (1080p)
+https://jmp2.uk/plu-5d14fc31252d35decbc4080b.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/lmVeQQX.png" group-title="Religious" tvg-speed="19564KB/s",MTA4 Africa (1080p)
+https://chlivemta.akamaized.net/hls/live/2010555/mtaafrica1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/66a01dcb8561260008b0a41d/colorLogoPNG.png" group-title="Music" tvg-speed="18260KB/s",MTV Classic BR (720p)
 https://jmp2.uk/plu-66a01dcb8561260008b0a41d.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6047fbdbbb776a0007e7f2ff/colorLogoPNG.png" group-title="Music" tvg-speed="13150KB/s",MTV Biggest Pop LatAm (1080p)
-https://jmp2.uk/plu-6047fabfce6e8e00070bcc9f.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/nhCNPJI.png" group-title="Religious" tvg-speed="12390KB/s",MTA6 Asia (1080p)
-https://livemtaasia.akamaized.net/hls/live/2039224/mta6asia/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s90012_ld_h15_aa.png?lock=720x540" group-title="Music" tvg-speed="12296KB/s",9X Jhakaas (1080p)
-https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_9X_TASHAN/images/LOGO_HD/image.png" group-title="Music" tvg-speed="11106KB/s",9X Tashan (1080p)
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_9X_TASHAN/images/LOGO_HD/image.png" group-title="Music" tvg-speed="17419KB/s",9X Tashan (1080p)
 https://amg01281-9xmediapvtltd-9xtashan-samsungin-xz1sd.amagi.tv/playlist/amg01281-9xmediapvtltd-9xtashan-samsungin/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="General" tvg-speed="9676KB/s",NBC WMAQ-TV (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/pKj3F4M.png" group-title="Music" tvg-speed="17403KB/s",YRF Music (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9Cobb2i.png" group-title="Religious" tvg-speed="16499KB/s",MTA5 Africa (1080p)
+https://chlivemta.akamaized.net/hls/live/2010555/mtaafrica2/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/MovieSphere_Gold_2025_logo.svg/500px-MovieSphere_Gold_2025_logo.svg.png" group-title="Movies" tvg-speed="15939KB/s",MovieSphere Gold WFXT (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionmystery-tablo/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="General" tvg-speed="14918KB/s",NBC WMAQ-TV (1080p)
 https://d368vp0qqzvkid.cloudfront.net/11603/88889704/hls/master.m3u8?ads.xumo_channelId=88889704a&ads.xumo_ifaType=&ads.xumo_providerId=3818&ads.xumo_providerName=NBCNCHI
-#EXTINF:-1 tvg-logo="https://i.imgur.com/itetPKw.png" group-title="Religious" tvg-speed="9369KB/s",GNN TV (1080p)
-https://na.linear.zype.com/bf94f9f4-383c-40e0-9d49-279a4f33ab8d/f29b8836-d990-4c8d-b421-192a8f43edc4-zype/live.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="News" tvg-speed="8166KB/s",ABC News Live 4 (720p)
-https://abcnews-streams.akamaized.net/hls/live/2023563/abcnewshudson4/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="General" tvg-speed="7516KB/s",NBC WBTS-CD (1080p)
-https://d368vp0qqzvkid.cloudfront.net/11603/88889713/hls/master.m3u8?ads.xumo_channelId=88889713a&ads.xumo_ifaType=&ads.xumo_providerId=3820&ads.xumo_providerName=NBCNBOS
-#EXTINF:-1 tvg-logo="https://i.imgur.com/U9z8WBY.png" group-title="Religious" tvg-speed="7401KB/s",Charity TV
-https://652930de05533.streamlock.net/live/ngrp:livestream_all/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="General" tvg-speed="7167KB/s",NBC WPXI (1080p)
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wpxibreaking-ono/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/LI52X2q.png" group-title="Religious" tvg-speed="7045KB/s",Gospel Truth TV (1080p)
-https://na.linear.zype.com/bf94f9f4-383c-40e0-9d49-279a4f33ab8d/f29b8836-d990-4c8d-b421-192a8f43edc4-zype/manifest.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Hz2d6og.png" group-title="Music" tvg-speed="7021KB/s",Stingray Greatest Holiday Hits
-https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/54947915-6504-4548-aaef-eabd451f8607/1.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/1UUjU26.png" group-title="Religious" tvg-speed="7003KB/s",Huda TV (720p) [Not 24/7]
-https://cdn.bestream.io:19360/elfaro1/elfaro1.m3u8
-#EXTINF:-1 group-title="Religious" tvg-speed="6856KB/s",TLN Media San Francisco (720p)
-https://fuel-streaming-prod01.fuelmedia.io/v1/sem/b29d27bb-88af-42d1-937a-5bdf76b71c17.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Jkx9W88.png" group-title="Entertainment" tvg-speed="13270KB/s",8TV
+#EXTINF:-1 tvg-logo="https://i.imgur.com/N51Rp7E.png" group-title="Music" tvg-speed="14577KB/s",XITE Hits UK (1080p)
+https://amg01243-xitenetworksint-hitsuk-samsunguk-mvovq.amagi.tv/playlist/amg01243-xitenetworksint-hitsuk-samsunguk/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/1dgCvNE.png" group-title="Entertainment" tvg-speed="13345KB/s",ION Plus (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionplus-tablo/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s90012_ld_h15_aa.png?lock=720x540" group-title="Music" tvg-speed="12608KB/s",9X Jhakaas (1080p)
+https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/EwDQ12F.png" group-title="Religious" tvg-speed="12530KB/s",Divya Darshan TV (720p)
+http://live.divyadarshantv.com/hls/stream.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="General" tvg-speed="12288KB/s",NBC WVIT (1080p)
+https://d368vp0qqzvkid.cloudfront.net/11603/88889707/hls/master.m3u8?ads.xumo_channelId=88889707a&ads.xumo_ifaType=&ads.xumo_providerId=3832&ads.xumo_providerName=NBCNCT
+#EXTINF:-1 tvg-logo="https://vercanalesdominicanos.com/wp-content/uploads/2026/03/tarima.png" group-title="Music" tvg-speed="12103KB/s",Tarima TV (720p)
+http://190.122.104.210:5080/LiveApp/streams/tarima.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="General" tvg-speed="11110KB/s",NBC KXAS-TV (1080p)
+https://d368vp0qqzvkid.cloudfront.net/11603/88889706/hls/master.m3u8?ads.xumo_channelId=88889706a&ads.xumo_ifaType=&ads.xumo_providerId=3831&ads.xumo_providerName=NBCNDAL
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vkFlXbR.png" group-title="Religious" tvg-speed="11021KB/s",Parole di Vita (1080p)
+https://stream.paroledivita.org/paroledivita.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3Nl8Tpu.png" group-title="Religious" tvg-speed="10756KB/s",MTA7 Asia (1080p)
+https://livemtaasia.akamaized.net/hls/live/2039224/mtaasia2/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="News" tvg-speed="10690KB/s",ABC News Live 7 (720p)
+https://abcnews-streams.akamaized.net/hls/live/2023566/abcnewshudson7/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Jkx9W88.png" group-title="Entertainment" tvg-speed="14985KB/s",8TV
 http://cdn6.163189.xyz/163189/8tv
-#EXTINF:-1 tvg-logo="https://i.imgur.com/TvFKG35.png" group-title="General" tvg-speed="6154KB/s",RCTV3 (480p)
-https://vod.cityofrc.us/live-6/live/stream-1/live.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/HTV1.png/960px-HTV1.png" group-title="General" tvg-speed="4919KB/s",HTV1 (720p)
-https://dethich.pw/htv1/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Okcnmt6.png" group-title="Legislative" tvg-speed="4710KB/s",Thai Parliament Television (1080p) [Not 24/7]
-https://tv-live.tpchannel.org/live/tv.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/vi/3/3f/HTV_THETHAO_2014.png" group-title="Sports" tvg-speed="4648KB/s",HTV Sports
-https://dethich.pw/htvthethao/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/RPJiolQ.png" group-title="Culture" tvg-speed="4622KB/s",Midpen Media Center Channel 75 (720p)
-https://5c2974786200d.streamlock.net/live-chan75/ngrp:ch75_all/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bf/HTV9_logo.webp" group-title="General;News" tvg-speed="4523KB/s",HTV9 (720p)
-https://dethich.pw/htv9/index.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d2/HTV2_-_Vie_Channel.png" group-title="Entertainment;General" tvg-speed="4284KB/s",HTV2 (720p)
-https://dethich.pw/htv2/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/RPJiolQ.png" group-title="Culture" tvg-speed="3897KB/s",Midpen Media Center Channel 30 (720p)
-https://5c2974786200d.streamlock.net/live-chan30/ngrp:ch30_all/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/HTV7_logo.webp" group-title="General" tvg-speed="3800KB/s",HTV7 (720p)
-https://dethich.pw/htv7/index.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CNA_new_logo.svg/500px-CNA_new_logo.svg.png" group-title="Documentary" tvg-speed="3479KB/s",CNA Originals (1080p)
-https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/awIDugE.png" group-title="News" tvg-speed="3386KB/s",CNA (Singapore) (1080p) [Geo-blocked]
-https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ob9JJPU.png" group-title="Undefined" tvg-speed="3082KB/s",TV38 Sudost-Niedersachen (1080p)
-https://h057.video-stream-hosting.de/tv38-live/_definst_/smil:livestream.smil/playlist.m3u8?ref=
-#EXTINF:-1 tvg-logo="https://i.imgur.com/aCFpuzW.png" group-title="Religious" tvg-speed="2973KB/s",TV Muslim Thailand
-https://vdo.plathong.net/tvmuslim/tvmuslim/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/d02uxkB.png" group-title="General" tvg-speed="2929KB/s",LenTV24
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Iv1Fe67.png" group-title="Education" tvg-speed="12213KB/s",BUTV10 (1080p) [Not 24/7]
+https://cdnapisec.kaltura.com/p/2184561/sp/218456100/playManifest/entryId/1_68qxw4eu/format/applehttp/a.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4xkc6PL.png" group-title="Undefined" tvg-speed="10737KB/s",Yle TV2 (1080p) [Not 24/7]
+https://yletvworld.akamaized.net/hls/live/622541/yletv2w/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/65/HTV3-2018.png" group-title="Entertainment;General;Series" tvg-speed="7029KB/s",HTV3 (720p)
+https://dethich.pw/htv3/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/d02uxkB.png" group-title="General" tvg-speed="5909KB/s",LenTV24
 https://player.smotrim.ru/iframe/stream/live_id/3e95d201-f87d-4ac1-8897-db2c66bb9657
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Sco4x8t.png" group-title="Undefined" tvg-speed="2323KB/s",TV9 (Slovakia)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/HTV1.png/960px-HTV1.png" group-title="General" tvg-speed="5757KB/s",HTV1 (720p)
+https://dethich.pw/htv1/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/vi/3/3f/HTV_THETHAO_2014.png" group-title="Sports" tvg-speed="5413KB/s",HTV Sports
+https://dethich.pw/htvthethao/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bf/HTV9_logo.webp" group-title="General;News" tvg-speed="5296KB/s",HTV9 (720p)
+https://dethich.pw/htv9/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d2/HTV2_-_Vie_Channel.png" group-title="Entertainment;General" tvg-speed="4774KB/s",HTV2 (720p)
+https://dethich.pw/htv2/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/awIDugE.png" group-title="News" tvg-speed="4387KB/s",CNA (Singapore) (1080p) [Geo-blocked]
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Okcnmt6.png" group-title="Legislative" tvg-speed="4060KB/s",Thai Parliament Television (1080p) [Not 24/7]
+https://tv-live.tpchannel.org/live/tv.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/HTV4_logo.webp/960px-HTV4_logo.webp.png" group-title="Education" tvg-speed="3546KB/s",HTV4 (1080p)
+https://freem3u.xyz/api/live/play.m3u8?vid=9
+#EXTINF:-1 tvg-logo="https://i.imgur.com/RPJiolQ.png" group-title="Culture" tvg-speed="3476KB/s",Midpen Media Center Channel 30 (720p)
+https://5c2974786200d.streamlock.net/live-chan30/ngrp:ch30_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CNA_new_logo.svg/500px-CNA_new_logo.svg.png" group-title="Documentary" tvg-speed="3419KB/s",CNA Originals (1080p)
+https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Sco4x8t.png" group-title="Undefined" tvg-speed="2947KB/s",TV9 (Slovakia)
 https://dash4.antik.sk/live/test_tv9/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/QnU70NI.png" group-title="News" tvg-speed="2118KB/s",Metro TV (Indonesia)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/21/MTV2_logo_2013.svg/960px-MTV2_logo_2013.svg.png" group-title="Entertainment" tvg-speed="2756KB/s",MTV2 (720p)
+http://198.58.104.90:8989/mtv2/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/G0x4xqa.png" group-title="News" tvg-speed="2754KB/s",Canal Metropolitano de Noticias
+https://stmv5.samcast.com.br/claudio8701/claudio8701/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/aCFpuzW.png" group-title="Religious" tvg-speed="2724KB/s",TV Muslim Thailand
+https://vdo.plathong.net/tvmuslim/tvmuslim/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/QnU70NI.png" group-title="News" tvg-speed="2501KB/s",Metro TV (Indonesia)
 https://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/AqQltGh.png" group-title="Undefined" tvg-speed="1882KB/s",RTV21
-https://gjirafa-video-live.gjirafa.net/gjvideo-live/2cz-npl-jfn-9he/tracks-v2a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/pyeBDpg.jpeg" group-title="General" tvg-speed="1705KB/s",Canal TV3 (720p) [Not 24/7]
-https://streaming.telenetdigital.net.co:8086/canal3tv/stream.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/MitLeCJ.png" group-title="Religious" tvg-speed="1702KB/s",Madani Channel Urdu (720p)
-https://streaming.madanichannel.tv/static/streaming-playlists/hls/b9790f10-cb0d-4e30-82bf-84a756234e58/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/rf9adGJ.png" group-title="Undefined" tvg-speed="2310KB/s",VTV8 HD (720p)
+https://dethich.pw/vtv8/index.m3u8
