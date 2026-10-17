@@ -10609,8 +10609,8 @@
     "source_priority": 2
   },
   {
-    "name": "Arirang TV HD (720p)",
-    "url": "http://45.162.64.114/ARIRANG/index.m3u8",
+    "name": "Arirang TV HD (1080p)",
+    "url": "https://freem3u.xyz/api/live/play.m3u8?vid=111",
     "logo": "https://i.imgur.com/Asu5pE9.png",
     "group": "General;News",
     "source": "collected",
@@ -14525,6 +14525,94 @@
     "source_priority": 2
   },
   {
+    "name": "beIN Sports 1 (1080p)",
+    "url": "http://primetv.cc.cd/beinfhd1/tracks-v1a1/mono.tbin.m3u8",
+    "logo": "https://i.imgur.com/Vtk2cGI.png",
+    "group": "Sports",
+    "source": "collected",
+    "region": "other",
+    "category": "体育",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "beIN Sports 2 (1080p)",
+    "url": "http://primetv.cc.cd/beinfhd2/index.m3u8",
+    "logo": "https://i.imgur.com/vUJZSvs.png",
+    "group": "Sports",
+    "source": "collected",
+    "region": "other",
+    "category": "体育",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "beIN Sports 3 (1080p)",
+    "url": "http://primetv.cc.cd/beinfhd3/index.m3u8",
+    "logo": "https://i.imgur.com/UYSMao3.png",
+    "group": "Sports",
+    "source": "collected",
+    "region": "other",
+    "category": "体育",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "beIN Sports 4 (1080p)",
+    "url": "http://primetv.cc.cd/beinfhd4/tracks-v1a1/mono.tbin.m3u8",
+    "logo": "https://i.imgur.com/vwAgJNi.png",
+    "group": "Sports",
+    "source": "collected",
+    "region": "other",
+    "category": "体育",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "beIN Sports 5 (1080p)",
+    "url": "http://primetv.cc.cd/beinfhd5/tracks-v1a1/mono.tbin.m3u8",
+    "logo": "https://i.imgur.com/2Rha5aY.png",
+    "group": "Sports",
+    "source": "collected",
+    "region": "other",
+    "category": "体育",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "beIN Sports 6 (1080p)",
+    "url": "http://primetv.cc.cd/beinfhd6/index.m3u8",
+    "logo": "https://i.imgur.com/0wBdLYb.png",
+    "group": "Sports",
+    "source": "collected",
+    "region": "other",
+    "category": "体育",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "beIN Sports 7 (1080p)",
+    "url": "http://primetv.cc.cd/beinfhd7/index.m3u8",
+    "logo": "https://i.imgur.com/iODFwZi.png",
+    "group": "Sports",
+    "source": "collected",
+    "region": "other",
+    "category": "体育",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "beIN Sports 8 (1080p)",
+    "url": "http://primetv.cc.cd/beinfhd8/index.m3u8",
+    "logo": "https://i.imgur.com/CaFEyVn.png",
+    "group": "Sports",
+    "source": "collected",
+    "region": "other",
+    "category": "体育",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "beIN SPORTS XTRA (1080p)",
     "url": "https://bein-xtra-bein.amagi.tv/playlist.m3u8",
     "logo": "https://i.ibb.co/HT49GPmB/XTRA-2.png",
@@ -15617,6 +15705,17 @@
     "name": "Bingtuan Satellite TV (540p) [Not 24/7]",
     "url": "http://112.25.48.68/live/program/live/btws/1300000/mnf.m3u8",
     "logo": "https://i.imgur.com/Y4qxDqz.png",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Binh Thuan TV (1080p) [Geo-blocked]",
+    "url": "https://1011154949.vnns.net/CDN-FPT02/BINHTHUAN-SD-720p/playlist.m3u8",
+    "logo": "",
     "group": "Undefined",
     "source": "collected",
     "region": "other",
@@ -22040,7 +22139,7 @@
   {
     "name": "CBS KUTV (1080p)",
     "url": "https://linear-707.frequency.stream/dist/stirr/707/hls/master/playlist.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png",
+    "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/KUTV_13.svg/960px-KUTV_13.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "group": "General",
     "source": "collected",
     "region": "japan",
@@ -22062,7 +22161,7 @@
   {
     "name": "CBS KZTV (720p)",
     "url": "https://content.uplynk.com/channel/d1f868588ae5476dadaeff450170a183.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png",
+    "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/KZTV_logo%2C_introduced_in_2021.svg/960px-KZTV_logo%2C_introduced_in_2021.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "group": "General",
     "source": "collected",
     "region": "japan",
@@ -22073,7 +22172,7 @@
   {
     "name": "CBS WCBI-TV (720p)",
     "url": "https://townnews.g-mana.live/media/4efc62fa-ad0b-445c-a839-4d1e7636988e/main.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/50/WCBITVDT.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "group": "General",
     "source": "collected",
     "region": "japan",
@@ -86416,7 +86515,7 @@
     "source_priority": 2
   },
   {
-    "name": "Shanson TV (576p)",
+    "name": "Shanson TV SD (576p)",
     "url": "http://catchup.videoline.ru/shanson/index.m3u8",
     "logo": "https://i.imgur.com/Fk4sd8t.png",
     "group": "Music",
@@ -87461,6 +87560,17 @@
     "source_priority": 2
   },
   {
+    "name": "Sky News Extra",
+    "url": "https://skynewsau-live-premium.akamaized.net/hls/live/2105306/skynewsextra/live_540p.m3u8",
+    "logo": "https://i.imgur.com/ZsPb8nL.png",
+    "group": "News",
+    "source": "collected",
+    "region": "other",
+    "category": "新闻",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Sky News Urdu (720p)",
     "url": "https://lbgo.bozztv.com/ssh101/ssh101/skynews/playlist.m3u8",
     "logo": "https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/sky-news-urdu-pk.png",
@@ -87475,6 +87585,17 @@
     "name": "Sky News Weather (720p)",
     "url": "https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8",
     "logo": "https://pbs.twimg.com/profile_images/1604994875459518464/lGt2wEqM_400x400.jpg",
+    "group": "Weather",
+    "source": "collected",
+    "region": "other",
+    "category": "新闻",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Sky News Weather Channel",
+    "url": "https://skynewsau-live-premium.akamaized.net/hls/live/2105305/skynewsweather/live_540p.m3u8",
+    "logo": "https://i.imgur.com/FKg6AQr.png",
     "group": "Weather",
     "source": "collected",
     "region": "other",
@@ -109615,17 +109736,6 @@
     "source_priority": 2
   },
   {
-    "name": "Viaplay TV (720p) [Not 24/7]",
-    "url": "https://live-fi.tvkaista.net/viaplay-tv/live.m3u8?hd=true",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/94/Viaplay_TV_logo.svg",
-    "group": "Sports",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "Viasat Epic Drama Poland (1080p)",
     "url": "http://92.114.85.87:8001/play/a00x/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Viasat_Epic_Drama_2026.svg",
@@ -114939,8 +115049,8 @@
     "source_priority": 2
   },
   {
-    "name": "CCTV1",
-    "url": "http://125.125.236.31:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0",
+    "name": "CCTV8",
+    "url": "http://123.55.3.253:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -114950,250 +115060,8 @@
     "source_priority": 2
   },
   {
-    "name": "CCTV2",
-    "url": "http://125.125.236.31:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": true,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "CCTV3",
-    "url": "http://125.125.236.31:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": true,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "CCTV4",
-    "url": "http://125.125.236.31:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": true,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "CCTV5",
-    "url": "http://125.125.236.31:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": true,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "CCTV5+",
-    "url": "http://125.125.236.31:9901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": true,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "CCTV10",
-    "url": "http://125.125.236.31:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": true,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "CCTV12",
-    "url": "http://125.125.236.31:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": true,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "CCTV14",
-    "url": "http://125.125.236.31:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": true,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "CCTV15",
-    "url": "http://125.125.236.31:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": true,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "上海卫视",
-    "url": "http://125.125.236.31:9901/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "东南卫视",
-    "url": "http://125.125.236.31:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "云南卫视",
-    "url": "http://125.125.236.31:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "北京卫视",
-    "url": "http://125.125.236.31:9901/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "四川卫视",
-    "url": "http://125.125.236.31:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "天津卫视",
-    "url": "http://125.125.236.31:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "山东卫视",
-    "url": "http://125.125.236.31:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "广东卫视",
-    "url": "http://125.125.236.31:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "旅游卫视",
-    "url": "http://125.125.236.31:9901/tsfile/live/0114_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "江苏卫视",
-    "url": "http://125.125.236.31:9901/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "江西卫视",
-    "url": "http://125.125.236.31:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "河北卫视",
-    "url": "http://125.125.236.31:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "河南卫视",
-    "url": "http://125.125.236.31:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "浙江卫视",
-    "url": "http://125.125.236.31:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0",
+    "name": "山西卫视",
+    "url": "http://182.114.49.204:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -115204,7 +115072,7 @@
   },
   {
     "name": "深圳卫视",
-    "url": "http://125.125.236.31:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0",
+    "url": "http://123.55.3.253:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -115214,41 +115082,8 @@
     "source_priority": 2
   },
   {
-    "name": "湖北卫视",
-    "url": "http://125.125.236.31:9901/tsfile/live/0132_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "湖南卫视",
-    "url": "http://125.125.236.31:9901/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "辽宁卫视",
-    "url": "http://125.125.236.31:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
-    "name": "重庆卫视",
-    "url": "http://125.125.236.31:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0",
+    "name": "河南民生",
+    "url": "http://123.55.3.253:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
