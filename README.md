@@ -2,7 +2,7 @@
 
 > 🌐 自动采集、筛选、测速的IPTV直播源合集  
 > ⚡ 每日两次更新（08:00 快速测速 / 18:00 完整采集）  
-> 📅 最后更新: 2026-10-31 00:39:57 (北京时间)
+> 📅 最后更新: 2026-10-31 11:00:04 (北京时间)
 
 ## ✨ 特性
 
@@ -30,21 +30,21 @@
 
 | 播放列表 | 说明 | 频道数 | 文件大小 |
 |----------|------|--------|----------|
-| [📦 完整版](https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/all.m3u) | 全部频道(>150KB/s) | 6390 | 1279KB |
-| [🇨🇳 中国大陆](https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/china.m3u) | 高速+中速(>500KB/s) | 32 | 6KB |
-| [🌏 东亚](https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/east_asia.m3u) | 港澳台+日韩+东南亚(>1MB/s) | 129 | 26KB |
-| [🌍 海外高速](https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/overseas_highspeed.m3u) | 除大陆外所有地区(>1MB/s) | 3964 | 808KB |
-| [🎬 飞牛优化版](https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/feiniu.m3u) | 精选频道 | 115 | 23KB |
+| [📦 完整版](https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/all.m3u) | 全部频道(>150KB/s) | 6349 | 1269KB |
+| [🇨🇳 中国大陆](https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/china.m3u) | 高速+中速(>500KB/s) | 25 | 4KB |
+| [🌏 东亚](https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/east_asia.m3u) | 港澳台+日韩+东南亚(>1MB/s) | 128 | 26KB |
+| [🌍 海外高速](https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/overseas_highspeed.m3u) | 除大陆外所有地区(>1MB/s) | 4279 | 861KB |
+| [🎬 飞牛优化版](https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/feiniu.m3u) | 精选频道 | 110 | 22KB |
 | [📰 新闻](https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/category_新闻.m3u) | 新闻频道 | 239 | 53KB |
 | [⚽ 体育](https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/category_体育.m3u) | 体育频道 | 102 | 21KB |
-| [🎬 影视](https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/category_影视.m3u) | 影视频道 | 93 | 21KB |
+| [🎬 影视](https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/category_影视.m3u) | 影视频道 | 94 | 22KB |
 | [🎭 综艺](https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/category_综艺.m3u) | 综艺频道 | 7 | 2KB |
 | [🧒 少儿](https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/category_少儿.m3u) | 少儿频道 | 51 | 11KB |
-| [🎵 音乐](https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/category_音乐.m3u) | 音乐频道 | 63 | 12KB |
-| [🎥 纪录片](https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/category_纪录片.m3u) | 纪录片频道 | 34 | 8KB |
-| [📺 综合](https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/category_综合.m3u) | 综合频道 | 5801 | 1152KB |
+| [🎵 音乐](https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/category_音乐.m3u) | 音乐频道 | 56 | 10KB |
+| [🎥 纪录片](https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/category_纪录片.m3u) | 纪录片频道 | 31 | 7KB |
+| [📺 综合](https://raw.githubusercontent.com/Alan08Xb/IPTV-sources/main/output/category_综合.m3u) | 综合频道 | 5769 | 1144KB |
 
-> 📊 测速统计: 总测试 10574 个 | 有效 6883 个 | 成功率 65.1% | 平均速度 4975KB/s
+> 📊 测速统计: 总测试 10574 个 | 有效 6864 个 | 成功率 64.9% | 平均速度 5652KB/s
 
 ## ⚠️ 免责声明
 
