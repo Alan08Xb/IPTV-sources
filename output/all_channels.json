@@ -10048,17 +10048,6 @@
     "source_priority": 2
   },
   {
-    "name": "AntenaPlay Events (576p) [Not 24/7]",
-    "url": "https://live4dai.antenaplay.ro/live2_sdi09/live2_sdi09_600k.m3u8",
-    "logo": "https://static.wikia.nocookie.net/logopedia/images/8/87/Antena_Play_symbol_white_2022.svg/revision/latest/scale-to-width-down/1000?cb=20251128201145",
-    "group": "Sports",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "AntenaSport",
     "url": "https://stream1.antenaplay.ro/as/AS.ro/chunklist.m3u8",
     "logo": "https://cdn.as.ro/wp-content/themes/antenasport/images/icons-as/as.svg",
@@ -11174,17 +11163,6 @@
     "url": "https://stream.oursnetworktv.com/latin/encoder13/playlist.m3u8",
     "logo": "https://i.imgur.com/6W7HUtG.png",
     "group": "General",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Asia Express NonStop (576i)",
-    "url": "https://live4dai.antenaplay.ro/live2_sport05/live2_sport05_600k.m3u8",
-    "logo": "https://assets.antenaplay.ro/2026/08/25/00keSCoSw0EaWnICcuYB.png",
-    "group": "Entertainment",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -17314,6 +17292,17 @@
     "group": "Religious",
     "source": "collected",
     "region": "usa",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "bTV (576p)",
+    "url": "http://85.11.189.178:8080/bTV/index.m3u8",
+    "logo": "https://i.imgur.com/l47z7gw.png",
+    "group": "General",
+    "source": "collected",
+    "region": "other",
     "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
@@ -25082,6 +25071,17 @@
     "name": "CineStar 1 Bulgaria",
     "url": "http://213.91.179.28:8000/play/a05h",
     "logo": "https://i.imgur.com/t9vVTLH.png",
+    "group": "Movies",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "CineStar Action Bulgaria",
+    "url": "http://213.91.179.28:8000/play/a06b",
+    "logo": "https://i.imgur.com/bTf7A9J.png",
     "group": "Movies",
     "source": "collected",
     "region": "other",
@@ -38719,7 +38719,7 @@
     "source_priority": 2
   },
   {
-    "name": "Fox Sports 2 (United States) (720p)",
+    "name": "Fox Sports 2 (720p)",
     "url": "https://tvsen7.aynascope.net/foxsports2/index.m3u8",
     "logo": "https://imgx.fubo.tv/station_logos/fs2_c.png",
     "group": "Sports",
@@ -42243,17 +42243,6 @@
     "url": "http://41.205.93.154/HALLMARK/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/3/32/Hallmark_Mystery_2024.svg",
     "group": "Movies;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Halloween Non Stop (720p)",
-    "url": "https://live4dai.antenaplay.ro/live2_srt/live2_srt.m3u8",
-    "logo": "https://assets.antenaplay.ro/2026/10/18/ODGTMKI8mciV9cmCOxgn.png",
-    "group": "Movies",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -46368,17 +46357,6 @@
     "url": "https://jmp2.uk/plu-60549e98061b5f000776866a.m3u8",
     "logo": "https://i.imgur.com/PMpwaQN.png",
     "group": "Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Insula non stop (576i)",
-    "url": "https://live4dai.antenaplay.ro/live2_sdi05/live2_sdi05_600k.m3u8",
-    "logo": "https://assets.antenaplay.ro/2026/08/20/DlZIyQ0kSAH3YYj30Ovi.png",
-    "group": "Entertainment",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -56649,7 +56627,18 @@
     "source_priority": 2
   },
   {
-    "name": "MCM Top (576p)",
+    "name": "MCM Top (France)",
+    "url": "http://185.228.163.146:8000/play/a00g/index.m3u8",
+    "logo": "https://i.imgur.com/EVtWQLd.png",
+    "group": "Music",
+    "source": "collected",
+    "region": "usa",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "MCM Top (Russia) (576p)",
     "url": "http://46.32.176.50/mcmtop/index.m3u8",
     "logo": "https://i.imgur.com/EVtWQLd.png",
     "group": "Music",
@@ -64173,17 +64162,6 @@
     "source_priority": 2
   },
   {
-    "name": "NH BollyGold (1080p)",
-    "url": "https://0dc330e6408b4c3b9ac31fd37b121368.mediatailor.ap-south-1.amazonaws.com/v1/master/d367f9b863a7a04827f71ecab4cbeeb11f78a827/nh-bollygold-airtel/playlist.m3u8",
-    "logo": "https://i.ibb.co/x9PsrMy/NH-BOLLYGOLD.png",
-    "group": "Movies",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "NH BollyRaga (1080p)",
     "url": "https://jmp2.uk/stvp-IN460001373",
     "logo": "https://i.ibb.co/BKB9mv1K/NH-Bolly-Raga.png",
@@ -64245,17 +64223,6 @@
     "group": "Culture;News",
     "source": "collected",
     "region": "japan",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "NHL AntenaPlay",
-    "url": "https://live4dai.antenaplay.ro/live2_sdi03/live2_sdi03_600k.m3u8",
-    "logo": "https://assets.antenaplay.ro/2024/10/25/SN0nevshXwKDcZ2Tw1jm.png",
-    "group": "Sports",
-    "source": "collected",
-    "region": "other",
     "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
@@ -75382,8 +75349,8 @@
     "source_priority": 2
   },
   {
-    "name": "Polsat (1080p) [Geo-blocked]",
-    "url": "https://cdn-s-playnow-live.pluscdn.pl/ch/1502600/308/dash/20a18c30/live.mpd",
+    "name": "Polsat",
+    "url": "https://srv7.flussonic111.com/PL_POLSAT_HD/tracks-v1a1/mono.m3u8",
     "logo": "https://i.imgur.com/xff6zGN.png",
     "group": "General",
     "source": "collected",
@@ -76207,9 +76174,20 @@
     "source_priority": 2
   },
   {
-    "name": "Prima TV (720p)",
+    "name": "Prima TV (Italy) (720p)",
     "url": "https://5db313b643fd8.streamlock.net/PrimaTV/PrimaTV/playlist.m3u8",
     "logo": "https://i.imgur.com/HE9c8Sk.png",
+    "group": "General",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Prima TV (Romania)",
+    "url": "http://89.44.231.73:7000/primatv",
+    "logo": "https://i.imgur.com/p2umWAT.png",
     "group": "General",
     "source": "collected",
     "region": "other",
@@ -89958,17 +89936,6 @@
     "source_priority": 2
   },
   {
-    "name": "Star Movies (India) HD (1080p)",
-    "url": "http://103.151.60.162:2122/play/a02k/index.m3u8?hls",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES/images/LOGO_HD/image.png",
-    "group": "Movies",
-    "source": "collected",
-    "region": "other",
-    "category": "影视",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "Star Plus Televizija (1080p) [Not 24/7]",
     "url": "https://live.muzickatv.mk/live/StarMusic2.m3u8",
     "logo": "https://i.imgur.com/01yz22a.png",
@@ -95931,8 +95898,8 @@
     "source_priority": 2
   },
   {
-    "name": "Television Tarapoto (720p)",
-    "url": "https://live-evg11.tv360.bitel.com.pe/bitel/tvtarapotoSRT/playlist.m3u8",
+    "name": "Television Tarapoto (1080p)",
+    "url": "http://45.5.57.58:8000/play/a038/index.m3u8",
     "logo": "https://i.imgur.com/Dzen7sh.png",
     "group": "General",
     "source": "collected",
@@ -96892,17 +96859,6 @@
     "url": "https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/Doctors/index.m3u8",
     "logo": "https://i.imgur.com/2sAz8dZ.png",
     "group": "Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "The Film Detective (720p)",
-    "url": "https://cinedigm-entertainment-corp-thefilmdetective-1-us.ono.wurl.tv/playlist.m3u8",
-    "logo": "https://i.imgur.com/yfOwmsP.png",
-    "group": "Movies",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -106084,8 +106040,30 @@
     "source_priority": 2
   },
   {
+    "name": "TVP1 HD",
+    "url": "https://srv7.flussonic111.com/PL_TVP1_HD/tracks-v1a1/mono.m3u8",
+    "logo": "https://i.imgur.com/ewpSjBs.png",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "TVP2 (1080p)",
     "url": "http://57.128.210.196:8080/143/index.m3u8",
+    "logo": "https://i.imgur.com/XxCc32B.png",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "TVP2 HD",
+    "url": "https://srv7.flussonic111.com/PL_TVP2_HD/tracks-v1a1/mono.m3u8",
     "logo": "https://i.imgur.com/XxCc32B.png",
     "group": "Undefined",
     "source": "collected",
@@ -108774,17 +108752,6 @@
     "group": "News",
     "source": "collected",
     "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "V2BEAT TV (720p) [Not 24/7]",
-    "url": "https://abr.de1se01.v2beat.live/playlist.m3u8",
-    "logo": "https://i.imgur.com/PXGqyLn.png",
-    "group": "Music",
-    "source": "collected",
-    "region": "usa",
     "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
@@ -115005,17 +114972,6 @@
     "source_priority": 2
   },
   {
-    "name": "上海卫视",
-    "url": "http://125.43.249.76:9901/tsfile/live/1036_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "group": "Undefined",
-    "source": "collected",
-    "region": "china",
-    "is_cctv": false,
-    "category": "综合",
-    "source_name": "ssili126-tv",
-    "source_priority": 2
-  },
-  {
     "name": "东南卫视",
     "url": "http://125.43.249.76:9901/tsfile/live/1028_1.m3u8?key=txiptv&playlive=1&authid=0",
     "group": "Undefined",
@@ -115027,8 +114983,8 @@
     "source_priority": 2
   },
   {
-    "name": "湖北卫视",
-    "url": "http://125.43.249.76:9901/tsfile/live/1033_1.m3u8?key=txiptv&playlive=1&authid=0",
+    "name": "安徽卫视",
+    "url": "http://125.43.249.76:9901/tsfile/live/1037_1.m3u8?key=txiptv&playlive=1&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
@@ -115038,8 +114994,19 @@
     "source_priority": 2
   },
   {
-    "name": "辽宁卫视",
-    "url": "http://125.43.249.76:9901/tsfile/live/1022_1.m3u8?key=txiptv&playlive=1&authid=0",
+    "name": "山东卫视",
+    "url": "http://125.43.249.76:9901/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&authid=0",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "china",
+    "is_cctv": false,
+    "category": "综合",
+    "source_name": "ssili126-tv",
+    "source_priority": 2
+  },
+  {
+    "name": "江苏卫视",
+    "url": "http://125.43.249.76:9901/tsfile/live/1030_1.m3u8?key=txiptv&playlive=1&authid=0",
     "group": "Undefined",
     "source": "collected",
     "region": "china",
