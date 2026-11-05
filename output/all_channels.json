@@ -9916,6 +9916,17 @@
     "source_priority": 2
   },
   {
+    "name": "Antena 1 (Romania) HD (1440p)",
+    "url": "https://live77cdn2.antenaplay.ro/live2_aws4_sdi01/live2_aws4_sdi01_5000k.m3u8",
+    "logo": "https://i.imgur.com/EPmwuuv.png",
+    "group": "General",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Antena 3",
     "url": "https://cdn.stmify.com/zapitv/stream/ANTENA_3/test.mpd",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Logo_Antena_3_2025_%28Naranja%29.svg/960px-Logo_Antena_3_2025_%28Naranja%29.svg.png",
@@ -14532,6 +14543,17 @@
     "source": "collected",
     "region": "other",
     "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "beIN Sports USA (576p)",
+    "url": "https://tvsen6.aynaott.com/beinsports/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png",
+    "group": "Sports",
+    "source": "collected",
+    "region": "usa",
+    "category": "体育",
     "source_name": "iptv-org-main",
     "source_priority": 2
   },
@@ -93029,7 +93051,7 @@
   {
     "name": "Tay Ninh TV (720p)",
     "url": "https://live-hq.evgcdn.net/live/2851dc2c9af68834814a89e61db0faee561/chunklist.m3u8",
-    "logo": "https://tayninhtv.vn/static/images/logo.png",
+    "logo": "https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/refs/heads/master/Logo%20kh%C3%A1c/TTV11%20-%20Truy%E1%BB%81n%20h%C3%ACnh%20T%C3%A2y%20Ninh%20HD/TTV11%20-%20Truy%E1%BB%81n%20h%C3%ACnh%20T%C3%A2y%20Ninh.png",
     "group": "General",
     "source": "collected",
     "region": "other",
