@@ -4295,87 +4295,10 @@
     "source_priority": 2
   },
   {
-    "name": "¡OPA! (720p)",
-    "url": "https://5f1af61612fb5.streamlock.net/genteopa/videogenteopa_720p/playlist.m3u8",
-    "logo": "https://i.imgur.com/300c1ZH.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "¡Viva Latino! (1080p)",
-    "url": "http://stream.mcquack.net/285/index.m3u8",
-    "logo": "https://i.imgur.com/KRakHAq.png",
-    "group": "Music",
-    "source": "collected",
-    "region": "usa",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "&pictures HD (1080p)",
-    "url": "http://116.90.120.149:8000/play/a132/index.m3u8",
-    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG0022J67R.png?lock=720x540",
-    "group": "Movies",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "&TV HD (1080p)",
-    "url": "http://116.90.120.149:8000/play/a133/index.m3u8",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png",
-    "group": "Movies",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "&TV International (1080p)",
     "url": "https://3f56f997.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9BbmRUVl9ITFM/playlist.m3u8",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png",
     "group": "Movies",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "&xplor HD (1080p)",
-    "url": "http://116.90.120.149:8000/play/a11o/index.m3u8",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDXPLOR_HD/images/LOGO_HD/LOGO_HD_image.png",
-    "group": "Movies",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "+MaisUm (720p)",
-    "url": "https://stream.ichibansys.com:3230/hybrid/play.m3u8",
-    "logo": "https://i.ibb.co/ZRDvqJcf/Logo-Mais-Um-original-sem-fundo.png",
-    "group": "Entertainment;General;Movies;Music",
-    "source": "collected",
-    "region": "usa",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "+TV (576p) [Geo-blocked]",
-    "url": "https://stream.plustv.by/plustv-web/plustv/playlist.m3u8",
-    "logo": "https://static.tildacdn.biz/tild6366-6336-4230-b562-656138633562/___TV-___188-76.webp",
-    "group": "General",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -4442,6 +4365,83 @@
     "url": "http://88.212.15.50/live/test_trojka_25p/playlist.m3u8",
     "logo": "https://i.imgur.com/tTCuczU.png",
     "group": "News",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "¡OPA! (720p)",
+    "url": "https://5f1af61612fb5.streamlock.net/genteopa/videogenteopa_720p/playlist.m3u8",
+    "logo": "https://i.imgur.com/300c1ZH.png",
+    "group": "Entertainment",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "¡Viva Latino! (1080p)",
+    "url": "http://stream.mcquack.net/285/index.m3u8",
+    "logo": "https://i.imgur.com/KRakHAq.png",
+    "group": "Music",
+    "source": "collected",
+    "region": "usa",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "&pictures HD (1080p)",
+    "url": "http://116.90.120.149:8000/play/a132/index.m3u8",
+    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG0022J67R.png?lock=720x540",
+    "group": "Movies",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "&TV HD (1080p)",
+    "url": "http://116.90.120.149:8000/play/a133/index.m3u8",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png",
+    "group": "Movies",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "&xplor HD (1080p)",
+    "url": "http://116.90.120.149:8000/play/a11o/index.m3u8",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDXPLOR_HD/images/LOGO_HD/LOGO_HD_image.png",
+    "group": "Movies",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "+MaisUm (720p)",
+    "url": "https://stream.ichibansys.com:3230/hybrid/play.m3u8",
+    "logo": "https://i.ibb.co/ZRDvqJcf/Logo-Mais-Um-original-sem-fundo.png",
+    "group": "Entertainment;General;Movies;Music",
+    "source": "collected",
+    "region": "usa",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "+TV (576p) [Geo-blocked]",
+    "url": "https://stream.plustv.by/plustv-web/plustv/playlist.m3u8",
+    "logo": "https://static.tildacdn.biz/tild6366-6336-4230-b562-656138633562/___TV-___188-76.webp",
+    "group": "General",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -6381,39 +6381,6 @@
     "source": "collected",
     "region": "usa",
     "category": "音乐",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Adriatic Sport 1",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3645291205",
-    "logo": "https://channels2.digital.ugbb.net/wp-content/uploads/2022/04/logo-adriatic-sport-1.png",
-    "group": "Sports",
-    "source": "collected",
-    "region": "other",
-    "category": "体育",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Adriatic Sport 2",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2665922581",
-    "logo": "https://channels2.digital.ugbb.net/wp-content/uploads/2022/04/logo-adriatic-sport-2.png",
-    "group": "Sports",
-    "source": "collected",
-    "region": "other",
-    "category": "体育",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Adriatic Sport 3",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2743527845",
-    "logo": "https://channels2.digital.ugbb.net/wp-content/uploads/2022/04/logo-adriatic-sport-3.png",
-    "group": "Sports",
-    "source": "collected",
-    "region": "other",
-    "category": "体育",
     "source_name": "iptv-org-main",
     "source_priority": 2
   },
@@ -10466,17 +10433,6 @@
     "source_priority": 2
   },
   {
-    "name": "APA Tv",
-    "url": "http://stream.apa.tv/apastream/index.m3u8",
-    "logo": "https://i.imgur.com/2CSW4V4.png",
-    "group": "News",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "apart TV (1080p)",
     "url": "https://2-fss-2.streamhoster.com/pl_124/206820-4338160-1/playlist.m3u8",
     "logo": "https://i.imgur.com/IBcMIcZ.png",
@@ -10510,10 +10466,21 @@
     "source_priority": 2
   },
   {
-    "name": "Apna Punjab TV (720p)",
+    "name": "Apna Punjab TV (Canada) (720p)",
     "url": "https://plus.gigabitcdn.net/live-stream/apna-punjab-H3sE/playlist.m3u8",
     "logo": "https://i.imgur.com/IM4D8Wz.png",
     "group": "Entertainment",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Apna Punjab TV (India) (576p)",
+    "url": "https://samitaorigin.tangotv.in/APNAPUNJAB/SAMITAORIGIN/index.m3u8",
+    "logo": "https://www.apnapunjab.tv/images/logo.png",
+    "group": "General",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -10679,6 +10646,17 @@
     "url": "https://araxhls.wns.live/hls/stream.m3u8",
     "logo": "",
     "group": "Undefined",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "ARB 24",
+    "url": "https://operativmm.az/tvs/arb24/stream/index.m3u8",
+    "logo": "https://i.imgur.com/mtvIFyq.png",
+    "group": "News",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -11775,6 +11753,17 @@
     "source_priority": 2
   },
   {
+    "name": "ATM Rozrywka REWORK (1080p)",
+    "url": "https://183.giatvcdn.com/giatvplayout7/giatv-211353/playlist.m3u8",
+    "logo": "https://i.ibb.co/B5BfmQNs/ATM.jpg",
+    "group": "Entertainment",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "ATN Bangla (720p)",
     "url": "http://tvsen5.aynascope.net/atnbangla/index.m3u8",
     "logo": "https://i.imgur.com/K1HmMRz.png",
@@ -12424,8 +12413,8 @@
     "source_priority": 2
   },
   {
-    "name": "AXN (Spain)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=4238619703",
+    "name": "AXN (Spain) (1080p)",
+    "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fgeil.to%2Flive%2Fplay%2F4238619703",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png",
     "group": "Movies",
     "source": "collected",
@@ -12541,17 +12530,6 @@
     "source": "collected",
     "region": "other",
     "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "AXN Movies (Spain)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2493319111",
-    "logo": "https://static.wikia.nocookie.net/logopedia/images/d/d2/AXN_Movies_logo.svg/revision/latest/scale-to-width-down/512",
-    "group": "Movies",
-    "source": "collected",
-    "region": "other",
-    "category": "影视",
     "source_name": "iptv-org-main",
     "source_priority": 2
   },
@@ -14756,6 +14734,17 @@
     "source_priority": 2
   },
   {
+    "name": "beIN Sports 1 Turk (1080p)",
+    "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F300113394ceebba66c8ad",
+    "logo": "https://static.wikia.nocookie.net/logopedia/images/2/27/BeinSports1.svg/revision/latest?cb=20230910184457",
+    "group": "Sports",
+    "source": "collected",
+    "region": "other",
+    "category": "体育",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "beIN Sports USA (576p)",
     "url": "https://tvsen6.aynaott.com/beinsports/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png",
@@ -15218,40 +15207,7 @@
     "source_priority": 2
   },
   {
-    "name": "Best of The Drew Barrymore Show (Sweden)",
-    "url": "https://jmp2.uk/plu-630483153a21200007f1920f.m3u8",
-    "logo": "https://images.pluto.tv/channels/62beb692cda2b10007d5fd76/colorLogoPNG.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Best of The Drew Barrymore Show (Sweden) DK",
-    "url": "https://jmp2.uk/plu-62beb692cda2b10007d5fd76.m3u8",
-    "logo": "https://images.pluto.tv/channels/62beb692cda2b10007d5fd76/colorLogoPNG.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Best of The Drew Barrymore Show (Sweden) NO",
-    "url": "https://jmp2.uk/plu-630478cfdb5a4a0007ec255e.m3u8",
-    "logo": "https://images.pluto.tv/channels/62beb692cda2b10007d5fd76/colorLogoPNG.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Best of The Drew Barrymore Show (United States)",
+    "name": "Best of The Drew Barrymore Show",
     "url": "https://jmp2.uk/plu-6310cbee5a8ad300070fdb7c.m3u8",
     "logo": "https://images.pluto.tv/channels/6310cbee5a8ad300070fdb7c/colorLogoPNG.png",
     "group": "Entertainment",
@@ -16879,40 +16835,7 @@
     "source_priority": 2
   },
   {
-    "name": "Bondi Rescue (Sweden) (720p)",
-    "url": "https://jmp2.uk/plu-660d67eec8311c0008b8c3f7.m3u8",
-    "logo": "https://images.pluto.tv/channels/660d66be7bcd8600087cfee5/colorLogoPNG.png",
-    "group": "Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Bondi Rescue (Sweden) DK (720p)",
-    "url": "https://jmp2.uk/plu-660d66be7bcd8600087cfee5.m3u8",
-    "logo": "https://images.pluto.tv/channels/660d66be7bcd8600087cfee5/colorLogoPNG.png",
-    "group": "Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Bondi Rescue (Sweden) NO (720p)",
-    "url": "https://jmp2.uk/plu-660d67c419ca71000849a4e9.m3u8",
-    "logo": "https://images.pluto.tv/channels/660d66be7bcd8600087cfee5/colorLogoPNG.png",
-    "group": "Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Bondi Rescue (United States) (720p)",
+    "name": "Bondi Rescue (720p)",
     "url": "https://jmp2.uk/plu-66166989635c7500084105a2.m3u8",
     "logo": "https://images.pluto.tv/channels/66166989635c7500084105a2/colorLogoPNG.png",
     "group": "Entertainment",
@@ -16936,17 +16859,6 @@
   {
     "name": "Boomerang (France) HD (720p)",
     "url": "http://41.205.93.154/BOOMERANG/index.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png",
-    "group": "Kids",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Boomerang (Italy)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2705627802",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png",
     "group": "Kids",
     "source": "collected",
@@ -18082,6 +17994,17 @@
     "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/cstar/live.livx/playlist.m3u8",
     "logo": "https://i.imgur.com/w4kAX1V.png",
     "group": "Entertainment",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "C-10 (576p)",
+    "url": "https://samitaorigin.tangotv.in/C10/SAMITAORIGIN/index.m3u8",
+    "logo": "https://papaji.freetvindia.com/media/channels/C-10.png",
+    "group": "News",
     "source": "collected",
     "region": "other",
     "category": "综合",
@@ -20520,6 +20443,17 @@
     "source_priority": 2
   },
   {
+    "name": "Canal J (1080p)",
+    "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F3860888136d301b247640b",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Canal_J_2019_Logo.png/960px-Canal_J_2019_Logo.png",
+    "group": "Kids",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Canal Latino 54 (360p)",
     "url": "https://videostream.chileservidores.com:8081/latina/index.m3u8",
     "logo": "https://i.imgur.com/mKUQoX7.png",
@@ -21224,7 +21158,7 @@
     "source_priority": 2
   },
   {
-    "name": "Canal+ Sport (France) (1080p) [Geo-blocked]",
+    "name": "Canal+ Sport (1080p) [Geo-blocked]",
     "url": "http://tv.streambox.fr/live/testlivestream/testlivestream/31.m3u8",
     "logo": "https://i.imgur.com/EOXnU15.png",
     "group": "Sports",
@@ -21510,40 +21444,7 @@
     "source_priority": 2
   },
   {
-    "name": "Car Chase (Sweden) (720p)",
-    "url": "https://jmp2.uk/plu-65a93be02fac9c00083cbac4.m3u8",
-    "logo": "https://images.pluto.tv/channels/65a93b0607e03a000895abda/colorLogoPNG.png",
-    "group": "Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Car Chase (Sweden) DK (720p)",
-    "url": "https://jmp2.uk/plu-65a93b0607e03a000895abda.m3u8",
-    "logo": "https://images.pluto.tv/channels/65a93b0607e03a000895abda/colorLogoPNG.png",
-    "group": "Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Car Chase (Sweden) NO (720p)",
-    "url": "https://jmp2.uk/plu-65a93b870c7ff50008d1ca47.m3u8",
-    "logo": "https://images.pluto.tv/channels/65a93b0607e03a000895abda/colorLogoPNG.png",
-    "group": "Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Car Chase (United States) (720p)",
+    "name": "Car Chase (720p)",
     "url": "https://jmp2.uk/plu-65244c403fd33c0008ffff31.m3u8",
     "logo": "https://images.pluto.tv/channels/65244c403fd33c0008ffff31/colorLogoPNG.png",
     "group": "Entertainment",
@@ -22018,6 +21919,17 @@
   {
     "name": "Cartoon Network Latin America South Pacific (576p)",
     "url": "http://45.167.1.138:8000/play/a00w",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png",
+    "group": "Animation;Kids",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Cartoon Network Western Europe Portugal (576p)",
+    "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F327818589842dbaee1327c",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png",
     "group": "Animation;Kids",
     "source": "collected",
@@ -24661,18 +24573,7 @@
     "source_priority": 2
   },
   {
-    "name": "Cheers (Sweden) NO",
-    "url": "https://jmp2.uk/plu-63e389dcc111bc0008ee5b8c.m3u8",
-    "logo": "https://images.pluto.tv/channels/642e9575af2bd900088527dd/colorLogoPNG.png",
-    "group": "Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Cheers (United States)",
+    "name": "Cheers",
     "url": "https://jmp2.uk/plu-62bdb7f0db2eb30007376d4d.m3u8",
     "logo": "https://images.pluto.tv/channels/62bdb7f0db2eb30007376d4d/colorLogoPNG.png",
     "group": "Series",
@@ -25412,6 +25313,17 @@
     "name": "Cine Western by Pluto TV",
     "url": "https://jmp2.uk/plu-65cca3e2ec452d0008af3a65.m3u8",
     "logo": "https://images.pluto.tv/channels/65cca3e2ec452d0008af3a65/colorLogoPNG_1751272826143.png",
+    "group": "Movies",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Cine+ Classic (1080p)",
+    "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fgeil.to%2Flive%2Fplay%2F1398934027",
+    "logo": "https://i.imgur.com/y2zeLS3.jpeg",
     "group": "Movies",
     "source": "collected",
     "region": "other",
@@ -28753,18 +28665,7 @@
     "source_priority": 2
   },
   {
-    "name": "CSI (Sweden)",
-    "url": "https://jmp2.uk/plu-6525419dc52b3600083db9c3.m3u8",
-    "logo": "https://images.pluto.tv/channels/6525419dc52b3600083db9c3/colorLogoPNG.png",
-    "group": "Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "CSI (United States)",
+    "name": "CSI",
     "url": "https://jmp2.uk/plu-5efbd29e4aa26700076c0d06.m3u8",
     "logo": "https://i.imgur.com/xLLNEfA.png",
     "group": "Series",
@@ -29468,18 +29369,7 @@
     "source_priority": 2
   },
   {
-    "name": "Da Vinci (Poland) (576p)",
-    "url": "http://116.90.120.149:8000/play/a0ad/index.m3u8",
-    "logo": "https://i.imgur.com/V8AUJP6.png",
-    "group": "Education",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Da Vinci (Russia) (576p)",
+    "name": "Da Vinci (576p)",
     "url": "http://116.90.120.149:8000/play/a0s6/index.m3u8",
     "logo": "https://i.imgur.com/V8AUJP6.png",
     "group": "Education",
@@ -31184,39 +31074,6 @@
     "source_priority": 2
   },
   {
-    "name": "Diagnosis Murder",
-    "url": "https://jmp2.uk/plu-668bf9be0642e5000815102d.m3u8",
-    "logo": "https://images.pluto.tv/channels/668bf7dd74f5ec000817e6d1/colorLogoPNG.png",
-    "group": "Classic;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Diagnosis Murder DK",
-    "url": "https://jmp2.uk/plu-668bf7dd74f5ec000817e6d1.m3u8",
-    "logo": "https://images.pluto.tv/channels/668bf7dd74f5ec000817e6d1/colorLogoPNG.png",
-    "group": "Classic;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Diagnosis Murder NO",
-    "url": "https://jmp2.uk/plu-668bf91208d5490008065ffd.m3u8",
-    "logo": "https://images.pluto.tv/channels/668bf7dd74f5ec000817e6d1/colorLogoPNG.png",
-    "group": "Classic;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "Diaspora 24 [Geo-blocked]",
     "url": "https://vdo3.pro-fhi.net:3218/stream/play.m3u8",
     "logo": "https://i.imgur.com/4devfx1.png",
@@ -31323,50 +31180,6 @@
     "source": "collected",
     "region": "other",
     "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Digi Sport 1 HD",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3174529991",
-    "logo": "https://i.imgur.com/5zMxDYq.png",
-    "group": "Sports",
-    "source": "collected",
-    "region": "other",
-    "category": "体育",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Digi Sport 2 HD",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=867728420",
-    "logo": "https://i.imgur.com/KWDUi3v.png",
-    "group": "Sports",
-    "source": "collected",
-    "region": "other",
-    "category": "体育",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Digi Sport 3 HD",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=4279401658",
-    "logo": "https://i.imgur.com/T1ci5UK.png",
-    "group": "Sports",
-    "source": "collected",
-    "region": "other",
-    "category": "体育",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Digi Sport 4",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=4124538275",
-    "logo": "https://i.imgur.com/Knj9I6f.png",
-    "group": "Sports",
-    "source": "collected",
-    "region": "other",
-    "category": "体育",
     "source_name": "iptv-org-main",
     "source_priority": 2
   },
@@ -31923,6 +31736,17 @@
   {
     "name": "Disney Channel (Czech Republic)",
     "url": "http://88.212.15.50/live/test_disney/playlist.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg",
+    "group": "Kids",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Disney Channel (France)",
+    "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F11741266772bc970bcdea5",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg",
     "group": "Kids",
     "source": "collected",
@@ -32603,18 +32427,7 @@
     "source_priority": 2
   },
   {
-    "name": "Doc Martin (Sweden)",
-    "url": "https://jmp2.uk/plu-62b1e5e77d15410007f798c6.m3u8",
-    "logo": "https://images.pluto.tv/channels/62724ae034f5190007b63424/colorLogoPNG.png",
-    "group": "Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Doc Martin (United States)",
+    "name": "Doc Martin",
     "url": "https://jmp2.uk/plu-62e922f6675f71000736db3b.m3u8",
     "logo": "https://images.pluto.tv/channels/62e922f6675f71000736db3b/colorLogoPNG.png",
     "group": "Series",
@@ -33791,17 +33604,6 @@
     "source_priority": 2
   },
   {
-    "name": "E! (Romania)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3166915380",
-    "logo": "https://static.wikia.nocookie.net/logopedia/images/e/ef/E%21_2022_%28Scarlet%29.svg/revision/latest?cb=20260709150437",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "E! (United States) East (1080p)",
     "url": "http://23.237.104.106:8080/USA_E/index.m3u8",
     "logo": "https://i.imgur.com/TWFDkap.png",
@@ -34693,8 +34495,8 @@
     "source_priority": 2
   },
   {
-    "name": "EL TV (260p)",
-    "url": "http://85.132.53.162:1935/live/eltv/playlist.m3u8",
+    "name": "EL TV [Not 24/7]",
+    "url": "https://live.eltv.az/live/eltv/playlist.m3u8",
     "logo": "https://i.imgur.com/tTlokZ2.png",
     "group": "General",
     "source": "collected",
@@ -37003,8 +36805,8 @@
     "source_priority": 2
   },
   {
-    "name": "Eurosport 3 Polska",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=512159637",
+    "name": "Eurosport 3 Polska (1080p)",
+    "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F5121596371c5191ed9b35",
     "logo": "https://static.wikia.nocookie.net/logopedia/images/d/da/Eurosport_3_2022.svg/revision/latest?cb=20220418054130",
     "group": "Sports",
     "source": "collected",
@@ -37025,8 +36827,8 @@
     "source_priority": 2
   },
   {
-    "name": "Eurosport 4 Polska",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2896573317",
+    "name": "Eurosport 4 Polska (1080p)",
+    "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F2896573317d9d69e0e2d72",
     "logo": "https://static.wikia.nocookie.net/logopedia/images/a/ae/Eurosport_4_2022.svg/revision/latest?cb=20220418053934",
     "group": "Sports",
     "source": "collected",
@@ -37762,40 +37564,7 @@
     "source_priority": 2
   },
   {
-    "name": "Family Ties (Sweden)",
-    "url": "https://jmp2.uk/plu-654a510d986ad20008a45874.m3u8",
-    "logo": "https://images.pluto.tv/channels/654a4a3ef91d250008ac089b/colorLogoPNG.png",
-    "group": "Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Family Ties (Sweden) DK",
-    "url": "https://jmp2.uk/plu-654a4a3ef91d250008ac089b.m3u8",
-    "logo": "https://images.pluto.tv/channels/654a4a3ef91d250008ac089b/colorLogoPNG.png",
-    "group": "Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Family Ties (Sweden) NO",
-    "url": "https://jmp2.uk/plu-654a4f7bf9cc8200086877d5.m3u8",
-    "logo": "https://images.pluto.tv/channels/654a4a3ef91d250008ac089b/colorLogoPNG.png",
-    "group": "Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Family Ties (United States)",
+    "name": "Family Ties",
     "url": "https://jmp2.uk/plu-5f77939a630f530007dde654.m3u8",
     "logo": "https://i.imgur.com/WJEkKCb.png",
     "group": "Series",
@@ -40072,18 +39841,7 @@
     "source_priority": 2
   },
   {
-    "name": "Frasier (Sweden)",
-    "url": "https://jmp2.uk/plu-6400c095498393000878a634.m3u8",
-    "logo": "https://images.pluto.tv/channels/6400c095498393000878a634/colorLogoPNG.png",
-    "group": "General",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Frasier (United States)",
+    "name": "Frasier",
     "url": "https://jmp2.uk/plu-62f4f90e39183b000769f12b.m3u8",
     "logo": "https://images.pluto.tv/channels/62f4f90e39183b000769f12b/colorLogoPNG.png",
     "group": "Series",
@@ -43537,40 +43295,7 @@
     "source_priority": 2
   },
   {
-    "name": "Happy Days (Sweden)",
-    "url": "https://jmp2.uk/plu-654a52254d6d8f00084eacfc.m3u8",
-    "logo": "https://images.pluto.tv/channels/654a4e29ab05240008a18625/colorLogoPNG.png",
-    "group": "Classic;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Happy Days (Sweden) DK",
-    "url": "https://jmp2.uk/plu-654a4e29ab05240008a18625.m3u8",
-    "logo": "https://images.pluto.tv/channels/654a4e29ab05240008a18625/colorLogoPNG.png",
-    "group": "Classic;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Happy Days (Sweden) NO",
-    "url": "https://jmp2.uk/plu-654a508d986ad20008a456a5.m3u8",
-    "logo": "https://images.pluto.tv/channels/654a4e29ab05240008a18625/colorLogoPNG.png",
-    "group": "Classic;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Happy Days (United States)",
+    "name": "Happy Days",
     "url": "https://jmp2.uk/plu-5f7794162a4559000781fc12.m3u8",
     "logo": "https://images.pluto.tv/channels/62e917b5e354cf0007b97a67/colorLogoPNG.png",
     "group": "Series",
@@ -43581,7 +43306,7 @@
     "source_priority": 2
   },
   {
-    "name": "Happy Days (United States) CA",
+    "name": "Happy Days CA",
     "url": "https://jmp2.uk/plu-62e917b5e354cf0007b97a67.m3u8",
     "logo": "https://images.pluto.tv/channels/62e917b5e354cf0007b97a67/colorLogoPNG.png",
     "group": "Series",
@@ -45144,7 +44869,7 @@
   },
   {
     "name": "HNN 24x7 (576p)",
-    "url": "https://ott.livelegitpro.in:9899/hnnnews/hnnnews/index.m3u8",
+    "url": "https://mumt07.tangotv.in/zHjX9OFlHNN24X7/index.m3u8",
     "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/HNN24x7.png",
     "group": "News",
     "source": "collected",
@@ -46419,40 +46144,7 @@
     "source_priority": 2
   },
   {
-    "name": "iCarly (Sweden)",
-    "url": "https://jmp2.uk/plu-61c185049e0bde0007820039.m3u8",
-    "logo": "https://images.pluto.tv/channels/61c0b9aab7facb0007913908/colorLogoPNG.png",
-    "group": "Kids",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "iCarly (Sweden) DK",
-    "url": "https://jmp2.uk/plu-61c0b9aab7facb0007913908.m3u8",
-    "logo": "https://images.pluto.tv/channels/61c0b9aab7facb0007913908/colorLogoPNG.png",
-    "group": "Kids",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "iCarly (Sweden) NO",
-    "url": "https://jmp2.uk/plu-61c1d9b31a9c310008f8ee57.m3u8",
-    "logo": "https://images.pluto.tv/channels/61c0b9aab7facb0007913908/colorLogoPNG.png",
-    "group": "Kids",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "iCarly (United States)",
+    "name": "iCarly",
     "url": "https://jmp2.uk/plu-620ff46e0a576e0007dc2f89.m3u8",
     "logo": "https://images.pluto.tv/channels/620ff46e0a576e0007dc2f89/colorLogoPNG.png",
     "group": "Series",
@@ -46463,7 +46155,7 @@
     "source_priority": 2
   },
   {
-    "name": "iCarly (United States) LatAm",
+    "name": "iCarly LatAm",
     "url": "https://jmp2.uk/plu-620ff0a01f9e8700076c6f9d.m3u8",
     "logo": "https://images.pluto.tv/channels/620ff46e0a576e0007dc2f89/colorLogoPNG.png",
     "group": "Series",
@@ -46474,7 +46166,7 @@
     "source_priority": 2
   },
   {
-    "name": "iCarly (United States) SD",
+    "name": "iCarly SD",
     "url": "https://jmp2.uk/plu-6450209d939a5900084dba1d.m3u8",
     "logo": "https://images.pluto.tv/channels/620ff46e0a576e0007dc2f89/colorLogoPNG.png",
     "group": "Series",
@@ -48685,40 +48377,7 @@
     "source_priority": 2
   },
   {
-    "name": "JAG (Sweden)",
-    "url": "https://jmp2.uk/plu-654a515f986ad20008a4593b.m3u8",
-    "logo": "https://images.pluto.tv/channels/654a4ab92c1d330008657ae5/colorLogoPNG.png",
-    "group": "Classic;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "JAG (Sweden) DK",
-    "url": "https://jmp2.uk/plu-654a4ab92c1d330008657ae5.m3u8",
-    "logo": "https://images.pluto.tv/channels/654a4ab92c1d330008657ae5/colorLogoPNG.png",
-    "group": "Classic;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "JAG (Sweden) NO",
-    "url": "https://jmp2.uk/plu-654a4fc753fc9700083ae79f.m3u8",
-    "logo": "https://images.pluto.tv/channels/654a4ab92c1d330008657ae5/colorLogoPNG.png",
-    "group": "Classic;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "JAG (United States)",
+    "name": "JAG",
     "url": "https://jmp2.uk/plu-66a105f4a79dea0008aa5e0f.m3u8",
     "logo": "https://images.pluto.tv/channels/66a105f4a79dea0008aa5e0f/colorLogoPNG.png",
     "group": "Series",
@@ -49070,40 +48729,7 @@
     "source_priority": 2
   },
   {
-    "name": "Jersey Shore (Sweden)",
-    "url": "https://jmp2.uk/plu-64424c1be94c380008d0a98c.m3u8",
-    "logo": "https://images.pluto.tv/channels/6442508e5a0cd500083edd3c/colorLogoPNG.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Jersey Shore (Sweden) DK",
-    "url": "https://jmp2.uk/plu-6442508e5a0cd500083edd3c.m3u8",
-    "logo": "https://images.pluto.tv/channels/6442508e5a0cd500083edd3c/colorLogoPNG.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Jersey Shore (Sweden) NO",
-    "url": "https://jmp2.uk/plu-64424b21e1979c0008379681.m3u8",
-    "logo": "https://images.pluto.tv/channels/6442508e5a0cd500083edd3c/colorLogoPNG.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Jersey Shore (United States)",
+    "name": "Jersey Shore",
     "url": "https://jmp2.uk/plu-609bfa51fbecc1000733152e.m3u8",
     "logo": "https://i.imgur.com/SssCaj1.png",
     "group": "Series",
@@ -56088,40 +55714,7 @@
     "source_priority": 2
   },
   {
-    "name": "MacGyver (Sweden)",
-    "url": "https://jmp2.uk/plu-63a19eceb3d0eb0007439c34.m3u8",
-    "logo": "https://images.pluto.tv/channels/654a59742c1d33000865a797/colorLogoPNG.png",
-    "group": "Classic;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "MacGyver (Sweden) DK",
-    "url": "https://jmp2.uk/plu-654a59742c1d33000865a797.m3u8",
-    "logo": "https://images.pluto.tv/channels/654a59742c1d33000865a797/colorLogoPNG.png",
-    "group": "Classic;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "MacGyver (Sweden) NO",
-    "url": "https://jmp2.uk/plu-654a59d483595c0008187514.m3u8",
-    "logo": "https://images.pluto.tv/channels/654a59742c1d33000865a797/colorLogoPNG.png",
-    "group": "Classic;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "MacGyver (United States)",
+    "name": "MacGyver",
     "url": "https://jmp2.uk/plu-63eb9dc84e83e70008abea92.m3u8",
     "logo": "https://images.pluto.tv/channels/63eb9dc84e83e70008abea92/colorLogoPNG.png",
     "group": "Classic",
@@ -56132,7 +55725,7 @@
     "source_priority": 2
   },
   {
-    "name": "MacGyver (United States) LatAm",
+    "name": "MacGyver LatAm",
     "url": "https://jmp2.uk/plu-63eb95baa99571000898a078.m3u8",
     "logo": "https://images.pluto.tv/channels/63eb9dc84e83e70008abea92/colorLogoPNG.png",
     "group": "Classic",
@@ -56935,6 +56528,17 @@
     "source_priority": 2
   },
   {
+    "name": "Mansudae Television (1080p) [Not 24/7]",
+    "url": "https://live.koryocdn.org/mansudae/index.m3u8",
+    "logo": "https://i.imgur.com/7xowUs2.png",
+    "group": "Entertainment",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Manu Chat",
     "url": "https://vmi747311.contaboserver.net/hls/livetv.m3u8",
     "logo": "https://i.imgur.com/voyoljW.png",
@@ -57485,40 +57089,7 @@
     "source_priority": 2
   },
   {
-    "name": "Matlock (Sweden)",
-    "url": "https://jmp2.uk/plu-66290c12801af8000850c1a9.m3u8",
-    "logo": "https://images.pluto.tv/channels/66290a779e68c20008a18cf3/colorLogoPNG.png",
-    "group": "Classic;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Matlock (Sweden) DK",
-    "url": "https://jmp2.uk/plu-66290a779e68c20008a18cf3.m3u8",
-    "logo": "https://images.pluto.tv/channels/66290a779e68c20008a18cf3/colorLogoPNG.png",
-    "group": "Classic;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Matlock (Sweden) NO",
-    "url": "https://jmp2.uk/plu-66290b7523e24f000832cc17.m3u8",
-    "logo": "https://images.pluto.tv/channels/66290a779e68c20008a18cf3/colorLogoPNG.png",
-    "group": "Classic;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Matlock (United States)",
+    "name": "Matlock",
     "url": "https://jmp2.uk/plu-60f754f98185580007eb0754.m3u8",
     "logo": "https://images.pluto.tv/channels/63da365f60bc8f0008a50f44/colorLogoPNG.png",
     "group": "Series",
@@ -57529,7 +57100,7 @@
     "source_priority": 2
   },
   {
-    "name": "Matlock (United States) CA",
+    "name": "Matlock CA",
     "url": "https://jmp2.uk/plu-63da365f60bc8f0008a50f44.m3u8",
     "logo": "https://images.pluto.tv/channels/63da365f60bc8f0008a50f44/colorLogoPNG.png",
     "group": "Series",
@@ -59740,40 +59311,7 @@
     "source_priority": 2
   },
   {
-    "name": "Mission Impossible (Sweden)",
-    "url": "https://jmp2.uk/plu-639b4f14be012600070fe1be.m3u8",
-    "logo": "https://images.pluto.tv/channels/6478a9e4f77b61000817034b/colorLogoPNG.png",
-    "group": "Classic;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Mission Impossible (Sweden) DK",
-    "url": "https://jmp2.uk/plu-6478a9e4f77b61000817034b.m3u8",
-    "logo": "https://images.pluto.tv/channels/6478a9e4f77b61000817034b/colorLogoPNG.png",
-    "group": "Classic;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Mission Impossible (Sweden) NO",
-    "url": "https://jmp2.uk/plu-639b4eb4da3fda0008036f6e.m3u8",
-    "logo": "https://images.pluto.tv/channels/6478a9e4f77b61000817034b/colorLogoPNG.png",
-    "group": "Classic;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Mission Impossible (United States)",
+    "name": "Mission Impossible",
     "url": "https://jmp2.uk/plu-5f77977bd924d80007eee60c.m3u8",
     "logo": "https://images.pluto.tv/channels/62ea43aa0c43540007f2db96/colorLogoPNG.png",
     "group": "Series",
@@ -59784,7 +59322,7 @@
     "source_priority": 2
   },
   {
-    "name": "Mission Impossible (United States) CA",
+    "name": "Mission Impossible CA",
     "url": "https://jmp2.uk/plu-62ea43aa0c43540007f2db96.m3u8",
     "logo": "https://images.pluto.tv/channels/62ea43aa0c43540007f2db96/colorLogoPNG.png",
     "group": "Series",
@@ -61423,40 +60961,7 @@
     "source_priority": 2
   },
   {
-    "name": "MTV Catfish (Sweden) (720p)",
-    "url": "https://jmp2.uk/plu-61780d4267bf4d00077ddd73.m3u8",
-    "logo": "https://images.pluto.tv/channels/6177fe76691b2e000702c7fc/colorLogoPNG_1750864554364.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "MTV Catfish (Sweden) DK (720p)",
-    "url": "https://jmp2.uk/plu-6177fe76691b2e000702c7fc.m3u8",
-    "logo": "https://images.pluto.tv/channels/6177fe76691b2e000702c7fc/colorLogoPNG_1750864554364.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "MTV Catfish (Sweden) NO",
-    "url": "https://jmp2.uk/plu-61781a52a3638a00078fa57e.m3u8",
-    "logo": "https://images.pluto.tv/channels/6177fe76691b2e000702c7fc/colorLogoPNG_1750864554364.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "MTV Catfish (United States)",
+    "name": "MTV Catfish",
     "url": "https://jmp2.uk/plu-64f8a2a23a0d700008a6ed7b.m3u8",
     "logo": "https://images.pluto.tv/channels/626c2a3502d84a0007cec817/colorLogoPNG.png",
     "group": "Entertainment",
@@ -61467,7 +60972,7 @@
     "source_priority": 2
   },
   {
-    "name": "MTV Catfish (United States) BR (720p)",
+    "name": "MTV Catfish BR (720p)",
     "url": "https://jmp2.uk/plu-626c2a3502d84a0007cec817.m3u8",
     "logo": "https://images.pluto.tv/channels/626c2a3502d84a0007cec817/colorLogoPNG.png",
     "group": "Entertainment",
@@ -61478,7 +60983,7 @@
     "source_priority": 2
   },
   {
-    "name": "MTV Catfish (United States) LatAm (720p)",
+    "name": "MTV Catfish LatAm (720p)",
     "url": "https://jmp2.uk/plu-625461ef01f27a0007976ad1.m3u8",
     "logo": "https://images.pluto.tv/channels/626c2a3502d84a0007cec817/colorLogoPNG.png",
     "group": "Entertainment",
@@ -61566,40 +61071,7 @@
     "source_priority": 2
   },
   {
-    "name": "MTV Dating (Sweden) (720p)",
-    "url": "https://jmp2.uk/plu-685140f121f49d1b9d178249.m3u8",
-    "logo": "https://images.pluto.tv/channels/6851407c21f49d1b9d177493/colorLogoPNG_1750843393149.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "MTV Dating (Sweden) DK (720p)",
-    "url": "https://jmp2.uk/plu-6851407c21f49d1b9d177493.m3u8",
-    "logo": "https://images.pluto.tv/channels/6851407c21f49d1b9d177493/colorLogoPNG_1750843393149.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "MTV Dating (Sweden) NO (720p)",
-    "url": "https://jmp2.uk/plu-685140bd21f49d1b9d177e21.m3u8",
-    "logo": "https://images.pluto.tv/channels/6851407c21f49d1b9d177493/colorLogoPNG_1750843393149.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "MTV Dating (United States)",
+    "name": "MTV Dating",
     "url": "https://jmp2.uk/plu-6851bb3426beced4f2f67ee6.m3u8",
     "logo": "https://images.pluto.tv/channels/6851bb3426beced4f2f67ee6/colorLogoPNG_1750686926779.png",
     "group": "Series",
@@ -61610,7 +61082,7 @@
     "source_priority": 2
   },
   {
-    "name": "MTV Dating (United States) CA",
+    "name": "MTV Dating CA",
     "url": "https://jmp2.uk/plu-64f8a0c230ab3300084369b8.m3u8",
     "logo": "https://images.pluto.tv/channels/6851bb3426beced4f2f67ee6/colorLogoPNG_1750686926779.png",
     "group": "Series",
@@ -61621,7 +61093,7 @@
     "source_priority": 2
   },
   {
-    "name": "MTV Dating (United States) LatAm (720p)",
+    "name": "MTV Dating LatAm (720p)",
     "url": "https://jmp2.uk/plu-6851b909954170e0128bc71d.m3u8",
     "logo": "https://images.pluto.tv/channels/6851bb3426beced4f2f67ee6/colorLogoPNG_1750686926779.png",
     "group": "Series",
@@ -61863,40 +61335,7 @@
     "source_priority": 2
   },
   {
-    "name": "MTV Reality (Sweden) (720p)",
-    "url": "https://jmp2.uk/plu-685139b0f7d8b74b62f41c96.m3u8",
-    "logo": "https://images.pluto.tv/channels/685137f4a1e091e16f2dd471/colorLogoPNG_1780301718240.png",
-    "group": "General",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "MTV Reality (Sweden) DK (720p)",
-    "url": "https://jmp2.uk/plu-685137f4a1e091e16f2dd471.m3u8",
-    "logo": "https://images.pluto.tv/channels/685137f4a1e091e16f2dd471/colorLogoPNG_1780301718240.png",
-    "group": "General",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "MTV Reality (Sweden) NO",
-    "url": "https://jmp2.uk/plu-68513950f212bedacf8ec48f.m3u8",
-    "logo": "https://images.pluto.tv/channels/685137f4a1e091e16f2dd471/colorLogoPNG_1780301718240.png",
-    "group": "General",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "MTV Reality (United States) (720p)",
+    "name": "MTV Reality (720p)",
     "url": "https://jmp2.uk/plu-6851bdfc9ac48fde5e07f5ae.m3u8",
     "logo": "https://images.pluto.tv/channels/6493f4f566e485000853d640/colorLogoPNG.png",
     "group": "Entertainment",
@@ -61907,7 +61346,7 @@
     "source_priority": 2
   },
   {
-    "name": "MTV Reality (United States) CA",
+    "name": "MTV Reality CA",
     "url": "https://jmp2.uk/plu-64f89fcfd661bb00081ba45c.m3u8",
     "logo": "https://images.pluto.tv/channels/6493f4f566e485000853d640/colorLogoPNG.png",
     "group": "Entertainment",
@@ -61918,7 +61357,7 @@
     "source_priority": 2
   },
   {
-    "name": "MTV Reality (United States) LatAm (720p)",
+    "name": "MTV Reality LatAm (720p)",
     "url": "https://jmp2.uk/plu-5de91b7ea86ee60009d89e75.m3u8",
     "logo": "https://images.pluto.tv/channels/6493f4f566e485000853d640/colorLogoPNG.png",
     "group": "Entertainment",
@@ -61929,40 +61368,7 @@
     "source_priority": 2
   },
   {
-    "name": "MTV Ridiculousness (Sweden) (720p)",
-    "url": "https://jmp2.uk/plu-62cda0dfddc1040008fccacc.m3u8",
-    "logo": "https://images.pluto.tv/channels/62cd9641393d8400076f34db/colorLogoPNG_1762770639864.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "MTV Ridiculousness (Sweden) DK (720p)",
-    "url": "https://jmp2.uk/plu-62cd9641393d8400076f34db.m3u8",
-    "logo": "https://images.pluto.tv/channels/62cd9641393d8400076f34db/colorLogoPNG_1762770639864.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "MTV Ridiculousness (Sweden) NO (720p)",
-    "url": "https://jmp2.uk/plu-62cd9e0d10bb020007005628.m3u8",
-    "logo": "https://images.pluto.tv/channels/62cd9641393d8400076f34db/colorLogoPNG_1762770639864.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "MTV Ridiculousness (United States) CA",
+    "name": "MTV Ridiculousness CA",
     "url": "https://jmp2.uk/plu-64f9cccf110545000837912e.m3u8",
     "logo": "https://images.pluto.tv/channels/68641eb4852dfe78698c3390/colorLogoPNG_1751392300412.png",
     "group": "Entertainment",
@@ -61973,7 +61379,7 @@
     "source_priority": 2
   },
   {
-    "name": "MTV Ridiculousness (United States) LatAm (720p)",
+    "name": "MTV Ridiculousness LatAm (720p)",
     "url": "https://jmp2.uk/plu-5e98a911c881310007d7aae2.m3u8",
     "logo": "https://images.pluto.tv/channels/68641eb4852dfe78698c3390/colorLogoPNG_1751392300412.png",
     "group": "Entertainment",
@@ -62039,40 +61445,7 @@
     "source_priority": 2
   },
   {
-    "name": "MTV Teen Mom (Sweden) (720p)",
-    "url": "https://jmp2.uk/plu-61c09342b3a6230007a45119.m3u8",
-    "logo": "https://images.pluto.tv/channels/61c092157e1b8b0007372a35/colorLogoPNG_1748001686588.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "MTV Teen Mom (Sweden) DK (720p)",
-    "url": "https://jmp2.uk/plu-61c092157e1b8b0007372a35.m3u8",
-    "logo": "https://images.pluto.tv/channels/61c092157e1b8b0007372a35/colorLogoPNG_1748001686588.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "MTV Teen Mom (Sweden) NO (720p)",
-    "url": "https://jmp2.uk/plu-61c1df62b7672a0007b6c9ba.m3u8",
-    "logo": "https://images.pluto.tv/channels/61c092157e1b8b0007372a35/colorLogoPNG_1748001686588.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "MTV Teen Mom (United States) (720p)",
+    "name": "MTV Teen Mom (720p)",
     "url": "https://jmp2.uk/plu-620fd9f4afb9a80007a9c6d5.m3u8",
     "logo": "https://images.pluto.tv/channels/620fd9f4afb9a80007a9c6d5/colorLogoPNG.png",
     "group": "Series",
@@ -64338,18 +63711,7 @@
     "source_priority": 2
   },
   {
-    "name": "NCIS (Sweden)",
-    "url": "https://jmp2.uk/plu-6319ec31c62c3f00075c90b1.m3u8",
-    "logo": "https://images.pluto.tv/channels/6319ec31c62c3f00075c90b1/colorLogoPNG.png",
-    "group": "Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "NCIS (United States)",
+    "name": "NCIS",
     "url": "https://jmp2.uk/plu-63eb9fdda995710008991c54.m3u8",
     "logo": "https://images.pluto.tv/channels/63eb9fdda995710008991c54/colorLogoPNG.png",
     "group": "Series",
@@ -64360,7 +63722,7 @@
     "source_priority": 2
   },
   {
-    "name": "NCIS (United States) CA",
+    "name": "NCIS CA",
     "url": "https://jmp2.uk/plu-62f4f5de1c100100075665ef.m3u8",
     "logo": "https://images.pluto.tv/channels/63eb9fdda995710008991c54/colorLogoPNG.png",
     "group": "Series",
@@ -64371,7 +63733,7 @@
     "source_priority": 2
   },
   {
-    "name": "NCIS (United States) LatAm",
+    "name": "NCIS LatAm",
     "url": "https://jmp2.uk/plu-63eb947c4e83e70008ab877b.m3u8",
     "logo": "https://images.pluto.tv/channels/63eb9fdda995710008991c54/colorLogoPNG.png",
     "group": "Series",
@@ -64404,18 +63766,7 @@
     "source_priority": 2
   },
   {
-    "name": "NCIS: Los Angeles (Sweden)",
-    "url": "https://jmp2.uk/plu-66fbf4d3d7de140008d41f5b.m3u8",
-    "logo": "https://images.pluto.tv/channels/66fbf4d3d7de140008d41f5b/colorLogoPNG.png",
-    "group": "Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "NCIS: Los Angeles (United States)",
+    "name": "NCIS: Los Angeles",
     "url": "https://jmp2.uk/plu-66a106c8a79dea0008aa5ef3.m3u8",
     "logo": "https://images.pluto.tv/channels/66a106c8a79dea0008aa5ef3/colorLogoPNG.png",
     "group": "Series",
@@ -66208,6 +65559,17 @@
     "source_priority": 2
   },
   {
+    "name": "Nickelodeon (Portugal)",
+    "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F398241518529a84217dd1f",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/960px-Nickelodeon_2009_logo.svg.png",
+    "group": "Kids",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Nickelodeon (Romania)",
     "url": "http://178.76.68.60:7442/64/mpegts",
     "logo": "https://static.wikia.nocookie.net/logopedia/images/6/60/Nickelodeon_Splat_2023.png/revision/latest?cb=20241009234318",
@@ -66398,6 +65760,17 @@
     "name": "NickOnline HD (720p)",
     "url": "https://x1colegal.com/hls/stream.m3u8",
     "logo": "https://x1colegal.com/logo.png",
+    "group": "Animation;Kids",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "NickOnline Bob Esponja [Not 24/7]",
+    "url": "https://bob.x1colegal.com/hls/stream.m3u8",
+    "logo": "https://x1colegal.com/nickonlinebobesponja.png",
     "group": "Animation;Kids",
     "source": "collected",
     "region": "other",
@@ -68177,28 +67550,6 @@
     "source_priority": 2
   },
   {
-    "name": "Numb3rs",
-    "url": "https://jmp2.uk/plu-63dbe8a1c111bc0008dec8b8.m3u8",
-    "logo": "https://images.pluto.tv/channels/642e94c1af2bd90008852697/colorLogoPNG_1756716763207.png",
-    "group": "Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Numb3rs NO",
-    "url": "https://jmp2.uk/plu-63dbe78051f5d000083e9249.m3u8",
-    "logo": "https://images.pluto.tv/channels/642e94c1af2bd90008852697/colorLogoPNG_1756716763207.png",
-    "group": "Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "Number 1 Ask (720p)",
     "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8",
     "logo": "https://i.imgur.com/slwbux7.png",
@@ -68243,18 +67594,7 @@
     "source_priority": 2
   },
   {
-    "name": "Numbers (Sweden)",
-    "url": "https://jmp2.uk/plu-62bebb3a67307900077a7f9d.m3u8",
-    "logo": "https://images.pluto.tv/channels/62bebb3a67307900077a7f9d/colorLogoPNG.png",
-    "group": "Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Numbers (United States)",
+    "name": "Numbers",
     "url": "https://jmp2.uk/plu-67f960c5441853fe50e7afc1.m3u8",
     "logo": "https://images.pluto.tv/channels/67f960c5441853fe50e7afc1/colorLogoPNG_1747430170532.png",
     "group": "Series",
@@ -69805,7 +69145,18 @@
     "source_priority": 2
   },
   {
-    "name": "One (720p)",
+    "name": "One (Israel)",
+    "url": "https://r.il.cdn-redge.media/livehls/oil/freetv/live/one_1/live.livx/playlist.m3u8",
+    "logo": "https://i.imgur.com/hYrP2P0.png",
+    "group": "General",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "One (Malta) (720p)",
     "url": "https://2-fss-1.streamhoster.com/pl_148/201830-1293592-1/playlist.m3u8",
     "logo": "https://i.imgur.com/UPlfzFx.png",
     "group": "General",
@@ -71257,8 +70608,8 @@
     "source_priority": 2
   },
   {
-    "name": "Paramount Network (Poland)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3390498693",
+    "name": "Paramount Network (Poland) (1080p)",
+    "url": "https://guard.sekobes.workers.dev/?url=https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fgeil.to%2Flive%2Fplay%2F3390498693",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/960px-Paramount_Network.svg.png",
     "group": "Movies;Series",
     "source": "collected",
@@ -72643,39 +71994,6 @@
     "source_priority": 2
   },
   {
-    "name": "Pimp My Ride",
-    "url": "https://jmp2.uk/plu-61c09a3894aa450007814aea.m3u8",
-    "logo": "https://images.pluto.tv/channels/61c091343bf4940007803e03/colorLogoPNG.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Pimp My Ride DK",
-    "url": "https://jmp2.uk/plu-61c091343bf4940007803e03.m3u8",
-    "logo": "https://images.pluto.tv/channels/61c091343bf4940007803e03/colorLogoPNG.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Pimp My Ride NO",
-    "url": "https://jmp2.uk/plu-61c1d6e1f5acaf0007f8381d.m3u8",
-    "logo": "https://images.pluto.tv/channels/61c091343bf4940007803e03/colorLogoPNG.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
     "name": "Pindin TV",
     "url": "https://sistemastr.tropicalmoonmedia.com/live/7C452409423F57ADC960F6405635267F/7.m3u8",
     "logo": "https://i.imgur.com/UaQC0l8.jpeg",
@@ -73061,40 +72379,7 @@
     "source_priority": 2
   },
   {
-    "name": "Pluto TV Action (Sweden)",
-    "url": "https://jmp2.uk/plu-61c0b0688a80a4000703fbcb.m3u8",
-    "logo": "https://images.pluto.tv/channels/61c095861782bd000780e0ba/colorLogoPNG.png",
-    "group": "Movies;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Pluto TV Action (Sweden) DK",
-    "url": "https://jmp2.uk/plu-61c095861782bd000780e0ba.m3u8",
-    "logo": "https://images.pluto.tv/channels/61c095861782bd000780e0ba/colorLogoPNG.png",
-    "group": "Movies;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Pluto TV Action (Sweden) NO",
-    "url": "https://jmp2.uk/plu-61c1e270489a9c000874d209.m3u8",
-    "logo": "https://images.pluto.tv/channels/61c095861782bd000780e0ba/colorLogoPNG.png",
-    "group": "Movies;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Pluto TV Action (United States)",
+    "name": "Pluto TV Action",
     "url": "https://jmp2.uk/plu-561d7d484dc7c8770484914a.m3u8",
     "logo": "https://i.imgur.com/tDapGal.png",
     "group": "Movies",
@@ -74755,40 +74040,7 @@
     "source_priority": 2
   },
   {
-    "name": "Pluto TV Horror (Sweden)",
-    "url": "https://jmp2.uk/plu-63a19e1b9ab2df0007bef7a7.m3u8",
-    "logo": "https://images.pluto.tv/channels/63a1c9790cc44a0007dc8857/colorLogoPNG.png",
-    "group": "Movies;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Pluto TV Horror (Sweden) DK",
-    "url": "https://jmp2.uk/plu-63a1c9790cc44a0007dc8857.m3u8",
-    "logo": "https://images.pluto.tv/channels/63a1c9790cc44a0007dc8857/colorLogoPNG.png",
-    "group": "Movies;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Pluto TV Horror (Sweden) NO",
-    "url": "https://jmp2.uk/plu-63a19cb7847a090007f230d7.m3u8",
-    "logo": "https://images.pluto.tv/channels/63a1c9790cc44a0007dc8857/colorLogoPNG.png",
-    "group": "Movies;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Pluto TV Horror (United States)",
+    "name": "Pluto TV Horror",
     "url": "https://jmp2.uk/plu-569546031a619b8f07ce6e25.m3u8",
     "logo": "https://images.pluto.tv/channels/569546031a619b8f07ce6e25/colorLogoPNG.png",
     "group": "Movies;Series",
@@ -74799,7 +74051,7 @@
     "source_priority": 2
   },
   {
-    "name": "Pluto TV Horror (United States) CA",
+    "name": "Pluto TV Horror CA",
     "url": "https://jmp2.uk/plu-62ea3f8a38acc80007072d26.m3u8",
     "logo": "https://images.pluto.tv/channels/569546031a619b8f07ce6e25/colorLogoPNG.png",
     "group": "Movies;Series",
@@ -74821,18 +74073,7 @@
     "source_priority": 2
   },
   {
-    "name": "Pluto TV Humor (Sweden)",
-    "url": "https://jmp2.uk/plu-61c0974945b45d0007aaa5ac.m3u8",
-    "logo": "https://images.pluto.tv/channels/61c0974945b45d0007aaa5ac/colorLogoPNG.png",
-    "group": "Comedy;Movies",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Pluto TV Humor (United States)",
+    "name": "Pluto TV Humor",
     "url": "https://jmp2.uk/plu-5e8397936791b30007ebb5a7.m3u8",
     "logo": "https://images.pluto.tv/channels/5e8397936791b30007ebb5a7/colorLogoPNG.png",
     "group": "Undefined",
@@ -75591,29 +74832,7 @@
     "source_priority": 2
   },
   {
-    "name": "Pluto TV Paranormal (Sweden)",
-    "url": "https://jmp2.uk/plu-62b1e4189f5db20007ff03be.m3u8",
-    "logo": "https://images.pluto.tv/channels/62b30beb81f89900071fc7b9/colorLogoPNG.png",
-    "group": "Movies",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Pluto TV Paranormal (Sweden) DK",
-    "url": "https://jmp2.uk/plu-62b30beb81f89900071fc7b9.m3u8",
-    "logo": "https://images.pluto.tv/channels/62b30beb81f89900071fc7b9/colorLogoPNG.png",
-    "group": "Movies",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Pluto TV Paranormal (United States)",
+    "name": "Pluto TV Paranormal",
     "url": "https://jmp2.uk/plu-5adf96e3e738977e2c31cb04.m3u8",
     "logo": "https://images.pluto.tv/channels/62e92a58f3e4290007290c96/colorLogoPNG.png",
     "group": "Documentary",
@@ -75624,7 +74843,7 @@
     "source_priority": 2
   },
   {
-    "name": "Pluto TV Paranormal (United States) CA",
+    "name": "Pluto TV Paranormal CA",
     "url": "https://jmp2.uk/plu-62e92a58f3e4290007290c96.m3u8",
     "logo": "https://images.pluto.tv/channels/62e92a58f3e4290007290c96/colorLogoPNG.png",
     "group": "Documentary",
@@ -75921,40 +75140,7 @@
     "source_priority": 2
   },
   {
-    "name": "Pluto TV Sci-Fi (Sweden)",
-    "url": "https://jmp2.uk/plu-61f9597e78607000074f6c2a.m3u8",
-    "logo": "https://images.pluto.tv/channels/60ed498c4248a400077c0b9d/colorLogoPNG.png",
-    "group": "Movies;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Pluto TV Sci-Fi (Sweden) DK",
-    "url": "https://jmp2.uk/plu-61f9598588f86000078ee7d6.m3u8",
-    "logo": "https://images.pluto.tv/channels/60ed498c4248a400077c0b9d/colorLogoPNG.png",
-    "group": "Movies;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Pluto TV Sci-Fi (Sweden) NO",
-    "url": "https://jmp2.uk/plu-61f957e051cca800076f2358.m3u8",
-    "logo": "https://images.pluto.tv/channels/60ed498c4248a400077c0b9d/colorLogoPNG.png",
-    "group": "Movies;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Pluto TV Sci-Fi (United States)",
+    "name": "Pluto TV Sci-Fi",
     "url": "https://jmp2.uk/plu-5b4fc274694c027be6ed3eea.m3u8",
     "logo": "https://images.pluto.tv/channels/66166cb1307fa30008f275e7/colorLogoPNG.png",
     "group": "Movies;Series",
@@ -75965,7 +75151,7 @@
     "source_priority": 2
   },
   {
-    "name": "Pluto TV Sci-Fi (United States) CA",
+    "name": "Pluto TV Sci-Fi CA",
     "url": "https://jmp2.uk/plu-66166cb1307fa30008f275e7.m3u8",
     "logo": "https://images.pluto.tv/channels/66166cb1307fa30008f275e7/colorLogoPNG.png",
     "group": "Movies;Series",
@@ -75976,7 +75162,7 @@
     "source_priority": 2
   },
   {
-    "name": "Pluto TV Sci-Fi (United States) LatAm",
+    "name": "Pluto TV Sci-Fi LatAm",
     "url": "https://jmp2.uk/plu-5f2817d3d7573a00080f9175.m3u8",
     "logo": "https://images.pluto.tv/channels/66166cb1307fa30008f275e7/colorLogoPNG.png",
     "group": "Movies;Series",
@@ -76691,40 +75877,7 @@
     "source_priority": 2
   },
   {
-    "name": "Pluto TV True Crime (Sweden)",
-    "url": "https://jmp2.uk/plu-61c0b438244e50000758083b.m3u8",
-    "logo": "https://images.pluto.tv/channels/615333098185f00008715a56/colorLogoPNG.png",
-    "group": "Documentary;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Pluto TV True Crime (Sweden) DK",
-    "url": "https://jmp2.uk/plu-61c097ec8bb1830008e3f962.m3u8",
-    "logo": "https://images.pluto.tv/channels/615333098185f00008715a56/colorLogoPNG.png",
-    "group": "Documentary;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Pluto TV True Crime (Sweden) NO",
-    "url": "https://jmp2.uk/plu-61c1e51354d923000731bf78.m3u8",
-    "logo": "https://images.pluto.tv/channels/615333098185f00008715a56/colorLogoPNG.png",
-    "group": "Documentary;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Pluto TV True Crime (United States)",
+    "name": "Pluto TV True Crime",
     "url": "https://jmp2.uk/plu-5812be1c249444e05d09cc50.m3u8",
     "logo": "https://images.pluto.tv/channels/62e9289f8d467f0007fbc701/colorLogoPNG.png",
     "group": "Documentary;Series",
@@ -76735,7 +75888,7 @@
     "source_priority": 2
   },
   {
-    "name": "Pluto TV True Crime (United States) CA",
+    "name": "Pluto TV True Crime CA",
     "url": "https://jmp2.uk/plu-62e9289f8d467f0007fbc701.m3u8",
     "logo": "https://images.pluto.tv/channels/62e9289f8d467f0007fbc701/colorLogoPNG.png",
     "group": "Documentary;Series",
@@ -76933,18 +76086,7 @@
     "source_priority": 2
   },
   {
-    "name": "Pluto TV Westerns (Germany)",
-    "url": "https://jmp2.uk/plu-5d4bdb635ce813b38639e6a3.m3u8",
-    "logo": "https://images.pluto.tv/channels/5d4bdb635ce813b38639e6a3/colorLogoPNG.png",
-    "group": "Movies",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Pluto TV Westerns (United States)",
+    "name": "Pluto TV Westerns",
     "url": "https://jmp2.uk/plu-5b4e94282d4ec87bdcbb87cd.m3u8",
     "logo": "https://images.pluto.tv/channels/62bdacc96a3751000811842d/colorLogoPNG.png",
     "group": "Movies",
@@ -76955,7 +76097,7 @@
     "source_priority": 2
   },
   {
-    "name": "Pluto TV Westerns (United States) CA",
+    "name": "Pluto TV Westerns CA",
     "url": "https://jmp2.uk/plu-62bdacc96a3751000811842d.m3u8",
     "logo": "https://images.pluto.tv/channels/62bdacc96a3751000811842d/colorLogoPNG.png",
     "group": "Movies",
@@ -78122,30 +77264,8 @@
   },
   {
     "name": "Prima Sport 2 HD",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3381201599",
+    "url": "https://rundle.tv/proxy5.php?src=https%3A%2F%2Firon1.xn--x2rw19a.space%2Fpuk2%2Fusergenrnd0clv03fyt-got.htm",
     "logo": "https://i.imgur.com/hROcepe.png",
-    "group": "Sports",
-    "source": "collected",
-    "region": "other",
-    "category": "体育",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Prima Sport 3 HD",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2762629881",
-    "logo": "https://static.wikia.nocookie.net/tvfanon6528/images/9/9a/Prima_Sport_3_%282022-.n.v.%29.png/revision/latest/scale-to-width-down/1000?cb=20240205122802",
-    "group": "Sports",
-    "source": "collected",
-    "region": "other",
-    "category": "体育",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Prima Sport 4 HD",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3194919143",
-    "logo": "https://i.imgur.com/lqaIIhc.png",
     "group": "Sports",
     "source": "collected",
     "region": "other",
@@ -80959,40 +80079,7 @@
     "source_priority": 2
   },
   {
-    "name": "Rawhide (Sweden)",
-    "url": "https://jmp2.uk/plu-6964bb3640c8de392514a0c6.m3u8",
-    "logo": "https://images.pluto.tv/channels/6964ba787e92438c2754e924/colorLogoPNG_1768209194548.png",
-    "group": "Classic;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Rawhide (Sweden) DK",
-    "url": "https://jmp2.uk/plu-6964ba787e92438c2754e924.m3u8",
-    "logo": "https://images.pluto.tv/channels/6964ba787e92438c2754e924/colorLogoPNG_1768209194548.png",
-    "group": "Classic;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Rawhide (Sweden) NO",
-    "url": "https://jmp2.uk/plu-6964baa63dfd98e10945ac51.m3u8",
-    "logo": "https://images.pluto.tv/channels/6964ba787e92438c2754e924/colorLogoPNG_1768209194548.png",
-    "group": "Classic;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Rawhide (United States)",
+    "name": "Rawhide",
     "url": "https://jmp2.uk/plu-634f307c7a068e00072c9982.m3u8",
     "logo": "https://images.pluto.tv/channels/65660223635c3c00086c2578/colorLogoPNG.png",
     "group": "Movies;Series",
@@ -81003,7 +80090,7 @@
     "source_priority": 2
   },
   {
-    "name": "Rawhide (United States) CA",
+    "name": "Rawhide CA",
     "url": "https://jmp2.uk/plu-65660223635c3c00086c2578.m3u8",
     "logo": "https://images.pluto.tv/channels/65660223635c3c00086c2578/colorLogoPNG.png",
     "group": "Movies;Series",
@@ -82863,18 +81950,7 @@
     "source_priority": 2
   },
   {
-    "name": "Ridiculousness (Germany) (720p)",
-    "url": "https://jmp2.uk/plu-5f8eb8a8b2619a000710605c.m3u8",
-    "logo": "https://images.pluto.tv/channels/5f8eb8a8b2619a000710605c/colorLogoPNG.png",
-    "group": "Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Ridiculousness (United States)",
+    "name": "Ridiculousness",
     "url": "https://jmp2.uk/plu-6996296087742204bff43147.m3u8",
     "logo": "https://images.pluto.tv/channels/6996296087742204bff43147/colorLogoPNG_1772645176417.png",
     "group": "Comedy",
@@ -85074,18 +84150,7 @@
     "source_priority": 2
   },
   {
-    "name": "Rugrats (Germany)",
-    "url": "https://jmp2.uk/plu-610c09219fc0430007a3fce6.m3u8",
-    "logo": "https://images.pluto.tv/channels/610c09219fc0430007a3fce6/colorLogoPNG.png",
-    "group": "Kids",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Rugrats (United States)",
+    "name": "Rugrats",
     "url": "https://jmp2.uk/plu-5ea7215005d66d0007e8128a.m3u8",
     "logo": "https://images.pluto.tv/channels/5ea7215005d66d0007e8128a/colorLogoPNG.png",
     "group": "Kids",
@@ -89639,6 +88704,17 @@
     "source_priority": 2
   },
   {
+    "name": "Sky Sport F1 (Italy)",
+    "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F22890389722acc4573933d",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Sky_Sport_F1_-_Logo_2020.svg/960px-Sky_Sport_F1_-_Logo_2020.svg.png",
+    "group": "Sports",
+    "source": "collected",
+    "region": "other",
+    "category": "体育",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Sky Sport Select",
     "url": "http://37.49.224.5/stream/53/index.m3u8",
     "logo": "https://i.imgur.com/6x2anTA.png",
@@ -89859,29 +88935,7 @@
     "source_priority": 2
   },
   {
-    "name": "Smithsonian Channel Selects (Sweden)",
-    "url": "https://jmp2.uk/plu-61fb9907b1b78d000717ed9f.m3u8",
-    "logo": "https://images.pluto.tv/channels/61fb988e032c0100077d5252/colorLogoPNG.png",
-    "group": "Documentary",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Smithsonian Channel Selects (Sweden) DK",
-    "url": "https://jmp2.uk/plu-61fb988e032c0100077d5252.m3u8",
-    "logo": "https://images.pluto.tv/channels/61fb988e032c0100077d5252/colorLogoPNG.png",
-    "group": "Documentary",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Smithsonian Channel Selects (United States)",
+    "name": "Smithsonian Channel Selects",
     "url": "https://jmp2.uk/plu-5f21ea08007a49000762d349.m3u8",
     "logo": "https://i.imgur.com/Kt5j8Vr.png",
     "group": "Science",
@@ -90618,9 +89672,64 @@
     "source_priority": 2
   },
   {
+    "name": "Sony SAB HD (1080p)",
+    "url": "http://116.90.120.149:8000/play/a128/index.m3u8",
+    "logo": "https://dtil.tmsimg.com/assets/s159099_ld_h15_ab.png?lock=720x540",
+    "group": "Entertainment",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Sony Sports Ten 1 (576p)",
+    "url": "http://116.90.120.149:8000/play/a126/index.m3u8",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png",
+    "group": "Sports",
+    "source": "collected",
+    "region": "other",
+    "category": "体育",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Sony Sports Ten 1 HD (1080p)",
+    "url": "http://116.90.120.149:8000/play/a11t/index.m3u8",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png",
+    "group": "Sports",
+    "source": "collected",
+    "region": "other",
+    "category": "体育",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Sony Sports Ten 2 HD (1080p)",
+    "url": "http://116.90.120.149:8000/play/a137/index.m3u8",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_2/images/LOGO_HD/image.png",
+    "group": "Sports",
+    "source": "collected",
+    "region": "other",
+    "category": "体育",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Sony Sports Ten 3 Hindi (1080p)",
     "url": "https://r2.amml.in/sony-ten-3-hd/live.m3u8",
     "logo": "https://dtil.tmsimg.com/assets/GNLZZGG0025TCMR.png?lock=720x540",
+    "group": "Sports",
+    "source": "collected",
+    "region": "other",
+    "category": "体育",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Sony Sports Ten 5 (576p)",
+    "url": "http://116.90.120.149:8000/play/a117/index.m3u8",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_5/images/LOGO_HD/image.png",
     "group": "Sports",
     "source": "collected",
     "region": "other",
@@ -90783,73 +89892,7 @@
     "source_priority": 2
   },
   {
-    "name": "South Park (Germany)",
-    "url": "https://jmp2.uk/plu-628751bb7154a40007168843.m3u8",
-    "logo": "https://images.pluto.tv/channels/628751bb7154a40007168843/colorLogoPNG_1748431640253.png",
-    "group": "Animation;Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "South Park (Germany) GB",
-    "url": "https://jmp2.uk/plu-64edf6eaa7ec0d000812f58c.m3u8",
-    "logo": "https://images.pluto.tv/channels/628751bb7154a40007168843/colorLogoPNG_1748431640253.png",
-    "group": "Animation;Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "South Park (Germany) IT",
-    "url": "https://jmp2.uk/plu-62bc1f502b70e3000706298e.m3u8",
-    "logo": "https://images.pluto.tv/channels/628751bb7154a40007168843/colorLogoPNG_1748431640253.png",
-    "group": "Animation;Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "South Park (Sweden)",
-    "url": "https://jmp2.uk/plu-61c0b627e3ed94000793c18a.m3u8",
-    "logo": "https://images.pluto.tv/channels/61c098df897b9d00070375c8/colorLogoPNG_1754471522651.png",
-    "group": "Animation;Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "South Park (Sweden) DK",
-    "url": "https://jmp2.uk/plu-61c098df897b9d00070375c8.m3u8",
-    "logo": "https://images.pluto.tv/channels/61c098df897b9d00070375c8/colorLogoPNG_1754471522651.png",
-    "group": "Animation;Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "South Park (Sweden) NO",
-    "url": "https://jmp2.uk/plu-61c1e88cd168ea0007068133.m3u8",
-    "logo": "https://images.pluto.tv/channels/61c098df897b9d00070375c8/colorLogoPNG_1754471522651.png",
-    "group": "Animation;Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "South Park (United States)",
+    "name": "South Park",
     "url": "https://jmp2.uk/plu-62bdb1c5e25122000798ac79.m3u8",
     "logo": "https://images.pluto.tv/channels/62bdb1c5e25122000798ac79/colorLogoPNG.png",
     "group": "Animation;Comedy",
@@ -90992,51 +90035,7 @@
     "source_priority": 2
   },
   {
-    "name": "South Park: Cartman Collection (Germany)",
-    "url": "https://jmp2.uk/plu-646b14747cb4b1000875724d.m3u8",
-    "logo": "https://images.pluto.tv/channels/646b14747cb4b1000875724d/colorLogoPNG.png",
-    "group": "Animation;Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "South Park: Cartman Collection (Sweden)",
-    "url": "https://jmp2.uk/plu-65d881b1332fec000833a122.m3u8",
-    "logo": "https://images.pluto.tv/channels/65d87a058145cb0008265c2e/colorLogoPNG.png",
-    "group": "Animation;Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "South Park: Cartman Collection (Sweden) DK",
-    "url": "https://jmp2.uk/plu-65d87a058145cb0008265c2e.m3u8",
-    "logo": "https://images.pluto.tv/channels/65d87a058145cb0008265c2e/colorLogoPNG.png",
-    "group": "Animation;Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "South Park: Cartman Collection (Sweden) NO",
-    "url": "https://jmp2.uk/plu-65d87fa0f7f0af0008b2358b.m3u8",
-    "logo": "https://images.pluto.tv/channels/65d87a058145cb0008265c2e/colorLogoPNG.png",
-    "group": "Animation;Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "South Park: Cartman Collection (United States)",
+    "name": "South Park: Cartman Collection",
     "url": "https://jmp2.uk/plu-65df4934f7f0af0008c32545.m3u8",
     "logo": "https://images.pluto.tv/channels/65df4934f7f0af0008c32545/colorLogoPNG.png",
     "group": "Animation;Comedy",
@@ -91168,51 +90167,7 @@
     "source_priority": 2
   },
   {
-    "name": "South Park: Kenny Collection (Germany)",
-    "url": "https://jmp2.uk/plu-646b1404ee6a2f00082b5d66.m3u8",
-    "logo": "https://images.pluto.tv/channels/646b1404ee6a2f00082b5d66/colorLogoPNG.png",
-    "group": "Animation;Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "South Park: Kenny Collection (Sweden)",
-    "url": "https://jmp2.uk/plu-65d880cea25d5e0008315b0a.m3u8",
-    "logo": "https://images.pluto.tv/channels/65d879bd0d4561000805d190/colorLogoPNG.png",
-    "group": "Animation;Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "South Park: Kenny Collection (Sweden) DK",
-    "url": "https://jmp2.uk/plu-65d879bd0d4561000805d190.m3u8",
-    "logo": "https://images.pluto.tv/channels/65d879bd0d4561000805d190/colorLogoPNG.png",
-    "group": "Animation;Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "South Park: Kenny Collection (Sweden) NO",
-    "url": "https://jmp2.uk/plu-65d87f53ec9fda0008a5b810.m3u8",
-    "logo": "https://images.pluto.tv/channels/65d879bd0d4561000805d190/colorLogoPNG.png",
-    "group": "Animation;Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "South Park: Kenny Collection (United States)",
+    "name": "South Park: Kenny Collection",
     "url": "https://jmp2.uk/plu-65df47f428730900089f83ac.m3u8",
     "logo": "https://images.pluto.tv/channels/65df47f428730900089f83ac/colorLogoPNG.png",
     "group": "Animation;Comedy",
@@ -91223,51 +90178,7 @@
     "source_priority": 2
   },
   {
-    "name": "South Park: Kyle Collection (Germany)",
-    "url": "https://jmp2.uk/plu-646b14d0e1979c0008915a09.m3u8",
-    "logo": "https://images.pluto.tv/channels/646b14d0e1979c0008915a09/colorLogoPNG.png",
-    "group": "Animation;Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "South Park: Kyle Collection (Sweden)",
-    "url": "https://jmp2.uk/plu-65d882394e01740008a36768.m3u8",
-    "logo": "https://images.pluto.tv/channels/65d87a908145cb0008265c6d/colorLogoPNG.png",
-    "group": "Animation;Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "South Park: Kyle Collection (Sweden) DK",
-    "url": "https://jmp2.uk/plu-65d87a908145cb0008265c6d.m3u8",
-    "logo": "https://images.pluto.tv/channels/65d87a908145cb0008265c6d/colorLogoPNG.png",
-    "group": "Animation;Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "South Park: Kyle Collection (Sweden) NO",
-    "url": "https://jmp2.uk/plu-65d88004ec9fda0008a5b8b3.m3u8",
-    "logo": "https://images.pluto.tv/channels/65d87a908145cb0008265c6d/colorLogoPNG.png",
-    "group": "Animation;Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "South Park: Kyle Collection (United States)",
+    "name": "South Park: Kyle Collection",
     "url": "https://jmp2.uk/plu-65df49b30d45610008172c5b.m3u8",
     "logo": "https://images.pluto.tv/channels/65df49b30d45610008172c5b/colorLogoPNG.png",
     "group": "Animation;Comedy",
@@ -91289,51 +90200,7 @@
     "source_priority": 2
   },
   {
-    "name": "South Park: Stan Collection (Germany)",
-    "url": "https://jmp2.uk/plu-646b1438e94c3800082a8cff.m3u8",
-    "logo": "https://images.pluto.tv/channels/646b1438e94c3800082a8cff/colorLogoPNG.png",
-    "group": "Animation;Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "South Park: Stan Collection (Sweden)",
-    "url": "https://jmp2.uk/plu-65d881914e01740008a36603.m3u8",
-    "logo": "https://images.pluto.tv/channels/65d879e266eec8000887e91b/colorLogoPNG.png",
-    "group": "Animation;Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "South Park: Stan Collection (Sweden) DK",
-    "url": "https://jmp2.uk/plu-65d879e266eec8000887e91b.m3u8",
-    "logo": "https://images.pluto.tv/channels/65d879e266eec8000887e91b/colorLogoPNG.png",
-    "group": "Animation;Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "South Park: Stan Collection (Sweden) NO",
-    "url": "https://jmp2.uk/plu-65d87f7a28730900088e7fbf.m3u8",
-    "logo": "https://images.pluto.tv/channels/65d879e266eec8000887e91b/colorLogoPNG.png",
-    "group": "Animation;Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "South Park: Stan Collection (United States)",
+    "name": "South Park: Stan Collection",
     "url": "https://jmp2.uk/plu-65df48ba28730900089f8480.m3u8",
     "logo": "https://images.pluto.tv/channels/65df48ba28730900089f8480/colorLogoPNG.png",
     "group": "Animation;Comedy",
@@ -92158,6 +91025,50 @@
     "source_priority": 2
   },
   {
+    "name": "Star Gold 2 (576p)",
+    "url": "http://116.90.120.149:8000/play/a12b/index.m3u8",
+    "logo": "https://i.imgur.com/G0ZfzZr.png",
+    "group": "Movies",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Star Gold HD (1080p)",
+    "url": "http://116.90.120.149:8000/play/a12a/index.m3u8",
+    "logo": "https://i.imgur.com/xC460sj.png",
+    "group": "Movies",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Star Gold Romance (576p)",
+    "url": "http://116.90.120.149:8000/play/a12c/index.m3u8",
+    "logo": "https://i.imgur.com/gSWv9U3.png",
+    "group": "Movies",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Star Gold Select HD (1080p)",
+    "url": "http://116.90.120.149:8000/play/a131/index.m3u8",
+    "logo": "https://i.imgur.com/U7eiuqv.png",
+    "group": "Movies",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Star Jalsha (1080p) [Geo-blocked]",
     "url": "http://cdn98.com/play/live.php?extension=ts&mac=00:1A:79:99:54:11&play_token=o1cczsG9wV&stream=225805",
     "logo": "https://i.imgur.com/IlufzR5.png",
@@ -92213,6 +91124,28 @@
     "source_priority": 2
   },
   {
+    "name": "Star Movies (India) HD (1080p)",
+    "url": "http://116.90.120.149:8000/play/a13a/index.m3u8",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES/images/LOGO_HD/image.png",
+    "group": "Movies",
+    "source": "collected",
+    "region": "other",
+    "category": "影视",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Star Movies Select HD (1080p)",
+    "url": "http://116.90.120.149:8000/play/a139/index.m3u8",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES_SELECT_HD/images/LOGO_HD/image.png",
+    "group": "Movies",
+    "source": "collected",
+    "region": "other",
+    "category": "影视",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Star News (1080p)",
     "url": "http://103.135.253.32:8080/Star-News/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Star_News_Bangladesh_Logo.svg/1280px-Star_News_Bangladesh_Logo.svg.png",
@@ -92231,6 +91164,39 @@
     "source": "collected",
     "region": "usa",
     "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Star Sports 1 HD (1080p)",
+    "url": "http://116.90.120.149:8000/play/a11x/index.m3u8",
+    "logo": "https://i.imgur.com/E5jjKHI.png",
+    "group": "Sports",
+    "source": "collected",
+    "region": "other",
+    "category": "体育",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Star Sports 1 Hindi HD (1080p)",
+    "url": "http://116.90.120.149:8000/play/a122/index.m3u8",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_1_HD_HINDI/images/LOGO_HD/image.png",
+    "group": "Sports",
+    "source": "collected",
+    "region": "other",
+    "category": "体育",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Star Sports 2 HD (1080p)",
+    "url": "http://116.90.120.149:8000/play/a120/index.m3u8",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_2/images/LOGO_HD/image.png",
+    "group": "Sports",
+    "source": "collected",
+    "region": "other",
+    "category": "体育",
     "source_name": "iptv-org-main",
     "source_priority": 2
   },
@@ -92323,18 +91289,7 @@
     "source_priority": 2
   },
   {
-    "name": "Star Trek: The Next Generation (Germany)",
-    "url": "https://jmp2.uk/plu-69776ce979545c21a1220bff.m3u8",
-    "logo": "https://images.pluto.tv/channels/69776ce979545c21a1220bff/colorLogoPNG_1769434849537.png",
-    "group": "Movies;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Star Trek: The Next Generation (United States)",
+    "name": "Star Trek: The Next Generation",
     "url": "https://jmp2.uk/plu-695c32e61ca20bb8ca802eb9.m3u8",
     "logo": "https://images.pluto.tv/channels/695c32e61ca20bb8ca802eb9/colorLogoPNG_1768440087394.png",
     "group": "Movies;Series",
@@ -92389,29 +91344,7 @@
     "source_priority": 2
   },
   {
-    "name": "Star Trek: Voyager (Germany)",
-    "url": "https://jmp2.uk/plu-65787f2eb228b7000843fa5c.m3u8",
-    "logo": "https://images.pluto.tv/channels/65787f2eb228b7000843fa5c/colorLogoPNG.png",
-    "group": "Movies;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Star Trek: Voyager (Germany) IT",
-    "url": "https://jmp2.uk/plu-65cb73d33ba51e00084cabad.m3u8",
-    "logo": "https://images.pluto.tv/channels/65787f2eb228b7000843fa5c/colorLogoPNG.png",
-    "group": "Movies;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Star Trek: Voyager (United States)",
+    "name": "Star Trek: Voyager",
     "url": "https://jmp2.uk/plu-634dacf51d90320007fcd5fa.m3u8",
     "logo": "https://images.pluto.tv/channels/634dacf51d90320007fcd5fa/colorLogoPNG_1758310287876.png",
     "group": "Movies;Series",
@@ -95403,6 +94336,17 @@
     "source_priority": 2
   },
   {
+    "name": "TBN Polska (1080p)",
+    "url": "https://prx-y5cf8.mediatool.tv/playout/tbn-abr67/index.m3u8",
+    "logo": "https://ocdn.eu/ptv2-images-transforms/1/4fPkrxsb2dvLW1pZ3JhdGVkL3Ribi1wb2xza2EucG5nkpUCZADCw5UCACjCww",
+    "group": "Undefined",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "TBN UK (1080p)",
     "url": "https://live-tbn-ssai.simplestreamcdn.com/v1/master/774d979dd66704abea7c5b62cb34c6815fda0d35/tbn-live/manifest.m3u8",
     "logo": "https://i.imgur.com/vFllwLd.png",
@@ -95744,40 +94688,7 @@
     "source_priority": 2
   },
   {
-    "name": "Teen Mom (Germany)",
-    "url": "https://jmp2.uk/plu-62e7fc8c0d061100083946a9.m3u8",
-    "logo": "https://images.pluto.tv/channels/62e7fc8c0d061100083946a9/colorLogoPNG.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Teen Mom (Germany) FR (720p)",
-    "url": "https://jmp2.uk/plu-62f3f05505e621000783df2f.m3u8",
-    "logo": "https://images.pluto.tv/channels/62e7fc8c0d061100083946a9/colorLogoPNG.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Teen Mom (Germany) GB",
-    "url": "https://jmp2.uk/plu-62d550d81054990007db7798.m3u8",
-    "logo": "https://images.pluto.tv/channels/62e7fc8c0d061100083946a9/colorLogoPNG.png",
-    "group": "Entertainment",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Teen Mom (United States)",
+    "name": "Teen Mom",
     "url": "https://jmp2.uk/plu-6127e12ed140e900077e7b6f.m3u8",
     "logo": "https://i.imgur.com/8o3ClCV.png",
     "group": "Documentary",
@@ -95964,8 +94875,8 @@
     "source_priority": 2
   },
   {
-    "name": "Tele Antillas (1080p)",
-    "url": "http://45.171.108.253:8888/TELEANTILLAS/index.m3u8",
+    "name": "Tele Antillas (480p)",
+    "url": "https://hls.tvabierta.net/hls/010.m3u8",
     "logo": "https://i.imgur.com/G1pJZkC.png",
     "group": "General",
     "source": "collected",
@@ -98252,6 +97163,17 @@
     "source_priority": 2
   },
   {
+    "name": "Telewizja Imperium (1080p)",
+    "url": "https://str10.imperiummedia.pl/TVIMPERIUM/index.m3u8",
+    "logo": "https://i.ibb.co/k2jQkHq/Cropped-mperiumczarne-768x243-1-1.png",
+    "group": "General",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Telewizja iTTV (1080p)",
     "url": "https://5d84fe297ee2b.streamlock.net/sercanie/scj_florek.stream_aac/playlist.m3u8",
     "logo": "https://www.ittv.pl/media/images/ittv-logo.png",
@@ -99451,51 +98373,7 @@
     "source_priority": 2
   },
   {
-    "name": "The New Detectives (Germany)",
-    "url": "https://jmp2.uk/plu-5e393d5c696b3b0009775c8b.m3u8",
-    "logo": "https://images.pluto.tv/channels/5e393d5c696b3b0009775c8b/colorLogoPNG.png",
-    "group": "Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "The New Detectives (Sweden)",
-    "url": "https://jmp2.uk/plu-61814dd68a368d0007d78c53.m3u8",
-    "logo": "https://images.pluto.tv/channels/618147d2a814250007b42916/colorLogoPNG.png",
-    "group": "Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "The New Detectives (Sweden) DK",
-    "url": "https://jmp2.uk/plu-618147d2a814250007b42916.m3u8",
-    "logo": "https://images.pluto.tv/channels/618147d2a814250007b42916/colorLogoPNG.png",
-    "group": "Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "The New Detectives (Sweden) NO",
-    "url": "https://jmp2.uk/plu-6181511c1e13690007b143c2.m3u8",
-    "logo": "https://images.pluto.tv/channels/618147d2a814250007b42916/colorLogoPNG.png",
-    "group": "Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "The New Detectives (United States)",
+    "name": "The New Detectives",
     "url": "https://jmp2.uk/plu-5aea40b35126c2157123aa64.m3u8",
     "logo": "https://images.pluto.tv/channels/62bdabbc5611f2000761ca30/colorLogoPNG.png",
     "group": "Series",
@@ -99506,7 +98384,7 @@
     "source_priority": 2
   },
   {
-    "name": "The New Detectives (United States) CA",
+    "name": "The New Detectives CA",
     "url": "https://jmp2.uk/plu-62bdabbc5611f2000761ca30.m3u8",
     "logo": "https://images.pluto.tv/channels/62bdabbc5611f2000761ca30/colorLogoPNG.png",
     "group": "Series",
@@ -99517,7 +98395,7 @@
     "source_priority": 2
   },
   {
-    "name": "The New Detectives (United States) LatAm",
+    "name": "The New Detectives LatAm",
     "url": "https://jmp2.uk/plu-5ea71d48af1d0b0007d837f4.m3u8",
     "logo": "https://images.pluto.tv/channels/62bdabbc5611f2000761ca30/colorLogoPNG.png",
     "group": "Series",
@@ -99847,40 +98725,7 @@
     "source_priority": 2
   },
   {
-    "name": "The Wild Wild West (Sweden)",
-    "url": "https://jmp2.uk/plu-6964bcf9ae33e24d911d7e1c.m3u8",
-    "logo": "https://images.pluto.tv/channels/6964bc3806d76f50db3e315e/colorLogoPNG_1768230352673.png",
-    "group": "Classic;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "The Wild Wild West (Sweden) DK",
-    "url": "https://jmp2.uk/plu-6964bc3806d76f50db3e315e.m3u8",
-    "logo": "https://images.pluto.tv/channels/6964bc3806d76f50db3e315e/colorLogoPNG_1768230352673.png",
-    "group": "Classic;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "The Wild Wild West (Sweden) NO",
-    "url": "https://jmp2.uk/plu-6964bca2a6c400fd418854a2.m3u8",
-    "logo": "https://images.pluto.tv/channels/6964bc3806d76f50db3e315e/colorLogoPNG_1768230352673.png",
-    "group": "Classic;Series",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "The Wild Wild West (United States)",
+    "name": "The Wild Wild West",
     "url": "https://jmp2.uk/plu-664e640a0120f40008be4582.m3u8",
     "logo": "https://images.pluto.tv/channels/664e640a0120f40008be4582/colorLogoPNG.png",
     "group": "Movies;Series",
@@ -100499,6 +99344,17 @@
     "name": "TLC (Hungary)",
     "url": "http://88.212.7.14/live/tlc_hungary/index.m3u8",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png",
+    "group": "Lifestyle",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "TLC (India) HD (1080p)",
+    "url": "http://116.90.120.149:8000/play/a11g/index.m3u8",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TLC/images/LOGO_HD/image.png",
     "group": "Lifestyle",
     "source": "collected",
     "region": "other",
@@ -101530,18 +100386,7 @@
     "source_priority": 2
   },
   {
-    "name": "Tortues Ninja TV (Germany) (720p)",
-    "url": "https://jmp2.uk/plu-5f8ecc1b37867f00071469e9.m3u8",
-    "logo": "https://images.pluto.tv/channels/5f8ecc1b37867f00071469e9/colorLogoPNG.png",
-    "group": "Kids",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Tortues Ninja TV (United States) (720p)",
+    "name": "Tortues Ninja TV (720p)",
     "url": "https://jmp2.uk/plu-62e9566e27ce19000732ec85.m3u8",
     "logo": "https://images.pluto.tv/channels/62e9566e27ce19000732ec85/colorLogoPNG.png",
     "group": "Kids",
@@ -101552,40 +100397,7 @@
     "source_priority": 2
   },
   {
-    "name": "Tosh.0 (Sweden)",
-    "url": "https://jmp2.uk/plu-65e97856ec9fda0008cb453c.m3u8",
-    "logo": "https://images.pluto.tv/channels/65e977042873090008b48be9/colorLogoPNG.png",
-    "group": "Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Tosh.0 (Sweden) DK",
-    "url": "https://jmp2.uk/plu-65e977042873090008b48be9.m3u8",
-    "logo": "https://images.pluto.tv/channels/65e977042873090008b48be9/colorLogoPNG.png",
-    "group": "Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Tosh.0 (Sweden) NO",
-    "url": "https://jmp2.uk/plu-65e977c48b24c8000805b9ef.m3u8",
-    "logo": "https://images.pluto.tv/channels/65e977042873090008b48be9/colorLogoPNG.png",
-    "group": "Comedy",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Tosh.0 (United States)",
+    "name": "Tosh.0",
     "url": "https://jmp2.uk/plu-5dae084727c8af0009fe40a4.m3u8",
     "logo": "https://i.imgur.com/sXkluxg.png",
     "group": "Series",
@@ -101640,62 +100452,7 @@
     "source_priority": 2
   },
   {
-    "name": "Totally Turtles (Germany) (720p)",
-    "url": "https://jmp2.uk/plu-5d6792bd6be2998ad0ccce30.m3u8",
-    "logo": "https://images.pluto.tv/channels/5d6792bd6be2998ad0ccce30/colorLogoPNG.png",
-    "group": "Kids",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Totally Turtles (Germany) GB",
-    "url": "https://jmp2.uk/plu-656ef4af4261ca00083c8f37.m3u8",
-    "logo": "https://images.pluto.tv/channels/5d6792bd6be2998ad0ccce30/colorLogoPNG.png",
-    "group": "Kids",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Totally Turtles (Sweden) (720p)",
-    "url": "https://jmp2.uk/plu-61c185e36faf920007f04b6e.m3u8",
-    "logo": "https://images.pluto.tv/channels/61c0bbd95df1da0007bed5a0/colorLogoPNG.png",
-    "group": "Kids",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Totally Turtles (Sweden) DK (720p)",
-    "url": "https://jmp2.uk/plu-61c0bbd95df1da0007bed5a0.m3u8",
-    "logo": "https://images.pluto.tv/channels/61c0bbd95df1da0007bed5a0/colorLogoPNG.png",
-    "group": "Kids",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Totally Turtles (Sweden) NO (720p)",
-    "url": "https://jmp2.uk/plu-61c1da718a80a4000704013e.m3u8",
-    "logo": "https://images.pluto.tv/channels/61c0bbd95df1da0007bed5a0/colorLogoPNG.png",
-    "group": "Kids",
-    "source": "collected",
-    "region": "other",
-    "category": "综合",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Totally Turtles (United States)",
+    "name": "Totally Turtles",
     "url": "https://jmp2.uk/plu-5d0c16d686454ead733d08f8.m3u8",
     "logo": "https://images.pluto.tv/channels/62e95265c9fd030007268fb9/colorLogoPNG.png",
     "group": "Kids",
@@ -101706,7 +100463,7 @@
     "source_priority": 2
   },
   {
-    "name": "Totally Turtles (United States) CA (720p)",
+    "name": "Totally Turtles CA (720p)",
     "url": "https://jmp2.uk/plu-62e95265c9fd030007268fb9.m3u8",
     "logo": "https://images.pluto.tv/channels/62e95265c9fd030007268fb9/colorLogoPNG.png",
     "group": "Kids",
@@ -101856,17 +100613,6 @@
     "source": "collected",
     "region": "other",
     "category": "体育",
-    "source_name": "iptv-org-main",
-    "source_priority": 2
-  },
-  {
-    "name": "Trace Brazuca (1080p)",
-    "url": "https://amg01131-tracetv-amg01131c4-stirr-us-4390.playouts.now.amagi.tv/playlist.m3u8",
-    "logo": "https://i.imgur.com/DFBocPu.png",
-    "group": "Music",
-    "source": "collected",
-    "region": "usa",
-    "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
   },
@@ -102267,8 +101013,8 @@
     "source_priority": 2
   },
   {
-    "name": "TRT 3 (720p)",
-    "url": "https://tv-trt3.live.trt.com.tr/master.m3u8",
+    "name": "TRT 3 (1080p)",
+    "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F418740351278f04c94b243",
     "logo": "https://i.imgur.com/JrWFwBd.png",
     "group": "Undefined",
     "source": "collected",
@@ -107723,6 +106469,17 @@
     "source_priority": 2
   },
   {
+    "name": "TVK SMNT (1080p)",
+    "url": "https://tvk.smnt.pl/memfs/cf3a66ef-133a-4579-86da-5995ab23ae2a.m3u8",
+    "logo": "https://i.ibb.co/XZ3m8kr1/logotvk.png",
+    "group": "Entertainment",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "TVK Stella (576p)",
     "url": "https://stream.tvkstella.pl/stella/stella.m3u8",
     "logo": "https://www.tvkstella.pl/img/poster.png",
@@ -110216,6 +108973,39 @@
     "source": "collected",
     "region": "other",
     "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Unite8 Sports 1 (576p)",
+    "url": "http://116.90.120.149:8000/play/a11l/index.m3u8",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CAFE/images/LOGO_HD/LOGO_HD_5UHAHVIHu_UNITE8-SPORTS-1_264X144.webp",
+    "group": "Sports",
+    "source": "collected",
+    "region": "other",
+    "category": "体育",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Unite8 Sports 1 HD (1080p)",
+    "url": "http://116.90.120.149:8000/play/a125/index.m3u8",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CAFE_HD/images/LOGO_HD/LOGO_HD_F6ILcp4Kk_UNITE8-SPORTS-1_HD_264X144.webp",
+    "group": "Sports",
+    "source": "collected",
+    "region": "other",
+    "category": "体育",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Unite8 Sports 2 HD (1080p)",
+    "url": "http://116.90.120.149:8000/play/a129/index.m3u8",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDFLIX_HD/images/LOGO_HD/LOGO_HD_qVrE3q5rN_UNITE8-SPORTS-2_HD_264X144.webp",
+    "group": "Sports",
+    "source": "collected",
+    "region": "other",
+    "category": "体育",
     "source_name": "iptv-org-main",
     "source_priority": 2
   },
@@ -116369,6 +115159,17 @@
     "source_priority": 2
   },
   {
+    "name": "Zee Classic (576p)",
+    "url": "http://116.90.120.149:8000/play/a121/index.m3u8",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CLASSIC/images/LOGO_HD/LOGO_HD_image.png",
+    "group": "Classic",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Zee Comedy Nation (1080p)",
     "url": "https://amg00862-amg00862c5-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c5-amgplt0173/playlist.m3u8",
     "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN2100002GD_20260325T012327SQUARE.png",
@@ -116512,6 +115313,17 @@
     "source_priority": 2
   },
   {
+    "name": "Zee Power HD (1080p)",
+    "url": "http://116.90.120.149:8000/play/a11p/index.m3u8",
+    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG0028ZJ97.png?lock=720x540",
+    "group": "Entertainment",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
     "name": "Zee Punjab Haryana Himachal (720p)",
     "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeepunjabharyanahima/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/65eed269-2f3a-4dd0-ac89-d18959af28e3/main.m3u8",
     "logo": "https://dtil.tmsimg.com/assets/GNLZZGG0022KHKS.png?lock=720x540",
@@ -116537,6 +115349,17 @@
     "name": "Zee South Flix (1080p)",
     "url": "https://amg00862-amg00862c9-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c9-amgplt0173/playlist.m3u8",
     "logo": "https://d3bd0tgyk368z1.cloudfront.net/zeelg/LG%20logo%20artwork/400x200/zsouthflix.png",
+    "group": "Movies",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Zee Talkies HD (1080p)",
+    "url": "http://116.90.120.149:8000/play/a116/index.m3u8",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TALKIES/images/LOGO_HD/LOGO_HD_image.png",
     "group": "Movies",
     "source": "collected",
     "region": "other",
@@ -116596,6 +115419,17 @@
     "source": "collected",
     "region": "other",
     "category": "新闻",
+    "source_name": "iptv-org-main",
+    "source_priority": 2
+  },
+  {
+    "name": "Zee Thirai HD (1080p)",
+    "url": "http://116.90.120.149:8000/play/a11q/index.m3u8",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_THIRAI/images/LOGO_HD/LOGO_HD_image.png",
+    "group": "Movies",
+    "source": "collected",
+    "region": "other",
+    "category": "综合",
     "source_name": "iptv-org-main",
     "source_priority": 2
   },
